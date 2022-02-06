@@ -1,0 +1,44 @@
+{%- assign product_form_id = 'product-form-' | append: product.id -%}
+
+<product-form data-{{ product_form_id }}>
+  {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate' -%}
+
+    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+
+    <button type="submit"
+      name="add" 
+      class="{% if product.selected_or_first_available_variant.available == null %}cursor-default{% endif %} button bg-sand mb-4 xl:mb-0 relative min-w-50 {% if product.selected_or_first_available_variant.available != true %}hidden{% endif %}"
+      {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
+
+      <span class="h-full w-full absolute">
+        <span class="relative hidden h-full w-full bg-sand loading-icon">
+          {% render 'pdp-loading-svg' %}
+        </span>
+        <span class="relative h-full w-full hidden bg-sand success-icon">
+          <img class="w-5 h-5 absolute transform top-1/2 left-1/2 -translate-x-2/4 -translate-y-2/4" src="{{ 'icon-success.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Success">
+        </span>
+      </span>
+
+      <span data-btn-text>
+        {%- if product.selected_variant -%}
+          {%- if product.selected_variant.available -%}
+            {{ 'products.product.add_to_cart' | t }}
+          {%- elsif product.selected_variant.available != true -%}
+            {{ 'products.product.sold_out' | t }}
+          {%- endif -%}
+        {%- elsif product.has_only_default_variant or is_one_size or product_type == 'repair' -%}
+          {{ 'products.product.add_to_cart' | t }}
+        {%- elsif is_gift_voucher -%}
+          Select your value
+        {%- else -%}
+          Select a size
+        {%- endif -%}
+      </span>
+    </button>
+
+    <button type="button" name="bis" class="button bg-sand mb-4 md:mb-0 min-w-max relative {% if product.selected_or_first_available_variant.available == true %}hidden{% endif %}" id="BIS_trigger">
+      Email me when available
+    </button>
+
+  {%- endform -%}
+</product-form>

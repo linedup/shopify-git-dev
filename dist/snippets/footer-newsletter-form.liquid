@@ -1,0 +1,92 @@
+<script src="//cdn.ometria.com/tags/0c4ea6831f5d3a19.js"></script>
+
+<p class="mb-1 md:mb-2">Newsletter</p>
+<p class="mb-2 md:mb-4">Get the latest gear &amp; exclusive offers.</p>
+
+<form id="ometria-footer-form" action="https://api.ometria.com/forms/signup" method="post">
+          
+  <input type="hidden" name="__form_id" value="d003ad43f3b59185933f7ebb73503e71">
+  <input type="hidden" name="email" value="" autocomplete="off">
+  <input type="hidden" name="source" value="Website footer">
+  {% comment %} We set the gender as a hidden field as the Ometria Ajax code does not appear to handle radio buttons {% endcomment %}
+  <input data-gender type="hidden" name="gender" value="">
+  <div style="display:none !important">
+    <input name="__email" type="email" value="" autocomplete="off">
+  </div>
+  <input name="@account" type="hidden" value="0c4ea6831f5d3a19">
+  <input name="@return_url" type="hidden" value="">
+  <input name="@subscription_status" type="hidden" value="SUBSCRIBED">
+
+  <div data-error class="bg-sand p-4 mb-2 hidden">Please complete the form</div>
+    
+  <input data-email type="email" name="ue" placeholder="Your Email" autocomplete="off" class="w-full mb-5 p-4 border border-richBlack bg-platinum placeholder-richBlack tracking-wider focus:outline-none">
+
+  <div class="flex flex-col md:flex-row md:justify-between">
+    <div class="flex mb-5 md:mb-0">
+      <span class="radio relative mr-8">
+        <input type="radio" value="m" name="gender-radio" id="{{ section.id }}--newsletter-form-male" class="hidden">
+        <label class="ml-10 cursor-pointer" for="{{ section.id }}--newsletter-form-male">Men</label>
+      </span>
+      <span class="radio relative">
+        <input type="radio" value="f" name="gender-radio" id="{{ section.id }}--newsletter-form-female" class="hidden">
+        <label class="ml-10 cursor-pointer" for="{{ section.id }}--newsletter-form-female">Women</label>
+      </span>
+    </div>
+    <input data-submit-btn type="submit" value="Join Now" class="button bg-sand cursor-pointer">
+  </div>
+
+</form>
+
+<script>
+  const myOmetriaForm = document.getElementById('ometria-footer-form');
+  const myEmail = myOmetriaForm.querySelector('[data-email]');
+  const myGender = myOmetriaForm.querySelector('[data-gender]');
+  const submitBtn = myOmetriaForm.querySelector('[data-submit-btn]');
+  const errorMsg = myOmetriaForm.querySelector('[data-error]');
+
+  submitBtn.addEventListener('click', function(event) {
+    // Get value of gender radio button
+    let myRadios = document.getElementsByName('gender-radio');
+    let gender = '';
+    for (let i=0;i<myRadios.length;i++) {
+      if (myRadios[i].checked) {
+        gender = myRadios[i].value;
+      }
+    }
+    // Set the gender hidden field - for some reason the Ometria Ajax integration did not handle a gender radio box
+    myGender.value = gender;
+
+    // Check for both an email address and gender
+    if (!validateEmail(myEmail.value) || myGender.value == '') {
+      event.preventDefault();
+      errorMsg.classList.remove('hidden');
+    } else {
+      errorMsg.classList.add('hidden');
+      ometria.ajaxFormSubmit('#ometria-footer-form', my_callback);
+      function my_callback(response) {
+        if (response.ok) {
+          // Reset the form and radio buttons
+          myEmail.classList.remove('bg-platinum');
+          myEmail.classList.add('bg-sand');
+          myEmail.value = 'Thank you - your details have been saved';
+          submitBtn.value = 'Joined';
+          for (let i=0;i<myRadios.length;i++) {
+            myRadios[i].checked = false;
+          }
+        } else {
+          errorMsg.innerHTML = 'There was a problem with the form, please try again.';
+          errorMsg.classList.remove('hidden');
+        }
+      }
+    }
+  })
+
+  function validateEmail(emailAdress) {
+    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if (emailAdress.match(regexEmail)) {
+      return true; 
+    } else {
+      return false; 
+    }
+  }
+</script>

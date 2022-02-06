@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1640166964309e98de": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Ep 8. Clothing, Climate and Circularity",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "With Guest Host Finisterre Product Director, Debbie Luffman",
+        "title_2": "",
+        "body_content_2": "<p>30.09.2021<\/p><p>61:01:00<\/p>",
+        "title_3": "",
+        "body_content_3": "<p><strong>Hosted by<\/strong> Lawrence Stafford<\/p><p>Sound Design by John Sampson a.k.a CJ MIRRA<\/p>"
+      }
+    },
+    "16401668335e084639": {
+      "type": "soundcloud",
+      "blocks": {
+        "3461ad20-d5fe-4674-b455-1706193dc3bc": {
+          "type": "podcast_block",
+          "settings": {
+            "soundcloud": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https:\/\/w.soundcloud.com\/player\/?url=https%3A\/\/api.soundcloud.com\/tracks\/1133681209&amp;color=%23262425&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"><\/iframe>",
+            "caption_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "3461ad20-d5fe-4674-b455-1706193dc3bc"
+      ],
+      "settings": {
+        "title": "Listen now"
+      }
+    },
+    "1640167870a8079463": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "b63ee091-ba1c-4340-b63c-323865aa9398": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/clothing-climate-and-circularity-podcast-safia-minney.jpg",
+            "caption_1": "Safia Minney, MBE, is an award-winning social entrepreneur & recognised for the company she founded, People Tree, a pioneer of sustainable fashion. She led the business as Global CEO for 20+ years in Japan & Europe. Safia is an advisor, executive coach and author of many books including; ‘Slave to Fashion’, campaigning to eradicate modern day slavery in the fashion industry and ‘Slow Fashion - Aesthetics meets Ethics’. Safia recently launched www.REALsustainability.org to promote sustainable living and leadership and joined other business leaders inspired by XR to establish www.businessdeclares.org.",
+            "image_2": "shopify:\/\/shop_images\/clothing-climate-and-circularity-podcast-matt-hanrahan.jpg",
+            "caption_2": "Matt Hanrahan is the co founder of Reskinned, he's passionate about circularity and making it easier for us all to do the right thing when it comes to our clothes. Reskinned's mission is to get clothing into the hands of those who will value it the most."
+          }
+        }
+      },
+      "block_order": [
+        "b63ee091-ba1c-4340-b63c-323865aa9398"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16401690943b9d867f": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f806b966-3a5e-4a1d-b0c1-2aba538bb3bd": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/clothing-climate-and-circularity-podcast-liberty-bollen.jpg",
+            "caption_1": "Liberty Bollen is a senior marketing specialist driven to help organisations to reduce their impact on our environment and society. She has worked across a variety of sectors, including human rights, private equity, property and impact investment – with a specialism in helping to create and grow new businesses. Green Element is an environmental management consultancy with over 20 years-experience of helping businesses like Finisterre to become more environmentally responsible. Compare Your Footprint was created by Green Element to provide organisations with an easier way to calculate the carbon footprint of their operations.",
+            "image_2": "shopify:\/\/shop_images\/clothing-climate-and-circularity-podcast-trewin-restorick.jpg",
+            "caption_2": "Trewin Restorick is Founder and CEO of the charity Hubbub UK www.hubbub.org.uk which transforms the way environmental messages are communicated by bringing people and organisations together as a force for good. In 2020, Hubbub won Charity of the Year and Trewin was recognised as the Global Good Leader of the Year award.  Trewin has a track-record of creating successful environmental enterprises including PaperRound a flourishing recycling business and Global Action Plan a long-established environmental charity. These enterprises were created built on experience gathered through roles he filled at Friends of the Earth where he was Director of Fundraising and at Plymouth City Council where he supported the creation of new social enterprises.  Trewin is a frequent media commentator on environmental issues and was trained by Al Gore as one of his climate change ambassadors. He is currently an environmental advisor to Tetra Pak, the Esmee Fairbairn Foundation and the National Lottery Climate Fund."
+          }
+        }
+      },
+      "block_order": [
+        "f806b966-3a5e-4a1d-b0c1-2aba538bb3bd"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1640166964309e98de",
+    "16401668335e084639",
+    "1640167870a8079463",
+    "16401690943b9d867f"
+  ]
+}

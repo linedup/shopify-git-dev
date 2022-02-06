@@ -1,0 +1,12 @@
+{% for tag in product.tags %}
+  {% unless tag contains 'hide' %}
+    {% if isPdp %}
+      <a href="/collections/all/{{ tag | handleize }}"><span class="pdp-product-tag">{{ tag }}</span></a>
+    {% elsif collection %}
+      <a href="{{ collection.url }}/{{ tag | handleize }}"><span class="product-tag">{{ tag }}</span></a>
+    {% else %}
+      {% comment %}Handle scenarios when used in carousels etc {% endcomment %}
+      <a href="/collections/all/{{ tag | handleize }}"><span class="product-tag">{{ tag }}</span></a>
+    {% endif %}
+  {% endunless %}
+{% endfor %}

@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1632148245a360b54d": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Easkey Britton",
+        "subtitle": "Donegal, Ireland",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1632148248e1ffc67a": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/ambassator-easkey-britton-banner-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ambassator-easkey-britton-banner-moible.jpg",
+        "alt": "Easkey Britton",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16321482820f5e2b38": {
+      "type": "body-text",
+      "blocks": {
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3": {
+          "type": "title",
+          "settings": {
+            "title": "Although she comes from a renowned surfing pedigree, it is her intellect and her quest to learn that really defines Easkey."
+          }
+        },
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8": {
+          "type": "body",
+          "settings": {
+            "body": "<p>A scientist, an academic, she never runs with the masses and always forges her own path. More than at home in big seas, she’s ridden some of the biggest days in Ireland. No audience, no blue skies, no golden sands, just her and the crew she trusts, doing something she loves; conquering cold moving mountains. Pioneering positive social change through surfing, we’ve seen her do incredible things through her various initiatives for surfing and social change Travelling to far off lands where surfing once seemed a distant dream, she brings the sport alive, and always with it a different perspective. Easkey can currently be found in Donegal, Ireland writing some new books for 2021 on our connection with the sea.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3",
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8"
+      ],
+      "settings": {
+      }
+    },
+    "1643375021379a690f": {
+      "type": "editorial-gallery",
+      "blocks": {
+        "67f61d25-4f36-4eca-af9b-46252a102f0e": {
+          "type": "link",
+          "settings": {
+            "link": "https:\/\/www.instagram.com\/easkeysurf\/",
+            "link_modal": false,
+            "link_subtitle": "Instagram",
+            "link_title": "@easkeysurf",
+            "link_image": "shopify:\/\/shop_images\/easkey-instagram.jpg",
+            "link_content": ""
+          }
+        },
+        "cd9b45cf-b616-45d0-a40d-8d170759b5fa": {
+          "type": "link",
+          "settings": {
+            "link": "https:\/\/sophie2020.eu\/",
+            "link_modal": false,
+            "link_subtitle": "Achievement",
+            "link_title": "Post-doctoral Research Fellow, NUIG – Oceans and Human Health.",
+            "link_image": "shopify:\/\/shop_images\/easkey-doctoral-research.jpg",
+            "link_content": ""
+          }
+        },
+        "0d3d757f-518a-4ad4-8bcc-9db5a8a9524a": {
+          "type": "link",
+          "settings": {
+            "link": "http:\/\/www.wavemakercollective.com\/",
+            "link_modal": false,
+            "link_subtitle": "Achievement",
+            "link_title": "Co-founder, Wavemaker Collective.",
+            "link_image": "shopify:\/\/shop_images\/easkey-co-founder.jpg",
+            "link_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "67f61d25-4f36-4eca-af9b-46252a102f0e",
+        "cd9b45cf-b616-45d0-a40d-8d170759b5fa",
+        "0d3d757f-518a-4ad4-8bcc-9db5a8a9524a"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1632148299104d90bd": {
+      "type": "carousel-editorial-b",
+      "disabled": true,
+      "blocks": {
+        "7824f20b-7fdc-4ddd-87b1-dc7caf7158a1": {
+          "type": "custom",
+          "settings": {
+            "overline": "Instagram",
+            "title": "@easkeysurf",
+            "image": "shopify:\/\/shop_images\/ambassador-easkey-instagram.jpg",
+            "link": "https:\/\/www.instagram.com\/easkeysurf\/"
+          }
+        },
+        "139a9cf6-8bed-42e3-a2b5-b893092dc2d1": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Post-doctoral Research Fellow, NUIG – Oceans and Human Health.",
+            "image": "shopify:\/\/shop_images\/ambassador-easkey-oceans-and-human_health.jpg",
+            "link": "https:\/\/sophie2020.eu\/"
+          }
+        },
+        "6e5bbabe-6523-43a9-8bd7-6e09bfba1adc": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Co-founder, Wavemaker Collective.",
+            "image": "shopify:\/\/shop_images\/ambassador-easkey-wavemaker-collective.jpg",
+            "link": "http:\/\/www.wavemakercollective.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "7824f20b-7fdc-4ddd-87b1-dc7caf7158a1",
+        "139a9cf6-8bed-42e3-a2b5-b893092dc2d1",
+        "6e5bbabe-6523-43a9-8bd7-6e09bfba1adc"
+      ],
+      "settings": {
+        "title": "Links"
+      }
+    },
+    "16321483895dc92388": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "a32bc632-1454-4f4d-8f3a-75295ff48c0c": {
+          "type": "video_block",
+          "settings": {
+            "overline_1": "02:19:00",
+            "title_1": "Into The Sea",
+            "image_1": "shopify:\/\/shop_images\/ambassador-easkey-into-the-sea.jpg",
+            "video_1": "https:\/\/player.vimeo.com\/external\/395439211.hd.mp4?s=ffe1dcb27105fa5f8decc7453dd1c4ca52f7b4c9&profile_id=169",
+            "overline_2": "05:15:00",
+            "title_2": "A Lunar Cycle",
+            "image_2": "shopify:\/\/shop_images\/ambassador-easkey-lunar-cycle.jpg",
+            "video_2": "https:\/\/player.vimeo.com\/external\/270541655.hd.mp4?s=1e8376abedcb497ea21b7275c8bbd2ba3d4a9ca2&profile_id=175"
+          }
+        }
+      },
+      "block_order": [
+        "a32bc632-1454-4f4d-8f3a-75295ff48c0c"
+      ],
+      "settings": {
+        "title": "Related Films"
+      }
+    },
+    "163214841401c0fdd6": {
+      "type": "image-carousel",
+      "blocks": {
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-1.jpg"
+          }
+        },
+        "026d83ab-7d05-4b14-8173-fec812ee0364": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-2.jpg"
+          }
+        },
+        "e3db35df-3ae1-4c5f-9c3a-b82b23158746": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-3.jpg"
+          }
+        },
+        "bd9f23fc-26fc-48bd-bc36-b4460fb2e998": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-4.jpg"
+          }
+        },
+        "cf3dabe0-a69e-4779-8a04-3abc350e9483": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-5.jpg"
+          }
+        },
+        "1b8f17b4-dce4-420e-a236-74175934e7d0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-6.jpg"
+          }
+        },
+        "aa2c2d09-588a-45a2-8800-697ebbb6759b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-7.jpg"
+          }
+        },
+        "aab4b5ab-3d04-4632-bc5d-eed0f9dfd2a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-8.jpg"
+          }
+        },
+        "267f6cb7-9a32-4ffe-8204-93d30e3aa2e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-9.jpg"
+          }
+        },
+        "b82e8ce1-e7cd-466d-8bf5-7931189ab5d0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-easkey-britton-slider-10.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8",
+        "026d83ab-7d05-4b14-8173-fec812ee0364",
+        "e3db35df-3ae1-4c5f-9c3a-b82b23158746",
+        "bd9f23fc-26fc-48bd-bc36-b4460fb2e998",
+        "cf3dabe0-a69e-4779-8a04-3abc350e9483",
+        "1b8f17b4-dce4-420e-a236-74175934e7d0",
+        "aa2c2d09-588a-45a2-8800-697ebbb6759b",
+        "aab4b5ab-3d04-4632-bc5d-eed0f9dfd2a7",
+        "267f6cb7-9a32-4ffe-8204-93d30e3aa2e6",
+        "b82e8ce1-e7cd-466d-8bf5-7931189ab5d0"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "164337568663b4ab8f": {
+      "type": "editorial-gallery",
+      "blocks": {
+        "95f61ebe-0ed0-4f33-9731-e607578c5254": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/blogs\/broadcast\/spaces-in-between",
+            "link_modal": false,
+            "link_subtitle": "Broadcast",
+            "link_title": "Spaces In Between",
+            "link_image": "shopify:\/\/shop_images\/easkey-space-between.jpg",
+            "link_content": ""
+          }
+        },
+        "03e639e0-14c1-4499-8973-684528489dcf": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/blogs\/broadcast\/in-deep-water-easkey-britton",
+            "link_modal": false,
+            "link_subtitle": "Broadcast",
+            "link_title": "In Deep Water",
+            "link_image": "shopify:\/\/shop_images\/easkey-in-deep-water.jpg",
+            "link_content": ""
+          }
+        },
+        "0bbf9686-9b76-4a68-bb5c-10462d603e52": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/blogs\/broadcast\/ocean-human-health-in-the-age-of-covid-19",
+            "link_modal": false,
+            "link_subtitle": "Broadcast",
+            "link_title": "Ocean & Human Health in the age of Covid 19",
+            "link_image": "shopify:\/\/shop_images\/easkey-ocean-human.jpg",
+            "link_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "95f61ebe-0ed0-4f33-9731-e607578c5254",
+        "03e639e0-14c1-4499-8973-684528489dcf",
+        "0bbf9686-9b76-4a68-bb5c-10462d603e52"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16321486164a1abdb3": {
+      "type": "carousel-editorial-b",
+      "disabled": true,
+      "blocks": {
+        "925db8c4-3cc9-40c3-9eed-4b8713a9caf6": {
+          "type": "custom",
+          "settings": {
+            "overline": "Broadcast",
+            "title": "Spaces In Between",
+            "image": "shopify:\/\/shop_images\/easkey-featured-article-spaces-in-between.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/spaces-in-between"
+          }
+        },
+        "21b02172-2892-4dc4-9900-19e553cb38da": {
+          "type": "custom",
+          "settings": {
+            "overline": "Broadcast",
+            "title": "In Deep Water",
+            "image": "shopify:\/\/shop_images\/easkey-featured-article-in-deep-water.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/in-deep-water-easkey-britton"
+          }
+        },
+        "e3145ca3-1cde-4b59-a10e-35a20c3f975d": {
+          "type": "custom",
+          "settings": {
+            "overline": "Broadcast",
+            "title": "Ocean & Human Health in the age of Covid 19",
+            "image": "shopify:\/\/shop_images\/easkey-featured-article-ocean-human-health-covid19.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/ocean-human-health-in-the-age-of-covid-19"
+          }
+        }
+      },
+      "block_order": [
+        "925db8c4-3cc9-40c3-9eed-4b8713a9caf6",
+        "21b02172-2892-4dc4-9900-19e553cb38da",
+        "e3145ca3-1cde-4b59-a10e-35a20c3f975d"
+      ],
+      "settings": {
+        "title": "Related Stories"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1632148245a360b54d",
+    "1632148248e1ffc67a",
+    "16321482820f5e2b38",
+    "1643375021379a690f",
+    "1632148299104d90bd",
+    "16321483895dc92388",
+    "163214841401c0fdd6",
+    "164337568663b4ab8f",
+    "16321486164a1abdb3"
+  ]
+}

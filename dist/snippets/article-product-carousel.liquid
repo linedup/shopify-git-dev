@@ -1,0 +1,38 @@
+
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  {% if metaData.product_carousel_title[index] != blank %}
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-8">
+      <h2 class="mb-3 md:mb-7">{{- metaData.product_carousel_title[index] | escape -}}</h2>
+    </div>
+  </div>
+  {% endif %}
+  <div class="grid-container page-margin-slider mb-14 lg:mb-18">
+    <div class="col-span-4 md:col-span-12 mb-5">
+      <div class="glide glide-mobilePeek">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+           
+            {% assign products = metaData.product_carousel[index] | split: '|' %}
+            {% for product in products %}
+              <li class="glide__slide col-span-4 lg:col-span-3">
+                <a href="{{ all_products[product].url }}" title="{{ all_products[product].title }}"><img src="{{ all_products[product] | img_url: 'master' }}"  alt="{{ all_products[product].title | escape }}" height="2920" width="2190" loading="lazy" /></a>
+                {% if all_products[product].tags %}
+                  <div class="flex items-start flex-wrap mb-4">
+                    {% render 'product-tags', product: product %}
+                  </div>
+                {% endif %}
+                <a href="{{ all_products[product].url }}" title="{{ all_products[product].title }}"><p class="mb-2">{{ all_products[product].title }}</p></a>
+                <p>{{ all_products[product].price | money }}</p>
+              </li>
+            {% endfor %}
+
+          </ul>
+        </div>
+        <div data-glide-el="controls">
+          <button class="hidden md:flex absolute carousel-arrow-top-75 right-0 items-center justify-center bg-sand z-10 h-14 lg:h-18 px-5 lg:px-10 w-max" data-glide-dir=">"><img src="{{ 'carousel-arrow.svg' | asset_url }}" loading="lazy" height="20" width="20" alt="arrow"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

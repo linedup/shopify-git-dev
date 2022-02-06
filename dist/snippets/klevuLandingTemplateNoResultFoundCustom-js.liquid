@@ -1,0 +1,16 @@
+<script type="template/klevu" id="klevuLandingTemplateNoResultFoundCustom">
+  <div class="kuContainer">
+    <div class="kuLandingNoRecordFound">
+      <div class="kuLandingNoResults">
+        <div class="kuLandingNoResultsInner">
+          <div class="kuLandingNoResultsMessage">
+            <%= helper.translate(data.noResultsFoundMsg) %>
+          </div>
+          <%=helper.render('noResultsLandingPopularProductsTemplate', scope, data)
+          %> <%=helper.render('landingNoResultsFoundBanners', scope, data) %>
+          <%=helper.render('noResultsLandingPopularSearches', scope, data) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>

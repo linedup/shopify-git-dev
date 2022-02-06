@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "NanJing Smoothlink Textile Co.",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "A specialist hub for manufacturing insulated and fleece styles, Smoothlink employs a small, highly skilled workforce to deal with the complexities of creating our premium insulated styles.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1638962053c812c148": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f5902a35-64bb-41ca-9fe7-47460372ea14": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/smoothlink-featured-image-1_04f99d76-d333-449d-b1da-70db763f0632.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/smoothlink-featured-image-2_6bb33ae5-2262-44fc-b17a-d0cb86df390f.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f5902a35-64bb-41ca-9fe7-47460372ea14"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1638897297c195054c": {
+      "type": "factory-statistics",
+      "blocks": {
+        "e8efb7c3-a037-421b-b31f-a10620b7b44a": {
+          "type": "statistic",
+          "settings": {
+            "title": "Supplier Since",
+            "value": "2017"
+          }
+        },
+        "97bf8892-7344-4e68-b573-db25d20116a5": {
+          "type": "statistic",
+          "settings": {
+            "title": "Location",
+            "value": "China"
+          }
+        },
+        "f17acc3c-c799-4bf9-82cf-41ae5d413fa1": {
+          "type": "statistic",
+          "settings": {
+            "title": "Ownership",
+            "value": "Private"
+          }
+        },
+        "8701ef91-c88c-4411-a0c2-9fbbdc003b7f": {
+          "type": "statistic",
+          "settings": {
+            "title": "Employees",
+            "value": "42"
+          }
+        },
+        "20752f25-fece-414f-9e8e-845f26e043c4": {
+          "type": "statistic",
+          "settings": {
+            "title": "Last Audited",
+            "value": "Fair Working Conditions 28\/09\/21"
+          }
+        }
+      },
+      "block_order": [
+        "e8efb7c3-a037-421b-b31f-a10620b7b44a",
+        "97bf8892-7344-4e68-b573-db25d20116a5",
+        "f17acc3c-c799-4bf9-82cf-41ae5d413fa1",
+        "8701ef91-c88c-4411-a0c2-9fbbdc003b7f",
+        "20752f25-fece-414f-9e8e-845f26e043c4"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1638962053c812c148",
+    "1638897297c195054c"
+  ]
+}

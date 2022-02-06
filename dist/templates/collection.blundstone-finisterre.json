@@ -1,0 +1,204 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_2.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "163792164525c524ea": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "",
+        "subtitle": "Embrace the Elements.",
+        "title_1": "",
+        "body_content_1": "Blundstone + Finisterre boots are made to take you to the edges of the world and back again. Durable, lightweight and made with fully vegan materials, they are designed to embrace the elements, handle harsh environments and stand the test of time.\n<br><br>\nWherever life takes you, they’ll get you there. the collection going to support the vital work of the charity that saves lives at sea.",
+        "title_2": "Featured",
+        "body_content_2": "<p>Tyler Hollmer-Cross<br\/>Lizzie Stokely<\/p>",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1637919271bcdb2e7e": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "View the Range",
+        "products_collection": "blundstone-finisterre"
+      }
+    },
+    "1639134650d8e9b24f": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_4.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/638647743.hd.mp4?s=b5e347b407a98e8c6417fa4065887607fff4047f&profile_id=175",
+        "caption": ""
+      }
+    },
+    "16379197524a0d7855": {
+      "type": "large-statement",
+      "settings": {
+        "title": "<p>Made using the toughest vegan materials for the most demanding environments. <\/p>"
+      }
+    },
+    "1639134653426b4dcc": {
+      "type": "body-text",
+      "blocks": {
+        "27bdbc72-7e43-4920-9b27-5079cd362fb1": {
+          "type": "title",
+          "settings": {
+            "title": "Lightweight and breathable, the high-quality materials ensure the same style and comfort that Blundstone boots have become known for. Featuring microfibre upper and lining materials that contain no animal-derived products. The upper onMicro smooth textured material is extremely breathable, light, and has a high resistance to abrasion."
+          }
+        }
+      },
+      "block_order": [
+        "27bdbc72-7e43-4920-9b27-5079cd362fb1"
+      ],
+      "settings": {
+      }
+    },
+    "16379214502797f2b1": {
+      "type": "image-carousel",
+      "blocks": {
+        "686cabcb-fdde-410a-a4b1-e33866bfeae0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_5.jpg"
+          }
+        },
+        "281b8ef2-58c7-443b-b216-d4219ca6f7a2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_7.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "686cabcb-fdde-410a-a4b1-e33866bfeae0",
+        "281b8ef2-58c7-443b-b216-d4219ca6f7a2"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "16379193774d799153": {
+      "type": "medium-feature",
+      "blocks": {
+        "486ed851-807a-47ed-a723-7c564750d2fd": {
+          "type": "related_product",
+          "settings": {
+            "product": "blundstone-x-finisterre-boots-brown"
+          }
+        },
+        "c1026a43-86f7-4789-bd5b-d7c52d322d89": {
+          "type": "related_product",
+          "settings": {
+            "product": "womens-recycled-nebulas-insulated-jacket-honey"
+          }
+        }
+      },
+      "block_order": [
+        "486ed851-807a-47ed-a723-7c564750d2fd",
+        "c1026a43-86f7-4789-bd5b-d7c52d322d89"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_9.jpg",
+        "coordinates": ""
+      }
+    },
+    "1637919574a4b838f7": {
+      "type": "medium-feature",
+      "blocks": {
+        "92c046da-11e7-4f4e-990c-9fc5dbd59999": {
+          "type": "related_product",
+          "settings": {
+            "product": "blundstone-x-finisterre-boots-black"
+          }
+        },
+        "3229a51b-c8c4-41ae-8e97-38ddcefc60b8": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-recycled-nimbus-black"
+          }
+        }
+      },
+      "block_order": [
+        "92c046da-11e7-4f4e-990c-9fc5dbd59999",
+        "3229a51b-c8c4-41ae-8e97-38ddcefc60b8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_10.jpg",
+        "coordinates": ""
+      }
+    },
+    "1639135275c5e0a664": {
+      "type": "large-statement",
+      "settings": {
+        "title": "<p>Vegan verified.<\/p>"
+      }
+    },
+    "1639134885084ad704": {
+      "type": "body-text",
+      "blocks": {
+        "16d77e1f-539d-441b-99b5-059a50a9b709": {
+          "type": "title",
+          "settings": {
+            "title": "From the pull loop, to the upper, the footbed to the sole. Over the past few years, Blundstone have worked tirelessly to create a boot where every component is verified as vegan.\n<br><br>\nClassic Blundstone style with a vegan twist."
+          }
+        }
+      },
+      "block_order": [
+        "16d77e1f-539d-441b-99b5-059a50a9b709"
+      ],
+      "settings": {
+      }
+    },
+    "163913539019401657": {
+      "type": "large-feature-b",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_11_d23e80e7-a55c-4ed6-a12c-d5b1aee5776a.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_12.jpg"
+      }
+    },
+    "1639138900f821ccb9": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_13.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Blundstone_Campaign-Page_14.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "1639135598202ee65c": {
+      "type": "scrolling-banner",
+      "disabled": true,
+      "settings": {
+        "banner_text": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "163792164525c524ea",
+    "1637919271bcdb2e7e",
+    "1639134650d8e9b24f",
+    "16379197524a0d7855",
+    "1639134653426b4dcc",
+    "16379214502797f2b1",
+    "16379193774d799153",
+    "1637919574a4b838f7",
+    "1639135275c5e0a664",
+    "1639134885084ad704",
+    "163913539019401657",
+    "1639138900f821ccb9",
+    "1639135598202ee65c"
+  ]
+}

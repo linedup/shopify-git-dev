@@ -1,0 +1,232 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1640166964309e98de": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "EP 13. Bella Collins – Eat, Sleep, Row, Repeat",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "Bella Collins is one part of the incredible Ocean Sheroes, an all-woman rowing crew who raced 2,400 hard nautical miles across the Pacific Ocean last year in world record attempt.",
+        "title_2": "",
+        "body_content_2": "<p>26.01.2022<\/p><p>57:42:00<\/p>",
+        "title_3": "",
+        "body_content_3": "<p><strong>Hosted by<\/strong> Lawrence Stafford<\/p><p>Sound Design by John Sampson a.k.a CJ MIRRA<\/p>"
+      }
+    },
+    "16401668335e084639": {
+      "type": "soundcloud",
+      "blocks": {
+        "3461ad20-d5fe-4674-b455-1706193dc3bc": {
+          "type": "podcast_block",
+          "settings": {
+            "soundcloud": "<iframe width=\"100%\" height=\"350\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https:\/\/w.soundcloud.com\/player\/?url=https%3A\/\/api.soundcloud.com\/tracks\/1204117294%3Fsecret_token%3Ds-yts1HZSJFjg&amp;color=%23262425&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"><\/iframe>",
+            "caption_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "3461ad20-d5fe-4674-b455-1706193dc3bc"
+      ],
+      "settings": {
+        "title": "Listen now"
+      }
+    },
+    "16401842243d03b57c": {
+      "type": "body-text",
+      "blocks": {
+        "46971ab9-e99f-4617-9044-2fb46801677b": {
+          "type": "title",
+          "settings": {
+            "title": "Setting off from San Francisco and finishing at Hawaii’s Waikiki harbour as part of the gruelling, unsupported, BONKERS Great Pacific Race."
+          }
+        },
+        "97a2dfa6-c3d1-4222-9ca0-2f54c734caad": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Hailing from Essex way, Bella now calls Cornwall home working for the pioneering packaging experts, Flexi-Hex. As such, Bella joined us at the workshops a couple of weeks back to rally the Finisterre troops into action in way of January morale booster - applying the theory of strength, resilience, and teamwork of an ocean row, to business. <\/p><p>We speak on the mental fortitude required for such a race. Understanding and playing to the strengths and weaknesses of the team around you. Squeaky bum moments in the middle of the Pacific Ocean and the importance of remaining present in each moment of an experience like this.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "46971ab9-e99f-4617-9044-2fb46801677b",
+        "97a2dfa6-c3d1-4222-9ca0-2f54c734caad"
+      ],
+      "settings": {
+      }
+    },
+    "16420897071cc2e7bc": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "8cad16b4-283e-4562-a815-baaa7e502374": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/bella-collins-team-rowing.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/bella-collins-out-at-sea.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "8cad16b4-283e-4562-a815-baaa7e502374"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "164320940691e443a1": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "fc57efd0-5026-4f09-b65d-7e8d2878c50a": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/bella-collins-great-pacific-race.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/bella-collins-the-boat.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "fc57efd0-5026-4f09-b65d-7e8d2878c50a"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1643211288bc3fcc9c": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "71608ffe-72d2-4d68-b179-c5df7cbef306": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/bella-collins-great-race.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/bella-collins-team-row-near-bridge.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "71608ffe-72d2-4d68-b179-c5df7cbef306"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1642090729f4b30269": {
+      "type": "body-text",
+      "blocks": {
+        "396adc11-396c-4cca-9af8-80ccb41d425b": {
+          "type": "title",
+          "settings": {
+            "title": "Shownotes"
+          }
+        },
+        "6b805cb3-805d-438d-afd5-1c6188d17541": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Atlantic Vs Pacific crossing<\/p><p>Sibling rivalry<\/p><p>Self-sufficient crossing<\/p><p>The Talisker Challenge<\/p><p>Simplicity of life at sea<\/p><p>Waikiki, Hawaii<\/p><p>The 3 P’s – Positivity,<br\/>People, Planet<\/p><p>Making decisions under<br\/>pressure<\/p><p>Importance of setting goals…<\/p><p>- Finish the race healthy and safely<\/p><p>- Finish the race better friends that   when started<\/p><p>- World Record<\/p><p>X2 world records<\/p><p>60 people across the pacific<br\/>to date<\/p><p>More people have been to<br\/>space <\/p><p>More people have wintered at<br\/>the south pole<\/p><p>More people have summitted<br\/>Everest<\/p><p>Red light \/ Green light<br\/>support theory<\/p><p>Surfing ocean swell<\/p><p>Trust in your equipment<\/p><p>Respect for mother nature and the power of the ocean<\/p><p>Gratitude<\/p><p>Sea Bin Project<\/p><p>Ocean Plastic Pollution<\/p><p>Flexi-Hex – Sustainable<br\/>packaging solutions <a href=\"https:\/\/www.flexi-hex.com\/\">https:\/\/www.flexi-hex.com\/<\/a><\/p><p>Ordinary people doing<br\/>extraordinary things<\/p><p>Saying YES more<\/p><p>Personal and career development<br\/>through adventure \/ making yourself stand out<\/p><p>Stepping out of your comfort<br\/>zone<\/p><p>Perseverance and consistency <\/p><p>14 Peaks film<\/p>"
+          }
+        },
+        "c1077296-aaf7-421f-8db8-686eb9efdfb0": {
+          "type": "title",
+          "settings": {
+            "title": "Mentions"
+          }
+        },
+        "75930bac-9f6d-46ba-9e97-a61158c89d0d": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Angus Collins<\/p><p>Ben Fogel<\/p><p>James Cracknell<\/p><p>Purusha Gordon<\/p><p>Mary Sutherland<\/p><p>Lily Lower<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "396adc11-396c-4cca-9af8-80ccb41d425b",
+        "6b805cb3-805d-438d-afd5-1c6188d17541",
+        "c1077296-aaf7-421f-8db8-686eb9efdfb0",
+        "75930bac-9f6d-46ba-9e97-a61158c89d0d"
+      ],
+      "settings": {
+      }
+    },
+    "16432125855f73a892": {
+      "type": "body-text",
+      "blocks": {
+        "2a39db7a-59b6-4a97-83ab-29391a5636b9": {
+          "type": "title",
+          "settings": {
+            "title": "Further Reading"
+          }
+        },
+        "eced4aaf-5b05-4a3a-91f3-fd6031ab4cf4": {
+          "type": "body",
+          "settings": {
+            "body": "<p><a href=\"https:\/\/oceansheroes.com\/\" target=\"_blank\" title=\"https:\/\/oceansheroes.com\/\"><strong>https:\/\/oceansheroes.com\/<\/strong><\/a><\/p><p><a href=\"https:\/\/seabinproject.com\/\" target=\"_blank\" title=\"https:\/\/seabinproject.com\/\"><strong>https:\/\/seabinproject.com\/<\/strong><\/a><\/p>"
+          }
+        },
+        "d359fa6d-7852-43c2-9c03-1988bbfa4203": {
+          "type": "title",
+          "settings": {
+            "title": "Watch"
+          }
+        }
+      },
+      "block_order": [
+        "2a39db7a-59b6-4a97-83ab-29391a5636b9",
+        "eced4aaf-5b05-4a3a-91f3-fd6031ab4cf4",
+        "d359fa6d-7852-43c2-9c03-1988bbfa4203"
+      ],
+      "settings": {
+      }
+    },
+    "1642091193389eaddf": {
+      "type": "html",
+      "settings": {
+        "html": "<iframe width=\"100%\" height=\"315\" src=\"https:\/\/www.youtube.com\/embed\/4XrY7ib12to\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>"
+      }
+    },
+    "164209119597f0681b": {
+      "type": "body-text",
+      "blocks": {
+        "fcde2d2b-22cc-4569-b904-8c743ce8850e": {
+          "type": "title",
+          "settings": {
+            "title": "Connect"
+          }
+        },
+        "14c9182a-dffa-44b2-a9fb-83d2740111f6": {
+          "type": "body",
+          "settings": {
+            "body": "<p><a href=\"https:\/\/www.instagram.com\/collins_bella\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/collins_bella\/\">@collins_bella<\/a><\/p><p><a href=\"https:\/\/www.instagram.com\/oceansheroes\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/oceansheroes\/\">@oceansheros<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fcde2d2b-22cc-4569-b904-8c743ce8850e",
+        "14c9182a-dffa-44b2-a9fb-83d2740111f6"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1640166964309e98de",
+    "16401668335e084639",
+    "16401842243d03b57c",
+    "16420897071cc2e7bc",
+    "164320940691e443a1",
+    "1643211288bc3fcc9c",
+    "1642090729f4b30269",
+    "16432125855f73a892",
+    "1642091193389eaddf",
+    "164209119597f0681b"
+  ]
+}

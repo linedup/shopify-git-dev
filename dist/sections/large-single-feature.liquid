@@ -1,0 +1,71 @@
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container pb-14 lg:pb-18">
+    <div class="col-span-4 md:col-span-12 mb-5">
+      <div class="flex items-end md:items-center col-span-4 md:col-span-12 h-142 md:h-160 xl:h-202 relative">
+        {% render 'image' with image_src: section.settings.image, alt_tag: section.settings.title, classes: 'absolute inset-0 w-full h-128 md:h-160 xl:h-202 object-cover', option: 2 %}
+        <div class="relative h-auto bg-white w-full mr-5 md:ml-10 md:w-7/12 lg:w-5/12">
+          <div class="overflow-hidden">
+            <div class="p-5 lg:p-8">
+              <h3 class="mb-2 lg:mb-3 ellipsis-1-line">{{ section.settings.title }}</h3>
+              <p class="ellipsis-2-line">{{ section.settings.body }}</p>
+            </div>
+            {% if section.settings.button_type == 'one' %}
+              <a class="bg-sand button" href="{{ section.settings.button_url }}">{{ section.settings.button_text }}</a>
+            {% elsif section.settings.button_type == 'two' %}
+              <a class="bg-sand button" href="{{ section.settings.button_url }}"><img src="{{ 'icon-play.svg' | asset_url }}" alt="Video play"></a>
+            {% endif %}
+          </div>               
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Large Single Feature",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image size - 3600w x 1612h"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "body",
+      "label": "Body text"
+    },
+    {
+      "type": "radio",
+      "id": "button_type",
+      "label": "Button type",
+      "options": [
+        { "value": "one", "label": "Text and link" },
+        { "value": "two", "label": "Play button" }
+      ],
+      "default": "one",
+      "info": "Select which type of button you want to display. If you select the video button the text wont display, however the URL is the same field for both buttons."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Large Single Feature"
+    }
+  ]
+}
+{% endschema %}

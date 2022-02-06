@@ -1,0 +1,186 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Guide to Linen",
+        "subtitle": "One of the oldest textile fibres in the world, linen has been made and worn by humans for thousands of years. In our guide below we talk you through how linen is made, why it is such a sustainable material and how to best care for your linen products.",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1638962053c812c148": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f5902a35-64bb-41ca-9fe7-47460372ea14": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/guide-to-linen-2.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/guide-to-linen-1_eae1e82d-a3f8-4f99-ab8a-845f422d133c.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f5902a35-64bb-41ca-9fe7-47460372ea14"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16390492346014eb34": {
+      "type": "body-text",
+      "blocks": {
+        "ef32a82a-85fe-49c4-9c8a-7c8659d9defd": {
+          "type": "title",
+          "settings": {
+            "title": "What is Linen Made of?"
+          }
+        },
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Linen is the natural fabric derived from the flax plant. Flax is an incredibly versatile and sustainable crop; requiring no fertilisers, herbicides or pesticides and only rainwater to grow.<br\/><br\/>It’s also a zero waste crop. The linen fabric is made from the cellulose fibres found inside the stalks of the flax plant, but the whole plant can be used; for textiles, food, paper and bio-oils.<\/p>"
+          }
+        },
+        "7215ec1d-691c-4cc9-8af4-260f4f508b04": {
+          "type": "title",
+          "settings": {
+            "title": "Where does Linen come from?"
+          }
+        },
+        "6b9851c6-ab0f-4014-99b0-bcf2ed81940b": {
+          "type": "body",
+          "settings": {
+            "body": "<p>From present day Georgia to Swiss lake dwellings and ancient Egyptian burials, evidence of linen use has been found in many ancient European and Mediterranean cultures, and was also produced in India.<\/p><p>To cut down emissions, we’ve kept our own Linen production as close to home as possible; the flax is grown in France before being shipped to Portugal and Turkey to make our garments.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ef32a82a-85fe-49c4-9c8a-7c8659d9defd",
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5",
+        "7215ec1d-691c-4cc9-8af4-260f4f508b04",
+        "6b9851c6-ab0f-4014-99b0-bcf2ed81940b"
+      ],
+      "settings": {
+      }
+    },
+    "1639049548fe89cefb": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/guide-to-linen-3.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/guide-to-linen-4_e1aa27e0-9f01-48b9-87d5-1989ea790811.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1639049741bd798fdb": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p>Zero waste, low impact, durable and long lasting; linen is one of the most sustainable fabrics around.<\/p>",
+        "credit": ""
+      }
+    },
+    "1639049743689f2e20": {
+      "type": "body-text",
+      "blocks": {
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded": {
+          "type": "title",
+          "settings": {
+            "title": "Is Linen Sustainable?"
+          }
+        },
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Linen is considered one of the most sustainable fabrics available today. As mentioned above, flax is a very low impact crop; producing high yields with very few resources and even adding biodiversity where it’s grown.<\/p><p>The linen produced is versatile and strong, lasting for years and cutting down on excessive consumption. So – linen is zero waste, low impact, and lasts for ages. We’d say that’s pretty sustainable.<\/p>"
+          }
+        },
+        "1054aada-d94b-45f6-acb1-ea987ea6333c": {
+          "type": "title",
+          "settings": {
+            "title": "Benefits of Linen"
+          }
+        },
+        "aa1418df-9c96-4928-b15b-f8086df9e77c": {
+          "type": "body",
+          "settings": {
+            "body": "<p>As well as its wide ranging sustainable credentials, linen is a fantastic natural fabric that is both comfortable to wear and surprisingly durable. It’s breathable, lightweight and softens with age – as well as coming from a 100% natural and renewable source.<\/p><p>1. Soft, breathable & temperature regulating – the perfect fabric for warm weather adventures.<\/p><p>2. Durable, long lasting and softens over time, ageing with you.<\/p><p>3. European supply chain: Grown in France, built in Portugal & Turkey.<\/p><p>4. Low resource & low impact, needing only rainwater to grow.<\/p><p>5. Zero waste – every part of the plant is used.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded",
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468",
+        "1054aada-d94b-45f6-acb1-ea987ea6333c",
+        "aa1418df-9c96-4928-b15b-f8086df9e77c"
+      ],
+      "settings": {
+      }
+    },
+    "16390500575bea27c4": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p>Breathable, temperature regulating and comfortable, linen is perfect for summer adventures.<\/p>",
+        "credit": ""
+      }
+    },
+    "1639050059593196d0": {
+      "type": "body-text",
+      "blocks": {
+        "ce420bd0-b219-4eea-af22-be4b89ec695d": {
+          "type": "title",
+          "settings": {
+            "title": "How do you wash Linen?"
+          }
+        },
+        "41a72de6-e776-4e6c-8b54-6835c852ef66": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Whilst great to wear in warm weather, linen reacts badly to high temperatures when washing and drying.<\/p><p>To properly care for your linen, wash at cool temperatures of 30°C or below and do not tumble dry, as washing or drying at hot temperatures will cause garments to shrink. Dry flat and try to keep out of direct sunlight to keep your linen going for as long as possible. Cool iron for a crisp finish.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ce420bd0-b219-4eea-af22-be4b89ec695d",
+        "41a72de6-e776-4e6c-8b54-6835c852ef66"
+      ],
+      "settings": {
+      }
+    },
+    "16427739836fdfdc43": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Linen",
+        "products_collection": "linen-trousers-shirts-shorts"
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1638962053c812c148",
+    "16390492346014eb34",
+    "1639049548fe89cefb",
+    "1639049741bd798fdb",
+    "1639049743689f2e20",
+    "16390500575bea27c4",
+    "1639050059593196d0",
+    "16427739836fdfdc43"
+  ]
+}

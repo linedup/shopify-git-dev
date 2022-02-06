@@ -1,0 +1,80 @@
+{
+  "sections": {
+    "16409489253a68bfba": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "mobile_image": "shopify:\/\/shop_images\/lived-loved-finisterre.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Product Care & Repairs",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "Lived & Loved",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1640948213b0252c34": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lived-loved-repair-illustration.jpg",
+        "caption": "",
+        "overline": "Book a repair",
+        "body": "From patching up tears in your trusty Finisterre jacket to darning holes in winter knits, our repairs team are here to help.",
+        "button_text": "Book a Repair",
+        "button_link": "shopify:\/\/collections\/repairs-lived-loved"
+      }
+    },
+    "164094833108b70ad4": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lived-loved-trade-in-illustration.jpg",
+        "caption": "",
+        "overline": "Trade-in (Pass it on)",
+        "body": "Trade in your old Finisterre gear for money off new online purchases. We’ll revive and re-home them, or recycle the materials.",
+        "button_text": "Trade-in",
+        "button_link": "https:\/\/takeback.reskinned.clothing\/finisterre"
+      }
+    },
+    "164094849082015e27": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lived-loved-care-illustration.jpg",
+        "caption": "",
+        "overline": "Care Guide",
+        "body": "Want to know the best way to wash that wool jumper, or what the deal is with denim? Help your gear last longer with the proper care.",
+        "button_text": "Find out More",
+        "button_link": "\/pages\/faqs"
+      }
+    },
+    "16409486519acf7d94": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lived-loved-kit-illustration.jpg",
+        "caption": "",
+        "overline": "Learn to Repair",
+        "body": "Watch our online guide on how to repair your jacket, or buy one of our repairs kits and get mending at home yourself.",
+        "button_text": "Watch the Videos",
+        "button_link": "shopify:\/\/blogs\/broadcast\/how-to-repair-your-jacket"
+      }
+    }
+  },
+  "order": [
+    "16409489253a68bfba",
+    "main-titles",
+    "1640948213b0252c34",
+    "164094833108b70ad4",
+    "164094849082015e27",
+    "16409486519acf7d94"
+  ]
+}

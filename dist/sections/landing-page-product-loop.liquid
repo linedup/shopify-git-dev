@@ -1,0 +1,214 @@
+{% assign myCollection = collections[section.settings.collection] %}
+{% assign videoPositions = section.settings.videoPositions | split: "," %}
+{% assign featuredTitle = section.settings.featuredTitle %}
+{% assign featuredText = section.settings.featuredText %}
+
+{% render 'divider' %}
+
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container page-margin mb-3 md:mb-7">
+    <div class="col-span-4 md:col-span-8">
+      <h2>{{- myCollection.title | escape -}}</h2>
+    </div>
+  </div>
+</div>
+
+{% assign numElementsPerLoop = 6 %}
+{% assign numItemsRemaining = myCollection.products_count | minus: numElementsPerLoop %}
+<!-- Desktop - load 6 initial items -->
+<div class="hidden lg:block">
+  <div class="max-w-screen-2xl mx-auto">
+    <div class="grid-container page-margin mb-9 lg:mb-18">
+
+      {%- for product in myCollection.products limit: numElementsPerLoop -%}
+
+        {% assign loopCounterModulo = forloop.index | modulo: numElementsPerLoop %}
+
+        {% assign showVideo = false %}
+        {% for video in videoPositions %}
+          {% assign videoPos = video | plus: 0 %} {% comment %} Cast to an integer for comparison {% endcomment %}
+          {% assign myCounter = loopCounterModulo %}
+          {% if loopCounterModulo == 0 %} {% comment %} Handle modulo == 0 on the last iteration {% endcomment %}
+            {% assign myCounter = numElementsPerLoop %}
+          {% endif %}
+          {% if videoPos == myCounter %}
+            {% assign showVideo = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if loopCounterModulo == 1 or loopCounterModulo == 2 %}
+          {% render 'collection-featured-product', product: product, showVideo: showVideo %}
+        {% endif %}
+
+        {% if loopCounterModulo == 2 %}
+          {% render 'collection-featured-text', featuredTitle: featuredTitle, featuredText: featuredText %}
+        {% endif %}
+
+        {% if loopCounterModulo > 2 or loopCounterModulo == 0 %}
+          {% render 'collection-regular-product', product: product, showVideo: showVideo %}
+        {% endif %}
+
+      {%- endfor -%}
+
+    </div>
+  </div>
+
+  {% if numItemsRemaining > 0 %}
+    <ajax-loader-btn collection="{{ myCollection.handle }}" section-id="{{ section.id }}" offset="6">
+      <div class="max-w-screen-2xl mx-auto">
+        <div class="grid-container page-margin  mb-14 lg:mb-18">
+          <div class="col-span-4 md:col-span-12">
+            <button class="button bg-sand">View {{ numItemsRemaining }} More</button>
+          </div>
+        </div>
+      </div>
+    </ajax-loader-btn>
+  {% endif %}
+</div>
+
+
+{% assign numElementsPerLoop = 5 %}
+{% assign numItemsRemaining = myCollection.products_count | minus: numElementsPerLoop %}
+<!-- Tablet - load 5 initial items -->
+<div class="hidden md:block lg:hidden">
+  <div class="max-w-screen-2xl mx-auto">
+    <div class="grid-container page-margin">
+
+      {%- for product in myCollection.products limit: numElementsPerLoop -%}
+
+        {% assign loopCounterModulo = forloop.index | modulo: numElementsPerLoop %}
+
+        {% assign showVideo = false %}
+        {% for video in videoPositions %}
+          {% assign videoPos = video | plus: 0 %} {% comment %} Cast to an integer for comparison {% endcomment %}
+          {% assign myCounter = loopCounterModulo %}
+          {% if loopCounterModulo == 0 %} {% comment %} Handle modulo == 0 on the last iteration {% endcomment %}
+            {% assign myCounter = numElementsPerLoop %}
+          {% endif %}
+          {% if videoPos == myCounter %}
+            {% assign showVideo = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if loopCounterModulo == 1 or loopCounterModulo == 2 %}
+          {% render 'collection-featured-product', product: product, showVideo: showVideo %}
+        {% endif %}
+
+        {% if loopCounterModulo == 2 %}
+          {% render 'collection-featured-text', featuredTitle: featuredTitle, featuredText: featuredText %}
+        {% endif %}
+
+        {% if loopCounterModulo > 2 or loopCounterModulo == 0 %}
+          {% render 'collection-regular-product', product: product, showVideo: showVideo %}
+        {% endif %}
+
+      {%- endfor -%}
+
+    </div>
+  </div>
+  {% if numItemsRemaining > 0 %}
+    <ajax-loader-btn collection="{{ myCollection.handle }}" section-id="{{ section.id }}" offset="5">
+      <div class="max-w-screen-2xl mx-auto">
+        <div class="grid-container page-margin mt-9 lg:mt-18 mb-14 lg:mb-18">
+          <div class="col-span-4 md:col-span-12">
+            <button class="button bg-sand">View {{ numItemsRemaining }} More</button>
+          </div>
+        </div>
+      </div>
+    </ajax-loader-btn>
+  {% endif %}
+</div>
+
+
+{% assign numElementsPerLoop = 2 %}
+{% assign numItemsRemaining = myCollection.products_count | minus: numElementsPerLoop %}
+<!-- Mobile - load 2 initial items -->
+<div class="md:hidden">
+  <div class="max-w-screen-2xl mx-auto ">
+    <div class="grid-container page-margin">
+
+      {%- for product in myCollection.products limit: numElementsPerLoop -%}
+
+        {% assign loopCounterModulo = forloop.index | modulo: numElementsPerLoop %}
+
+        {% assign showVideo = false %}
+        {% for video in videoPositions %}
+          {% assign videoPos = video | plus: 0 %} {% comment %} Cast to an integer for comparison {% endcomment %}
+          {% assign myCounter = loopCounterModulo %}
+          {% if loopCounterModulo == 0 %} {% comment %} Handle modulo == 0 on the last iteration {% endcomment %}
+            {% assign myCounter = numElementsPerLoop %}
+          {% endif %}
+          {% if videoPos == myCounter %}
+            {% assign showVideo = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if loopCounterModulo == 1 or loopCounterModulo == 0 %}
+          {% render 'collection-featured-product', product: product, showVideo: showVideo %}
+        {% endif %}
+
+        {% if loopCounterModulo == 0 %}
+          {% render 'collection-featured-text', featuredTitle: featuredTitle, featuredText: featuredText %}
+        {% endif %}
+
+      {%- endfor -%}
+
+    </div>
+  </div>
+  {% if numItemsRemaining > 0 %}
+    <ajax-loader-btn collection="{{ myCollection.handle }}" section-id="{{ section.id }}" offset="2">
+      <div class="max-w-screen-2xl mx-auto">
+        <div class="grid-container page-margin mt-9 lg:mt-18 mb-14 lg:mb-18">
+          <div class="col-span-4 md:col-span-12">
+            <button class="button bg-sand">View {{ numItemsRemaining }} More</button>
+          </div>
+        </div>
+      </div>
+    </ajax-loader-btn>
+  {% endif %}
+</div>
+
+
+<div id="ajax-collection-products-{{ section.id }}"></div>
+
+
+{% schema %}
+{
+  "name": "Collection Block",
+  "settings": [
+    { 
+      "type": "collection",
+      "id": "collection",
+      "label": "Choose a collection",
+      "info": "Some info goes here"
+    },
+    { 
+      "type": "text",
+      "id": "videoPositions",
+      "label": "Video positions",
+      "info": "Put the order of which products to show their videos (if set) in a comma separated list with no spaces. E.g 2,5,8,9",
+      "default": "1,5"
+    },
+    { 
+      "type": "text",
+      "id": "featuredTitle",
+      "label": "Featured title",
+      "default": "Featured",
+      "info": "Associated alongside the second product"
+    },
+    { 
+      "type": "richtext",
+      "id": "featuredText",
+      "label": "Featured text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Block"
+    }
+  ]
+}
+{% endschema %}

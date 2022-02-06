@@ -1,0 +1,139 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Stores",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "Our stores are at the heart of our community. Drop past to see some of our new collections, finally see that item you have been eyeing up online or just to say hello, we look forward to seeing you.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "16322313553139cf3f": {
+      "type": "editorial-gallery",
+      "blocks": {
+        "788fdcad-bdc5-4322-9e38-05c7e9820c89": {
+          "type": "page",
+          "settings": {
+            "page": "store-st-agnes",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "St Agnes",
+            "page_image": "shopify:\/\/shop_images\/st-agnes-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "a642b8af-c3db-46a4-bb28-a1342f2747a2": {
+          "type": "page",
+          "settings": {
+            "page": "store-london",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "London",
+            "page_image": "shopify:\/\/shop_images\/london-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "f1ec7ede-054b-4df0-ab19-bf27886311aa": {
+          "type": "page",
+          "settings": {
+            "page": "store-bath",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "Bath",
+            "page_image": "shopify:\/\/shop_images\/bath-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "d9fa9ddd-46b4-426a-aebe-b0becc3110dc": {
+          "type": "page",
+          "settings": {
+            "page": "store-exeter",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "Exeter",
+            "page_image": "shopify:\/\/shop_images\/exeter-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "93a35d72-9d7f-4a3e-95ca-1fc255473fb8": {
+          "type": "page",
+          "settings": {
+            "page": "store-edinburgh",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "Edinburgh",
+            "page_image": "shopify:\/\/shop_images\/edinburgh-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "bc9a4792-2356-400c-9b7e-f3eadc43eb4c": {
+          "type": "page",
+          "settings": {
+            "page": "store-bristol",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "Bristol",
+            "page_image": "shopify:\/\/shop_images\/bristol-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "81fbe75e-8614-4f90-9301-6912d16335ce": {
+          "type": "page",
+          "settings": {
+            "page": "store-falmouth",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "Falmouth",
+            "page_image": "shopify:\/\/shop_images\/falmouth-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "392dcc0a-434b-4912-b5e0-c9b9fc37ce49": {
+          "type": "page",
+          "settings": {
+            "page": "store-hawksfield",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "Hawksfield",
+            "page_image": "shopify:\/\/shop_images\/hawksfield-store-page.jpg",
+            "page_content": ""
+          }
+        },
+        "1f2bdd74-1cc9-4796-9bd9-5911b4d8692e": {
+          "type": "page",
+          "settings": {
+            "page": "store-brighton",
+            "page_modal": false,
+            "page_subtitle": "Store",
+            "page_title": "Brighton",
+            "page_image": "shopify:\/\/shop_images\/brighton-store-page.jpg",
+            "page_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "788fdcad-bdc5-4322-9e38-05c7e9820c89",
+        "a642b8af-c3db-46a4-bb28-a1342f2747a2",
+        "f1ec7ede-054b-4df0-ab19-bf27886311aa",
+        "d9fa9ddd-46b4-426a-aebe-b0becc3110dc",
+        "93a35d72-9d7f-4a3e-95ca-1fc255473fb8",
+        "bc9a4792-2356-400c-9b7e-f3eadc43eb4c",
+        "81fbe75e-8614-4f90-9301-6912d16335ce",
+        "392dcc0a-434b-4912-b5e0-c9b9fc37ce49",
+        "1f2bdd74-1cc9-4796-9bd9-5911b4d8692e"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "16322313553139cf3f"
+  ]
+}

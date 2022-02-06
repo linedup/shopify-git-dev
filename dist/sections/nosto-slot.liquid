@@ -1,0 +1,22 @@
+<div class="nosto_element" id="{{ section.settings.nosto_id }}"></div>
+
+
+{% schema %}
+{
+  "name": "Nosto Slot",
+  "settings": [
+    {
+      "type": "text",
+      "id": "nosto_id",
+      "label": "Nosto template ID",
+      "default": "frontpage-nosto-1",
+      "info": "The slot ID from Nosto"
+    }
+  ],
+   "presets": [
+    {
+      "name": "Nosto Slot"
+    }
+  ]
+}
+{% endschema %} 

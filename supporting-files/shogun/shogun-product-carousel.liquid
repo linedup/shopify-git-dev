@@ -1,0 +1,229 @@
+<div class="grid-container page-margin-slider">
+  <div class="col-span-4 md:col-span-12 mb-5">
+     <div class="glide glide-mobilePeek">
+          <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                  {% if Product1.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product1.handle }}" title="{{ Product1.title }}">
+                          <img src="{{ Product1.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product1.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product1.handle }}" title="{{ Product1.title }}"><p class="mb-2">{{ Product1.title }}</p></a>
+                      <p>&pound;{{ Product1.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product1.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product2.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product2.handle }}" title="{{ Product2.title }}">
+                          <img src="{{ Product2.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product2.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product2.handle }}" title="{{ Product2.title }}"><p class="mb-2">{{ Product2.title }}</p></a>
+                      <p>&pound;{{ Product2.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product2.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product3.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product3.handle }}" title="{{ Product3.title }}">
+                          <img src="{{ Product3.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product3.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product3.handle }}" title="{{ Product3.title }}"><p class="mb-2">{{ Product3.title }}</p></a>
+                      <p>&pound;{{ Product3.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product3.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product4.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product4.handle }}" title="{{ Product4.title }}">
+                          <img src="{{ Product4.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product4.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product4.handle }}" title="{{ Product4.title }}"><p class="mb-2">{{ Product4.title }}</p></a>
+                      <p>&pound;{{ Product4.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product4.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product5.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product5.handle }}" title="{{ Product5.title }}">
+                          <img src="{{ Product5.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product5.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product5.handle }}" title="{{ Product5.title }}"><p class="mb-2">{{ Product5.title }}</p></a>
+                      <p>&pound;{{ Product5.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product5.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product6.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product6.handle }}" title="{{ Product6.title }}">
+                          <img src="{{ Product6.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product6.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product6.handle }}" title="{{ Product6.title }}"><p class="mb-2">{{ Product6.title }}</p></a>
+                      <p>&pound;{{ Product6.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product6.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product7.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product7.handle }}" title="{{ Product7.title }}">
+                          <img src="{{ Product7.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product7.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product7.handle }}" title="{{ Product7.title }}"><p class="mb-2">{{ Product7.title }}</p></a>
+                      <p>&pound;{{ Product7.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product7.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product8.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product8.handle }}" title="{{ Product8.title }}">
+                          <img src="{{ Product8.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product8.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product8.handle }}" title="{{ Product8.title }}"><p class="mb-2">{{ Product8.title }}</p></a>
+                      <p>&pound;{{ Product8.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product8.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product9.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product9.handle }}" title="{{ Product9.title }}">
+                          <img src="{{ Product9.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product9.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product9.handle }}" title="{{ Product9.title }}"><p class="mb-2">{{ Product9.title }}</p></a>
+                      <p>&pound;{{ Product9.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product9.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product10.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product10.handle }}" title="{{ Product10.title }}">
+                          <img src="{{ Product10.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product10.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product10.handle }}" title="{{ Product10.title }}"><p class="mb-2">{{ Product10.title }}</p></a>
+                      <p>&pound;{{ Product10.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product10.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                  {% if Product11.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product11.handle }}" title="{{ Product11.title }}">
+                          <img src="{{ Product11.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product11.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product11.handle }}" title="{{ Product11.title }}"><p class="mb-2">{{ Product11.title }}</p></a>
+                      <p>&pound;{{ Product11.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product11.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+                   {% if Product12.title != blank %}
+                  <li class="glide__slide col-span-4 lg:col-span-3">
+                      <a href="/products/{{ Product12.handle }}" title="{{ Product12.title }}">
+                          <img src="{{ Product12.images[0].src }}" height="xxx" width="xxx" loading="lazy">
+                      </a>
+                      {% assign tags = Product12.tags | split: ", " %}
+                      {% if tags != blank %}
+                          <div class="flex items-start flex-wrap mb-4">
+                          {% for tag in tags %}
+                              <span class="product-tag">{{ tag }}</span>
+                          {% endfor %}
+                          </div>
+                      {% endif %}
+                      <a href="/products/{{ Product12.handle }}" title="{{ Product12.title }}"><p class="mb-2">{{ Product12.title }}</p></a>
+                      <p>&pound;{{ Product12.variants[0].price | money }}</p>
+                      <!--<p>compare_at_price: {{ Product12.variants[0].compare_at_price }}</p>-->
+                  </li>
+                  {% endif %}
+              </ul>
+          </div>
+          <div data-glide-el="controls">
+              <button class="hidden md:flex absolute carousel-arrow-top-75 right-0 items-center justify-center bg-sand z-10 h-14 lg:h-18 px-5 lg:px-10 w-max" data-glide-dir=">"><img src="{{ Carousel-arrow-do-not-edit }}" loading="lazy" height="20" width="20" alt="arrow"></button>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<button class="button bg-sand mb-4 md:mb-0 min-w-max relative">
+  <span data-animate class="h-full w-full absolute bg-sand hidden">
+    <span class="relative h-full w-full block">
+      {% render 'btn-loader-animation' %}
+    </span>
+  </span>
+  <span data-tick class="h-full w-full absolute bg-sand hidden">
+    <span class="btn-loader-tick relative h-full w-full block">
+      {% render 'btn-loader-tick' %}
+    </span>
+  </span>
+  <span data-label>{{ btnLabel }}</span>
+</button>

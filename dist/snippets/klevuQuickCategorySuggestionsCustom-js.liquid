@@ -1,0 +1,10 @@
+<script type="template/klevu" id="klevuQuickCategorySuggestionsCustom">
+  <% if(data.query.categoryCompressed) { %> <% if(data.query.categoryCompressed.result.length > 0 ){ %> <div class="klevuAutoSuggestionsWrap_ klevuCategorySuggestions_ page-margin mb-4" id="klevuCategoryArea"> 
+  <div class="klevuSuggestionHeading_ mb-2 pt-5"> 
+  <span class="klevuHeadingText"><%=helper.translate("Collections")%></span> 
+  </div> 
+  <ul> <% helper.each(data.query.categoryCompressed.result,function(key,category){ %> 
+  <li class="product-tag w-max mb-2" tabindex="-1"><a target="_self" href="<%=category.url%>" class="klevu-track-click" data-url="<%=category.url%>" data-name="<%=category.name%>" ><%=category.name%></a>
+  </li> 
+  <% }); %> </ul> </div> <% } %> <% } %>
+</script>

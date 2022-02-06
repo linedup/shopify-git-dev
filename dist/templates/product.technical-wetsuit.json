@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "pdp-form": {
+      "type": "pdp-images-and-form",
+      "settings": {
+      }
+    },
+    "pdp-description": {
+      "type": "pdp-description-technical-wetsuit",
+      "settings": {
+        "delivery": "<p>Free UK Standard Delivery, in 2-3 working days. <\/p><p>Free 90 day UK Returns.<\/p><p>EU Duties calculated at checkout. <\/p><p>Free US Delivery for orders over $205.<\/p>",
+        "specifications": "",
+        "thickness_level_1": "Our lightest wetsuit. 3.5mm chest and back panel, 2.5mm arms and legs.",
+        "thickness_level_2": "4.5mm chest and back panel, 3.5mm arms and legs.",
+        "thickness_level_3": "Our warmest wetsuit. 6.5mm chest and back panel, 4.5mm arms and legs.",
+        "flexibility_level_1": "Flexibility across shoulders and upper body to aid paddling.",
+        "flexibility_level_2": "Flexibility across shoulders and upper body to aid paddling.",
+        "flexibility_level_3": "Flexibility across shoulders and upper body to aid paddling.",
+        "water_temperature_level_1": "6mm lower back panelling for extra warmth. Designed for sea temperatures 7-12C",
+        "water_temperature_level_2": "5mm lower back panelling for extra warmth. Designed for sea temperatures 11-15C.",
+        "water_temperature_level_3": "Higher internal pile across chest and back for greater heat retention. Designed for sea temperatures 14-18C."
+      }
+    },
+    "1638901384218eb5e3": {
+      "type": "scrolling-banner",
+      "disabled": true,
+      "settings": {
+        "banner_text": "<p>Born for the sea. Built for adventure.<\/p>"
+      }
+    },
+    "pdp-guides": {
+      "type": "carousel-editorial-d",
+      "settings": {
+        "title": "Sustainability"
+      }
+    },
+    "16389012412a6853e2": {
+      "type": "large-single-feature",
+      "disabled": true,
+      "settings": {
+        "title": "Our go-to waterproofing",
+        "body": "The features that make this product so great",
+        "button_type": "one",
+        "button_text": "Find out more",
+        "button_url": "shopify:\/\/blogs\/broadcast\/wetsuits-from-wetsuits-an-update"
+      }
+    },
+    "pdp-reviews": {
+      "type": "pdp-reviews",
+      "settings": {
+      }
+    },
+    "complete-the-look": {
+      "type": "carousel-complete-the-look",
+      "settings": {
+        "heading": "Complete The Look"
+      }
+    },
+    "pdp-nosto": {
+      "type": "nosto-slot",
+      "settings": {
+        "nosto_id": "pdp-complete-the-look"
+      }
+    },
+    "pdp-image-zoom": {
+      "type": "pdp-image-zoom",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "pdp-form",
+    "pdp-description",
+    "1638901384218eb5e3",
+    "pdp-guides",
+    "16389012412a6853e2",
+    "pdp-reviews",
+    "complete-the-look",
+    "pdp-nosto",
+    "pdp-image-zoom"
+  ]
+}

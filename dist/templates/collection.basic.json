@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "intro": {
+      "type": "intro",
+      "settings": {
+      }
+    },
+    "collection-product-loop": {
+      "type": "collection-basic-product-loop",
+      "settings": {
+        "videoPositions": "3,12,21,33"
+      }
+    },
+    "16414697346e553260": {
+      "type": "collection-footnote",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "collection-product-loop",
+    "16414697346e553260"
+  ]
+}

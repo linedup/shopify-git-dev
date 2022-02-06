@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "16413872641e9dbd75": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Finisterre Repairs",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1641397268e68dd1e3": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-repairs-banner-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-repairs-banner-portrait.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/384476162.hd.mp4?s=54bd4584eda6c4f67573622819b95fd5bc24bf65&profile_id=169",
+        "caption": ""
+      }
+    },
+    "1641397557bf4f28a7": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/finisterre-repairs-jacket.jpg",
+        "caption": "",
+        "overline": "BOOK YOUR REPAIRS ONLINE",
+        "body": "From patching up tears in your trusty jacket to darning holes in winter knits, our repairs team are here to help. Common repairs such as single jacket patches or a wash & reproof cost £20 and include shipping to and from our repairs workshop in Cornwall. If you have a very well-loved jacket, our Full Service at £125 will repair any tears, damaged pockets, worn out hems and broken zip, alongside a full wash & reproof ready for many more years of adventures together.",
+        "button_text": "Buy Repairs",
+        "button_link": "\/collections\/repairs-lived-loved"
+      }
+    },
+    "164139755913468e85": {
+      "type": "body-text",
+      "blocks": {
+        "988957ea-084e-451d-9057-8ef5c8058cf8": {
+          "type": "body",
+          "settings": {
+            "body": "<p>No two repairs are alike, and as all repairs are carried out by hand, please be aware repairs take an average of 3 - 6 weeks. Please note our peak months are October to January.<\/p><p><strong>FOR REPAIRS QUERIES PLEASE CONTACT: <\/strong><\/p><p>repairs@finisterre.com<\/p>"
+          }
+        },
+        "63579138-7a5b-4b76-bd78-72f1669bad03": {
+          "type": "title",
+          "settings": {
+            "title": "WETSUIT REPAIRS"
+          }
+        },
+        "e44a51ff-2383-4f4e-8163-cf3faebc0c25": {
+          "type": "body",
+          "settings": {
+            "body": "<p>As with all Finisterre products, a lot of attention and care has gone into making our wetsuits; seams, neoprene, construction and fit.<\/p><p>We warranty all seams and neoprene against defects in manufacturing and materials for one year from purchase. Within this time, we are happy to offer a free repairs service carried out by a local expert wetsuit repairer. <\/p><p>As we like to make sure all repairs are finished to the highest level, these repairs can take 3-4 weeks. To arrange a wetsuit repair please contact us <a href=\"mailto:hello@finisterre.com\">hello@finisterre.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "988957ea-084e-451d-9057-8ef5c8058cf8",
+        "63579138-7a5b-4b76-bd78-72f1669bad03",
+        "e44a51ff-2383-4f4e-8163-cf3faebc0c25"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "16413872641e9dbd75",
+    "1641397268e68dd1e3",
+    "1641397557bf4f28a7",
+    "164139755913468e85"
+  ]
+}

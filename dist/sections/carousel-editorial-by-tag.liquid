@@ -1,0 +1,62 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-8">
+      <h2 class="mb-3 md:mb-7">{{ section.settings.title }}</h2>
+    </div>
+  </div>
+  <div class="grid-container page-margin-slider">
+
+    <div class="col-span-4 md:col-span-12 mb-5">
+      <div class="glide glide-regular">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            {% assign selected_tag = section.settings.tag %}    
+            {% for article in blogs.the-broadcast.articles %}
+              {% if article.tags contains selected_tag %}
+                <li class="glide__slide">
+                  <div class="mb-4">
+                      {% for tag in article.tags %}
+                      <span class="mb-2">{{ tag }}</span>
+                      {% endfor %}
+                    <h3><a href="{{ article.url }}" title="{{ article.title }}" class="link">{{ article.title }}</a></h3>
+                  </div>
+                  <a href="{{ article.url }}" title="{{ article.title }}">
+                    {% render 'image' with image_src: article.image, alt_tag: article.title %}
+                  </a>
+                </li>             
+                <li>{{ article.title }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div data-glide-el="controls">
+          <button class="hidden md:flex absolute carousel-arrow-bottom-75 right-0 items-center justify-center bg-sand z-10 h-14 lg:h-18 px-5 lg:px-10 w-max" data-glide-dir=">"><img src="{{ 'carousel-arrow.svg' | asset_url }}" loading="lazy" height="20" width="20" alt="arrow"></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Editorial Carousel - Tag",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Carousel title"
+    },
+    {
+      "type": "text",
+      "id": "tag",
+      "label": "Which tag would you like to filter by?"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Editorial Carousel - Tag"
+    }
+  ]
+}
+{% endschema %}

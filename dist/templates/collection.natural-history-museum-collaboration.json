@@ -1,0 +1,204 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/NHM_Campaign-Page_1.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/NHM_Campaign-Page_2.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16391472518c6f2744": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "Inspired by the resilience of nature \nwe delved into the Museum’s archives, selecting works from pioneering scientists. The resulting collection showcases the power of nature and highlights the incredible impacts conservation efforts can have for wildlife and the environment.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1639147291faa41b60": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "",
+        "products_collection": "blundstone-finisterre"
+      }
+    },
+    "16391473960bf8789e": {
+      "type": "image-carousel",
+      "blocks": {
+        "03c92ebe-af07-4bd2-b984-5d4394715e5c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_3.jpg"
+          }
+        },
+        "6a14cdbe-460e-49d5-8705-9d9fc1047f2b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_5.jpg"
+          }
+        },
+        "a519ceb7-b5a9-461f-911b-71bfb55e0053": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_7.jpg"
+          }
+        },
+        "7f5f2fe8-4a27-49f1-afb7-f802a37a9455": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_9.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "03c92ebe-af07-4bd2-b984-5d4394715e5c",
+        "6a14cdbe-460e-49d5-8705-9d9fc1047f2b",
+        "a519ceb7-b5a9-461f-911b-71bfb55e0053",
+        "7f5f2fe8-4a27-49f1-afb7-f802a37a9455"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "1639148158ae01eb27": {
+      "type": "medium-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_11.jpg",
+        "coordinates": ""
+      }
+    },
+    "16391481359f938387": {
+      "type": "medium-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_12.jpg",
+        "coordinates": ""
+      }
+    },
+    "16391481913ec99ec1": {
+      "type": "carousel-large",
+      "blocks": {
+        "08450a07-db4b-449a-afd4-174a6c281874": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/NHM_Campaign-Page_13.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/NHM_Campaign-Page_14.jpg",
+            "video_url": "",
+            "title": "Anna Atkins",
+            "body_text": "Artist and botanist famous for creating cyanotype prints using botanical specimens.",
+            "button_text": "Discover More",
+            "button_url": "shopify:\/\/blogs\/broadcast\/anna-atkins-a-photographic-pioneer"
+          }
+        },
+        "ac95bcb2-0cba-4a6d-9ebc-bba29cf61acd": {
+          "type": "slide",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/NHM_Campaign-Page_15.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/NHM_Campaign-Page_16.jpg",
+            "video_url": "",
+            "title": "Maria Sibylla Merian",
+            "body_text": "Intrepid artist and early female entomologist, one of the first observers of insect metamorphosis.",
+            "button_text": "Discover More",
+            "button_url": "shopify:\/\/blogs\/broadcast\/the-mother-of-metamorphosis"
+          }
+        }
+      },
+      "block_order": [
+        "08450a07-db4b-449a-afd4-174a6c281874",
+        "ac95bcb2-0cba-4a6d-9ebc-bba29cf61acd"
+      ],
+      "settings": {
+      }
+    },
+    "16391483467d4a7929": {
+      "type": "medium-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_17.jpg",
+        "coordinates": ""
+      }
+    },
+    "1639148370492b8d5a": {
+      "type": "medium-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_18.jpg",
+        "coordinates": ""
+      }
+    },
+    "16391484223c551363": {
+      "type": "image-carousel",
+      "blocks": {
+        "f7af5069-1abf-46bb-b66b-08502971b997": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_19.jpg"
+          }
+        },
+        "0fe50ddc-d08d-48f3-9bbf-fa801a71339a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_21.jpg"
+          }
+        },
+        "404c27b9-b74a-4f06-a5f9-0d576a105b47": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_23.jpg"
+          }
+        },
+        "35fdb64f-5013-4bf4-9a88-f6f519a562be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_25.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f7af5069-1abf-46bb-b66b-08502971b997",
+        "0fe50ddc-d08d-48f3-9bbf-fa801a71339a",
+        "404c27b9-b74a-4f06-a5f9-0d576a105b47",
+        "35fdb64f-5013-4bf4-9a88-f6f519a562be"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "163940221185c006dd": {
+      "type": "medium-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_27.jpg",
+        "coordinates": ""
+      }
+    },
+    "16394022210714b557": {
+      "type": "medium-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NHM_Campaign-Page_28.jpg",
+        "coordinates": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "16391472518c6f2744",
+    "1639147291faa41b60",
+    "16391473960bf8789e",
+    "1639148158ae01eb27",
+    "16391481359f938387",
+    "16391481913ec99ec1",
+    "16391483467d4a7929",
+    "1639148370492b8d5a",
+    "16391484223c551363",
+    "163940221185c006dd",
+    "16394022210714b557"
+  ]
+}

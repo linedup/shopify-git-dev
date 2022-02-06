@@ -1,0 +1,20 @@
+<script type="template/klevu" id="klevuLandingTemplateTabResults">
+  <% var isCmsEnabled = klevu.search.modules.kmcInputs.base.getCmsEnabledValue(); %> 
+  <div class="kuTabs" role="tablist" style="display:<%= isCmsEnabled ? 'block' : 'none' %>"> 
+    <% var selectedTab = false; %> 
+    <% helper.each(data.query,function(key,query){ %> <% if(query.tab == true) { %> <% if(helper.hasResults(data,query.id)) { %> 
+      <a target="_self" class="kuTab<% if(!selectedTab){ selectedTab = true; %> kuTabSelected<% } %>" data-section="<%=query.id%>" role="tab" tabindex="0" aria-selected="" area-label="Products tab"> <%=helper.translate(query.tabText,data.query[query.id].meta.totalResultsFound)%> </a> 
+      <% } else { %> <a target="_self" class="kuTabDeactive" data-section="<%=query.id%>" role="tab" tabindex="0" aria-selected="" area-label="Products tab"> <%=helper.translate(query.tabText,0)%> </a> <% } %> <% } %> <% }); %> </div>
+
+
+
+
+
+    {% comment %}<% var isCmsEnabled = klevu.search.modules.kmcInputs.base.getCmsEnabledValue(); %> 
+<div class="kuTabs" role="tablist" style="display:<%= isCmsEnabled ? 'block' : 'none' %>"> 
+  <% var selectedTab = false; %> 
+  <% helper.each(data.query,function(key,query){ %> <% if(query.tab == true) { %> <% if(helper.hasResults(data,query.id)) { %> 
+    <a target="_self" class="kuTab<% if(!selectedTab){ selectedTab = true; %> kuTabSelected<% } %>" data-section="<%=query.id%>" role="tab" tabindex="0" aria-selected="" area-label="Products tab"> <%=helper.translate(query.tabText,data.query[query.id].meta.totalResultsFound)%> </a> 
+    <% } else { %> <a target="_self" class="kuTabDeactive" data-section="<%=query.id%>" role="tab" tabindex="0" aria-selected="" area-label="Products tab"> <%=helper.translate(query.tabText,0)%> </a> <% } %> <% } %> <% }); %> </div>
+    {% endcomment %}
+</script>

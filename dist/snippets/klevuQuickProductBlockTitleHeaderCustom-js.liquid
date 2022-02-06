@@ -1,0 +1,11 @@
+<script type="template/klevu" id="klevuQuickProductBlockTitleHeaderCustom">
+  <div class="flex justify-between page-margin mb-2 pt-4">
+    <div class="klevuSuggestionHeading_">
+      <span class="klevuHeadingText_"><%=helper.translate("Recommended")%></span>
+    </div>
+    <div class="klevuProductsViewAll_">
+      <% var queryParam = klevu.getSetting(klevu, "settings.url.queryParam"); %>
+      <a href="<%=helper.buildUrl(data.settings.landingUrl, queryParam ,helper.stripHtml(data.settings.term))%>" target="_parent"><%=helper.translate("View All")%></a>
+    </div>
+  </div>
+</script>

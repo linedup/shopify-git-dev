@@ -1,0 +1,167 @@
+{
+  "sections": {
+    "intro": {
+      "type": "intro",
+      "settings": {
+      }
+    },
+    "carousel-collection": {
+      "type": "carousel-collection",
+      "blocks": {
+        "eeb4d061-d48b-46c0-8450-69464c567641": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "accessories-view-all"
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "socks"
+          }
+        },
+        "530f4215-fd1f-4f48-84ba-c434dd37d452": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "changing-robes"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "footwear"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "bags"
+          }
+        },
+        "f388fe7a-cda4-44d0-809e-f77f00f60574": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "beanies-and-hats"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "reusable-water-bottles"
+          }
+        },
+        "f3ecc938-ba6d-4118-aaf5-fce50eb18b4a": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "belts"
+          }
+        },
+        "609b9b95-e14b-4461-bda4-1eea2b6e7520": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "eco-friendly-outdoor-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "eeb4d061-d48b-46c0-8450-69464c567641",
+        "collection-1",
+        "530f4215-fd1f-4f48-84ba-c434dd37d452",
+        "collection-3",
+        "collection-2",
+        "f388fe7a-cda4-44d0-809e-f77f00f60574",
+        "collection-4",
+        "f3ecc938-ba6d-4118-aaf5-fce50eb18b4a",
+        "609b9b95-e14b-4461-bda4-1eea2b6e7520"
+      ],
+      "settings": {
+        "heading": "Our collections"
+      }
+    },
+    "collection-product-loop-1": {
+      "type": "landing-page-product-loop",
+      "settings": {
+        "collection": "socks",
+        "videoPositions": "2",
+        "featuredTitle": "",
+        "featuredText": ""
+      }
+    },
+    "collection-product-loop-2": {
+      "type": "landing-page-product-loop",
+      "settings": {
+        "collection": "changing-robes",
+        "videoPositions": "3",
+        "featuredTitle": "",
+        "featuredText": ""
+      }
+    },
+    "collection-product-loop-3": {
+      "type": "landing-page-product-loop",
+      "settings": {
+        "collection": "footwear",
+        "videoPositions": "1,5",
+        "featuredTitle": "A likeminds partnership",
+        "featuredText": "<p>Introducing the second Palladium + Finisterre collaboration.<a href=\"\/collections\/palladium-finisterre\" target=\"_blank\" title=\"\/collections\/palladium-finisterre\"> Rugged, Recycled and Built to Roam.<\/a><\/p>"
+      }
+    },
+    "1638963459602db4fa": {
+      "type": "landing-page-product-loop",
+      "settings": {
+        "collection": "bags",
+        "videoPositions": "1,5",
+        "featuredTitle": "",
+        "featuredText": ""
+      }
+    },
+    "1641489245b600aacb": {
+      "type": "landing-page-product-loop",
+      "settings": {
+        "collection": "beanies-and-hats",
+        "videoPositions": "1,5",
+        "featuredTitle": "",
+        "featuredText": ""
+      }
+    },
+    "1638963744293d82ae": {
+      "type": "landing-page-product-loop",
+      "settings": {
+        "collection": "reusable-water-bottles",
+        "videoPositions": "1,5",
+        "featuredTitle": "",
+        "featuredText": ""
+      }
+    },
+    "163896377529ef7271": {
+      "type": "landing-page-product-loop",
+      "disabled": true,
+      "settings": {
+        "collection": "belts",
+        "videoPositions": "1,5",
+        "featuredTitle": "",
+        "featuredText": ""
+      }
+    },
+    "1641489447922ca8be": {
+      "type": "landing-page-product-loop",
+      "settings": {
+        "collection": "eco-friendly-outdoor-accessories",
+        "videoPositions": "1,5",
+        "featuredTitle": "",
+        "featuredText": ""
+      }
+    }
+  },
+  "order": [
+    "intro",
+    "carousel-collection",
+    "collection-product-loop-1",
+    "collection-product-loop-2",
+    "collection-product-loop-3",
+    "1638963459602db4fa",
+    "1641489245b600aacb",
+    "1638963744293d82ae",
+    "163896377529ef7271",
+    "1641489447922ca8be"
+  ]
+}

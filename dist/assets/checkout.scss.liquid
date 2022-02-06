@@ -1,0 +1,218 @@
+@font-face{
+  font-family: 'Helvetica Neue LT W05_55 Roman';
+  src:url('08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2') format('woff2'),url('08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff') format('woff');
+}
+@font-face{
+  font-family: 'Helvetica Neue LT W05_75 Bold';
+  src:url('800da3b0-675f-465f-892d-d76cecbdd5b1.woff2') format('woff2'),url('7b415a05-784a-4a4c-8c94-67e9288312f5.woff') format('woff');
+}
+
+
+$font-one: 'Helvetica Neue LT W05_75 Bold', Helvetica,Arial,sans-serif;
+$font-five: 'Helvetica Neue LT W05_55 Roman', Helvetica,Arial,sans-serif;
+
+
+
+body {
+  font-family: $font-five;
+  letter-spacing: 0.4px;
+  color: #000;
+}
+a {
+  text-decoration: underline;
+}
+p{
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+
+
+// Headers
+@media (min-width: 1000px){
+  .main__header {
+      padding-bottom: 3em;
+  }
+}
+.section__content__text {
+  margin-top: 1.15em;
+}
+
+h2 {
+    font-family: $font-one;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 800;
+    color: #000!important;
+}
+@media (min-width: 750px){
+  .section__header {
+    margin-bottom: 1em;
+  }
+}
+
+
+.btn{
+  border-radius: 0;
+  font-family: Helvetica Neue, sans-serif;
+  letter-spacing: 1.3px;
+  font-size: 12.1px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.floating-labels .field--show-floating-label .field__input {
+  padding-top: 2.2em;
+  padding-bottom: 0.88em;
+  border-radius: 0;
+}
+.floating-labels .field__label {
+  top: 4px;
+} 
+
+.content-box{
+  border-radius:0;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.content-box__row--secondary{
+  background: #fff;
+}
+.boxshadow .content-box .field__input {
+  border-radius: 0;
+}
+
+.display-table .checkbox__label {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.field__input{
+  border-radius: 0!important;
+  padding-top:1.5em;
+  padding-bottom:1.5em;
+}
+.logged-in-customer-first-party {
+  border-left: 1px #d9d9d9 solid;
+  border-right: 1px #d9d9d9 solid;
+  border-bottom: 1px #d9d9d9 solid;
+  padding:0 1em 1em;
+}
+
+.logged-in-customer-third-party {
+  border-left: 1px #d9d9d9 solid;
+  border-right: 1px #d9d9d9 solid;
+  border-bottom: 1px #d9d9d9 solid;
+  padding:0 1em 1em;
+}
+.section__content__policy {
+  border-left: 1px #d9d9d9 solid;
+  border-right: 1px #d9d9d9 solid;
+  border-bottom: 1px #d9d9d9 solid;
+  padding:1.2em;
+  margin-top: 0;
+}
+// Crafty clicks
+.field__input-wrapper label{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: block;
+}
+#shipping_cc_search_input{
+  border-radius:0;
+  padding-top: 1.5em!important;
+  padding-bottom: 1.5em!important;
+}
+.c2a_logo{
+  display: none!important;
+}
+
+// payement col
+.sidebar:after {
+  background: #ffffff;
+}
+
+.payment-due__price {
+  font-family: Helvetica Neue, sans-serif;
+  color: #000000;
+  letter-spacing: 0.4px;
+  font-weight: 800;
+}
+
+.order-summary__emphasis {
+  font-family: Helvetica Neue, sans-serif;
+  color: #000;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+}
+.total-line{
+  font-size: 13px;
+}
+/// Gift card payment icon
+.payment-icon--gift-card{
+  background-image: url("{{ 'finisterre-card.png' | asset_url }}");
+  background-position: center center;
+}
+
+// .applied-reduction-code__icon{
+//   display: none;
+// }
+// .applied-reduction-code:before{
+//   content: '';
+//   display: inline-block;
+//   position: static;
+//   height: 24px;
+//   width: 38px;
+//   vertical-align: middle;
+//   margin-right: 0.14286em;
+//   background-position:center center;
+//   background-image: url("{{ 'finisterre-card.png' | asset_url }}");
+// }
+
+// Paypal image
+.alt-payment-list__item--paypal .alt-payment-list__item__link{
+  background: #009cde;
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  img{
+    -webkit-filter: grayscale(100%) brightness(100);
+    filter: grayscale(100%) brightness(100);
+    margin-left: 0.35em;
+  }
+}
+
+.order-summary__sections {
+  height: auto;
+}
+
+.checkbox-wrapper--custom{
+  padding: 20px 0 0 0;
+}
+
+.checkout--mobile {
+  @media (min-width: 751px){
+    display: none;
+  } 
+}
+.wrap--mobile {
+  padding: 0 1em;
+}
+.checkout--desktop {
+  @media (max-width: 750px){
+    display: none;
+  } 
+}
+
+.checkout__custom-checkbox {
+  border-top: 1px #d9d9d9 solid;
+  margin: 15px 0 0 0;
+}
+
+.alternative-payment-separator__content {
+  font-family: "Helvetica Neue LT W05_75 Bold",Helvetica,Arial,sans-serif;
+  color: #000;
+}

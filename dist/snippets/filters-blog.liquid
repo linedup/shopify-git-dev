@@ -1,0 +1,178 @@
+{% comment %} Desktop filters {% endcomment %}
+<blog-filters-form class="col-span-4 md:col-span-12">
+
+  <form id="ArticleFiltersForm">
+
+    <div class="flex lg:justify-between">
+      <div class="items-center hidden lg:flex">      
+
+        <details class="js-filter h-full mr-6" data-index="{{ forloop.index }}">
+
+          <summary class="flex items-center">
+            <h3 data-filter-title class="self-start inline cursor-pointer">Categories</h3>
+            <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" alt="Filter by: {{ filter.label | escape }}">
+          </summary>
+
+          <div class="w-full bg-platinum absolute z-10 left-0">
+            <div class="max-w-screen-2xl mx-auto mt-2 mb-20">
+              <div class="grid-container gap-y-4 page-margin grid-cols-12 mt-10">
+
+                {%- for tag in blog.all_tags -%}
+
+                  {%- assign is_checked = false -%}
+                  {% for current_tag in current_tags %}
+                    {%- if current_tag == tag -%}
+                      {%- assign is_checked = true -%}
+                    {%- endif -%}
+                  {% endfor %}
+
+                  <div class="col-span-4">
+                    <div class="checkbox relative">
+                      <input type="checkbox"
+                        name="tagged"
+                        class="hidden"
+                        value="{{ tag | handleize }}"
+                        id="Filter-{{ tag | escape }}-{{ forloop.index }}"
+                        {% if is_checked %}checked{% endif %}
+                        {% if value.count == 0 and value.active == false %}disabled{% endif %}> 
+                      <label for="Filter-{{ tag | escape }}-{{ forloop.index }}" class="ml-10 {% if value.count == 0 and value.active == false %}checkbox-disabled{% endif %}">{{ tag }}</label>
+                    </div>
+                  </div>
+
+                {%- endfor -%}
+
+                <div class="col-span-4">
+                  <blog-facet-remove>
+                    <a href="/blogs/{{ blog.handle }}" class="link inline self-start">Clear filters</a>
+                  </blog-facet-remove>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </details>
+
+        <noscript>
+          <button type="submit">{{ 'sections.collection_template.filter_button' | t }}</button>
+        </noscript>
+        
+      </div>
+    </div>
+       
+  </form>
+
+</blog-filters-form>
+
+
+{% comment %}
+Sticky filters
+<div class="max-w-screen-2xl mx-auto bg-white fixed_ top-0_ w-full hidden_ md:hidden_ lg:hidden">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-12">
+      <ul class="flex items-center py-5">
+        <li class="h-full mr-6">
+          <div class="flex items-center">
+            <p class="self-start inline cursor-pointer">Categories</p>
+            <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Filter articles">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endcomment %}
+
+
+{% comment %} Mobile fixed filter toggle {% endcomment %}
+<div class="col-span-4 md:col-span-12 lg:hidden">
+  <ul class="flex items-center py-5">
+    <li class="h-full mr-6">
+      <div class="flex items-center">
+        <drawer-trigger data-drawer-id="blog-filter-drawer">
+          <button>Categories</button>
+        </drawer-trigger>
+        <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Filter articles">
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+<mobile-menu-drawer id="blog-filter-drawer">
+
+  <div class="menu-drawer right mobile-nav-height fixed h-screen z-60 drawer-start-position-right drawer-width drawer-duration invisible overflow-y-scroll overflow-x-hidden bg-platinum mt-18-5 lg:mt-0">
+
+    <div class="mx-5 py-8">
+
+      <ul class="flex flex-shrink-0 relative justify-between items-center mb-4">
+        <li>
+          <p>Filters</p>
+        </li>
+        <li class="ml-8">
+          <button class="close-btn cursor-pointer">
+            <img src="{{ 'icon-close.svg' | asset_url }}" width="25" height="25" loading="lazy" alt="Close">
+          </button>
+        </li>
+      </ul>
+
+      <hr class="mt-12">
+    </div>
+
+    <blog-filters-form data-drawer-id="blog-filter-drawer">
+      <form id="ArticleFiltersFormMobile">
+        <div class="mobile-facets__inner">
+
+          <div class="mobile-facets__main filter-border-bottom-loop">
+            <div class="border-b border-richBlack page-margin lg:mx-5 pb-4 mb-8">
+              <details class="js-filter" data-index="mobile-0">
+
+                <summary class="flex flex-shrink-0 relative justify-between items-center mb-4 focus:outline-none">
+                  <div class="self-start inline cursor-pointer">Categories</div>
+                  <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" alt="Filter by: {{ filter.label | escape }}">
+                </summary>
+
+                <div class="grid-container gap-y-3 grid-cols-12 mt-8 mb-4">
+
+                  {%- for tag in blog.all_tags -%}
+
+                    {%- assign is_checked = false -%}
+                    {% for current_tag in current_tags %}
+                      {%- if current_tag == tag -%}
+                        {%- assign is_checked = true -%}
+                      {%- endif -%}
+                    {% endfor %}
+
+                    <div class="col-span-12">
+                      <div class="checkbox relative">
+                        <input type="checkbox"
+                          name="tagged"
+                          class="hidden"
+                          value="{{ tag | handleize }}"
+                          id="Filter-{{ tag | escape }}-mobile-{{ forloop.index }}"
+                          {% if is_checked %}checked{% endif %}
+                          {% if value.count == 0 and value.active == false %}disabled{% endif %}> 
+                        <label for="Filter-{{ tag | escape }}-mobile-{{ forloop.index }}" class="ml-10 {% if value.count == 0 and value.active == false %}checkbox-disabled{% endif %}">{{ tag }}</label>
+                      </div>
+                    </div>
+
+                  {%- endfor -%}
+
+                </div>
+
+              </details>
+            </div>
+
+            <div class="page-margin lg:mx-5 pb-4 mb-8">
+              <a href="{{ blog.url }}" class="link">Clear Filters</a>
+            </div>
+
+          </div>
+          <div data-close-modal class="px-5 py-8 bg-sand w-full cursor-pointer text-left">Show stories</div>
+
+        </div>    
+      </form>
+    </blog-filters-form>
+
+  </div>
+
+</mobile-menu-drawer>

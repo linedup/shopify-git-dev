@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1632148245a360b54d": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Apish Tshetsha",
+        "subtitle": "Cape Town, South Africa",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1632148248e1ffc67a": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-banner-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-banner-mobile.jpg",
+        "alt": "Apish Tshetsha",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16321482820f5e2b38": {
+      "type": "body-text",
+      "blocks": {
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3": {
+          "type": "title",
+          "settings": {
+            "title": "Youth leader, community activist and surfer, Apish Tshetsha lets his work do the talking."
+          }
+        },
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Hailing from Masiphumelele, Cape Town, the co-founder of Waves For Change - one of the world’s leading surf therapy NPO’s - is a connector of people to the immense power of the ocean. Impacting the lives of over 1000 children through weekly surf therapy sessions and with a clear and steadfast vision, Apish and team have been able to grow their network of support and investment in people to global recognition – changing lives one wave at a time. We are immensely proud to have Apish as part of the team.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3",
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8"
+      ],
+      "settings": {
+      }
+    },
+    "1632148299104d90bd": {
+      "type": "carousel-editorial-b",
+      "blocks": {
+        "0aecc70b-a2c5-42db-90dd-efbc40c7ff15": {
+          "type": "custom",
+          "settings": {
+            "overline": "Instagram",
+            "title": "@consciousapish",
+            "image": "shopify:\/\/shop_images\/ambassador-apish-instagram.jpg",
+            "link": "https:\/\/www.instagram.com\/consciousapish\/"
+          }
+        },
+        "6908adf5-f4a3-499e-b53f-a72ceecd7dfa": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Co-founder Waves For Change – Surf Therapy Programme.",
+            "image": "shopify:\/\/shop_images\/ambassador-apish-surf-therapy-co-founder.jpg",
+            "link": "https:\/\/www.waves-for-change.org\/"
+          }
+        }
+      },
+      "block_order": [
+        "0aecc70b-a2c5-42db-90dd-efbc40c7ff15",
+        "6908adf5-f4a3-499e-b53f-a72ceecd7dfa"
+      ],
+      "settings": {
+        "title": "Links"
+      }
+    },
+    "16321483895dc92388": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "a32bc632-1454-4f4d-8f3a-75295ff48c0c": {
+          "type": "video_block",
+          "settings": {
+            "overline_1": "01:35:00",
+            "title_1": "Beneath The Surface",
+            "image_1": "shopify:\/\/shop_images\/ambassator-apish-surfing-for-mental-health.jpg",
+            "video_1": "https:\/\/player.vimeo.com\/external\/269833393.hd.mp4?s=a6ebd0a34aaa573d6358815c8766f4f334518025&profile_id=175",
+            "overline_2": "07:12:00",
+            "title_2": "Surfing For Mental Health",
+            "image_2": "shopify:\/\/shop_images\/ambassator-apish-beneath-the-surface.jpg",
+            "video_2": "https:\/\/www.youtube.com\/watch?v=bSDsGuQCcME"
+          }
+        }
+      },
+      "block_order": [
+        "a32bc632-1454-4f4d-8f3a-75295ff48c0c"
+      ],
+      "settings": {
+        "title": "Related Films"
+      }
+    },
+    "163214841401c0fdd6": {
+      "type": "image-carousel",
+      "blocks": {
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-1.jpg"
+          }
+        },
+        "026d83ab-7d05-4b14-8173-fec812ee0364": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-2.jpg"
+          }
+        },
+        "25814191-7949-4f78-a7d9-152ca733808a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-3.jpg"
+          }
+        },
+        "60f14cf1-adf4-4d9d-8eb8-a28dc15eb23a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-4.jpg"
+          }
+        },
+        "e525a0b2-289e-4c21-88c6-02cafa6519b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-6.jpg"
+          }
+        },
+        "3a848cb5-21a5-46a9-a54e-8a1cbdd53b23": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-5.jpg"
+          }
+        },
+        "be8f516f-9d34-4b48-9e93-ab57010d1fe0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-7.jpg"
+          }
+        },
+        "ab2ac250-d3d2-454d-ba63-890c715eaecb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-8.jpg"
+          }
+        },
+        "075b7f03-f28e-4e45-a9e6-2445f38969ae": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-9.jpg"
+          }
+        },
+        "6c892ef5-e410-4552-a043-4b244609d6dd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-apish-trshetsha-slider-10.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8",
+        "026d83ab-7d05-4b14-8173-fec812ee0364",
+        "25814191-7949-4f78-a7d9-152ca733808a",
+        "60f14cf1-adf4-4d9d-8eb8-a28dc15eb23a",
+        "e525a0b2-289e-4c21-88c6-02cafa6519b7",
+        "3a848cb5-21a5-46a9-a54e-8a1cbdd53b23",
+        "be8f516f-9d34-4b48-9e93-ab57010d1fe0",
+        "ab2ac250-d3d2-454d-ba63-890c715eaecb",
+        "075b7f03-f28e-4e45-a9e6-2445f38969ae",
+        "6c892ef5-e410-4552-a043-4b244609d6dd"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "16321486164a1abdb3": {
+      "type": "carousel-editorial-b",
+      "blocks": {
+        "50c11b5b-3ba5-46b7-888a-a6be9dbd57db": {
+          "type": "custom",
+          "settings": {
+            "overline": "Broadcast",
+            "title": "Safe Spaces",
+            "image": "shopify:\/\/shop_images\/apish-featured-article-waves-for-change-safe-spaces.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/waves-for-change-safe-spaces"
+          }
+        },
+        "81bfaf15-ba6a-453f-961a-76712b710898": {
+          "type": "custom",
+          "settings": {
+            "overline": "Broardcast",
+            "title": "In Conversation",
+            "image": "shopify:\/\/shop_images\/apish-featured-article-in-conversation.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/in-conversation-apish-tshetsha-and-noah-lane"
+          }
+        }
+      },
+      "block_order": [
+        "50c11b5b-3ba5-46b7-888a-a6be9dbd57db",
+        "81bfaf15-ba6a-453f-961a-76712b710898"
+      ],
+      "settings": {
+        "title": "Related Stories"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1632148245a360b54d",
+    "1632148248e1ffc67a",
+    "16321482820f5e2b38",
+    "1632148299104d90bd",
+    "16321483895dc92388",
+    "163214841401c0fdd6",
+    "16321486164a1abdb3"
+  ]
+}

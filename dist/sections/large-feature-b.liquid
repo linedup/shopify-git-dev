@@ -1,0 +1,39 @@
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container page-margin gap-y-4 pb-14 lg:pb-18">
+    <div class="flex items-end md:items-center col-span-4 md:col-span-12 h-142 md:h-160 xl:h-202 relative">
+
+        <img src="{{ section.settings.mobile_image | img_url: 'master' }}" height="1726" width="1534" loading="lazy" class="absolute inset-0 w-full h-full object-cover lg:hidden" alt="{{ section.settings.alt }}">
+        <img src="{{ section.settings.desktop_image | img_url: 'master' }}" height="1612" width="3600" loading="lazy" class="absolute inset-0 w-full h-full object-cover hidden lg:block" alt="{{ section.settings.alt }}">
+   
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Large Feature B",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image / Video"
+    },
+    { 
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop hero image",
+      "info": "Image size - 3600w x 1612h"
+    },
+    { 
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile hero image",
+      "info": "Image size - 1534w x 1726h"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Large Feature B"
+    }
+  ]
+}
+{% endschema %}

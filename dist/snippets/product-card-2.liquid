@@ -1,0 +1,78 @@
+{% assign meta_data = product.metafields.pdp %}
+
+{% assign image_1 = blank %}
+{% assign image_2 = blank %}
+
+{% for image in product.images limit:2 %}
+  {% if forloop.first == true %}
+    {% assign image_1 = image %}
+  {% else %}
+    {% comment %}
+    Uncomment the line below if you wish to use the lifestyle image for the rollover
+    Plus remove the renderContents() method from the ProductCard2 web component
+    {% endcomment %}
+    {% comment %} {% assign image_2 = image %} {% endcomment %}
+  {% endif %}
+{% endfor%}
+
+{% if image_2 == blank %}
+    {% assign image_2 = image_1 %}
+{% endif %}
+
+{% comment %} These additional properties are to create a relationship with the price on the page outside of this scope {% endcomment %}
+<product-card-2 data-section-id="{{ section_id }}" data-index="{{ loop_index }}">
+
+  <div data-rollover-trigger>
+    <div class="grid grid-cols-12">
+      <div class="col-span-12 lg:col-span-10 xl:col-span-6 ">
+        <a data-link href="{{ product.url }}" title="{{- product.title -}}">
+          <div data-image-spinner-1 class="absolute w-full h-full opacity-90 bg-lightBlue hidden"></div>
+          <div data-ajax-product-card-image-1 class="mb-4 md:mb-0">
+            {% liquid
+              assign altTag = image_1.alt
+              if altTag == blank
+                assign altTag = product.title
+              endif
+              render 'image' with image_src: image_1.src, alt_tag: altTag
+            %}
+          </div>
+        </a>
+        <div class="lg:hidden">
+          <p class="mb-2 mt-2">{{- product.title -}}</p>
+          {% render 'price', product: product %}
+        </div>
+      </div>
+    </div>
+    <div data-rollover class="product-card-2-quick-buy-inactive">
+      <div class="grid grid-cols-12">
+        <div class="col-span-12 lg:col-span-10 xl:col-span-6 mb-4">
+          <a data-link href="{{ product.url }}" title="{{- product.title -}}">
+            <div data-image-spinner-2 class="absolute w-full h-full opacity-90 bg-lightBlue hidden"></div>
+            <div data-ajax-product-card-image-2 class="mt-4">
+              {% liquid
+                assign altTag = image_2.alt
+                if altTag == blank
+                  assign altTag = product.title
+                endif
+                render 'image' with image_src: image_2.src, alt_tag: altTag
+              %}
+            </div>
+          </a>
+        </div>
+        <div class="col-span-12">
+          <div class="mb-4">
+            <p class="mb-2">{{- product.title | escape -}}</p>
+            <div data-ajax-product-card-price-1>
+              {% render 'price', product: product %}
+            </div>
+          </div>
+          <div class="col-span-4 md:col-span-12 relative">
+            <div data-basket-spinner class="absolute w-full h-full opacity-70 bg-lightBlue hidden"></div>
+            {% comment %} {% render 'product-card-colours', product: product, meta_data: meta_data %} {% endcomment %}
+            {% render 'product-form-plp', product: product %}            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</product-card-2>

@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "16413141251d3940bb": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_surf_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_surf_mobile.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>Since 2003, sustainability has been integral to everything we do.<\/p>",
+        "anchor": ""
+      }
+    },
+    "16413141984b3352b4": {
+      "type": "body-text",
+      "blocks": {
+        "5e209285-fb75-4d10-a5ab-accb5aff3646": {
+          "type": "title",
+          "settings": {
+            "title": "The ocean's future is our future. That's why we're here - to inspire a love of the sea and protect it together. \nOur mission to have a positive impact on the world around us is woven into every fabric of what we do."
+          }
+        }
+      },
+      "block_order": [
+        "5e209285-fb75-4d10-a5ab-accb5aff3646"
+      ],
+      "settings": {
+      }
+    },
+    "16415646331b63a5a1": {
+      "type": "editorial-gallery",
+      "blocks": {
+        "442f437b-42a5-4bdb-be52-398093bfc830": {
+          "type": "page",
+          "settings": {
+            "page": "history",
+            "page_modal": true,
+            "page_subtitle": "Our Story",
+            "page_title": "It all starts with the sea",
+            "page_image": "shopify:\/\/shop_images\/sustainability-history-featured.jpg",
+            "page_content": "Born over a decade ago from the needs of hardy British surfers, Finisterre designs functional and sustainable product for those that share a love of the sea."
+          }
+        },
+        "2589dab5-ecd9-427c-a92f-adb6d710ff8e": {
+          "type": "article",
+          "settings": {
+            "article": "features\/b-corp",
+            "article_modal": true,
+            "article_subtitle": "B Corp",
+            "article_title": "B Corp certified since 2018",
+            "article_image": "shopify:\/\/shop_images\/sustainability-b-corp-featured.jpg",
+            "article_content": "Using business as a force for good. In 2021 we proudly recertified as a B Corp™"
+          }
+        },
+        "8e29f6bb-bde8-4856-bc8c-d2c82623d93c": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/pages\/finisterre-foundation",
+            "link_modal": true,
+            "link_subtitle": "Finisterre Foundation",
+            "link_title": "Championing Equal Access",
+            "link_image": "shopify:\/\/shop_images\/Foundation.jpg",
+            "link_content": "Our Finisterre Foundation hopes to make a real difference in championing equal access to the ocean for everyone."
+          }
+        },
+        "dba82c23-b534-4c82-bc8d-1adf55d74b9a": {
+          "type": "link",
+          "settings": {
+            "link": "https:\/\/sea7.finisterre.com",
+            "link_modal": false,
+            "link_subtitle": "Ocean Activism",
+            "link_title": "Sea7",
+            "link_image": "shopify:\/\/shop_images\/Sea7-Sustainability.jpg",
+            "link_content": "The ocean needs us to act now. We believe everyone can play their part in making a difference."
+          }
+        },
+        "7090e4d1-0e15-4237-a042-3e0c51964fdf": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/repairs-lived-loved",
+            "link_modal": false,
+            "link_subtitle": "Repairs",
+            "link_title": "The most sustainable product is one you already own",
+            "link_image": "shopify:\/\/shop_images\/sustainability-lived-loved-featured_0112e86a-4f48-4974-94c5-023d9f01088a.jpg",
+            "link_content": "We started our Lived & Loved repairs over a decade ago to reduce waste and extend the useful life of our products."
+          }
+        },
+        "221ba465-e13e-4e78-b439-db0c9740eabe": {
+          "type": "article",
+          "settings": {
+            "article": "features\/finisterre-packaging",
+            "article_modal": true,
+            "article_subtitle": "Packaging",
+            "article_title": "Leave no trace",
+            "article_image": "shopify:\/\/shop_images\/leave-no-trace-hero.jpg",
+            "article_content": "We believe that single use is no use and in 2018 we made a commitment to eradicate single use, non-degradable plastic at Finisterre."
+          }
+        },
+        "4d8a6582-9f3a-4d8e-8917-3c7b56deb1c0": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/blogs\/fabric-of-finisterre",
+            "link_modal": false,
+            "link_subtitle": "Sustainability",
+            "link_title": "Fabric of Finisterre",
+            "link_image": "shopify:\/\/shop_images\/sustainability-fabric-of-finisterre-featured_8f8dfd74-8958-44c3-92f6-b0ff34452bfb.jpg",
+            "link_content": "It’s in our DNA. We take our commitment to sustainability seriously. We choose the right fabrics to create the best possible product."
+          }
+        },
+        "158fb13d-f1da-4047-976c-53a975fa21c8": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/blogs\/factories-of-finisterre",
+            "link_modal": false,
+            "link_subtitle": "Sustainability",
+            "link_title": "Factories of Finisterre",
+            "link_image": "shopify:\/\/shop_images\/sustainability-factories-of-finisterre-featured_9a03fe39-3a63-452a-b8cc-a7f191bd4b2c.jpg",
+            "link_content": "Every Finisterre product tells the story of a hundred pairs of hands, of skills and craftsmanship, of complex interwoven supply chains."
+          }
+        },
+        "d1844dc6-9519-4e81-8944-d15f7ea668c1": {
+          "type": "link",
+          "settings": {
+            "link": "shopify:\/\/collections\/finisterre-innovation",
+            "link_modal": false,
+            "link_subtitle": "Innovation",
+            "link_title": "A Journey of Innovation",
+            "link_image": "shopify:\/\/shop_images\/journey-of-innovation-hero.jpg",
+            "link_content": "Our new biodegradable Biosmock may represent a fresh benchmark in circular design, but we’ve been on this journey a while, constantly adapting and feeding innovation into everything we do."
+          }
+        }
+      },
+      "block_order": [
+        "442f437b-42a5-4bdb-be52-398093bfc830",
+        "2589dab5-ecd9-427c-a92f-adb6d710ff8e",
+        "8e29f6bb-bde8-4856-bc8c-d2c82623d93c",
+        "dba82c23-b534-4c82-bc8d-1adf55d74b9a",
+        "7090e4d1-0e15-4237-a042-3e0c51964fdf",
+        "221ba465-e13e-4e78-b439-db0c9740eabe",
+        "4d8a6582-9f3a-4d8e-8917-3c7b56deb1c0",
+        "158fb13d-f1da-4047-976c-53a975fa21c8",
+        "d1844dc6-9519-4e81-8944-d15f7ea668c1"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16413149668a4238c2": {
+      "type": "scrolling-banner",
+      "disabled": true,
+      "settings": {
+        "banner_text": ""
+      }
+    }
+  },
+  "order": [
+    "16413141251d3940bb",
+    "16413141984b3352b4",
+    "16415646331b63a5a1",
+    "16413149668a4238c2"
+  ]
+}

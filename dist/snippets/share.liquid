@@ -1,0 +1,15 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-12">
+      <h2 class="mb-4">Share</h2>
+    </div>
+  </div>
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-12">
+      <div class="flex flex-row">
+        <a href="https://www.facebook.com/share.php?u={{ shop.url }}{{ request.path }}" class="flex items-center justify-center bg-sand z-10 h-14 lg:h-18 px-5 lg:px-10 w-max mr-px"><img src="{{ 'icon-facebook.svg' | asset_url }}" loading="lazy" height="25" width="25" alt="Share on Facebook"></a>
+        <a href="https://twitter.com/intent/tweet?url={{ shop.url }}{{ request.path }}" class="flex items-center justify-center bg-sand z-10 h-14 lg:h-18 px-5 lg:px-10 w-max"><img src="{{ 'icon-twitter.svg' | asset_url }}" loading="lazy" height="24" width="30" alt="Share on Twitter"></a>
+      </div>
+    </div>
+  </div>
+</div>

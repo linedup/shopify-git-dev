@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Denim",
+        "subtitle": "A new blueprint for Denim",
+        "title_1": "",
+        "body_content_1": "Traditional production methods include using unsustainable quantities of water, chemical pesticides and harmful heavy metals - consuming precious resources and polluting water sources.\n\nWe believe there is a better way.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "16396710017d7bdbfb": {
+      "type": "large-feature-b",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/denim-large-image_29928c8b-6638-44a8-b21d-7f9bc7b1b163.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/denim-mobie-hero_06ea3893-f3e4-48d6-882d-425c92b190c5.jpg"
+      }
+    },
+    "16390492346014eb34": {
+      "type": "body-text",
+      "blocks": {
+        "ef32a82a-85fe-49c4-9c8a-7c8659d9defd": {
+          "type": "title",
+          "settings": {
+            "title": "1. Reducing impact"
+          }
+        },
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5": {
+          "type": "body",
+          "settings": {
+            "body": "<p>We only use organic cotton to make our jeans, requiring 71% less water to grow than standard cotton and no chemical pesticides. Our factory partners go to great lengths to reduce their impact: air drying jeans to save electricity, separating dye-stuff and baking it into bricks for building projects, as well as recycling 100% of their water, keeping rivers clean.<\/p>"
+          }
+        },
+        "9228e94e-351e-4910-891f-5b391af4351d": {
+          "type": "title",
+          "settings": {
+            "title": "2. Built to last"
+          }
+        },
+        "e2be8572-db8a-41b5-9f1d-fbc49790cb93": {
+          "type": "body",
+          "settings": {
+            "body": "<p>We pride ourselves on the durability of our denim. When you buy a pair of jeans from us, we expect you to have them for a long, long time. So we build them accordingly; adventure-ready jeans that will stand up to the toughest tests, wherever you choose to go in them.<\/p>"
+          }
+        },
+        "8fc85224-d54e-4524-b5f5-85ab3584883e": {
+          "type": "title",
+          "settings": {
+            "title": "3. The right fit"
+          }
+        },
+        "4084e17e-903b-4b0f-9b8f-28ed46b7f2f3": {
+          "type": "body",
+          "settings": {
+            "body": "<p>We know what our customers like, and we stick to it. That’s why you won’t find hundreds of different styles and fits in our range. Just durable jeans, in comfortable classic fits, designed to be the perfect companion on your adventures.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ef32a82a-85fe-49c4-9c8a-7c8659d9defd",
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5",
+        "9228e94e-351e-4910-891f-5b391af4351d",
+        "e2be8572-db8a-41b5-9f1d-fbc49790cb93",
+        "8fc85224-d54e-4524-b5f5-85ab3584883e",
+        "4084e17e-903b-4b0f-9b8f-28ed46b7f2f3"
+      ],
+      "settings": {
+      }
+    },
+    "1639049548fe89cefb": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/denim-1.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/denim-2.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1639049743689f2e20": {
+      "type": "body-text",
+      "blocks": {
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded": {
+          "type": "title",
+          "settings": {
+            "title": "Our work isn’t done..."
+          }
+        },
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Our factory’s commitment to more sustainable working practices and reducing environmental impact is what convinced us to work with them.<\/p><p>As a company, we don't have all the answers, but we are constantly striving for better methods and materials. The tide is turning slowly within the fashion industry, and there is a long road ahead, but we are committed to driving this change and to make things better.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded",
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468"
+      ],
+      "settings": {
+      }
+    },
+    "164277487433d45087": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Men's Denim",
+        "products_collection": "mens-denim"
+      }
+    },
+    "16427749003410acab": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Women's Denim",
+        "products_collection": "womens-denim"
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "16396710017d7bdbfb",
+    "16390492346014eb34",
+    "1639049548fe89cefb",
+    "1639049743689f2e20",
+    "164277487433d45087",
+    "16427749003410acab"
+  ]
+}

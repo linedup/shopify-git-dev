@@ -1,0 +1,8 @@
+{% if settings.banner_text != blank %}
+<div class="bg-sand">
+  <div class="max-w-screen-2xl mx-auto page-margin px-10 py-4 flex justify-between">
+    <p>{{ settings.banner_text }}</p>
+    <div class="flex items-center"><img src="{{ 'icon-close.svg' | asset_url}}" width="25" height="25" alt="close"></div>
+  </div>
+</div>
+{% endif %}

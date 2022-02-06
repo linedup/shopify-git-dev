@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles"
+  ]
+}

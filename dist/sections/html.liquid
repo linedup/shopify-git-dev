@@ -1,0 +1,25 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-7 md:col-start-5 lg:col-span-6 lg:col-start-4 mb-14 lg:mb-18">
+      <div>{{ section.settings.html }}</div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "HTML Block",
+  "settings": [
+    {
+      "type": "html",
+      "id": "html",
+      "label": "HTML Block"
+    }
+  ],
+  "presets": [
+    {
+      "name": "HTML Block"
+    }
+  ]
+}
+{% endschema %}

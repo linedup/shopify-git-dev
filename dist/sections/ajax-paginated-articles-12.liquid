@@ -1,0 +1,7 @@
+<div id="ajax-paginated-articles">
+  {%- paginate blog.articles by 12 -%}
+    {%- for article in blog.articles -%}
+      {% render 'editorial-gallery-card' article: article %}
+    {%- endfor -%}
+  {%- endpaginate -%}
+</div>

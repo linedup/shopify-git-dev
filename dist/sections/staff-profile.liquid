@@ -1,0 +1,61 @@
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container page-margin mb-9 lg:mb-18">
+    {% for block in section.blocks %}
+      <div class="col-span-4 mb-4 md:mb-0">
+        <p class="mb-2">{{ block.settings.title }}</p>
+        <h3 class="mb-4 pr-4 xl:pr-12 link">{{ block.settings.name }}</h3>
+        {% render 'image' with image_src: block.settings.image, alt_tag: {{ section.settings.name }}, classes: 'mb-0 md:mb-4' %}
+        <h3 class="hidden md:block pr-4 xl:pr-12">{{ block.settings.excerpt }}</h3>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Staff Profile",
+  "blocks": [
+    {
+      "type": "staff-profile",
+      "name": "Staff Profile",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        { 
+          "type": "image_picker",
+          "id": "image",
+          "label": "Staff profile image",
+          "info": "Image size - 1094w x 1232h"
+        },
+        {
+          "type": "header",
+          "content": "Info"
+        },
+        { 
+          "type": "text",
+          "id": "title",
+          "label": "Job title",
+          "default": "Store Manager"
+        },
+        { 
+          "type": "text",
+          "id": "name",
+          "label": "Staff name"
+        },
+        { 
+          "type": "textarea",
+          "id": "excerpt",
+          "label": "Staff excerpt"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Staff Profile"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,27 @@
+<div class="max-w-screen-2xl mx-auto mb-22 lg:mb-26">
+  <div class="grid-container page-margin overflow-hidden">
+    <div class="col-span-4 md:col-span-9 lg:col-span-9 xl:col-span-7">
+      {% comment %} Remove the <p> tags without adding additional <br> tags to the bottom {% endcomment %}
+      <h1 class="rte">{{ section.settings.title | replace: '</p><p>', '<br><br>' | replace: '<p>', '' | replace: '</p>', '' }}</h1>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Large Statement",
+  "settings": [
+    { 
+      "type": "richtext",
+      "id": "title",
+      "label": "Title",
+      "info": "Any links, add to the block, if you wish to highlight any text without it being a link then make it bold and the style will apply."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Large Statement"
+    }
+  ]
+}
+{% endschema %}

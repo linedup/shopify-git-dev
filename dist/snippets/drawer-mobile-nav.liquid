@@ -1,0 +1,148 @@
+<mobile-menu-drawer id="mobile-menu-drawer">
+
+  <div class="menu-drawer right mobile-nav-height fixed z-70 drawer-start-position-right drawer-width drawer-duration overflow-y-scroll overflow-x-hidden mt-18-5 lg:mt-0 bg-platinum">
+
+    <mobile-menu-controller id="mobile-menu-controller">
+      <div id="mobile-menu-container" class="drawer-duration">        
+        <div class="grid grid-cols-2">
+
+          {% comment %} Screen 1 {% endcomment %}
+          <div class="col-span-1">
+            <div class="mx-5 mb-10 pt-8 pb-12 h-full overflow-y-scroll">
+
+              {% comment %} Main nav (shared with desktop) {% endcomment %}
+              <ul class="mb-8">
+                {% assign subNavIndex = 0 %}
+                {% for link in linklists.main-menu.links %}
+                  {% assign subNavIndex = subNavIndex | plus: 1 %}
+                  <li class="mb-4">
+                    {% if link.links != blank %}
+                      {% comment %} Data-index connects the first screen with the second {% endcomment %}
+                      <a class="flex items-center justify-between" href="{{ link.url }}" data-mobile-sub-nav-trigger data-index="{{ subNavIndex }}"> 
+                    {% else %}
+                      <a class="flex items-center justify-between" href="{{ link.url }}">
+                    {% endif %}
+                      <span>{{ link.title }}</span>
+                      <img src="{{ 'icon-arrow.svg' | asset_url }}" width="20" height="14" loading="lazy" alt="More">
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+
+              {% comment %} Footer nav (shared with desktop) {% endcomment %}
+              {% if linklists.footer.links | size > 0 %}
+                <hr class="mb-8">
+                <ul class="mb-8">
+                  {% for link in linklists.footer.links %}
+                    {% unless link.title contains 'mobile only' %}
+                      {% assign subNavIndex = subNavIndex | plus: 1 %}
+                      <li class="mb-4">
+                        {% if link.links != blank %}
+                          {% comment %} Data-index connects the first screen with the second {% endcomment %}
+                          <a class="flex items-center justify-between" href="{{ link.url }}" data-mobile-sub-nav-trigger data-index="{{ subNavIndex }}"> 
+                        {% else %}
+                          <a class="flex items-center justify-between" href="{{ link.url }}">
+                        {% endif %}
+                        <span>{{ link.title }}</span>
+                        <img src="{{ 'icon-arrow.svg' | asset_url }}" width="20" height="14" loading="lazy" alt="More">
+                        </a>
+                      </li>
+                    {% endunless %}
+                  {% endfor %}
+                </ul>
+              {%endif %}
+
+              {% comment %}  Account link {% endcomment %}
+              <hr class="mb-8">
+              <ul class="mb-8">
+                <li class="mb-8">
+                  <a class="flex items-center justify-between" href="/account">
+                  <span>Account</span>
+                  </a>
+                </li>
+                <li class="mb-4 relative w-fit">
+                  {% render 'currency-switcher' %}
+                </li>
+              </ul>
+
+            </div>
+          </div>
+
+          {% comment %} Screen 2 {% endcomment %}
+          <div class="cols-span-1">
+
+            {% assign subNavIndex = 0 %}
+            {% for link in linklists.main-menu.links %}
+              {% assign subNavIndex = subNavIndex | plus: 1 %}
+              {% if link.links != blank %}
+                <div class="mx-5 py-8 h-full overflow-y-scroll hidden" id="mobile-sub-nav-{{ subNavIndex }}" data-mobile-sub-nav>
+                  <ul class="mb-8">
+                    <li class="mb-4">
+                      <a class="flex items-start" href="#" data-mobile-sub-nav-back data-index="{{ subNavIndex }}">
+                        <img src="{{ 'icon-arrow.svg' | asset_url }}" width="20" height="14" loading="lazy" class="transform rotate-180" alt="Back">
+                      </a>
+                    </li>
+                    <li class="mb-4">
+                      <h3>{{ link.title }}</h3>
+                    </li>
+                  </ul>
+                  <hr class="mb-8">
+                  {% for childLink in link.links %}
+                    <ul class="mb-8">
+                      <li class="mb-4">  
+                        <h3>{{ childLink.title }}</h3>
+                      </li>
+                    {% if childLink.links != blank %}
+                      {% for childLink in childLink.links %}
+                        <li class="mb-4">
+                          <a href="{{ childLink.url }}" class="flex items-center justify-between">
+                            <span>{{ childLink.title }}</span>
+                          </a>
+                        </li>
+                      {% endfor %}
+                    {% endif %}
+                    </ul>
+                    <hr class="mb-8">
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% endfor %}
+
+            {% for link in linklists.footer.links %}
+              {% assign subNavIndex = subNavIndex | plus: 1 %}
+              {% if link.links != blank %}
+                <div class="mx-5 py-8 h-full overflow-y-scroll hidden" id="mobile-sub-nav-{{ subNavIndex }}" data-mobile-sub-nav>
+                  <ul class="mb-8">
+                    <li class="mb-4">
+                      <a class="flex items-start" href="#" data-mobile-sub-nav-back data-index="{{ subNavIndex }}">
+                        <img src="{{ 'icon-arrow.svg' | asset_url }}" width="20" height="14" loading="lazy" class="transform rotate-180" alt="Back">
+                      </a>
+                    </li>
+                    <li class="mb-4">
+                      <h3>{{ link.title }}</h3>
+                    </li>
+                  </ul>
+                  <hr class="mb-8">
+                  <ul class="mb-8">
+                    {% for childLink in link.links %}
+                      <li class="mb-4">  
+                        <a href="{{ childLink.url }}" class="flex items-center justify-between">
+                          <span>{{ childLink.title }}</span>
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  <hr class="mb-8">
+                </div>
+              {% endif %}
+            {% endfor %}
+
+          </div>
+        
+        </div>     
+      </div>
+    </mobile-menu-controller>
+
+  </div>
+
+</mobile-menu-drawer>

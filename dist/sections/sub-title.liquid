@@ -1,0 +1,22 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin overflow-hidden">
+    <div class="col-span-4 md:col-span-9 lg:col-span-8 xl:col-span-7">
+      <h3>{{ section.settings.title }}</h3>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Subtitle - test",
+  "tag": "section",
+  "class": "slideshow",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "title"
+    }
+  ]
+}
+{% endschema %}

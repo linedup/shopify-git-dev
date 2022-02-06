@@ -1,0 +1,134 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18 mt-14">
+  <div class="grid-container page-margin gap-y-0">
+    <div class="col-span-4 md:col-span-12 lg:col-span-6">
+      <div class="grid-container">
+        <div class="col-span-4 md:col-span-12">
+          <h1 class="h2">Create an Account</h1>
+        </div>
+        <div class="col-span-4 md:col-span-12">
+
+        {%- form 'create_customer', novalidate: 'novalidate' -%}
+          
+          <div class="mb-4">     
+            <label for="RegisterForm-FirstName" class="block mb-2">
+              {{ 'customer.register.first_name' | t }}
+            </label>
+            <input
+              type="text"
+              name="customer[first_name]"
+              id="RegisterForm-FirstName"
+              {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
+              autocomplete="given-name"
+              placeholder=""
+              class="w-full mb-5 p-4 border border-richBlack bg-platinum placeholder-richBlack tracking-wider">
+          </div>
+          <div class="mb-4">
+            <label for="RegisterForm-LastName" class="block mb-2">
+              {{ 'customer.register.last_name' | t }}
+            </label>
+            <input
+              type="text"
+              name="customer[last_name]"
+              id="RegisterForm-LastName"
+              {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
+              autocomplete="family-name"
+              placeholder=""
+              class="w-full mb-5 p-4 border border-richBlack bg-platinum placeholder-richBlack tracking-wider">
+          </div>
+          <div class="mb-4"> 
+            <label for="RegisterForm-email" class="block mb-2">
+              {{ 'customer.register.email' | t }}
+            </label>     
+            <input
+              type="email"
+              name="customer[email]"
+              id="RegisterForm-email"
+              {% if form.email %} value="{{ form.email }}"{% endif %}
+              spellcheck="false"
+              autocapitalize="off"
+              autocomplete="email"
+              aria-required="true"
+              {% if form.errors contains 'email' %}
+                aria-invalid="true"
+                aria-describedby="RegisterForm-email-error"
+              {% endif %}
+              placeholder=""
+              class="w-full mb-5 p-4 border border-richBlack bg-platinum placeholder-richBlack tracking-wider">
+              {%- if form.errors contains 'email' -%}
+              <div id="RegisterForm-email-error" class="form__message mb-8 p-4 bg-sand">
+                {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.
+              </div>
+            {%- endif -%}
+          </div>
+          <div class="mb-4">  
+            <label for="RegisterForm-password" class="block mb-2">
+              {{ 'customer.register.password' | t }}
+            </label>   
+            <input
+              type="password"
+              name="customer[password]"
+              id="RegisterForm-password"
+              aria-required="true"
+              {% if form.errors contains 'password' %}
+                aria-invalid="true"
+                aria-describedby="RegisterForm-password-error"
+              {% endif %}
+              placeholder="{{ 'customer.register.password' | t }}"
+              class="w-full mb-5 p-4 border border-richBlack bg-platinum placeholder-richBlack tracking-wider">
+              {%- if form.errors contains 'password' -%}
+              <div id="RegisterForm-password-error" class="form__message mb-8 p-4 bg-sand">
+                {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}.
+              </div>
+            {%- endif -%}
+          </div>
+         
+          <div class="flex flex-col md:flex-row md:justify-between mb-8 p-4 bg-white">
+            <ul class="flex">
+              <li class="checkbox relative mr-8 flex items-center">
+                <input type="checkbox" value="First-Party" name="customer[note][FirstParty]" id="CustomerFormFirstParty" class="hidden">
+                <label class="ml-12" for="CustomerFormFirstParty">We'd love to share occasional news about products and offers with you by post. Please tick this box if you do not wish to receive communication from Finisterre via post.</label>
+              </li>
+            </ul>
+          </div>
+          <div class="flex flex-col md:flex-row md:justify-between mb-8 p-4 bg-white">
+            <ul class="flex">
+              <li class="checkbox relative mr-8 flex items-center">
+                <input type="checkbox" value="Third-Party" name="customer[note][ThirdParty]" id="CustomerFormThirdParty" class="hidden">
+                <label class="ml-12" for="CustomerFormThirdParty">We think you’d enjoy some of the latest product and offers by post from other trusted retailers. If you’d prefer not to receive these, please tick this box.</label>
+              </li>
+            </ul>
+          </div>
+
+          {%- if form.errors -%}
+          <ul> 
+            {%- for field in form.errors -%}
+              <li class="mb-4 p-4 bg-sand">
+                {%- if field == 'form' -%}
+                  {{ form.errors.messages[field] }}
+                {%- else -%}
+                  <a href="#RegisterForm-{{ field }}">
+                    {{ form.errors.translated_fields[field] | capitalize }}
+                    {{ form.errors.messages[field] }}
+                  </a>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+
+        <button class="button bg-sand cursor-pointer w-full md:w-max mb-8">
+          {% comment %} {{ 'customer.register.submit' | t }} {% endcomment %}
+          Create account
+        </button>
+
+        <a href="{{ routes.account_url }}">
+          {{ 'customer.login_page.cancel' | t }}
+        </a>
+
+        {%- endform -%}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

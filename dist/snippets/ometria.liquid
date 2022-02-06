@@ -1,0 +1,93 @@
+{%- comment -%}
+----------------------------------------------------------------------------
+  Snippet: Ometria
+  - Outputs the appropriate Ometria script for the current store.
+  - Ometria documentation: http://docs.ometria.com
+----------------------------------------------------------------------------
+{%- endcomment -%}
+
+{%- assign region_param = 'GB' -%}
+{%- assign store_id = 'default' -%}
+{%- assign store_prefix = '' -%}
+{%- assign page_data = 'null' -%}
+
+{% case template %}
+  {% when 'index' %}
+    {%- assign page_type = 'homepage' -%}
+  {% when 'collection' or 'search' %}
+    {%- assign page_type = 'listing' -%}
+  {% when 'cart' %}
+    {%- assign page_type = 'basket' -%}
+  {% when null %}
+    {% if request.path contains 'checkouts' %}
+      {% if request.path contains 'thank_you' %}
+        {%- assign page_type = 'confirmation' -%}
+      {% else %}
+        {%- assign page_type = 'checkouts' -%}
+      {% endif %}
+    {% elsif request.path contains 'orders' %}
+      {%- assign page_type = 'orders' -%}
+    {% endif %}
+  {% when 'product' %}
+    {%- capture page_data -%}
+      {"pid":"{{store_prefix}}###"}
+    {%- endcapture -%}
+
+    {%- assign page_type = 'product' -%}
+    {%- assign page_data = page_data | replace: '###', product.id -%}
+  {% else %}
+    {% if template contains 'collection' %}
+      {%- assign page_type = 'listing' -%}
+    {% else %}
+      {%- assign page_type = template | replace: '/', '-' -%}
+    {% endif %}
+{% endcase %}
+
+<script src="//cdn.ometria.com/tags/0c4ea6831f5d3a19.js"></script>
+<script>
+  ometria.init({{ page_type | json }}, {{ page_data }}, {{ store_id | json }});
+
+  {% if customer %}
+    ometria.identify({{ customer.email | json }});
+  {% endif %}
+
+  /**
+   * Set the Ometria basket.
+   */
+  function setOmetriaBasket() {
+    ShopifyAPI.getCart(function(cart) {
+      var basket = new ometria.Basket();
+      var dateNow = Date.now();
+      var variantChain = '';
+      var cartTotal = Shopify.formatMoney(cart.total_price, Shopify.money_format);
+
+      for (var i = 0; i < cart.items.length; i++) {
+        var item = cart.items[i];
+        var variantLink = item.variant_id + ':' + item.quantity;
+        var itemPrice = Shopify.formatMoney(item.price, Shopify.money_format);
+
+        if (variantChain === '') {
+          variantChain = variantLink;
+        } else {
+          variantChain += ',' + variantLink;
+        }
+
+        basket.addLineItem('{{ store_prefix }}' + String(item.product_id), item.quantity, itemPrice, item.variant_id);
+      }
+
+      basket.setId(dateNow);
+      basket.setUrl('{{ shop.domain | append: '/cart/' }}' + variantChain);
+      basket.setTotal(cartTotal, Shopify.currency.active);
+
+      ometria.setBasket(basket);
+    });
+  }
+
+  {% if cart.item_count > 0 %}
+    //setOmetriaBasket();
+  {% endif %}
+
+  //$(document.body).on('completeAddItem.ajaxCart completeChangeItem.ajaxCart completeAddItem.quickCart', function() {
+  //  setOmetriaBasket();
+  //});
+</script>

@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Transpacific (Far East) Ltd",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "164130416379beed8a": {
+      "type": "factory-statistics",
+      "blocks": {
+        "6a421888-97f3-42e3-9b31-318877163e49": {
+          "type": "statistic",
+          "settings": {
+            "title": "Supplier Since",
+            "value": "2019"
+          }
+        },
+        "19368773-bee9-4d3b-96b6-dcc2a8aa7bae": {
+          "type": "statistic",
+          "settings": {
+            "title": "Factory Location",
+            "value": "China"
+          }
+        },
+        "5152e20a-e221-43c5-bbae-ce5c190a7fb9": {
+          "type": "statistic",
+          "settings": {
+            "title": "Ownership",
+            "value": "Private"
+          }
+        },
+        "be06bee5-820e-408e-bfb9-6b8cce2d866e": {
+          "type": "statistic",
+          "settings": {
+            "title": "Employees",
+            "value": "86"
+          }
+        },
+        "93c23981-ea55-4824-ba92-2b69f77116e5": {
+          "type": "statistic",
+          "settings": {
+            "title": "Last Audited",
+            "value": "SMETA V 6.1 29\/04\/20, AMORFI 19\/11\/20"
+          }
+        }
+      },
+      "block_order": [
+        "6a421888-97f3-42e3-9b31-318877163e49",
+        "19368773-bee9-4d3b-96b6-dcc2a8aa7bae",
+        "5152e20a-e221-43c5-bbae-ce5c190a7fb9",
+        "be06bee5-820e-408e-bfb9-6b8cce2d866e",
+        "93c23981-ea55-4824-ba92-2b69f77116e5"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "164130416379beed8a"
+  ]
+}

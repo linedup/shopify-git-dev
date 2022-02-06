@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Arktis",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "Arktis was launched by a former Royal Marine back in the 1980s, and has worked to those values ever since. But military types aren’t the only ones with a taste for functional quality. Back in 2003, when Finisterre founder Tom Kay was working on his first fleece, and looking at a utilitarian product maker who could produce something durable and long-lasting, he enlisted Arktis to produce a prototype. The company was right there at the birth of the brand we know today.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1638962053c812c148": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f5902a35-64bb-41ca-9fe7-47460372ea14": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/smoothlink-featured-image-1_7198d293-e4e1-4028-9a76-d6464f3dc3e3.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/smoothlink-featured-image-2_99811304-519f-4f82-ad6c-9bb2115ad12a.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f5902a35-64bb-41ca-9fe7-47460372ea14"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16389812640ae19590": {
+      "type": "body-text",
+      "blocks": {
+        "3c82bbac-bd2a-4108-b55b-7ef68ddb7938": {
+          "type": "body",
+          "settings": {
+            "body": "<p>In 2014 it launched ArkAir, a military-inspired streetwear brand. ArkAir fine-tunes the Arktis functionality, offering brighter prints, slimmer fits and more comfortable fabrics for the fashion-conscious. Finisterre and Arkair joined forces to create a unique collaboration in 2018.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3c82bbac-bd2a-4108-b55b-7ef68ddb7938"
+      ],
+      "settings": {
+      }
+    },
+    "1638897297c195054c": {
+      "type": "factory-statistics",
+      "blocks": {
+        "e8efb7c3-a037-421b-b31f-a10620b7b44a": {
+          "type": "statistic",
+          "settings": {
+            "title": "Supplier Since",
+            "value": "2018"
+          }
+        },
+        "97bf8892-7344-4e68-b573-db25d20116a5": {
+          "type": "statistic",
+          "settings": {
+            "title": "Location",
+            "value": "UK"
+          }
+        },
+        "06e4bd9c-2592-485c-b2b5-86ee7b9aa9a2": {
+          "type": "statistic",
+          "settings": {
+            "title": "Produces",
+            "value": "ArkAir Collab"
+          }
+        },
+        "8701ef91-c88c-4411-a0c2-9fbbdc003b7f": {
+          "type": "statistic",
+          "settings": {
+            "title": "Employees",
+            "value": "30"
+          }
+        }
+      },
+      "block_order": [
+        "e8efb7c3-a037-421b-b31f-a10620b7b44a",
+        "97bf8892-7344-4e68-b573-db25d20116a5",
+        "06e4bd9c-2592-485c-b2b5-86ee7b9aa9a2",
+        "8701ef91-c88c-4411-a0c2-9fbbdc003b7f"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1638962053c812c148",
+    "16389812640ae19590",
+    "1638897297c195054c"
+  ]
+}

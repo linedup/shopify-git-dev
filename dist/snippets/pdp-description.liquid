@@ -1,0 +1,77 @@
+    <div class="md:order-1 col-span-4 md:col-span-6 lg:col-span-5 md:pr-4 lg:pr-10">
+      <p class="mb-4 md:mb-8">Description</p>
+      <div class="h3 mb-8">{{ product.description }}</div>
+      {% if is_gift_voucher != true %}
+        <reveal-content>
+          <div data-reveal>
+            <div class="flex">
+              <div data-reveal-trigger class="flex items-center mb-8 leading-tight cursor-pointer"><span class="link self-start">Key features</span><img class="ml-2 arrow" src="{{ 'dropdown-link.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Show more"></div>
+            </div>
+            <div data-reveal-content class="mb-8 hidden">
+              {% if product.metafields.feature.title_1 != blank %}
+                <div class="mb-4">
+                  <ul class="list-disc pl-4"><li>{{ product.metafields.feature.title_1 }}</li></ul>
+                  <p>{{ product.metafields.feature.text_1 }}</p>
+                </div>
+              {% endif %}
+              {% if product.metafields.feature.title_2 != blank %}
+                <div class="mb-4">
+                  <ul class="list-disc pl-4"><li>{{ product.metafields.feature.title_2 }}</li></ul>
+                  <p>{{ product.metafields.feature.text_2 }}</p>
+                </div>
+              {% endif %}
+              {% if product.metafields.feature.title_3 != blank %}
+                <div class="mb-4">
+                  <ul class="list-disc pl-4"><li>{{ product.metafields.feature.title_3 }}</li></ul>
+                  <p>{{ product.metafields.feature.text_3 }}</p>
+                </div>
+              {% endif %}
+              {% if product.metafields.feature.title_4 != blank %}
+                <div class="mb-4">
+                  <ul class="list-disc pl-4"><li>{{ product.metafields.feature.title_4 }}</li></ul>
+                  <p>{{ product.metafields.feature.text_4 }}</p>
+                </div>
+              {% endif %}
+              {% if product.metafields.feature.title_1 == blank %}
+                {% for block in section.blocks %}
+                  {% if block.type == 'key_features' %}
+                    <div class="mb-4">
+                      <ul class="list-disc pl-4"><li>{{ block.settings.title }}</li></ul>
+                      <p>{{  block.settings.body }}</p>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </reveal-content>
+        <reveal-content>
+          <div data-reveal>
+            <div class="flex">
+              <div data-reveal-trigger class="flex items-center mb-8 leading-tight cursor-pointer"><span class="link self-start">Delivery &amp; Returns</span><img class="ml-2 arrow" src="{{ 'dropdown-link.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Show more"></div>
+            </div>
+            <div data-reveal-content class="mb-8 hidden">
+              {% if product.metafields.delivery_returns.text != blank %}
+                {{ product.metafields.delivery_returns.text }}  
+              {% else %}
+                {{ section_delivery }}
+              {% endif %}
+            </div>
+          </div>
+        </reveal-content>
+      {% endif %}
+      <reveal-content>
+        <div data-reveal>
+          <div class="flex">
+            <div data-reveal-trigger class="flex items-center mb-8 leading-tight cursor-pointer"><span class="link self-start">Specifications</span><img class="ml-2 arrow" src="{{ 'dropdown-link.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Show more"></div>
+          </div>
+          <div data-reveal-content class="mb-8 hidden">
+            {% if product.metafields.specifications.text != blank %}
+              {{ product.metafields.specifications.text }}  
+            {% else %}
+              {{ section_specifications }}
+            {% endif %}
+          </div>
+        </div>
+      </reveal-content>
+    </div>

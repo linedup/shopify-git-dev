@@ -1,0 +1,143 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "store-address": {
+      "type": "store-information",
+      "settings": {
+        "note": "We are excited to welcome our community back and look forward to seeing you.",
+        "address": "<p>Wheal Kitty Workshops<br\/>St Agnes<br\/>Cornwall<br\/>TR5 0RD<br\/>UK<\/p>",
+        "map": "https:\/\/www.google.co.uk\/maps\/place\/Finisterre\/@50.3177537,-5.1981559,15z\/data=!4m5!3m4!1s0x0:0xa08995e898b03ff9!8m2!3d50.3177537!4d-5.1981559",
+        "monday_opening": "10.00 - 17.00",
+        "tuesday_opening": "10.00 - 17.00",
+        "wednesday_opening": "10.00 - 17.00",
+        "thursday_opening": "10.00 - 17.00",
+        "friday_opening": "10.00 - 17.00",
+        "saturday_opening": "10.00 - 17.00",
+        "sunday_opening": "11.00 - 16.00",
+        "email": "stagnes@finisterre.com",
+        "telephone": "01872 554 820"
+      }
+    },
+    "image": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/stagnes-store-banner-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/stagnes-store-banner-mobile.jpg",
+        "alt": "St Annes Store",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16359381322fff5888": {
+      "type": "carousel-editorial-b",
+      "blocks": {
+        "c602b274-6099-4a60-ad52-908d4ce63d4c": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "St Agnes Microadventures",
+            "image": "shopify:\/\/shop_images\/store-microadventure-stagnes.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/st-agnes-microadventures"
+          }
+        },
+        "b799399b-0b03-47a7-b70c-721db81a9df7": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "Falmouth Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-falmouth.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/falmouth-microadventures"
+          }
+        },
+        "60ff69e0-83d4-4d1f-8fdc-6e0ddf2fc1da": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "Bristol Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-bristol.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/bristol-microadventures"
+          }
+        },
+        "9715d800-9a9a-4b81-80e8-9ada0772a498": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "Exeter Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-exeter.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/exeter-microadventures"
+          }
+        },
+        "79d60c11-c761-4b2e-8323-4e42f8597d13": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "Bath Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-bath.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/bath-microadventures"
+          }
+        },
+        "328bbe5c-9441-425f-bccb-704c69404a5a": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "North Cornwall Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-hawksfield.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/north-cornwall-microadventures"
+          }
+        },
+        "9f1cef76-cd48-4e63-8611-15ff28be15c5": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "Edinburgh Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-edinburgh.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/edinburgh-microadventures"
+          }
+        },
+        "9a96d43d-0719-4e5f-ab31-d0ba46847a33": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "London Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-london.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/london-microadventures"
+          }
+        },
+        "dc4d670f-5d31-4a8e-ac9a-f2ef0929e06a": {
+          "type": "custom",
+          "settings": {
+            "overline": "Microadventure",
+            "title": "Brighton Microadventure",
+            "image": "shopify:\/\/shop_images\/store-microadventure-brighton.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/brighton-microadventures"
+          }
+        }
+      },
+      "block_order": [
+        "c602b274-6099-4a60-ad52-908d4ce63d4c",
+        "b799399b-0b03-47a7-b70c-721db81a9df7",
+        "60ff69e0-83d4-4d1f-8fdc-6e0ddf2fc1da",
+        "9715d800-9a9a-4b81-80e8-9ada0772a498",
+        "79d60c11-c761-4b2e-8323-4e42f8597d13",
+        "328bbe5c-9441-425f-bccb-704c69404a5a",
+        "9f1cef76-cd48-4e63-8611-15ff28be15c5",
+        "9a96d43d-0719-4e5f-ab31-d0ba46847a33",
+        "dc4d670f-5d31-4a8e-ac9a-f2ef0929e06a"
+      ],
+      "settings": {
+        "title": "Micro stories"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "store-address",
+    "image",
+    "16359381322fff5888"
+  ]
+}

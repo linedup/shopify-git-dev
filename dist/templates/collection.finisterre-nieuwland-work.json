@@ -1,0 +1,149 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "a1cccb4b-70ba-4e90-a04f-5a46ada561b9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cccb4b-70ba-4e90-a04f-5a46ada561b9"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_hero_surf_desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_hero_surf_mobile.jpg",
+        "alt": "Mike Lay Surfing",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "163792164525c524ea": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Nieuwland Works",
+        "subtitle": "All-New Yulux® Wetsuits - a clean alternative to traditional neoprene.",
+        "title_1": "",
+        "body_content_1": "Driven by a desire to protect our ocean playground, we're proud to say that all our wetsuits are now made with Yulex® Natural Rubber.\n<br><br>\nFrom winter wetsuits designed for hardy British surfers to cold water swimwear, the whole range is designed to enable your connection to the sea with less impact on the environment. Introducing the most sustainable wetsuits we've ever made...",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1637919271bcdb2e7e": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Men's Wetsuits",
+        "products_collection": "mens-wetsuits-swimwear"
+      }
+    },
+    "16407810554409bf04": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Women's Wetsuits",
+        "products_collection": "womens-swimwear"
+      }
+    },
+    "1641486795893a4564": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_surf_desktop_563579e8-0a6d-4160-b121-783ed7195e99.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_surf_mobile_95f1492e-3a3c-499b-9a1a-840b78acab30.jpg",
+        "video_url": "https:\/\/youtu.be\/a7ON0BJr_jU",
+        "caption": ""
+      }
+    },
+    "163948494204a196b6": {
+      "type": "large-single-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_know_neoprene.jpg",
+        "title": "Yulex® Natural Rubber",
+        "body": "Traditional neoprene production comes with a huge environmental and human cost. By comparison, the FSC certified natural rubber in our Yulex® wetsuits reduces overall CO₂ emissions by up to 80% and requires 10x less water in production.",
+        "button_type": "one",
+        "button_text": "Discover Know Neoprene",
+        "button_url": "shopify:\/\/pages\/know-neoprene"
+      }
+    },
+    "16379197524a0d7855": {
+      "type": "large-statement",
+      "settings": {
+        "title": "<p><em>The Broadcast<\/em><\/p>"
+      }
+    },
+    "164078135713d9224f": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_closing_circle_ee4b0347-bc7d-482f-9636-1cfb641edf06.jpg",
+        "caption": "",
+        "overline": "Closing the Circle",
+        "body": "Growing up in front of two of South Africa's most infamous big waves breeds a special kind of surfer. From charging his beloved Dungeons, to becoming a teacher and mentor to the next generation, Dougal Paterson tells his story of closing the circle.",
+        "button_text": "Watch The Full Film",
+        "button_link": "shopify:\/\/blogs\/broadcast\/closing-the-circle"
+      }
+    },
+    "164078145909d9536b": {
+      "type": "large-feature-b",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_swim_desk.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Nieuwland_Campaign_Page_swim_mobile.jpg"
+      }
+    },
+    "16394840312c0b0d35": {
+      "type": "large-statement",
+      "settings": {
+        "title": "<p>Cold Water Swimming Kit<\/p>"
+      }
+    },
+    "1639484056dadaef08": {
+      "type": "body-text",
+      "blocks": {
+        "4caba8c2-eddd-496e-8da0-92d1c449fd3e": {
+          "type": "title",
+          "settings": {
+            "title": "From our Yulex® 2mm wetsuits, providing extra core warmth and coverage for those cold water swims, to warm winter changing robes and waterproof bags made with 100% recycled materials - we've got everything you need for winter swimming adventures."
+          }
+        }
+      },
+      "block_order": [
+        "4caba8c2-eddd-496e-8da0-92d1c449fd3e"
+      ],
+      "settings": {
+      }
+    },
+    "164078193580704149": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "",
+        "products_collection": "changing-robes"
+      }
+    },
+    "1639135598202ee65c": {
+      "type": "scrolling-banner",
+      "settings": {
+        "banner_text": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "163792164525c524ea",
+    "1637919271bcdb2e7e",
+    "16407810554409bf04",
+    "1641486795893a4564",
+    "163948494204a196b6",
+    "16379197524a0d7855",
+    "164078135713d9224f",
+    "164078145909d9536b",
+    "16394840312c0b0d35",
+    "1639484056dadaef08",
+    "164078193580704149",
+    "1639135598202ee65c"
+  ]
+}

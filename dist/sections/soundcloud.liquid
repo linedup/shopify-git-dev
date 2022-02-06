@@ -1,0 +1,63 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin mb-4 lg:mb-6">
+    <div class="col-span-4 md:col-span-8 lg:col-span-6">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+  </div>
+
+  {% if section.blocks %}
+    {% for block in section.blocks %}      
+      {% if block.type == 'podcast_block' %}
+
+        <div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+          <div class="grid-container page-margin">
+            <div class="col-span-4 md:col-span-6">
+              <div class="mb-4">{{ block.settings.soundcloud }}</div>
+              <p class="mb-0">{{ block.settings.caption_1 }}</p>
+            </div>
+          </div>
+        </div>
+
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+</div>
+
+
+{% schema %}
+{
+  "name": "Soundcloud Feature",
+  "max_blocks": 1,
+  "settings": [
+    { 
+      "type": "text",
+      "id": "title",
+      "label": "Section title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "podcast_block",
+      "name": "Podcast block",
+      "settings": [
+        { 
+          "type": "html",
+          "id": "soundcloud",
+          "label": "Soundcloud iFrame HTML embed code"
+        },   
+        { 
+          "type": "text",
+          "id": "caption_1",
+          "label": "Caption"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Soundcloud Feature"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "J. Alex Swift Ltd",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "164130576807d51b45": {
+      "type": "factory-statistics",
+      "blocks": {
+        "d427093e-e242-4f00-b1d1-904c0c65e9c2": {
+          "type": "statistic",
+          "settings": {
+            "title": "Supplier Since",
+            "value": "2013"
+          }
+        },
+        "4a4d49f1-812a-4f0a-b6da-2ccdc16bff65": {
+          "type": "statistic",
+          "settings": {
+            "title": "Factory Location",
+            "value": "UK"
+          }
+        },
+        "dbf0c524-0b82-4e0d-a082-1d4eeed28c41": {
+          "type": "statistic",
+          "settings": {
+            "title": "Ownership",
+            "value": "Private"
+          }
+        },
+        "a067e444-a5ea-4fe8-b871-ad2c39122a96": {
+          "type": "statistic",
+          "settings": {
+            "title": "Produces",
+            "value": "Socks"
+          }
+        },
+        "9d3e0301-2223-438d-9028-54d766e0c525": {
+          "type": "statistic",
+          "settings": {
+            "title": "Employees",
+            "value": "21"
+          }
+        }
+      },
+      "block_order": [
+        "d427093e-e242-4f00-b1d1-904c0c65e9c2",
+        "4a4d49f1-812a-4f0a-b6da-2ccdc16bff65",
+        "dbf0c524-0b82-4e0d-a082-1d4eeed28c41",
+        "a067e444-a5ea-4fe8-b871-ad2c39122a96",
+        "9d3e0301-2223-438d-9028-54d766e0c525"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "164130576807d51b45"
+  ]
+}

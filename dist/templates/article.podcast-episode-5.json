@@ -1,0 +1,229 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1640166964309e98de": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Ep 5. Sam Bencheghib - Ocean to Ocean",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "For Episode 5 we’re joined by the inspiring, Sam Bencheghib",
+        "title_2": "",
+        "body_content_2": "<p>19.08.2021<\/p><p>60:05:00<\/p>",
+        "title_3": "",
+        "body_content_3": "<p><strong>Hosted by<\/strong> Lawrence Stafford<\/p><p>Sound Design by John Sampson a.k.a CJ MIRRA<\/p>"
+      }
+    },
+    "16401668335e084639": {
+      "type": "soundcloud",
+      "blocks": {
+        "3461ad20-d5fe-4674-b455-1706193dc3bc": {
+          "type": "podcast_block",
+          "settings": {
+            "soundcloud": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https:\/\/w.soundcloud.com\/player\/?url=https%3A\/\/api.soundcloud.com\/tracks\/1108810615&amp;color=%23262425&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"><\/iframe>",
+            "caption_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "3461ad20-d5fe-4674-b455-1706193dc3bc"
+      ],
+      "settings": {
+        "title": "Listen now"
+      }
+    },
+    "1640166969d4aa7c59": {
+      "type": "body-text",
+      "blocks": {
+        "a518fc2c-d6dc-4b24-acd4-b825c44d3b8d": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Sam is an Environmentalist, a lifelong ocean campaigner, a filmmaker and I guess you would also now call, Athlete having just last year completed his 3,055 mile (5,000km) run across America - crossing mountains, deserts, and cities to raise awareness of marine pollution.<\/p><p>Sam is co-founder of Make A Change World - an environmental media outlet that uncovers uplifting and inspirational stories on a mission to do good. Who along with his siblings, have been at the forefront of the environmental battle for over 10 years.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a518fc2c-d6dc-4b24-acd4-b825c44d3b8d"
+      ],
+      "settings": {
+      }
+    },
+    "1640167870a8079463": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "b63ee091-ba1c-4340-b63c-323865aa9398": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/sam-bencheghib-podcast-ocean-to-ocean.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/sam-bencheghib-podcast-running-desert.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "b63ee091-ba1c-4340-b63c-323865aa9398"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "164016838283d3a059": {
+      "type": "body-text",
+      "blocks": {
+        "38b8610f-4d84-4fbd-8d59-b6ed1d41aba6": {
+          "type": "title",
+          "settings": {
+            "title": "Sam was also a speaker at our Sea7 Ocean Activist Camp..."
+          }
+        },
+        "08eb3a8d-3b3c-4595-9027-26c6e22e3eab": {
+          "type": "body",
+          "settings": {
+            "body": "<p>...again if you have not yet tuned in - all the content from inspiring people like Sam as to how you can start your ocean activist journey is free and available to watch On Demand over at <a href=\"https:\/\/Sea7.finisterre.com\" target=\"_blank\" title=\"https:\/\/Sea7.finisterre.com\">Sea7.finisterre.com<\/a><\/p><p>As I mentioned, I caught up with Sam as he finds himself back on the ground on his home island of Bali and in the thick of his most recent enterprise, Sungai Watch - a marine waste cleanup organization who’s mission is to protect our waterways using innovative design and community initiatives.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "38b8610f-4d84-4fbd-8d59-b6ed1d41aba6",
+        "08eb3a8d-3b3c-4595-9027-26c6e22e3eab"
+      ],
+      "settings": {
+      }
+    },
+    "1640168791232a5c96": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p><em>We have to come up with crazy ideas to get people to take action, or to even get people to turn their heads or listen to us. Utilise the tools available at your fingertips to reach more people and raise more awareness<\/em><\/p>",
+        "credit": ""
+      }
+    },
+    "16401690943b9d867f": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f806b966-3a5e-4a1d-b0c1-2aba538bb3bd": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/sam-bencheghib-podcast-at-finish-line.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/sam-bencheghib-podcast-snow-mountains.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f806b966-3a5e-4a1d-b0c1-2aba538bb3bd"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16401691032cd94505": {
+      "type": "body-text",
+      "blocks": {
+        "ecf0a1f4-6fcb-460d-9138-3ec423c67267": {
+          "type": "title",
+          "settings": {
+            "title": "Show Notes"
+          }
+        },
+        "767484f9-8434-43ee-b008-5247c09d70d1": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Bali, Indonesia<\/p><p>Canguu<\/p><p>Seminyak<\/p><p>Jakarta<\/p><p>New York<\/p><p>Make A Change Bali<\/p><p><a href=\"https:\/\/makeachange.world\/\">Make A Change World<\/a><\/p><p>Video Storytelling<\/p><p>Stopping plastic pollution at source<\/p><p><a href=\"https:\/\/makeachange.world\/sungaiwatch\">Sungai Watch<\/a><\/p><p>Ayung River, Bali<\/p><p>100 barriers in 100 rivers<\/p><p><a href=\"https:\/\/www.parley.tv\/\">Parley For The Oceans<\/a><\/p><p>Adidas – Run For The Oceans<\/p><p>Restoring Indonesia’s waterways<\/p><p>Community empowerment<\/p><p>Department of Maritime Affairs, Indonesia<\/p><p>Citarum River, JavaSurfers Against Sewage<\/p><p>Paddle down the most polluted river in the world on plastic bottle canoe<\/p><p>‘Plastic bergs’ and Hazmat suits<\/p><p>Social media as a tool for activism<\/p><p>Speaking with the Minister of Environment for Indonesia<\/p><p>Emergency plan to clean up the Citarum<\/p><p>Meeting the President of Indonesia<\/p><p>Ocean 2 Ocean run – New York – LA5,000km in 6 months<\/p><p>The power of the individual<\/p><p>Incremental goals and changing habits one step at a timeInspiring the activist in everyone<\/p><p>Positivity always<\/p><p><a href=\"https:\/\/sea7.finisterre.com\/\">Sea7<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ecf0a1f4-6fcb-460d-9138-3ec423c67267",
+        "767484f9-8434-43ee-b008-5247c09d70d1"
+      ],
+      "settings": {
+      }
+    },
+    "1640169432cf161c10": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "b3975fc2-0db1-4afb-97c9-94ea9c69c810": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/sam-bencheghib-podcast-standing-on-bridge.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/sam-bencheghib-podcast-presenting.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "b3975fc2-0db1-4afb-97c9-94ea9c69c810"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1640171237d9df934a": {
+      "type": "body-text",
+      "blocks": {
+        "cb76d749-09ce-4190-b44d-9cd72afa49ed": {
+          "type": "title",
+          "settings": {
+            "title": "Mentions"
+          }
+        },
+        "6a4945d2-1dfc-4ade-b8eb-96eba95eca91": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Gary Bencheghib<\/p><p>Kelly Bencheghib<\/p><p>Mike Horn<\/p><p>Noah Lane – Foam Bundoran<\/p><p>Cyrill Gutsch<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "cb76d749-09ce-4190-b44d-9cd72afa49ed",
+        "6a4945d2-1dfc-4ade-b8eb-96eba95eca91"
+      ],
+      "settings": {
+      }
+    },
+    "16401842243d03b57c": {
+      "type": "body-text",
+      "blocks": {
+        "46971ab9-e99f-4617-9044-2fb46801677b": {
+          "type": "title",
+          "settings": {
+            "title": "Connect"
+          }
+        },
+        "97a2dfa6-c3d1-4222-9ca0-2f54c734caad": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Instagram: <a href=\"https:\/\/www.instagram.com\/sambencheghib\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/sambencheghib\/\">@sambencheghib<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "46971ab9-e99f-4617-9044-2fb46801677b",
+        "97a2dfa6-c3d1-4222-9ca0-2f54c734caad"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1640166964309e98de",
+    "16401668335e084639",
+    "1640166969d4aa7c59",
+    "1640167870a8079463",
+    "164016838283d3a059",
+    "1640168791232a5c96",
+    "16401690943b9d867f",
+    "16401691032cd94505",
+    "1640169432cf161c10",
+    "1640171237d9df934a",
+    "16401842243d03b57c"
+  ]
+}

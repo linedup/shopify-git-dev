@@ -1,0 +1,64 @@
+{% assign meta_data = product.metafields.pdp %}
+
+<variant-radios data-product-id="{{ product.id }}" data-url="{{ product.url }}">
+  {% assign selected_size = '' %}
+  {% assign is_any_size_available = false %}
+  {%- for option in product.options_with_values -%}
+    {%- assign option_name = option.name | downcase -%}
+    <fieldset class="product-form__input">
+      {%- if option_name contains 'size' or option_name contains 'denominations' -%}
+        <div class="{% if meta_data.size_width_length == 'true' %}boxes-2{% else %}boxes{% endif %} mb-2 md:mb-4">
+      {% else %}
+        <div class="hidden">
+      {%- endif -%}
+          <div class="hidden">{{ option.name }}</div>
+          {%- for value in option.values -%}
+            {%- liquid
+            assign inventory = product.variants[forloop.index0].inventory_quantity | minus: oosLimit
+            if inventory > 0
+              assign product_available = true
+              assign is_any_size_available = true
+            else
+              assign product_available = false
+            endif
+            -%}
+            {%- if option_name contains 'size' -%}
+              {% if option.selected_value == value and product.selected_variant %}
+                {% assign selected_size = option.selected_value %}
+              {%- endif -%}
+              {% comment %} Only set to checked if product.selected_variant has been set - do not assume {% endcomment %}
+              <input type="radio" id="{{ product.id }}-{{ option.name }}-{{ forloop.index0 }}"
+                  name="{{ option.name }}"
+                  value="{{ value | escape }}"
+                  form="product-form-{{ product.id }}"
+                  {% if option.selected_value == value and product.selected_variant %}checked{% endif %}
+                  class="hidden">
+            {% else %}
+              <input type="radio" id="{{ product.id }}-{{ option.name }}-{{ forloop.index0 }}"
+                  name="{{ option.name }}"
+                  value="{{ value | escape }}"
+                  form="product-form-{{ product.id }}"
+                  {% if option.selected_value == value %}checked{% endif %}
+                  class="hidden">
+            {%- endif -%}
+            {%- if product_available == true or option_name == 'denominations' -%}
+              <label class="box" for="{{ product.id }}-{{ option.name }}-{{ forloop.index0 }}">
+                {{ value }}
+              </label>
+            {%- else -%}
+              <label class="box" for="{{ product.id }}-{{ option.name }}-{{ forloop.index0 }}">
+                <span class="line-through opacity-50">{{ value }}</span>
+              </label>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+    </fieldset>
+  {%- endfor -%}
+  <script type="application/json">
+    {{ product.variants | json }}
+  </script>
+</variant-radios>
+
+{%- if is_gift_voucher != true -%}
+<p data-selected-size>{%- if selected_size == '' and is_any_size_available != false -%}Select size:&nbsp;&nbsp;{%- elsif product.selected_variant.available == true -%}Selected size:&nbsp;&nbsp;{{ selected_size }}{%- else -%}Out of stock{%- endif -%}</p>
+{%- endif -%}

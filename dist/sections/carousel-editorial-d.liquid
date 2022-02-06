@@ -1,0 +1,111 @@
+{% assign metaData = product.metafields.guide %}
+
+{% if metaData.guide_1_title != blank %}
+
+  <div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18"> 
+    <div class="grid-container page-margin">
+      <div class="col-span-4 md:col-span-8">
+        <h2 class="mb-3 md:mb-7">{{ section.settings.title }}</h2>
+      </div>
+    </div>
+
+    <div class="grid-container page-margin-slider">
+
+      <div class="col-span-4 md:col-span-12 mb-5">
+        <div class="glide glide-regularThree">
+          <div class="glide__track" data-glide-el="track">
+
+            <ul class="glide__slides">
+    
+              {% if metaData.guide_1_title != blank %}
+                <li class="glide__slide">
+                  <modal-content-trigger data-modal-id="modal-1" data-content-url="{{ metaData.guide_1_link }}">
+                    <div data-trigger>         
+                      {% for image in metaData.guide_1_image limit:1 %}
+                        <img class="mb-4 cursor-pointer" src="{{ image.src }}" height="{{ image.width }}" width="{{ image.height }}" loading="lazy" alt="{{ metaData.guide_1_title }}">
+                      {% endfor %}
+                    </div>
+                    <div class="mb-4">
+                      <h3 class="mb-4 broadcast-h3-min-height-ellipsis pr-4 xl:pr-8">{{ metaData.guide_1_title }}</h3>
+                      <span data-trigger class="link cursor-pointer">Learn more</span>
+                    </div>
+                  </modal-content-trigger>
+                </li>
+              {% endif %}
+
+              {% if metaData.guide_2_title != blank %}
+                <li class="glide__slide">
+                  <modal-content-trigger data-modal-id="modal-1" data-content-url="{{ metaData.guide_2_link }}">
+                    <div data-trigger>         
+                      {% for image in metaData.guide_2_image limit:1 %}
+                        <img class="mb-4 cursor-pointer" src="{{ image.src }}" height="{{ image.width }}" width="{{ image.height }}" loading="lazy" alt="{{ metaData.guide_2_title }}">
+                      {% endfor %}
+                    </div>
+                    <div class="mb-4">
+                      <h3 class="mb-4 broadcast-h3-min-height-ellipsis pr-4 xl:pr-8">{{ metaData.guide_2_title }}</h3>
+                      <span data-trigger class="link cursor-pointer">Learn more</span>
+                    </div>
+                  </modal-content-trigger>
+                </li>
+              {% endif %}
+
+              {% if metaData.guide_3_title != blank %}
+                <li class="glide__slide">
+                  <modal-content-trigger data-modal-id="modal-1" data-content-url="{{ metaData.guide_3_link }}">
+                    <div data-trigger>         
+                      {% for image in metaData.guide_3_image limit:1 %}
+                        <img class="mb-4 cursor-pointer" src="{{ image.src }}" height="{{ image.width }}" width="{{ image.height }}" loading="lazy" alt="{{ metaData.guide_3_title }}">
+                      {% endfor %}
+                    </div>
+                    <div class="mb-4">
+                      <h3 class="mb-4 broadcast-h3-min-height-ellipsis pr-4 xl:pr-8">{{ metaData.guide_3_title }}</h3>
+                      <span data-trigger class="link cursor-pointer">Learn more</span>
+                    </div>
+                  </modal-content-trigger>
+                </li>
+              {% endif %}
+
+              {% if metaData.guide_4_title != blank %}
+                <li class="glide__slide">
+                  <modal-content-trigger data-modal-id="modal-1" data-content-url="{{ metaData.guide_4_link }}">
+                    <div data-trigger>         
+                      {% for image in metaData.guide_4_image limit:1 %}
+                        <img class="mb-4 cursor-pointer" src="{{ image.src }}" height="{{ image.width }}" width="{{ image.height }}" loading="lazy" alt="{{ metaData.guide_4_title }}">
+                      {% endfor %}
+                    </div>
+                    <div class="mb-4">
+                      <h3 class="mb-4 broadcast-h3-min-height-ellipsis pr-4 xl:pr-8">{{ metaData.guide_4_title }}</h3>
+                      <span data-trigger class="link cursor-pointer">Learn more</span>
+                    </div>
+                  </modal-content-trigger>
+                </li>
+              {% endif %}
+
+            </ul>
+
+          </div>
+          <div data-glide-el="controls">
+            <button class="hidden md:flex absolute carousel-arrow-bottom-75 right-0 items-center justify-center bg-sand z-10 h-14 lg:h-18 px-5 lg:px-10 w-max" data-glide-dir=">"><img src="{{ 'carousel-arrow.svg' | asset_url }}" loading="lazy" height="20" width="20" alt="arrow"></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+{% endif %}
+
+{% schema %}
+{
+  "name": "Carousel D (PDP)",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Guides"
+    }
+  ]
+}
+{% endschema %}

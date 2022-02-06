@@ -1,0 +1,66 @@
+{% assign page_title = page.title %}
+{% assign page_content = page.content %}
+
+{% if template.name == 'article' %}
+  {% assign page_title = article.title %}
+  {% assign page_content = article.content %}
+{% endif %}
+
+{% comment %} Strip out any <p> tags as this is used in an <h3> tag. Also use the newline_to_br filter {% endcomment %}
+{% assign page_content = page_content | replace: '<p>', '' | replace: '</p>', '<br>' | replace: '<meta charset="utf-8">', '' | newline_to_br %}
+
+
+  <div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+    <div class="grid-container page-margin">
+      <div class="col-span-4 md:col-span-6 lg:col-span-5 md:mb-0 rte">
+        {% if section.settings.copy == blank %}
+          <h2 class="h3">{{ page_content }}</h2>
+        {% else %}
+          <h3>{{ section.settings.copy }}</h3>
+        {% endif %}
+      </div>
+        <div class="col-span-4 md:col-span-5 md:col-start-8 lg:col-start-9 lg:col-span-4 rte flex flex-col">
+          {% for block in section.blocks %}
+            <a class="no-underline" href="#{{ block.settings.anchor_id }}">{{ block.settings.anchor_text }}</a>
+          {% endfor %}
+        </div>
+    </div>
+  </div>
+
+{% schema %}
+{
+  "name": "Guides - Main Titles",
+  "settings": [
+    { 
+      "type": "textarea",
+      "id": "copy",
+      "label": "Intro copy",
+      "info": "If left blank, this block will pull in contect from the WYSIWYG content."
+    }
+  ],
+"blocks": [
+  {
+    "type": "text",
+    "name": "Anchor Links",
+    "settings": [
+      { 
+        "type": "text",
+        "id": "anchor_text",
+        "label": "Anchor title"
+      },
+      { 
+        "type": "text",
+        "id": "anchor_id",
+        "label": "Anchor ID",
+        "info": "This must be the same as the ID for the Hero block further down the page in order to work. These must be joined with dashes for example: anchor-1 or waterproofing-section"
+      }
+    ]
+  }
+],
+  "presets": [
+    {
+      "name": "Guides - Main Titles"
+    }
+  ]
+}
+{% endschema %}

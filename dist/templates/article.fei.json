@@ -1,0 +1,137 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Finisterre Engineered Insulation",
+        "subtitle": "All the ups without the down...",
+        "title_1": "",
+        "body_content_1": "Since our founding, we’ve been committed to making down-free insulated jackets, using only synthetic fills. Dealing with down can be difficult, with live plucking common and sourcing chains hard to verify. Synthetic fills also perform better in a variety of conditions, retaining 75% of their warmth when wet compared to only 15% with down insulation. This ensures you're prepared to face anything the coastal climate can throw at you.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1639656515495148a7": {
+      "type": "large-feature-b",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/fei-large-image.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/fei-mobile-hero.jpg"
+      }
+    },
+    "16390492346014eb34": {
+      "type": "body-text",
+      "blocks": {
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5": {
+          "type": "body",
+          "settings": {
+            "body": "<p>In 2017, after nearly a decade of research and development, we introduced Finisterre Engineered Insulation (FEI); our own synthetic insulated fill that had a higher recycled content than anything that was available on the market. But we didn't stop there. Our new A-form insulation is now made from 100% recycled polyester; offering the same high-loft as down, but with increased performance in wet conditions and less impact on the planet.<\/p><p>The perfect blend of warmth, performance and sustainability.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5"
+      ],
+      "settings": {
+      }
+    },
+    "1638962053c812c148": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f5902a35-64bb-41ca-9fe7-47460372ea14": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/fei-1.jpg",
+            "caption_1": "FEI A-form",
+            "image_2": "shopify:\/\/shop_images\/fei-2.jpg",
+            "caption_2": "FEI S-form (Only in our Borealis and Solus Jackets)"
+          }
+        }
+      },
+      "block_order": [
+        "f5902a35-64bb-41ca-9fe7-47460372ea14"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1639049743689f2e20": {
+      "type": "body-text",
+      "blocks": {
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded": {
+          "type": "title",
+          "settings": {
+            "title": "FEI A-form"
+          }
+        },
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Named after the Altocumulus cloud type - this synthetic fill replaces our C-form insulation, closely mimicking the high loft aesthetic of down but with improved performance and considerably less environmental impact.<\/p><p>- 100% recycled polyester content<\/p><p>- Superior warmth to weight ratio<\/p><p>- Retains 75% of its warmth when wet compared to down<\/p><p>- Easy care and machine washable<\/p><p>- Tumble dry to regain loft and reactivate the DWR <\/p><p>- High loft with excellent shape retention for a down-like look<\/p><p><\/p>"
+          }
+        },
+        "179f34ad-f72a-4d57-a473-77bef74ce84b": {
+          "type": "title",
+          "settings": {
+            "title": "FEI S-form (Only in our Borealis and Solus Jackets)"
+          }
+        },
+        "4481558e-839d-4a0d-9585-b1c428cc029e": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Taking its name from the Stratiform cloud type - this is a flat sheet of wadding of voluminous, thermal insulation constructed from a blend of fine & hollow fibres, which trap air, offering excellent insulating capacity even in wet conditions.<\/p><p>- 92% recycled polyester content<\/p><p>- Superior warmth to weight ratio<\/p><p>- Retains 75% of its warmth when wet compared to down<\/p><p>- Easy care and machine washable <\/p><p>- Tumble dry to regain loft and reactivate the DWR<\/p><p>- Lightweight and packable<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded",
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468",
+        "179f34ad-f72a-4d57-a473-77bef74ce84b",
+        "4481558e-839d-4a0d-9585-b1c428cc029e"
+      ],
+      "settings": {
+      }
+    },
+    "16427743294b4e461d": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Men's Insulation",
+        "products_collection": "mens-outerwear-insulated-jackets"
+      }
+    },
+    "1642774406a50f7516": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Women's Insulation",
+        "products_collection": "womens-outerwear-insulated-jackets"
+      }
+    },
+    "1639050059593196d0": {
+      "type": "body-text",
+      "blocks": {
+        "41a72de6-e776-4e6c-8b54-6835c852ef66": {
+          "type": "body",
+          "settings": {
+            "body": "<p><strong>Lightweight, breathable, and thermoregulating, Finisterre Engineered Insulation stands up to both cold and wet conditions; so wherever the adventure takes you, our insulated jackets have got you covered.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "41a72de6-e776-4e6c-8b54-6835c852ef66"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1639656515495148a7",
+    "16390492346014eb34",
+    "1638962053c812c148",
+    "1639049743689f2e20",
+    "16427743294b4e461d",
+    "1642774406a50f7516",
+    "1639050059593196d0"
+  ]
+}

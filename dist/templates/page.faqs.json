@@ -1,0 +1,388 @@
+{
+  "sections": {
+    "1641914404c468ac6c": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "faqs-section": {
+      "type": "faqs-section",
+      "blocks": {
+        "c0cb516f-3a40-4d83-8adc-90cb87fc76cc": {
+          "type": "title",
+          "settings": {
+            "title": "Returns"
+          }
+        },
+        "85a75583-bada-4762-8d1b-1c6f36391487": {
+          "type": "faq",
+          "settings": {
+            "question": "Not sure on your item and need to return it?",
+            "answer": "<p>We hope that you are happy with your purchase from us but understand if you need to return your items. We can offer a refund on items returned in an unworn condition with the tags intact within 90 days of delivery for full priced items, and within 14 days of delivery for sale or discounted items. Proof of purchase must be provided for us to process a refund. Any items received in a non-sellable condition will not be accepted.<\/p><p>Please ensure that you return the goods to us folded and in their original packaging.<\/p><p>If you have received an item from Finisterre as a gift, you may return it for an exchange or credit note only. Please state this clearly on a note when returning. <\/p>"
+          }
+        },
+        "a7ad42ce-6ae9-44d7-ad22-b4c6cd596ba5": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I Return?",
+            "answer": "<p>We offer a free returns service for customers within the UK.<\/p><p>Head over to  <a href=\"http:\/\/finisterre.com\/free-tracked-returns\" target=\"_blank\" title=\"http:\/\/finisterre.com\/free-tracked-returns\"><em><strong>http:\/\/finisterre.com\/free-tracked-returns<\/strong><\/em><\/a><em><strong> <\/strong><\/em>and follow the on-page instructions to create your shipping label. You’ll need your order number to complete this.<\/p><p>Either print your label and attach securely to your package or download it on your mobile device and take it to a Post Office that offers a label printing service. (More details can be found on the label printing page.)<\/p><p>Send your package off to our warehouse. Make sure you get a proof of postage and note down your tracking details, just in case.<\/p><p>Unfortunately we do not as yet offer a free returns service for international customers.<\/p><p>For international returns, please send your returns to the below address:<\/p><p>Finisterre Returns<\/p><p>California Drive<br\/><br\/>Castleford<\/p><p>Normanton<\/p><p>WF10 5QH<br\/><br\/>United Kingdom<\/p>"
+          }
+        },
+        "3e62660b-fbbd-4a24-ab9a-2f1cfab160aa": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I exchange my item?",
+            "answer": "<p>If you wish to exchange something in your order please re-order the new item, and return the original to us for a refund.<br\/>Or you can simply include a note requesting the new item in with your return, and our team will exchange this for you if stock allows.<\/p>"
+          }
+        },
+        "2134307e-45ee-4bf4-8075-e72ca1bf3efd": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will it take for me to get my refund\/exchange?",
+            "answer": "<p>Your return\/exchange will take up to a week to be completed. However, in busier periods it will take up to 14 days to be processed from the day it is put in the post.<\/p>"
+          }
+        },
+        "f2a8ca6d-1303-482d-990c-323c7a9a5270": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I return something which I purchased in a store via your online returns?",
+            "answer": "<p>Of course. Please send your item back to the Finisterre warehouse by following the link provided.<\/p><p><a href=\"https:\/\/www.royalmail.com\/track-my-return\/create\/1925\">https:\/\/www.royalmail.com\/track-my-return\/create\/1925<\/a><\/p><p>Please remember to include a note letting us know your address, contact number and proof of purchase. Once it is received at the warehouse, the team will notify the store and you will be refunded over the phone.<\/p>"
+          }
+        },
+        "80c3243e-0e48-4de5-bbfe-5fa3a21d3f05": {
+          "type": "faq",
+          "settings": {
+            "question": "There is a problem with my order. What should I do?",
+            "answer": "<p>Thorough checks are made before items leave us, but if you have received your order and there is a fault with any items, either email <a href=\"mailto:hello@finisterre.com\">hello@finisterre.com<\/a> or give us a call 01872554481 and we will resolve this for you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c0cb516f-3a40-4d83-8adc-90cb87fc76cc",
+        "85a75583-bada-4762-8d1b-1c6f36391487",
+        "a7ad42ce-6ae9-44d7-ad22-b4c6cd596ba5",
+        "3e62660b-fbbd-4a24-ab9a-2f1cfab160aa",
+        "2134307e-45ee-4bf4-8075-e72ca1bf3efd",
+        "f2a8ca6d-1303-482d-990c-323c7a9a5270",
+        "80c3243e-0e48-4de5-bbfe-5fa3a21d3f05"
+      ],
+      "settings": {
+      }
+    },
+    "1633698675bd0eabb0": {
+      "type": "faqs-section",
+      "blocks": {
+        "ad1811ba-5bbc-4805-80c9-a64043e7880b": {
+          "type": "title",
+          "settings": {
+            "title": "Product Care & Repairs"
+          }
+        },
+        "8202f8cb-5324-42d0-8757-7575e5fa36f6": {
+          "type": "faq",
+          "settings": {
+            "question": "If my coat needs re-proofing, how do I do this and what can I use?",
+            "answer": "<p>We recommend using a Nikwax product, should your coat need a reproof\/ or just some general TLC. Great products, all FC free. Dependent on your jacket and the fabric, you may need to wash the item according to the instruction provided by Nik-Wax.<\/p><p>You can find the Nik-Wax range <a href=\"https:\/\/finisterre.com\/collections\/repairs-lived-loved\">here<\/a><\/p><p>Alternatively, we do offer a reproofing\/wash service, for £16 at our Finisterre HQ.<\/p>"
+          }
+        },
+        "c4d0acea-6a1a-4523-951a-5da283a45f51": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I wash and care for my wool products?",
+            "answer": "<p>Caring for your wool properly is key to ensure its lengthy life span. We advise to wash all wool products on a 30-degree, gentle spin\/wool cycle. The garment should then be laid flat to dry and can be re-shaped when damp if needed. If ever in doubt, all washing instructions are on the label inside your item.<\/p>"
+          }
+        },
+        "55f582db-df12-4599-b2d1-82db39569281": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I look after my Merino items?",
+            "answer": "<p>Merino is an essential for any active Finisterre supporter but it must be treated with care. We recommend that you wash your Merino on a gentle 30°C wool cycle with a spin of no more than 600rpm. Reshape the item whilst damp and dry flat. Spinning your Merino too high can result in the garment shrinking beyond repair so look after your Merino and it will look after you!<\/p>"
+          }
+        },
+        "6a66148d-6051-4841-b7c3-0b1f7e4cdc85": {
+          "type": "faq",
+          "settings": {
+            "question": "I've damaged my favourite Finisterre jacket\/jumper\/item. What can I do?",
+            "answer": "<p>Never fear! We have our very own in house repairs here at Finisterre who are dedicated to breathing life and happiness back into your beloved Finisterre favourites. You can now book a repair online here - <a href=\"https:\/\/finisterre.com\/collections\/repairs-lived-loved\">https:\/\/finisterre.com\/collections\/repairs-lived-loved<\/a> - then simply follow the instructions and send the item to us, for our repairs team to get started on<\/p>"
+          }
+        },
+        "d08d0ccc-0bb8-4cec-9ca4-2b84608ab70c": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will my Repair take?",
+            "answer": "<p>Our team are super-efficient, but to get the best results can take time. We will do our best to get your items repaired within 4-6 weeks. This can change dependant of the time of year, so please bear this in mind.<\/p>"
+          }
+        },
+        "aa30a23b-83c2-42e0-9ccb-3a42277cff71": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I get any non-Finisterre items repaired?",
+            "answer": "<p>Unfortunately, for now we are only able to repair Finisterre Items, so our apologies for any disappointment.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ad1811ba-5bbc-4805-80c9-a64043e7880b",
+        "8202f8cb-5324-42d0-8757-7575e5fa36f6",
+        "c4d0acea-6a1a-4523-951a-5da283a45f51",
+        "55f582db-df12-4599-b2d1-82db39569281",
+        "6a66148d-6051-4841-b7c3-0b1f7e4cdc85",
+        "d08d0ccc-0bb8-4cec-9ca4-2b84608ab70c",
+        "aa30a23b-83c2-42e0-9ccb-3a42277cff71"
+      ],
+      "settings": {
+      }
+    },
+    "163369885212d9d9fa": {
+      "type": "faqs-section",
+      "blocks": {
+        "9553c072-7084-4c2e-a477-52ad80723e0d": {
+          "type": "title",
+          "settings": {
+            "title": "Packaging"
+          }
+        },
+        "b2c36834-8d37-4759-a74b-1b8b2c101b2f": {
+          "type": "faq",
+          "settings": {
+            "question": "What can I do with my packaging?",
+            "answer": "<p>You can add our paper mailing bags to your usual paper recycling. To dispose of any bags with our Leave No Trace branding, all you’ll need is a kettle and your sink. The material breaks down quickly and harmlessly in water temperatures above 70ºC. Should your bag end up in landfill, it will biodegrade naturally and Leave No Trace.<\/p><p>You can find more information on our packaging here -<\/p><p><a href=\"https:\/\/finisterre.com\/blogs\/features\/finisterre-packaging\">https:\/\/finisterre.com\/blogs\/features\/finisterre-packaging<\/a><\/p>"
+          }
+        },
+        "866ec75f-8282-4841-a67f-18fa23d17e72": {
+          "type": "faq",
+          "settings": {
+            "question": "Where was my product made? What is it made of?",
+            "answer": "<p>We are very proud of our sourcing and fabric innovation here at Finisterre and a great deal of work goes into choosing our suppliers and making sure we are happy with the quality that we can provide to you, the customer. It’s what we live for and why Finisterre started in the first place. You can find out extra information about our sourcing in here -<\/p><p><a href=\"https:\/\/finisterre.com\/pages\/sustainability\">https:\/\/finisterre.com\/pages\/sustainability<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9553c072-7084-4c2e-a477-52ad80723e0d",
+        "b2c36834-8d37-4759-a74b-1b8b2c101b2f",
+        "866ec75f-8282-4841-a67f-18fa23d17e72"
+      ],
+      "settings": {
+      }
+    },
+    "1633698920ded19458": {
+      "type": "faqs-section",
+      "blocks": {
+        "26b5868e-6ce5-45ee-a54a-f8ebdb706f60": {
+          "type": "title",
+          "settings": {
+            "title": "Orders\/Stock"
+          }
+        },
+        "7d669c92-a4a0-4a1d-a9eb-53586b003e21": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I track my order?",
+            "answer": "<p>You will be sent a shipping confirmation once your order has been dispatched from our warehouse. You can also track your order by logging into your account <a href=\"https:\/\/finisterre.com\/pages\/account-landing\" title=\"account\">here<\/a> and clicking on the order number you are waiting for. If you have any problems or the delivery is taking longer than usual, contact Customer Services on <a href=\"mailto:hello@finisterre.com\">hello@finisterre.com<\/a> and we will be able to look into it further for you.<\/p>"
+          }
+        },
+        "9ac06702-358c-4626-829f-368172795c06": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will my order take to reach me?",
+            "answer": "<p>Our standard UK delivery takes 2-3 working days to reach you from dispatch. International orders can take 7-14 working days to arrive so please make sure you place your order allowing plenty of time.<\/p><p>Please not we endeavour to dispatch your order straight away however during sale periods this could take further 2-3 working days.<\/p>"
+          }
+        },
+        "98c6303a-5cce-46ed-bf50-c1b28db66979": {
+          "type": "faq",
+          "settings": {
+            "question": "I’ve made a mistake on my order. Can I make an amendment?",
+            "answer": "<p>We understand that mistakes can happen so please check your confirmation email as soon as you have placed your order and let <a href=\"mailto:hello@finisterre.com\">hello@finisterre.com<\/a> know any changes needed as soon as you can. Our warehouse team will be busy processing your order so it might not always be possible to make amendments, but we will try our best.<\/p>"
+          }
+        },
+        "63e3140a-4841-4b21-aa0c-37a13b9dc257": {
+          "type": "faq",
+          "settings": {
+            "question": "The item I want is showing as out of stock. Do you have any left?",
+            "answer": "<p>Most of our stock is sold online, however, the item you want might well be in one of our stores. You can either email <a href=\"mailto:hello@finisterre.com\">hello@finisterre.com<\/a>  or give us a call on 01872554481 – option 1 and we’ll go on the search for you.<\/p>"
+          }
+        },
+        "5acdcfc1-3ebd-4c4c-b107-56dd91dba0d4": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have any other stockists?",
+            "answer": "<p>We currently have 9 stores throughout the country, you can find more details -<\/p><p><a href=\"https:\/\/finisterre.com\/pages\/stores\">https:\/\/finisterre.com\/pages\/stores<\/a><\/p><p>We are also currently stocked by Common Wanderer in St Ives, Cornwall, and on <a href=\"https:\/\/finisterre.com\/pages\/huckberry.com\" target=\"_blank\"> huckberry.com <\/a> in the US.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "26b5868e-6ce5-45ee-a54a-f8ebdb706f60",
+        "7d669c92-a4a0-4a1d-a9eb-53586b003e21",
+        "9ac06702-358c-4626-829f-368172795c06",
+        "98c6303a-5cce-46ed-bf50-c1b28db66979",
+        "63e3140a-4841-4b21-aa0c-37a13b9dc257",
+        "5acdcfc1-3ebd-4c4c-b107-56dd91dba0d4"
+      ],
+      "settings": {
+      }
+    },
+    "1633698994438f9f59": {
+      "type": "faqs-section",
+      "disabled": true,
+      "blocks": {
+        "3c39aae2-52a6-4950-96d4-6897aa236248": {
+          "type": "title",
+          "settings": {
+            "title": "Repairs"
+          }
+        },
+        "92dc07bc-a9ce-46c9-bd98-392d7ac41816": {
+          "type": "faq",
+          "settings": {
+            "question": "I’ve damaged my favourite Finisterre jacket\/jumper\/item. What can I do?",
+            "answer": "<p>Never fear! We have our very own in house repairs here at Finisterre who are dedicated to breathing life and happiness back into your beloved Finisterre favourites. You can now book a repair online here - <a href=\"https:\/\/finisterre.com\/collections\/repairs-lived-loved\">https:\/\/finisterre.com\/collections\/repairs-lived-loved<\/a> - then simply follow the instructions and send the item to us, for our repairs team to get started on.<\/p>"
+          }
+        },
+        "5947f5ee-75dd-48f2-a6bf-4bc2e54d4c25": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will my Repair take?",
+            "answer": "<p>Our team are super-efficient, but to get the best results can take time. We will do our best to get your items repaired within 4-6 weeks. This can change dependant of the time of year, so please bear this in mind.<\/p>"
+          }
+        },
+        "6470e950-d9b1-427f-b951-a5cf835db5e6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I get any non-Finisterre items repaired?",
+            "answer": "<p>Unfortunately, for now we are only able to repair Finisterre Items, so our apologies for any disappointment.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3c39aae2-52a6-4950-96d4-6897aa236248",
+        "92dc07bc-a9ce-46c9-bd98-392d7ac41816",
+        "5947f5ee-75dd-48f2-a6bf-4bc2e54d4c25",
+        "6470e950-d9b1-427f-b951-a5cf835db5e6"
+      ],
+      "settings": {
+      }
+    },
+    "16336991144e8e2fd0": {
+      "type": "faqs-section",
+      "blocks": {
+        "02e9ee69-58f8-4b36-99de-8ed6d50d90b0": {
+          "type": "title",
+          "settings": {
+            "title": "Trade In"
+          }
+        },
+        "de72df8e-43f2-4dfa-8d87-e669d7cf643e": {
+          "type": "faq",
+          "settings": {
+            "question": "I’d like to trade in my old Finisterre jacket\/jumper\/item. What do I do?",
+            "answer": "<p>Our trade-in is provided in partnership with Reskinned. The process is laid out in simple steps <a href=\"https:\/\/takeback.reskinned.clothing\/finisterre\" target=\"_blank\" title=\"https:\/\/takeback.reskinned.clothing\/finisterre\">here;<\/a> including how to trade in, the product redemption criteria, and how to post your item(s) back.<\/p>"
+          }
+        },
+        "6a17bbf8-aac9-4e45-b65d-32ba6364b286": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I trade in non-Finisterre items?",
+            "answer": "<p>Unfortunately not. If you return items which don’t meet the redemption criteria, credit won’t be issued, and items will be kept by Reskinned and recycled.<\/p>"
+          }
+        },
+        "8264cd28-2f9a-45d4-9390-2df4e1e671a8": {
+          "type": "faq",
+          "settings": {
+            "question": "I live outside the United Kingdom, can I trade in Finsterre product?",
+            "answer": "<p>Unfortunately trade-in is currently only eligible for customers within the United Kingdom.<\/p>"
+          }
+        },
+        "dbcf8616-0b3d-440d-acaa-aba0886f0d08": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will it take to get my redemption code?",
+            "answer": "<p>Trade-in credit is usually issued within 10 days of you dropping your package at the courier point. Once your trade-in has been received and verified by Reskinned, our trade-in partners, credit is issued within 48 hours. Reskinned will send you progress updates by email and you can visit the Reskinned website to get a progress update should you need more info.<\/p>"
+          }
+        },
+        "1c891a9e-f7cc-486e-8e55-d8e1312117c4": {
+          "type": "faq",
+          "settings": {
+            "question": "I’d like to redeem my redemption code, what do I do?",
+            "answer": "<p>To redeem your credit, simply select the products you wish to purchase on finisterre.com and then enter your credit redemption code at checkout.<\/p>"
+          }
+        },
+        "f3ba5190-6f21-4c5b-9827-322bb38a70e1": {
+          "type": "faq",
+          "settings": {
+            "question": "When can I buy Finisterre ReSale?",
+            "answer": "<p>Finisterre ReSale launches later in 2021. To keep up to date on our latest news and events, you can subscribe to our newsletter.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "02e9ee69-58f8-4b36-99de-8ed6d50d90b0",
+        "de72df8e-43f2-4dfa-8d87-e669d7cf643e",
+        "6a17bbf8-aac9-4e45-b65d-32ba6364b286",
+        "8264cd28-2f9a-45d4-9390-2df4e1e671a8",
+        "dbcf8616-0b3d-440d-acaa-aba0886f0d08",
+        "1c891a9e-f7cc-486e-8e55-d8e1312117c4",
+        "f3ba5190-6f21-4c5b-9827-322bb38a70e1"
+      ],
+      "settings": {
+      }
+    },
+    "163369917261236132": {
+      "type": "faqs-section",
+      "blocks": {
+        "35b2ecd9-f2ea-465f-b9db-5b95bfd241bc": {
+          "type": "title",
+          "settings": {
+            "title": "Site Use & Email Preferences"
+          }
+        },
+        "661aea0f-962d-4628-856e-3a8fef666a64": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I change my account details\/password on my profile?",
+            "answer": "<p>To make any amendments on your account please select the ‘change password’ option to do so. Or if you would like to change your email address get in touch and we can adjust.<\/p>"
+          }
+        },
+        "5136b39c-f3bc-47fe-8021-d2057fd13dd2": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I unsubscribe from Finisterre’s Mailing list?",
+            "answer": "<p>Simply email your details over to <a href=\"mailto:hello@finisterre.com\">hello@finisterre.com<\/a> and the team will remove your details from future mailing.<\/p>"
+          }
+        },
+        "101e4191-7c82-4f6a-8529-60cee515a309": {
+          "type": "faq",
+          "settings": {
+            "question": "Don’t want to receive our emails anymore? Here’s how.",
+            "answer": "<p>To unsubscribe from email marketing, or to receive less from us – forward your request onto the Customer service team and they will be able to assist you with this.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "35b2ecd9-f2ea-465f-b9db-5b95bfd241bc",
+        "661aea0f-962d-4628-856e-3a8fef666a64",
+        "5136b39c-f3bc-47fe-8021-d2057fd13dd2",
+        "101e4191-7c82-4f6a-8529-60cee515a309"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1641914404c468ac6c",
+    "faqs-section",
+    "1633698675bd0eabb0",
+    "163369885212d9d9fa",
+    "1633698920ded19458",
+    "1633698994438f9f59",
+    "16336991144e8e2fd0",
+    "163369917261236132"
+  ]
+}

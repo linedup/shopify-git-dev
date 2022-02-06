@@ -1,0 +1,30 @@
+<script type="template/klevu" id="klevuLandingTemplateProductBlock">
+  <% 
+   var updatedProductName = dataLocal.name; 
+   if(klevu.search.modules.kmcInputs.base.getSkuOnPageEnableValue()) { 
+      if(klevu.dom.helpers.cleanUpSku(dataLocal.sku)) { 
+         updatedProductName += klevu.dom.helpers.cleanUpSku(dataLocal.sku); 
+      } 
+   } 
+   var desc = [dataLocal.summaryAttribute,dataLocal.packageText,dataLocal.summaryDescription].filter(function(el) { 
+      return el; 
+   }); 
+   desc = desc.join(" "); 
+  %> 
+
+  <div class="klevuProduct col-span-2 md:col-span-3" ku-product-block data-id="<%=dataLocal.id%>">
+    <div class="kuProdWrap">
+      <header ku-block data-block-id="ku_landing_result_item_header"></header>
+      <main ku-block data-block-id="ku_landing_result_item_info">
+          <div class="kuProdTop">
+            <div class="klevuImgWrap"> 
+                <a data-id="<%=dataLocal.id%>" href="<%=dataLocal.url%>" class="klevuProductClick kuTrackRecentView">
+                  <img src="<%=dataLocal.image%>" origin="<%=dataLocal.image%>" onerror="klevu.dom.helpers.cleanUpProductImage(this)" alt="<%=updatedProductName%>" class="kuProdImg w-full mb-4"> <%=helper.render('landingImageRollover', scope, data, dataLocal) %> 
+                  <p class="klevu-text-base"><%=updatedProductName%></p>
+                </a> 
+            </div>
+          </div>
+      </main>
+    </div> 
+  </div>
+</script>

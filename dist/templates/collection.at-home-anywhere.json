@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "3add479b-cccb-4912-8282-10f781aa0a09": {
+          "type": "button",
+          "settings": {
+            "button_text": "Explore Multi Activity",
+            "button_url": "shopify:\/\/collections\/at-home-anywhere-products"
+          }
+        }
+      },
+      "block_order": [
+        "3add479b-cccb-4912-8282-10f781aa0a09"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Multiactivity_Campaign_Page_Hero.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Multiactivity_Campaign_Page_Hero2.jpg",
+        "alt": "a man and woman cycling on a mountainous path",
+        "video_url": "",
+        "text": "<p>At Home, Anywhere.<\/p>",
+        "anchor": ""
+      }
+    },
+    "16436466831d767ac3": {
+      "type": "guide-main-titles",
+      "blocks": {
+        "bc332519-a560-4a2b-bc10-3495b2823401": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Hanli Prinsloo",
+            "anchor_id": "Hanli-prinsloo"
+          }
+        },
+        "2b0e0326-c464-40df-be0c-fbaf13e47724": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Dougal Paterson",
+            "anchor_id": "dougal-paterson"
+          }
+        },
+        "7d50fce7-90e3-410c-bf4d-4290a89f70d3": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Jade Barclay",
+            "anchor_id": "Stefan-Haworth"
+          }
+        },
+        "88a8fe88-f702-473b-9c61-cb6bd05a0e23": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Ben Gully",
+            "anchor_id": "Stefan-Haworth"
+          }
+        },
+        "5fee2bd4-df86-42a8-8af5-aef1e8fd6bcc": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Stefan Haworth",
+            "anchor_id": "Stefan-Haworth"
+          }
+        },
+        "ad4b3352-aacc-4429-ab88-d200433255ca": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "David Crozier",
+            "anchor_id": "David-crozier"
+          }
+        }
+      },
+      "block_order": [
+        "bc332519-a560-4a2b-bc10-3495b2823401",
+        "2b0e0326-c464-40df-be0c-fbaf13e47724",
+        "7d50fce7-90e3-410c-bf4d-4290a89f70d3",
+        "88a8fe88-f702-473b-9c61-cb6bd05a0e23",
+        "5fee2bd4-df86-42a8-8af5-aef1e8fd6bcc",
+        "ad4b3352-aacc-4429-ab88-d200433255ca"
+      ],
+      "settings": {
+        "copy": "Comfort. Conviction. The calm of knowing you are master of your environment. The right gear can give you this feeling anywhere in the world. Discover versatile, adventure-ready apparel built to connect you to nature with as little impact on it as possible."
+      }
+    },
+    "164364179821842a77": {
+      "type": "hero",
+      "blocks": {
+        "be2420de-c008-43fd-8e35-552c6f73d8d0": {
+          "type": "button",
+          "settings": {
+            "button_text": "Meet Hanli",
+            "button_url": "shopify:\/\/pages\/ambassador-hanli-prinsloo"
+          }
+        }
+      },
+      "block_order": [
+        "be2420de-c008-43fd-8e35-552c6f73d8d0"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Multiactivity_Campaign_Page.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Multiactivity_4.jpg",
+        "alt": "Hanli Prinsloo sitting on bench with child",
+        "video_url": "",
+        "text": "<p>Hanli Prinsloo<\/p>",
+        "anchor": "Hanli-prinsloo"
+      }
+    },
+    "1643642023c4db5301": {
+      "type": "medium-feature",
+      "blocks": {
+        "d0632919-57eb-4e30-be43-cee0ddd3a303": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-recycled-rainbird-jacket-black"
+          }
+        },
+        "e7fe2569-3ef2-4d78-ab2d-1eb08e435be7": {
+          "type": "related_product",
+          "settings": {
+            "product": "womens-wool-blend-budock-wool-zip-through-ozone-blue"
+          }
+        }
+      },
+      "block_order": [
+        "d0632919-57eb-4e30-be43-cee0ddd3a303",
+        "e7fe2569-3ef2-4d78-ab2d-1eb08e435be7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Multiactivity_5.jpg",
+        "coordinates": ""
+      }
+    },
+    "1643642149b75f7a99": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p>“Designing versatile product with multiple functions is a huge part of our ethos, building timeless, durable pieces that take someone from sea to summit, city to coastline - reducing impact, without compromising on performance” <\/p>",
+        "credit": "Finisterre Design Lead, Todd"
+      }
+    },
+    "16436431697f8812b8": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Baselayers",
+        "products_collection": "at-home-anywhere-baselayers"
+      }
+    },
+    "16436425001d5f7725": {
+      "type": "hero",
+      "blocks": {
+        "254655ff-f43a-47ff-843d-9d433f4ba924": {
+          "type": "button",
+          "settings": {
+            "button_text": "Read Closing The Circle",
+            "button_url": "shopify:\/\/blogs\/broadcast\/closing-the-circle"
+          }
+        }
+      },
+      "block_order": [
+        "254655ff-f43a-47ff-843d-9d433f4ba924"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Multiactivity_Campaign_Page_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Multiactivity_7.jpg",
+        "alt": "Dougal Paterson carrying surfboard across rocks",
+        "video_url": "",
+        "text": "<p>Dougal Paterson<\/p>",
+        "anchor": "dougal-paterson"
+      }
+    },
+    "1643643059c8358d9d": {
+      "type": "body-text",
+      "blocks": {
+        "ce22d613-8842-4083-b2df-f62dd9730f30": {
+          "type": "title",
+          "settings": {
+            "title": "From land to sea, slow days to weekends in the wild, our gear is built to make you feel at home wherever you find yourself. Built for versatile performance in a range of situations, it enables you to embrace the adventure without breaking stride."
+          }
+        }
+      },
+      "block_order": [
+        "ce22d613-8842-4083-b2df-f62dd9730f30"
+      ],
+      "settings": {
+      }
+    },
+    "16436446402573f33b": {
+      "type": "medium-feature",
+      "blocks": {
+        "c8a3c2e3-4e5c-481d-ad5c-67bbe81aef4b": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-recycled-nimbus-black"
+          }
+        },
+        "f94bca06-8bd6-4b2c-921e-0cded198e700": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-merino-blend-eddy-baselayer-black"
+          }
+        }
+      },
+      "block_order": [
+        "c8a3c2e3-4e5c-481d-ad5c-67bbe81aef4b",
+        "f94bca06-8bd6-4b2c-921e-0cded198e700"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Multiactivity_8.jpg",
+        "coordinates": ""
+      }
+    },
+    "16436437033495f1d4": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Fleece",
+        "products_collection": "at-home-anywhere-fleece"
+      }
+    },
+    "16436429633435eaab": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Multiactivity_Campaign_Page_3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Multiactivity_10.jpg",
+        "alt": "a man and woman climbing over rocks wearing Finisterre jackets and fleeces",
+        "video_url": "",
+        "text": "<p>Jade Barclay & Ben Gully<\/p>",
+        "anchor": "Stefan-Haworth"
+      }
+    },
+    "1643644514e585a044": {
+      "type": "body-text",
+      "blocks": {
+        "9712ad20-e755-419d-b85f-9cd85cbe9139": {
+          "type": "title",
+          "settings": {
+            "title": "Our temperature regulating base layers harness the versatility of wool to take you effortlessly from sofa to seafront, offering uncompromising warmth & comfort wherever the day leads."
+          }
+        }
+      },
+      "block_order": [
+        "9712ad20-e755-419d-b85f-9cd85cbe9139"
+      ],
+      "settings": {
+      }
+    },
+    "1643643087772ed1ed": {
+      "type": "medium-feature",
+      "blocks": {
+        "ea78fff8-6588-4434-8203-7fd67cb2deb3": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-bamboo-bora-long-sleeve-bamboo-baselayer-navy"
+          }
+        },
+        "3b239493-632c-4d84-8a08-b80e5c50736a": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-bamboo-blend-bora-longjohn-royal"
+          }
+        }
+      },
+      "block_order": [
+        "ea78fff8-6588-4434-8203-7fd67cb2deb3",
+        "3b239493-632c-4d84-8a08-b80e5c50736a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Multiactivity_11.jpg",
+        "coordinates": ""
+      }
+    },
+    "16436427043bcf54b3": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Insulation",
+        "products_collection": "at-home-anywhere-insulation"
+      }
+    },
+    "164364336608e637b4": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Multiactivity_12.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Multiactivity_13.jpg",
+        "alt": "David Crozier sheltering from the snow wearing Finisterre base layers and fleece",
+        "video_url": "",
+        "text": "<p>David Crozier<\/p>",
+        "anchor": "David-crozier"
+      }
+    },
+    "16437203818c266a43": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p><em>\"Having a multi-activity product you know you can rely on year-round is a game changer, from winter snow days to summer surfs. It cuts down on bulk, enabling you to pack light yet still be ready for any conditions.\" <\/em><\/p>",
+        "credit": "David Crozier, UK Snowboarding Coach"
+      }
+    },
+    "164364483094c2a847": {
+      "type": "medium-feature",
+      "blocks": {
+        "4f2a22e9-7ab5-457c-b9d1-651d2c4acff8": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-recycled-stormbird-waterproof-jacket-black"
+          }
+        },
+        "7d537f95-a536-4303-8f1e-4994a93ca087": {
+          "type": "related_product",
+          "settings": {
+            "product": "mens-recycled-hegen-full-zip-fleece-black"
+          }
+        }
+      },
+      "block_order": [
+        "4f2a22e9-7ab5-457c-b9d1-651d2c4acff8",
+        "7d537f95-a536-4303-8f1e-4994a93ca087"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Multiactivity_14_82adae63-882e-41b9-8983-816d69f465ec.jpg",
+        "coordinates": ""
+      }
+    },
+    "1643642202e63f90aa": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "Shop Waterproofs",
+        "products_collection": "at-home-anywhere-waterproof"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "16436466831d767ac3",
+    "164364179821842a77",
+    "1643642023c4db5301",
+    "1643642149b75f7a99",
+    "16436431697f8812b8",
+    "16436425001d5f7725",
+    "1643643059c8358d9d",
+    "16436446402573f33b",
+    "16436437033495f1d4",
+    "16436429633435eaab",
+    "1643644514e585a044",
+    "1643643087772ed1ed",
+    "16436427043bcf54b3",
+    "164364336608e637b4",
+    "16437203818c266a43",
+    "164364483094c2a847",
+    "1643642202e63f90aa"
+  ]
+}

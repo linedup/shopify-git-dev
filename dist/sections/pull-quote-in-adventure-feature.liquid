@@ -1,0 +1,67 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-6 relative">
+      <img class="mb-4" src="{{ section.settings.image | img_url: 'master' }}" width="1680" height="1260" loading="lazy">
+      <p>{{ section.settings.caption }}</p>
+    </div>
+    <div class="col-span-4 md:col-span-6 relative">
+      <p class="mb-4">{{ section.settings.overline }}</p>
+      <h3 class="mb-8">{{ section.settings.body }}</h3>
+      <a class="bg-sand button" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Pull Quote In Adventure",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "Image size - 1680w x 1260h"
+    },
+    { 
+      "type": "text",
+      "id": "caption",
+      "label": "Caption"
+    },
+    {
+      "type": "header",
+      "content": "Quote/Text"
+    },
+    { 
+      "type": "text",
+      "id": "overline",
+      "label": "Credit/Overline"
+    },
+    { 
+      "type": "text",
+      "id": "body",
+      "label": "Quote/Text",
+      "info": "Add quote marks if you want them in this instance."
+    },
+    { 
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "info": "Leave this blank if you don't want a button."
+    },
+    { 
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pull Quote In Adventure"
+    }
+  ]
+}
+{% endschema %}

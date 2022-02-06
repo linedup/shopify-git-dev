@@ -1,0 +1,83 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "LinedUp / BFVA",
+    "theme_version": "1.0.0",
+    "theme_author": "LinedUp",
+    "theme_documentation_url": "https://linedup.slite.com",
+    "theme_support_url": "https://linedup.co.uk"
+  },
+  {
+    "name": "Anouncement banner",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Banner text content"
+      },
+      {
+        "type": "text",
+        "id": "banner_text",
+        "label": "Insert banner text"
+      }
+    ]
+  },
+  {
+    "name": "Shipping rates (UK, EU & USA)",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "shipping_localized_uk",
+        "label": "UK Shipping"
+      },
+      {
+        "type": "richtext",
+        "id": "shipping_localized_eu",
+        "label": "EU Shipping"
+      },
+      {
+        "type": "richtext",
+        "id": "shipping_localized_usa",
+        "label": "USA Shipping"
+      }
+    ]
+  },
+  {
+    "name": "Cart promotions",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Ajax cart"
+      },
+      {
+        "type": "text",
+        "id": "cart_promotion_text_1",
+        "label": "Insert headline promotion text",
+        "default": "Your basket"
+      },
+      {
+        "type": "header",
+        "content": "Empty cart promotion"
+      },
+      {
+        "type": "text",
+        "id": "empty_cart_sub_title",
+        "label": "Sub title"
+      },
+      {
+        "type": "text",
+        "id": "empty_cart_title",
+        "label": "Title"
+      },
+      {
+        "type": "image_picker",
+        "id": "empty_cart_image",
+        "label": "Image"
+      },
+      {
+        "type": "url",
+        "id": "empty_cart_link",
+        "label": "Link"
+      }
+    ]
+  }
+]

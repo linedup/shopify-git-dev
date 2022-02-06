@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "shopify-login": "shopify logout && shopify login --store finisterre.myshopify.com",
+    "shopify-staging-login": "shopify logout && shopify login --store finisterre-v2.myshopify.com",
+    "shopify-serve": "cd ./dist && shopify theme serve",
+    "tailwind-watch": "npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/assets/tailwind.css --watch",
+    "tailwind-purge": "NODE_ENV=production npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/assets/tailwind.css --minify",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "deploy": "NODE_ENV=production npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/assets/tailwind.css --minify && webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "lazysizes": "^5.3.2"
+  }
+}

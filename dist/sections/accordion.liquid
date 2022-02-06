@@ -1,0 +1,77 @@
+
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container gap-y-4 relative page-margin">
+
+    {% for block in section.blocks %}
+
+      {% if block.type == 'title' %}
+        <div class="col-span-4 md:col-span-10 md:col-start-2 lg:col-span-8 lg:col-start-3 xl:col-span-6 xl:col-start-4 mb-4 mt-5 lg:mt-10">
+          <h3>{{ block.settings.title }}</h3>
+        </div>
+      {% endif %}
+
+      {% if block.type == 'accordion' %}
+        <div class="col-span-4 md:col-span-10 md:col-start-2 lg:col-span-8 lg:col-start-3 xl:col-span-6 xl:col-start-4">      
+
+          <reveal-content>
+            <div data-reveal class="reveal">
+              <div class="flex flex-col md:justify-between p-6 lg:p-8 bg-white">
+                <div data-reveal-trigger class="flex justify-between items-center last-p-mb-0 cursor-pointer">
+                  <p>{{ block.settings.title }}</p>
+                  <div>
+                    <img src="{{ 'icon-plus.svg' | asset_url }}" class="plus" loading="lazy" height="16" width="16" alt="Read more">
+                  </div>
+                </div>
+                <span data-reveal-content class="hidden">{{ block.settings.reveal }}</span>
+              </div>
+            </div>
+          </reveal-content>
+
+        </div>
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Accordion",
+  "blocks": [
+     {
+       "name": "Section Title",
+       "type": "title",
+       "settings": [
+         {
+           "type": "text",
+           "id": "title",
+           "label": "Accordion section title"
+         }
+       ]
+     },     
+     {
+       "name": "Accordion Item",
+       "type": "accordion",
+       "settings": [
+         {
+           "type": "text",
+           "id": "title",
+           "label": "Title"
+         },
+        {
+           "type": "richtext",
+           "id": "reveal",
+           "label": "Reveal"
+         }
+       ]
+     }
+   ],
+   "presets": [
+    {
+      "name": "Accordion"
+    }
+  ]
+}
+{% endschema %}

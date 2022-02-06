@@ -1,0 +1,119 @@
+{% comment %} Unsure of surrounding grid code - taken from the cart file originally {% endcomment %}
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container page-margin mb-9 lg:mb-18">
+    <div class="col-span-4 md:col-span-12 mb-9 md:mb-0">
+      <div class="grid-container">
+
+
+        <div class="grid col-span-4 md:col-span-12">
+          <div class="" data-cart-footer="">
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 mb-5">
+                <h2>You may also like</h2>
+              </div>
+            </div>
+            <div class="mb-5 grid grid-cols-12 gap-5 lg:gap-10">
+              <div class="col-span-12 lg:col-span-6">
+                <div class="grid grid-cols-12 gap-4 mb-4 md:mb-0">
+                  <div class="col-span-6">
+                    <img src="{{ 'placeholder-product.jpg' | asset_img_url: 'master' }}" height="1448" width="1086" loading="lazy">
+                  </div>
+                  <div class="col-span-6">
+                    <p class="ellipsis-1-line mb-1">The Rainbird Waterproof Jacket</p>
+                    <p class="mb-1">£110</p>
+                    <p class="mb-1">Colour: Navy</p>
+
+                    <div class="flex mt-12 mb-4 max-w-75">
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 border flex-grow border-richBlack relative cursor-pointer" style="background-color: #F0834E;">
+                        <img src="{{ 'icon-arrow.svg' | asset_url }}" width="20" height="14" loading="lazy" class="absolute transform rotate-90 -top-8 left-2/4 -translate-x-2/4" alt="To do">
+                      </div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #000000;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                    </div>
+                    <div class="hidden md:block">
+                      <div class="relative mb-4">
+                        <select name="size" class="size-selector appearance-none w-full border bg-platinum border-richBlack h-14 lg:h-18 px-5 lg:px-10 font-helvetica tracking-wider">
+                        <option value="first">Select Size</option>
+                        <option value="first">06</option>
+                        <option value="second">08</option>
+                        <option value="third">10</option>
+                      </select>
+                        <img class="absolute top-2/4 transform -translate-y-2/4 right-5" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="To do">
+                      </div>
+                      <a href="#" class="button bg-sand mb-4 md:mb-0 w-full">Add to Basket</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 grid-cols-12 gap-4 md:hidden">
+                  <div class="relative mb-4">
+                    <select name="size" class="size-selector appearance-none w-full border bg-platinum border-richBlack h-14 lg:h-18 px-5 lg:px-10 font-helvetica tracking-wider">
+                    <option value="first">Select Size</option>
+                    <option value="first">06</option>
+                    <option value="second">08</option>
+                    <option value="third">10</option>
+                  </select>
+                    <img class="absolute top-2/4 transform -translate-y-2/4 right-5" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="To do">
+                  </div>
+                  <a href="#" class="button bg-sand mb-4 md:mb-0 w-full">Add to Basket</a>
+              </div>
+            </div>
+              <div class="col-span-12 lg:col-span-6">
+                <div class="grid grid-cols-12 gap-4 mb-4 md:mb-0">
+                  <div class="col-span-6">
+                    <img src="{{ 'placeholder-product.jpg' | asset_img_url: 'master' }}" height="1448" width="1086" loading="lazy">
+                  </div>
+                  <div class="col-span-6">
+                    <p class="ellipsis-1-line mb-1">The Rainbird Waterproof Jacket</p>
+                    <p class="mb-1">£110</p>
+                    <p class="mb-1">Colour: Navy</p>
+
+                    <div class="flex mt-12 mb-4 max-w-75">
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 border flex-grow border-richBlack relative cursor-pointer" style="background-color: #F0834E;">
+                        <img src="{{ 'icon-arrow.svg' | asset_url }}" width="20" height="14" loading="lazy" class="absolute transform rotate-90 -top-8 left-2/4 -translate-x-2/4" alt="To do">
+                      </div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #000000;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                      <div class="max-w-14 h-14 lg:h-18 lg:max-w-18 flex-grow border border-richBlack cursor-pointer border-l-0" style="background-color: #eeeeee;"></div>
+                    </div>
+                    <div class="hidden md:block">
+                      <div class="relative mb-4">
+                        <select name="size" class="size-selector appearance-none w-full border bg-platinum border-richBlack h-14 lg:h-18 px-5 lg:px-10 font-helvetica tracking-wider">
+                        <option value="first">Select Size</option>
+                        <option value="first">06</option>
+                        <option value="second">08</option>
+                        <option value="third">10</option>
+                      </select>
+                        <img class="absolute top-2/4 transform -translate-y-2/4 right-5" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="To do">
+                      </div>
+                      <a href="#" class="button bg-sand mb-4 md:mb-0 w-full">Add to Basket</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-5 grid-cols-12 gap-4 md:hidden">
+                  <div class="relative mb-4">
+                    <select name="size" class="size-selector appearance-none w-full border bg-platinum border-richBlack h-14 lg:h-18 px-5 lg:px-10 font-helvetica tracking-wider">
+                    <option value="first">Select Size</option>
+                    <option value="first">06</option>
+                    <option value="second">08</option>
+                    <option value="third">10</option>
+                  </select>
+                    <img class="absolute top-2/4 transform -translate-y-2/4 right-5" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="To do">
+                  </div>
+                  <a href="#" class="button bg-sand mb-4 md:mb-0 w-full">Add to Basket</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>

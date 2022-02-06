@@ -1,0 +1,84 @@
+{
+  "sections": {
+    "pdp-form": {
+      "type": "pdp-images-and-form",
+      "settings": {
+      }
+    },
+    "pdp-description": {
+      "type": "pdp-description",
+      "settings": {
+        "delivery": "<p>Free UK Standard Delivery, in 2-3 working days. <\/p><p>Free 90 day UK Returns.<\/p>",
+        "specifications": ""
+      }
+    },
+    "163890095773654968": {
+      "type": "carousel-editorial-b",
+      "disabled": true,
+      "blocks": {
+        "c3db182e-23d4-4bf0-93f3-2c52f86d39e5": {
+          "type": "article",
+          "settings": {
+            "article_link": "broadcast\/wetsuits-from-wetsuits-an-update",
+            "article_title": ""
+          }
+        },
+        "5bfa5075-3927-446b-8ddc-8a5e3d0ad36f": {
+          "type": "article",
+          "settings": {
+            "article_link": "broadcast\/peter-doyle-rnli-teddington-volunteer",
+            "article_title": ""
+          }
+        },
+        "52bbc8ae-8764-4bb0-bfe4-99bd0e9fb5c0": {
+          "type": "article",
+          "settings": {
+            "article_link": "broadcast\/why-we-swim",
+            "article_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "c3db182e-23d4-4bf0-93f3-2c52f86d39e5",
+        "5bfa5075-3927-446b-8ddc-8a5e3d0ad36f",
+        "52bbc8ae-8764-4bb0-bfe4-99bd0e9fb5c0"
+      ],
+      "settings": {
+        "title": "Sustainability"
+      }
+    },
+    "16389012412a6853e2": {
+      "type": "large-single-feature",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HOMEPAGE-BANNER-1.jpg",
+        "title": "Our go-to waterproofing",
+        "body": "The features that make this product so great",
+        "button_type": "one",
+        "button_text": "Find out more",
+        "button_url": "shopify:\/\/blogs\/broadcast\/wetsuits-from-wetsuits-an-update"
+      }
+    },
+    "complete-the-look": {
+      "type": "carousel-complete-the-look",
+      "disabled": true,
+      "settings": {
+        "heading": "Complete The Look"
+      }
+    },
+    "pdp-nosto": {
+      "type": "nosto-slot",
+      "settings": {
+        "nosto_id": "pdp-complete-the-look"
+      }
+    }
+  },
+  "order": [
+    "pdp-form",
+    "pdp-description",
+    "163890095773654968",
+    "16389012412a6853e2",
+    "complete-the-look",
+    "pdp-nosto"
+  ]
+}

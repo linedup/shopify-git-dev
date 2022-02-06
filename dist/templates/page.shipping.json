@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Shipping",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1640953878bdf81bcd": {
+      "type": "faqs-section",
+      "blocks": {
+        "ef28abe4-d24b-4ca7-8e4a-ea6a78bbcfb8": {
+          "type": "faq",
+          "settings": {
+            "question": "Shipping Rates",
+            "answer": "<p><strong>UK<\/strong><\/p><p>Free Standard Shipping - 3-5 working days<\/p><p>£10 Express Shipping (order before 1pm)- Next working day <\/p><p>Free Express Shipping (orders over £300) - 2-3 working days<\/p><p><br\/><\/p><p><strong>USA <\/strong><\/p><p>2-3 working days<\/p><p>Free UPS Tracked Shipping (orders over £150\/$205) <\/p><p>£7.50\/$11 UPS Tracked Shipping (orders under £150\/$205) <\/p><p><br\/><\/p><p><strong>EU <\/strong><\/p><p>3-11 working days<\/p><p>Flat Rate £20\/€23 Tracked Shipping (orders under £134\/€154) <\/p><p>Tracked Shipping, rate calculated at checkout (orders over £134\/€154)<\/p><p><br\/><\/p><p><strong>ROW <\/strong><\/p><p>5-14 working days<\/p><p>£20 UPS Tracked Shipping <\/p>"
+          }
+        },
+        "123188ed-ef39-41be-a858-ea0934c6b046": {
+          "type": "faq",
+          "settings": {
+            "question": "Repairs Shipping",
+            "answer": "<p>Please note repairs purchased online are only available to customers in the UK at present.<\/p><p>Both outbound and return postage is free for all repairs bought through our website. At checkout all repairs will have free shipping automatically applied. Please note if you have any other non-repair products in your basket they will be subject to our standard shipping rates.<\/p><p>Once you have completed your checkout process you will receive a confirmation email that will contain a link to Royal Mail where you can print out your free postage label.<\/p>"
+          }
+        },
+        "69baa678-a181-406d-822b-c33c6784261a": {
+          "type": "faq",
+          "settings": {
+            "question": "Returns",
+            "answer": "<p>We hope that you are happy with your purchase from us but understand if you need to return your items. We can offer a refund on items returned in an unworn condition with the tags intact within 90 days of delivery for full priced items, and within 14 days of delivery for sale or discounted items. Proof of purchase must be provided for us to process a refund. Any items received in a non-sellable condition will not be accepted.<\/p><p>Please ensure that you return the goods to us folded and in their original packaging.<\/p><p>If you have received an item from Finisterre as a gift, you may return it for an exchange or credit note only. Please state this clearly on a note when returning. <\/p>"
+          }
+        },
+        "d1748bf7-8c3d-4750-99e6-e385c3d4f0b6": {
+          "type": "faq",
+          "settings": {
+            "question": "How to return orders in the UK",
+            "answer": "<p>In the UK we offer a free tracked returns service with the Royal Mail so all you need to do is package it up in its original packaging and head to <a href=\"http:\/\/finisterre.com\/free-tracked-returns\" target=\"_blank\" title=\"http:\/\/finisterre.com\/free-tracked-returns\"><em><strong>http:\/\/finisterre.com\/free-tracked-returns.<\/strong><\/em><\/a> Fill in the form online to print of your returns label. Please obtain proof of postage from the Post Office when you drop it off. We aim to process exchanges and returns as fast as we can but please allow us plenty of time during busy periods. In these periods the process can take up to 2 weeks.<\/p>"
+          }
+        },
+        "ef45eab6-8860-4d67-96de-e88b87a323e3": {
+          "type": "faq",
+          "settings": {
+            "question": "How to Return International Orders",
+            "answer": "<p>For international returns, please send your returns to the below address:<\/p><p>Finisterre Returns<\/p><p>California Dr<\/p><p>Castleford<\/p><p>Normanton<\/p><p>WF10 5QH<\/p><p>United Kingdom<\/p><p>We don't currently offer free international returns but we do offer an extended returns period for our international customers. Any customs duties, local sales taxes and handling charges are non refundable.<\/p><p>None of the above terms affect your statutory rights or your rights under The Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 when goods are faulty or incorrectly supplied. If you have any concerns please do not hesitate to contact us on <a href=\"mailto:returns@finisterre.com%20\">returns@finisterre.com<\/a><\/p>"
+          }
+        },
+        "9741dc68-afff-4ee6-b700-57a0524c2c7f": {
+          "type": "faq",
+          "settings": {
+            "question": "Exchanges",
+            "answer": "<p>If you wish to exchange something in your order please re-order the new item, and return the original to us for a refund.<br\/>Or you can simply include a note requesting the new item in with your return, and our team will exchange this for you if stock allows.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ef28abe4-d24b-4ca7-8e4a-ea6a78bbcfb8",
+        "123188ed-ef39-41be-a858-ea0934c6b046",
+        "69baa678-a181-406d-822b-c33c6784261a",
+        "d1748bf7-8c3d-4750-99e6-e385c3d4f0b6",
+        "ef45eab6-8860-4d67-96de-e88b87a323e3",
+        "9741dc68-afff-4ee6-b700-57a0524c2c7f"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1640953878bdf81bcd"
+  ]
+}

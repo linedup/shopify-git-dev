@@ -1,0 +1,149 @@
+<div class="max-w-screen-2xl mx-auto mb-6 lg:mb-8">
+  <div class="grid-container page-margin overflow-hidden">
+    <div class="col-span-4 md:col-span-9 lg:col-span-8 xl:col-span-7">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+</div>
+
+{% if section.settings.note != blank %}
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin overflow-hidden">
+    <div class="col-span-4 md:col-span-12">
+      <p class="py-4 px-8 md:py-8 md:px-12 bg-white">{{ section.settings.note }}</p>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin mb-14 lg:mb-18">
+    <div class="col-span-4 md:col-span-4 mb-8 md:mb-0 last-p-mb-0">
+      <h3 class="mb-4 md:mb-8">Address</h3>
+      <p>{{ section.settings.address }}<p>
+      {% if section.settings.map %}
+        <p><a href="{{ section.settings.map }}" class="link">View map</a></p>
+      {% endif %}
+    </div>
+    <div class="col-span-4 md:col-span-4 mb-8 md:mb-0 last-p-mb-0">
+      <h3 class="mb-4 md:mb-8">Opening times</h3>
+      <div class="flex flex-row">
+        <div class="mr-12">
+          <p class="mb-0">Mon</p>
+          <p class="mb-0">Tue</p>
+          <p class="mb-0">Wed</p>
+          <p class="mb-0">Thu</p>
+          <p class="mb-0">Fri</p>
+          <p class="mb-0">Sat</p>
+          <p class="mb-0">Sun</p>
+        </div>
+        <div>
+          <p class="mb-0">{{ section.settings.monday_opening }}</p>
+          <p class="mb-0">{{ section.settings.tuesday_opening }}</p>
+          <p class="mb-0">{{ section.settings.wednesday_opening }}</p>
+          <p class="mb-0">{{ section.settings.thursday_opening }}</p>
+          <p class="mb-0">{{ section.settings.friday_opening }}</p>
+          <p class="mb-0">{{ section.settings.saturday_opening }}</p>
+          <p class="mb-0">{{ section.settings.sunday_opening }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-4 md:col-span-4 mb-8 md:mb-0 last-p-mb-0">
+      <h3 class="mb-4 md:mb-8">Contact</h3>
+      <p class="mb-0"><a href="mailto:{{ section.settings.email }}" class="link">{{ section.settings.email }}</a></p>
+      <p><a href="tel:{{ section.settings.telephone }}" class="link">{{ section.settings.telephone }}</a></p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Store Address",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Store note"
+    },
+    {
+      "type": "textarea",
+      "id": "note",
+      "label": "Store note",
+      "info": "Any additional information that you wish to add to the store page."
+    },
+    {
+      "type": "header",
+      "content": "Address"
+    },
+    {
+      "type": "richtext",
+      "id": "address",
+      "label": "Address",
+      "info": "Add address with <br> after each line."
+    },
+    { 
+      "type": "url",
+      "id": "map",
+      "label": "Map link",
+      "info": "Add the Google map link"
+    },
+    {
+      "type": "header",
+      "content": "Opening Times"
+    },
+    {
+      "type": "text",
+      "id": "monday_opening",
+      "label": "Monday opening times"
+    },
+    {
+      "type": "text",
+      "id": "tuesday_opening",
+      "label": "Tuesday opening times"
+    },
+    {
+      "type": "text",
+      "id": "wednesday_opening",
+      "label": "Wednesday opening times"
+    },
+    {
+      "type": "text",
+      "id": "thursday_opening",
+      "label": "Thursday opening times"
+    },
+    {
+      "type": "text",
+      "id": "friday_opening",
+      "label": "Friday opening times"
+    },
+    {
+      "type": "text",
+      "id": "saturday_opening",
+      "label": "Saturday opening times"
+    },
+    {
+      "type": "text",
+      "id": "sunday_opening",
+      "label": "Sunday opening times"
+    },
+    {
+      "type": "header",
+      "content": "Contact"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email address"
+    },
+    {
+      "type": "text",
+      "id": "telephone",
+      "label": "Telephone number"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Store Address"
+    }
+  ]
+}
+{% endschema %}

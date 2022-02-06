@@ -1,0 +1,14 @@
+#BISModal #container {
+  border-radius: 0 !important;
+  }
+  .form-control,
+  .btn,
+  .alert {
+  font-weight: normal !important;
+  border-radius: 0 !important;
+  }
+  .close {
+  color: #000 !important;
+  opacity: 1 !important;
+  font-weight: normal !important;
+  }

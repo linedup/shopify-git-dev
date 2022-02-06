@@ -1,0 +1,56 @@
+<div class="max-w-screen-2xl mx-auto mt-2 mb-2 md:mt-6 md:mb-6 lg:mt-4 lg:mb-10" id="header-navigation-mobile-triggers">
+  <div class="grid-container mr-5 lg:mr-10 2xl:mr-0">
+    <div class="col-span-4 md:col-span-12 flex justify-between">
+      <a href="/" title="Finisterre homepage"><img class="md:mr-10 logo" src="{{ 'finisterre-logo.svg' | asset_url }}" width="176" height="71" loading="lazy" alt="Finisterre"></a>
+      <div class="search relative flex-grow hidden md:block">
+        <form action="#" class="border border-richBlack w-full h-full">
+          <img class="absolute top-2/4 transform -translate-y-2/4 icon left-6" src="{{ 'icon-search.svg' | asset_url }}" width="22" height="22" loading="lazy" alt="Search">
+          <input id="searchedKeyword" name="q" type="text" class="klevu-search-input w-full h-full bg-platinum pl-14 pr-6 focus:outline-none">
+        </form>
+      </div>
+      <ul class="flex items-center lg:hidden">
+        <li class="ml-8">
+          <drawer-trigger id="mobile-cart-trigger" data-drawer-id="cart-drawer">
+            <button class="flex items-center cursor-pointer">
+              <span data-icon-open id="cart-icon-mobile" data-id="cart-icon-mobile">{% render 'cart-icon' %}</span>
+              <img data-icon-close src="{{ 'icon-close.svg' | asset_url }}" class="hidden" width="25" height="25" loading="lazy" alt="Close">
+            </button>
+          </drawer-trigger>
+        </li>
+        <li class="ml-8 md:hidden">
+          <search-trigger>
+            <button class="flex items-center cursor-pointer">
+              <img data-icon-open src="{{ 'icon-search.svg' | asset_url }}" width="25" height="25" loading="lazy" alt="Search">
+              <img data-icon-close src="{{ 'icon-close.svg' | asset_url }}" class="hidden" width="25" height="25" loading="lazy" alt="Close">
+            </button>
+          </search-trigger>
+        </li>
+        <li class="ml-8">
+          <drawer-trigger data-drawer-id="mobile-menu-drawer">
+            <button class="flex items-center cursor-pointer">
+              <img data-icon-open src="{{ 'icon-menu.svg' | asset_url }}" width="25" height="25" loading="lazy" alt="Mobile navigation">
+              <img data-icon-close src="{{ 'icon-close.svg' | asset_url }}" class="hidden" width="25" height="25" loading="lazy" alt="Close">
+            </button>
+          </drawer-trigger>
+        </li>
+      </ul>
+    </div>
+
+    <div id="search-form-mobile" class="col-span-4 md:col-span-12 hidden md:hidden">
+      <div class="search relative md:hidden h-14 pl-5 mb-3">
+        <form action="#" class="border border-richBlack w-full h-full">
+          <img class="absolute top-2/4 transform -translate-y-2/4 icon left-9" src="{{ 'icon-search.svg' | asset_url }}" width="22" height="22" loading="lazy" alt="Search">
+          <input name="q" type="text" class="klevu-search-input w-full h-full bg-platinum pl-12 pr-6 focus:outline-none">
+        </form>
+      </div>
+    </div>
+
+    <!-- <div id="search-form-mobile" class="col-span-4 md:col-span-12 hidden md:hidden">
+      <div class="search relative md:hidden h-14 pl-5 mb-3">
+        <div class="border border-richBlack w-full h-full">
+          <img class="absolute top-2/4 -translate-y-2/4 icon left-8" src="{{ 'icon-search.svg' | asset_url }}" width="22" height="22" loading="lazy" alt="Search">
+        </div>
+      </div>
+    </div> -->
+  </div>
+</div>

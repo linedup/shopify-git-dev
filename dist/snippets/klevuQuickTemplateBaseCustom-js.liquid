@@ -1,0 +1,40 @@
+<script type="template/klevu" id="klevuQuickTemplateBaseCustom">
+  <div class="klevu-fluid kuPreventDocumentClick">
+    <div id="klevuSearchingArea" class="klevuQuickSearchingArea relative" style="; background-color: transparent;">
+      <div ku-container data-container-id="ku_quick_main_container" data-container-role="main" style="height: auto; background-color: #f6f6f6; width: 100vw !important; margin: 0 !important; max-width: 100% !important;">
+        <div class="quick-template-wrapper">
+        <!-- <div class="hidden lg:block fixed top-0 left-0" style="height:30%; width:100vw; background-color: #f6f6f6; z-index:-1;"></div> -->
+        <header ku-container data-container-id="ku_quick_main_header_container" data-container-role="header" class="col-span-4 md:col-span-12 lg:col-span-4">
+          <section ku-block data-block-id="ku_quick_main_header_sub_panel"></section>
+          <section ku-block data-block-id="ku_quick_main_header_banner">
+            <%=helper.render('klevuQuickPromotionBanner',scope,data,"top") %>
+          </section>
+          <section ku-block data-block-id="ku_quick_main_header_site_navigation">
+            <div class="klevuSuggestionsBlock">
+              <%=helper.render('klevuQuickAutoSuggestions',scope) %>
+              <%=helper.render('klevuQuickCategorySuggestions',scope) %>
+              <%=helper.render('klevuQuickPageSuggestions',scope) %>
+            </div>
+          </section>
+        </header>
+        <% if(data.showQuickFacetedLayoutCharLimitMessage == true) { %>
+          <% var quickFacetedLayoutMessage = (data.quickFacetedLayoutMinCharsTextValue) ? data.quickFacetedLayoutMinCharsTextValue : ""; %>
+          <% if(quickFacetedLayoutMessage != "") { %> <span class="kuFacetedLayoutMinCharText"><%= helper.translate(quickFacetedLayoutMessage) %></span> <% } %>
+        <% } else { %>
+          <% if(data.query.productList) { %>
+            <%=helper.render('klevuQuickTemplateResultsHeadingTitle',scope,data,"productList") %>
+            <%= helper.render('klevuQuickTemplateTabResults',scope) %> <%= helper.render('klevuQuickProducts',scope) %>
+            <%= helper.render('klevuQuickOtherContent',scope) %> <% } else { %> <div class="kuSearchPersonalizationsContainer"> <%= helper.render('klevuSearchPersonalizations',scope) %> </div>
+          <% } %>
+        <% } %>
+        <footer ku-container data-container-id="ku_quick_main_footer_container" data-container-role="footer">
+          <section ku-block data-block-id="ku_quick_main_footer_sub_panel"></section>
+          <section ku-block data-block-id="ku_quick_main_footer_banner">
+            <%=helper.render('klevuQuickPromotionBanner',scope,data,"bottom") %>
+          </section>
+        </footer>
+      </div>
+      <!-- <div class="quick-search-overlay"><div class="hidden lg:block absolute top-0 left-0" style="height:100vh; width:100vw; background-color:rgba(0,0,0,0.65); z-index:-1;"></div></div> -->
+    </div>
+  </div>
+</script>

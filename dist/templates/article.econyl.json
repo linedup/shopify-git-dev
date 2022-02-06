@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "ECONYL® Regenerated Nylon",
+        "subtitle": "Turning plastic problems into fabric solutions",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "16390492346014eb34": {
+      "type": "body-text",
+      "blocks": {
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5": {
+          "type": "body",
+          "settings": {
+            "body": "<p>The oceans of the world are the unhappy home to around 640,000 tons of discarded nylon fishing nets. Not only is nylon non-biodegradable, the process of manufacturing it is also highly polluting. This is one of the reasons we're passionate about continuing our work with ECONYL®. They have invented a way of converting discarded fishing nets and other waste material into a high-performance fabric, helping us to close the loop and turn a plastic problem into fabric solutions. <\/p>"
+          }
+        },
+        "3f0ac585-2b4e-4bbc-8a56-def7e6f32b66": {
+          "type": "title",
+          "settings": {
+            "title": "What is ECONYL®?"
+          }
+        },
+        "a1c91516-31b5-48dd-96f3-d3e09c5c00bf": {
+          "type": "body",
+          "settings": {
+            "body": "<p>ECONYL® regenerates global nylon waste by collecting it from landfills and oceans and then turning it back into a usable fabric. It has the same performance as brand new nylon and can be recycled, recreated and remoulded infinite times. From old carpets to discarded fishing nets, it's a way of dealing with ocean pollution, repurposing it and eliminating the process of creating new and potentially harmful materials<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5",
+        "3f0ac585-2b4e-4bbc-8a56-def7e6f32b66",
+        "a1c91516-31b5-48dd-96f3-d3e09c5c00bf"
+      ],
+      "settings": {
+      }
+    },
+    "1639049548fe89cefb": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/econyl-1.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/econyl-2.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1639049743689f2e20": {
+      "type": "body-text",
+      "blocks": {
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded": {
+          "type": "title",
+          "settings": {
+            "title": "How is it turned into a new material?"
+          }
+        },
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468": {
+          "type": "body",
+          "settings": {
+            "body": "<p>1. Nylon 6 waste is collected from all over the world and sent to the ECONYL® waste treatment centre in Ajdovščina, Slovenia where the different types of waste are cleaned and sorted to recover as much of the nylon as possible.<\/p><p>2. The waste undergoes a regeneration and purification process, resulting in a recycled nylon of exactly the same quality as virgin nylon.<\/p><p>3. The ECONYL® regenerated nylon is then transformed into new high performance textile yarns, which we then use in our swimwear and jackets.<\/p>"
+          }
+        },
+        "179f34ad-f72a-4d57-a473-77bef74ce84b": {
+          "type": "title",
+          "settings": {
+            "title": "ECONYL® in numbers"
+          }
+        },
+        "4481558e-839d-4a0d-9585-b1c428cc029e": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Per tonne, ECONYL® saves:<\/p><p>- 7 barrels of crude oil<\/p><p>- 5.7 tonnes of CO2 equivalent emissions<\/p><p>As well as being a solution on waste ECONYL® reduces the global warming impact of using nylon by up to 80% compared with the material from oil.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d1376ec8-13e1-4a8d-9557-ed168dfc7ded",
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468",
+        "179f34ad-f72a-4d57-a473-77bef74ce84b",
+        "4481558e-839d-4a0d-9585-b1c428cc029e"
+      ],
+      "settings": {
+      }
+    },
+    "163965776316a412cd": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/econyl-large-image.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/econyl-mobile-hero.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/215217462.hd.mp4?s=faf6e0e42086430171a714c0e7aabde7f963098e&profile_id=174",
+        "caption": ""
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "16390492346014eb34",
+    "1639049548fe89cefb",
+    "1639049743689f2e20",
+    "163965776316a412cd"
+  ]
+}

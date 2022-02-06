@@ -1,0 +1,17 @@
+<script type="template/klevu" id="klevuQuickAutoSuggestionsCustom">
+   <% if(data.suggestions.autosuggestion) { %>
+    <% if(data.suggestions.autosuggestion.length> 0 ) { %>
+      <% var queryParam = klevu.getSetting(klevu, "settings.url.queryParam"); %>
+      <div class="klevuAutoSuggestionsWrap_ klevuAutosuggestions_ page-margin mb-4">
+        <div class="klevuSuggestionHeading_ mb-3 pt-5">
+          <span class="klevuHeadingText"> <%=helper.translate("Suggested")%></span>
+        </div>
+        <ul>
+          <% helper.each(data.suggestions.autosuggestion,function(key,suggestion){ %>
+          <li tabindex="-1" class="product-tag w-max mb-2"><a target="_self" href="<%=helper.buildUrl(data.settings.landingUrl, queryParam , helper.stripHtml(suggestion.suggest))%>" data-content="<%=helper.stripHtml(suggestion.suggest) %>" class="klevu-track-click_"> <%=suggestion.suggest %> </a></li>
+          <% }); %>
+        </ul>
+      </div>
+    <% } %>
+  <% } %>
+</script>

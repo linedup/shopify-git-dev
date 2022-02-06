@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_2.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16379238906e10fccc": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "As part of Finisterre’s commitment to diversity, equality and inclusion in the outdoors, we have teamed up with Phil Young and The Outsiders Project to develop and nurture the various initiatives they represent. Our role always was, and will continue to be, to encourage people from our whole community to get out there under the open sky.",
+        "title_2": "Photography & Film",
+        "body_content_2": "<p>David Gray<br\/>Dan Magee<\/p>",
+        "title_3": "Featured",
+        "body_content_3": "<p>Phil Young<br\/>Omie Dale<br\/>Soraya Abdel-Hadi<\/p>"
+      }
+    },
+    "16419071685951b0c8": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_21-v2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_22-v2.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/622260670.hd.mp4?s=7b1f31555244dc6e31a671606c035b12905059a3&profile_id=169",
+        "caption": ""
+      }
+    },
+    "1641907674dd8a54e6": {
+      "type": "body-text",
+      "blocks": {
+        "4b664325-884d-442c-a841-a06c7bad26f0": {
+          "type": "title",
+          "settings": {
+            "title": "We sat down with Omie Dale, an activist, swimming instructor and outdoor swim coach based in London, to discuss connection to the sea and the cultural barriers that prevent that."
+          }
+        }
+      },
+      "block_order": [
+        "4b664325-884d-442c-a841-a06c7bad26f0"
+      ],
+      "settings": {
+      }
+    },
+    "16419079210bce92f3": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_6-v2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_6-v2.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/622252984.hd.mp4?s=6510bbc62f8c36104e8615b4006481eebc4e2af8&profile_id=175",
+        "caption": ""
+      }
+    },
+    "1637924316e01fff62": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p>Through swimming I’ve definitely fostered a much stronger connection to the land that we live on and the water that surrounds it.<\/p>",
+        "credit": "Omie Dale, Swimming Instructor & Activist"
+      }
+    },
+    "1637924350d46f3962": {
+      "type": "image-carousel",
+      "blocks": {
+        "2f48dc43-fac8-43c9-873f-238e4adcaa54": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_7.jpg"
+          }
+        },
+        "f54036bf-dda0-43ed-b337-8f03ea71f274": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_8.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "2f48dc43-fac8-43c9-873f-238e4adcaa54",
+        "f54036bf-dda0-43ed-b337-8f03ea71f274"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "1637924508dc05086f": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_9.jpg",
+        "caption": "",
+        "overline": "Omie Dale",
+        "body": "“These past few days, being here and being able to reset my body and my mind and get into the water - I feel so privileged. Not everybody gets that opportunity.”",
+        "button_text": "Read More",
+        "button_link": "shopify:\/\/blogs\/broadcast\/omie-dale-new-lenses-on-the-landscape"
+      }
+    },
+    "16419075020dfad08c": {
+      "type": "body-text",
+      "blocks": {
+        "033443cb-b8a0-4cf5-a6b9-f60011bf43e9": {
+          "type": "title",
+          "settings": {
+            "title": "We sat down with Phil Young,  Founder of the Outsiders project, for a conversation about what more can be done to make the outdoors accessible to all."
+          }
+        }
+      },
+      "block_order": [
+        "033443cb-b8a0-4cf5-a6b9-f60011bf43e9"
+      ],
+      "settings": {
+      }
+    },
+    "1641907669ccc37add": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_11-v2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_11-v2.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/622255116.hd.mp4?s=25c97f68b4975fbdadef25a6c4fffe6a0037107d&profile_id=175",
+        "caption": ""
+      }
+    },
+    "1637924787684c596a": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p>You feel that, you have to be around people that are like you, and you have to feel safe.<\/p>",
+        "credit": "Phil Young, Producer, Photographer & Activist"
+      }
+    },
+    "1637924794092b3988": {
+      "type": "image-carousel",
+      "blocks": {
+        "bc04ec70-4846-479d-bffe-239b1472aece": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_12-v2_8dd6a215-1eea-4ee1-84a2-33bd7c25ebe0.jpg"
+          }
+        },
+        "f0c6c330-b075-4fa6-b62b-ac208b4b82c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_13-v2_51858d6b-c358-4e1f-adcf-8fe44c522e8c.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "bc04ec70-4846-479d-bffe-239b1472aece",
+        "f0c6c330-b075-4fa6-b62b-ac208b4b82c8"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "1637924804572ba9e2": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_14-v2_7bc7a477-85c0-44f6-8b62-460a22a5e9e0.jpg",
+        "caption": "",
+        "overline": "Phil Young",
+        "body": "“I don’t believe it is a case of necessarily not being able to get out into nature. It is about a sense of, do you actually belong there? Do you feel welcome there? Do you feel comfortable in that space? And I think that is the real challenge.”",
+        "button_text": "Read More",
+        "button_link": "shopify:\/\/blogs\/broadcast\/phil-young-new-lenses-on-the-landscape"
+      }
+    },
+    "1641907171ea44065f": {
+      "type": "body-text",
+      "blocks": {
+        "4098c456-a9b4-43a7-9ddd-6ace9c05e2d6": {
+          "type": "title",
+          "settings": {
+            "title": "We spoke to Soraya, an award-winning writer, artist and founder of All The Elements CIC."
+          }
+        }
+      },
+      "block_order": [
+        "4098c456-a9b4-43a7-9ddd-6ace9c05e2d6"
+      ],
+      "settings": {
+      }
+    },
+    "16419074993f8747e5": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_16-v2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_16-v2.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/622259239.hd.mp4?s=f3451477978c991e408d4ba0b2800d101007a4eb&profile_id=175",
+        "caption": ""
+      }
+    },
+    "1637924835d7eb8e4b": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p>My role in this conversation is to bring people together and to bridge gaps.<\/p>",
+        "credit": "Soraya Abdel-Hadi, Environmentalist & Activist"
+      }
+    },
+    "16379248413379b33e": {
+      "type": "image-carousel",
+      "blocks": {
+        "2a535559-edd6-4902-9cde-5474813cd2e9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_17-v2_5745dfcb-256b-496d-842f-c77ec21c959a.jpg"
+          }
+        },
+        "72e02ba2-d8c9-4f7f-b2c4-b2622f162922": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_18-v2_c610de1b-94c2-4a8c-bd50-8df06eb5c887.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "2a535559-edd6-4902-9cde-5474813cd2e9",
+        "72e02ba2-d8c9-4f7f-b2c4-b2622f162922"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "163792485195966d75": {
+      "type": "pull-quote-in-adventure-feature",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_19-v2_57c99ac9-8856-4420-aec6-faea528b11fe.jpg",
+        "caption": "",
+        "overline": "Soraya Abdel-Hadi",
+        "body": "“I decided to pivot my career more towards sustainability and environmental protection. And since I have done that, my relationship to nature has transformed, everything has heightened.”",
+        "button_text": "Read More",
+        "button_link": "shopify:\/\/blogs\/broadcast\/soraya-abdel-hadi-new-lenses-on-the-landscape"
+      }
+    },
+    "1641908799723f1bac": {
+      "type": "carousel-editorial-b",
+      "blocks": {
+        "de76cf3a-a8b2-4645-ace5-84266b9cc1e8": {
+          "type": "article",
+          "settings": {
+            "article_link": "broadcast\/phil-young-new-lenses-on-the-landscape",
+            "article_title": "Phil Young",
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_3-v2.jpg"
+          }
+        },
+        "d98a4574-0c38-4dfb-b4ae-56919a7aca53": {
+          "type": "article",
+          "settings": {
+            "article_link": "broadcast\/omie-dale-new-lenses-on-the-landscape",
+            "article_title": "Omie Dale",
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_4-v2.jpg"
+          }
+        },
+        "1e93616f-e443-4e3b-a135-f743a68d3b78": {
+          "type": "article",
+          "settings": {
+            "article_link": "broadcast\/soraya-abdel-hadi-new-lenses-on-the-landscape",
+            "article_title": "Soraya Abdel-Hadi",
+            "image": "shopify:\/\/shop_images\/New-Lenses_Wales_Campaign-Page_5-v2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "de76cf3a-a8b2-4645-ace5-84266b9cc1e8",
+        "d98a4574-0c38-4dfb-b4ae-56919a7aca53",
+        "1e93616f-e443-4e3b-a135-f743a68d3b78"
+      ],
+      "settings": {
+        "title": "Related Articles"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "16379238906e10fccc",
+    "16419071685951b0c8",
+    "1641907674dd8a54e6",
+    "16419079210bce92f3",
+    "1637924316e01fff62",
+    "1637924350d46f3962",
+    "1637924508dc05086f",
+    "16419075020dfad08c",
+    "1641907669ccc37add",
+    "1637924787684c596a",
+    "1637924794092b3988",
+    "1637924804572ba9e2",
+    "1641907171ea44065f",
+    "16419074993f8747e5",
+    "1637924835d7eb8e4b",
+    "16379248413379b33e",
+    "163792485195966d75",
+    "1641908799723f1bac"
+  ]
+}

@@ -1,0 +1,10 @@
+{% if template.name == "product" and collection.url %}
+  <p><a href="{{ collection.url }}">{{ collection.title }}</a>&nbsp;/&nbsp;{{ product.title | escape }}</p>
+{% elsif template.name == "article" %}
+  <p><a href="{{ blog.url }}">{{ blog.title }}</a>&nbsp;/&nbsp;{{ article.title | escape }}</p> 
+{% elsif template.suffix != "stores" and template.suffix contains "store" %}
+  <p><a href="/pages/stores">Stores</a>&nbsp;/&nbsp;{{ page.title | replace: "Store ", "" | escape }}</p>
+{% elsif template.suffix != "ambassadors" and template.suffix contains "ambassador" %}
+  {% comment %} Used 2 replaces here to cover off different possible page title scenarios. They could just as easily be combined. {% endcomment %}
+  <p><a href="/pages/ambassadors">Ambassadors</a>&nbsp;/&nbsp;{{ page.title | replace: "Ambassador", "" | replace: ": ", "" | escape }}</p> 
+{% endif %}

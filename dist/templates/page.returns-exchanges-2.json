@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Contact",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1640953878bdf81bcd": {
+      "type": "faqs-section",
+      "blocks": {
+        "ef28abe4-d24b-4ca7-8e4a-ea6a78bbcfb8": {
+          "type": "faq",
+          "settings": {
+            "question": "Get in touch - Email us",
+            "answer": "<p>The best way of contacting us is via email : <a href=\"mailto:hello@finisterre.com\" target=\"_blank\" title=\"mailto:hello@finisterre.com\">hello@finisterre.com<\/a> <\/p><p>Our Customer Service team is here on hand to answer your queries Monday-Friday 8.00am - 5.30pm.<br\/><\/p><p>We will endeavour to respond to your email within 2-3 working days.<\/p>"
+          }
+        },
+        "123188ed-ef39-41be-a858-ea0934c6b046": {
+          "type": "faq",
+          "settings": {
+            "question": "Call us",
+            "answer": "<p>If you'd prefer to give us a call, you can catch us on <strong>01872 554481. <\/strong><br\/><\/p><p>Our Customer Service team is here on hand to answer your queries Monday-Friday 8.00am - 5.30pm<\/p>"
+          }
+        },
+        "69baa678-a181-406d-822b-c33c6784261a": {
+          "type": "faq",
+          "settings": {
+            "question": "Write to us",
+            "answer": "<p>If you’d like to contact us by post, our address is: <\/p><p>Wheal Kitty Workshops<\/p><p>St Agnes<\/p><p>Cornwall TR5 0RD<\/p><p>United Kingdom<\/p><p><br\/><\/p>"
+          }
+        },
+        "d1748bf7-8c3d-4750-99e6-e385c3d4f0b6": {
+          "type": "faq",
+          "settings": {
+            "question": "Returns",
+            "answer": "<p>For specific returns queries, email <a href=\"mailto:returns@finisterre.com\" target=\"_blank\" title=\"mailto:returns@finisterre.com\">returns@finisterre.com<\/a> and the Returns Team will get back to you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ef28abe4-d24b-4ca7-8e4a-ea6a78bbcfb8",
+        "123188ed-ef39-41be-a858-ea0934c6b046",
+        "69baa678-a181-406d-822b-c33c6784261a",
+        "d1748bf7-8c3d-4750-99e6-e385c3d4f0b6"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1640953878bdf81bcd"
+  ]
+}

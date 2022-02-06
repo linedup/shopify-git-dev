@@ -1,0 +1,10 @@
+{% assign quantity = product.quantity %}
+{% if quantity == blank %}
+  {% assign quantity = 1 %}
+{% endif %}
+
+<quantity-input>
+  <div class="quantity-input">
+    <input type="button" value="-" class="minus" name="minus"><input type="number" value="{{ quantity }}" step="1" min="1" max="" size="4" class="input-text qty text" name="quantity" id="quantity-{{ section.id }}" form="product-form-{{ section.id }}" data-index="{{ index }}"><input type="button" value="+" class="plus" name="plus">
+  </div>
+</quantity-input>

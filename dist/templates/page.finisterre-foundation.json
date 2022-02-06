@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "164086683442b5c24f": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-foundation-banner-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-foundation-banner.jpg",
+        "alt": "Finisterre Foundation",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Finisterre Foundation",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "164086683654b7097e": {
+      "type": "body-text",
+      "blocks": {
+        "3a51487e-f6d8-448e-8d94-dcd594d11a2a": {
+          "type": "title",
+          "settings": {
+            "title": "Inspiring people to love and protect the sea has always been the heart and soul of Finisterre."
+          }
+        },
+        "4157f31d-d0c0-440e-a4e2-c7a1606f7ca9": {
+          "type": "body",
+          "settings": {
+            "body": "<p>In launching our new foundation we hope to be able to make a real difference in championing equal access to the ocean for everyone.<\/p><p>The Finisterre Foundation aims to remove barriers to access so everyone can get to and benefit from the transformative power of the ocean. We want to encourage, empower and enable people to connect with the sea not only to improve their physical and mental wellbeing but to help broaden horizons. We believe that everyone should have equal access to the ocean.<\/p><p>We’re a new foundation and we’re on a journey, taking small steps to help make a big difference.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3a51487e-f6d8-448e-8d94-dcd594d11a2a",
+        "4157f31d-d0c0-440e-a4e2-c7a1606f7ca9"
+      ],
+      "settings": {
+      }
+    },
+    "164086698628e5aaae": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-foundation-banner-beach-walk-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-foundation-banner-beach-walk.jpg",
+        "alt": "City Kinds Surfing",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "164086714960be74a8": {
+      "type": "body-text",
+      "blocks": {
+        "83129fcd-d75f-4903-b937-28eeae474496": {
+          "type": "title",
+          "settings": {
+            "title": "Finisterre projects & existing charitable projects we support..."
+          }
+        }
+      },
+      "block_order": [
+        "83129fcd-d75f-4903-b937-28eeae474496"
+      ],
+      "settings": {
+      }
+    },
+    "164086731812f378a7": {
+      "type": "double-medium-feature",
+      "settings": {
+        "title": ""
+      }
+    },
+    "1640867359d6093c10": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-foundation-andrew-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/wetsuit-project-finisterre-foundation_00630884-8591-4738-906f-d6a5645a362b.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/639132497.hd.mp4?s=292a41380ccd04bca4b628d3b003d59e17364c99&profile_id=169",
+        "caption": ""
+      }
+    },
+    "16408673626d0855e5": {
+      "type": "body-text",
+      "blocks": {
+        "603fba49-d58f-4ddd-8fc6-365717580621": {
+          "type": "title",
+          "settings": {
+            "title": "The Wetsuit Project"
+          }
+        },
+        "aefa76be-3c94-4ece-837b-6c7074544a2f": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Inspired by Andrew's story, we're working with our partners at Bodyline to adapt wetsuits and ease people's entry to the water. We'll adapt any suit, for any age and any ability; underlining the foundation's commitment to championing equal access to the ocean. If you’re interested in getting a suit adapted for yourself or someone else, applications will open from 26th November.<\/p><p><a href=\"https:\/\/finisterre.com\/pages\/foundation-wetsuit-project\" target=\"_self\">DISCOVER THE WETSUIT PROJECT<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "603fba49-d58f-4ddd-8fc6-365717580621",
+        "aefa76be-3c94-4ece-837b-6c7074544a2f"
+      ],
+      "settings": {
+      }
+    },
+    "1640867849e78caa19": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-foundation-city-kids-surfing-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-foundation-city-kids-surfing.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/639128711.hd.mp4?s=a2db8f0ae22a1709833194d8e67a0ae4992ddc90&profile_id=169",
+        "caption": ""
+      }
+    },
+    "1640867853918e5b58": {
+      "type": "body-text",
+      "blocks": {
+        "ba4ae45a-0e3a-4a61-a3be-43e0b935117e": {
+          "type": "title",
+          "settings": {
+            "title": "City Kids Surfing"
+          }
+        },
+        "fae2c33e-641d-4a62-870c-743955238644": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Founded By Tom Franklin in the south east London borough of Lewisham, City Kids Surfing has been introducing inner city children to the ocean since 2016. The Foundation is proudly taking over the partnership supported by Finisterre for years, providing a safe environment for kids to experience the ocean.<\/p><p><a href=\"https:\/\/finisterre.com\/blogs\/broadcast\/get-city-kids-surfing\" title=\"\/blogs\/broadcast\/get-city-kids-surfing\"><em>Learn More<\/em><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ba4ae45a-0e3a-4a61-a3be-43e0b935117e",
+        "fae2c33e-641d-4a62-870c-743955238644"
+      ],
+      "settings": {
+      }
+    },
+    "1640868143ffc93878": {
+      "type": "large-feature-a",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-foundation-seasuit-project-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-foundation-seasuit-project.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/external\/395439211.hd.mp4?s=ffe1dcb27105fa5f8decc7453dd1c4ca52f7b4c9&profile_id=169",
+        "caption": ""
+      }
+    },
+    "1640868147710fd3f3": {
+      "type": "body-text",
+      "blocks": {
+        "62198f66-7a7e-4f78-baa6-63dcf89087d1": {
+          "type": "title",
+          "settings": {
+            "title": "The Seasuit Project"
+          }
+        },
+        "11a5dfb9-f107-433e-abc9-ce3b1a83f141": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Back in 2010, Finisterre Ambassador Easkey Britton returned from a trip to Iran with an idea. Both a functional design challenge and a way to get more women into the water, the Foundation is proud to be taking over support of the project and bringing the Finisterre Seasuit to life.<\/p><p><a href=\"https:\/\/finisterre.com\/blogs\/broadcast\/into-the-sea-the-finisterre-seasuit-project\" title=\"\/blogs\/broadcast\/into-the-sea-the-finisterre-seasuit-project\"><em>Learn More<\/em><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "62198f66-7a7e-4f78-baa6-63dcf89087d1",
+        "11a5dfb9-f107-433e-abc9-ce3b1a83f141"
+      ],
+      "settings": {
+      }
+    },
+    "1640868514cd81e7f6": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-foundation-community-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-foundation-community.jpg",
+        "alt": "City kids surf",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16408685163199dd4d": {
+      "type": "body-text",
+      "blocks": {
+        "ff15ccdb-7e59-4182-a3be-936d96e6a256": {
+          "type": "title",
+          "settings": {
+            "title": "The Finisterre Foundation is a Community Interest Company (CIC) which supports small scale charitable projects."
+          }
+        },
+        "18a10a38-efb6-4fc6-9aee-7af2f07031e2": {
+          "type": "body",
+          "settings": {
+            "body": "<p>As a CIC, the Finisterre Foundation is a separate legal entity set up to fundraise from Finisterre and their customers. The Foundation will operate and support small scale charitable projects, primarily in the UK, and has been set-up to help anyone facing barriers to accessing the sea for reasons which may include; financial hardship and poverty, physical disability or other personal circumstances resulting in social exclusion. In addition to providing funding for select partners, we’ll also give our time, skills, kit and anything else we can think of to help support us achieve our mission.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ff15ccdb-7e59-4182-a3be-936d96e6a256",
+        "18a10a38-efb6-4fc6-9aee-7af2f07031e2"
+      ],
+      "settings": {
+      }
+    },
+    "1640868575c3655c61": {
+      "type": "body-text",
+      "blocks": {
+        "84c62f9a-e4a0-4ed3-b08e-d5b484d477ce": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Apply to the Foundation<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "84c62f9a-e4a0-4ed3-b08e-d5b484d477ce"
+      ],
+      "settings": {
+      }
+    },
+    "1641379091dfe2e7ee": {
+      "type": "button",
+      "settings": {
+        "text": "Our Grant Making Policy",
+        "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/The_Finisterre_Foundation_Grant_Making_Policy.pdf?v=1637771861",
+        "button_center": true
+      }
+    },
+    "1641379346eb600b26": {
+      "type": "html",
+      "settings": {
+        "html": "<button data-tf-popup=\"nsTg5CFr\" data-tf-iframe-props=\"title=Initial Application\" style=\"display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#E7DDBB;color:#000000;border-radius:0px;padding:0 33px;height:3.5rem;cursor:pointer;line-height:50px;text-align:center;margin:0;\">Apply to the Foundation <\/button><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>"
+      }
+    }
+  },
+  "order": [
+    "164086683442b5c24f",
+    "main-titles",
+    "164086683654b7097e",
+    "164086698628e5aaae",
+    "164086714960be74a8",
+    "164086731812f378a7",
+    "1640867359d6093c10",
+    "16408673626d0855e5",
+    "1640867849e78caa19",
+    "1640867853918e5b58",
+    "1640868143ffc93878",
+    "1640868147710fd3f3",
+    "1640868514cd81e7f6",
+    "16408685163199dd4d",
+    "1640868575c3655c61",
+    "1641379091dfe2e7ee",
+    "1641379346eb600b26"
+  ]
+}

@@ -1,0 +1,171 @@
+Theme check:
+Removed checks for RemoteAsset
+Removed checks for TemplateLength
+
+Video - should we use a placeholder whilst the video loads?
+
+Come up with a single config reference breakpoint config for Tailwind / JS
+
+<body class="mobile-nav-scroll_">
+
+Global.js moved to assets - should be within webpack
+
+Collection pagination:
+Button loader class with animation
+Page URL Update
+GA tracking
+
+Correct glideConfig conditional
+
+Schema:
+Set copy / content to 'text'
+
+PLP Outro links not underlined? Probably the same in the page intros.
+
+Ajax collection pagination:
+Update URL.
+GA event
+
+PDP - handled out of stock
+PDP - handle cart errors
+PDP - refactor variable names
+PDP - refactor liquid code
+PDP - Video on mobile? How to prevent it being loaded/duplicated if not shown on mobile.
+PDP - Mobile carousel - add arrows
+PDP - Mobile - colour arrow position
+Ajax cart - handle cart errors
+Ajax cart - animation over element
+
+Btn loader animation / tick and PDP button should be consolidated
+
+
+Basket page:
+Remove button
+buttons_added classname
+
+Ajax cart:
+data-index="{{ index }}
+Loading animation
+Aria controls
+Sale pricing
+Handle errors such as trying to add more to the cart then the inventory
+
+Sticky nav:
+Scroll event firing on load even when not scrolling
+
+Blog carousel:
+Image scr
+Alt tag
+Link title tag
+
+Sections icons in editor
+
+Blog article - product carousel - check what happens to expired / inactive products
+
+Landing page - hide buttons (at different media queries) if content has already loaded
+
+Page - default page template required
+
+Footer nav - document " (mobile-only)" feature
+Footer nav - social links (desktop and mobile)
+Footer nav - option to open a new window?
+
+Store page:
+Use Definition list rather than <p> for opening hours
+
+Editorial Carousel - should use content cards, rather than inline HTML
+
+Blog article leading <h3> wrapps <p> tags inside
+
+Check all richtext elements are not wrapped in <p> tags
+
+PDP tech spec / delivery - need paragraph margin bottoms
+Blog article/Shogun - Shogun script replace needs to be looked at article.liquid
+Blog article/Shogun - Tags on sliders should not be a <p> tag or an <a> tag. needs attention.
+
+Nosto template (carousel) - can image sizes be reduced?
+
+FourSixty styles and script includes to be improved
+
+FAQ's rotated plus sign has a different height
+
+replace camelCase variables with underscores
+
+Stop the url updating
+Colour options were a span with an href - now set to data-href, but perhaps should be an <a> with an href
+
+Add to basket error handling - PDP and QuickBuy
+
+PLP Quick buy:
+Remove lazy loading for second image
+Rollover transition
+Add to basket feedback
+Button CSS as per designs
+
+Video elements - currently on PDP these are dependent on the size of the image alongside
+
+Filtering: loading div currently blank
+Filtering - arrow up is a different size from arrow down
+Filtering blogs - Clear does not currently clear the checkboxes
+
+Complete the look and other product carousel do not currently show the sale price - they should probably use a product card
+
+Newsletter signup form - move Javascript & consider Web Component?
+
+Icons - check width / height valus against artwork
+
+Account:
+Turned off ReCaptcha to test accounts
+Recover password
+Form errors
+Login cookie
+Images of old products in order history
+H2's H3's
+Aria
+Cancelled orders
+Order discount
+Order tax
+
+Accounts - <h1 id="recove" tabindex="-1" class="h2">Reset your password</h1>
+Accounts - check different currencies
+Accounts - should we show refunds
+Accounts - old items image
+Accounts - line item properties
+Accounts - discount line items
+Accounts - .account-address ??
+Accounts - pagination buttons need to handle two at the same time
+Accounts - separate CSS file should be replaced
+Accounts - handle autofocus on login (refer to original Dawn template)
+Accounts - register checkboxes - just dummy currently
+
+Blog filters - no results
+Blog filters - on refresh set the tag?
+Blog filters - do we need the values?
+Blog filters - detail bug lookingfor H3 on mobile
+
+Gift card - select sizes should not show on mobile PLP
+
+Cart: Accepted card types overspill
+Cart: Additional payment types
+
+Currency converter - avoid using the inline style
+Currency converter - adjust width on mobile layout
+
+Collection filters - arrow width adjusted due to .link class width calc(100%)
+Collection filters - link class removed when clicking 'Clear filters)
+
+Editorial Carousel D - uses ACF for images, so cannot currently use the image snippet
+
+ACF images made responsive via image snippet
+
+Checkout - uses original CSS file
+Checkout - uses jQuery
+
+Check for more than one image when offsetting the loop
+{% assign offset = 0 %}
+But should really refactor into product cards
+
+Complete the look - could use a product card
+Complete the look - ability to quick buy
+
+Language file complete refactor - remember to keep checkout details

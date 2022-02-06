@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Robert Todds",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "Robert Todds are fourth generation knitters based in Carlisle with over 120 years of textile experience, managing factories in 10 countries across the globe. We have been working Robert Todds since 2013, growing our relationship with them from one small jumper run to now being a key supplier for us. They produce the highest quality knitwear in their Romanian and the Czech Republic factories, using premium Italian and British yarn.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1638962053c812c148": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f5902a35-64bb-41ca-9fe7-47460372ea14": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/robert-todds-featured-image-1.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/robert-todds-featured-image-2.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f5902a35-64bb-41ca-9fe7-47460372ea14"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1638897297c195054c": {
+      "type": "factory-statistics",
+      "blocks": {
+        "e8efb7c3-a037-421b-b31f-a10620b7b44a": {
+          "type": "statistic",
+          "settings": {
+            "title": "Supplier Since",
+            "value": "2013"
+          }
+        },
+        "97bf8892-7344-4e68-b573-db25d20116a5": {
+          "type": "statistic",
+          "settings": {
+            "title": "Location",
+            "value": "Romania"
+          }
+        },
+        "f17acc3c-c799-4bf9-82cf-41ae5d413fa1": {
+          "type": "statistic",
+          "settings": {
+            "title": "Ownership",
+            "value": "Private"
+          }
+        },
+        "06e4bd9c-2592-485c-b2b5-86ee7b9aa9a2": {
+          "type": "statistic",
+          "settings": {
+            "title": "Produces",
+            "value": "Knitwear"
+          }
+        },
+        "8701ef91-c88c-4411-a0c2-9fbbdc003b7f": {
+          "type": "statistic",
+          "settings": {
+            "title": "Employees",
+            "value": "298"
+          }
+        },
+        "20752f25-fece-414f-9e8e-845f26e043c4": {
+          "type": "statistic",
+          "settings": {
+            "title": "Last Audited",
+            "value": "WCA Intertek 24\/12\/2020"
+          }
+        }
+      },
+      "block_order": [
+        "e8efb7c3-a037-421b-b31f-a10620b7b44a",
+        "97bf8892-7344-4e68-b573-db25d20116a5",
+        "f17acc3c-c799-4bf9-82cf-41ae5d413fa1",
+        "06e4bd9c-2592-485c-b2b5-86ee7b9aa9a2",
+        "8701ef91-c88c-4411-a0c2-9fbbdc003b7f",
+        "20752f25-fece-414f-9e8e-845f26e043c4"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1638962053c812c148",
+    "1638897297c195054c"
+  ]
+}

@@ -1,0 +1,40 @@
+<div class="max-w-screen-2xl_ mx-auto mb-14 lg:mb-18">
+  <div class="grid-container overflow-hidden">
+    <div class="col-span-4 md:col-span-12">
+      <div class="marquee">
+        <div class="marquee__inner" aria-hidden="true">
+        {% if section.settings.banner_text != blank %}
+            <h2 class="mr-29 rte">{{ section.settings.banner_text }}</h2>
+            <h2 class="mr-29 rte">{{ section.settings.banner_text }}</h2>
+            <h2 class="mr-29 rte">{{ section.settings.banner_text }}</h2>
+            <h2 class="mr-29 rte">{{ section.settings.banner_text }}</h2>
+          {% else %}
+            <h2 class="mr-29 rte">Sustainability as <strong>standard</strong>&nbsp;<img class="inline" src="{{ 'icon-recycling.svg' | asset_url }}" alt="Sustainability as standard" width="38" height="40" loading="lazy">&nbsp;since 2003</h2>
+            <h2 class="mr-29 rte">Sustainability as <strong>standard</strong>&nbsp;<img class="inline" src="{{ 'icon-recycling.svg' | asset_url }}" alt="Sustainability as standard" width="38" height="40" loading="lazy">&nbsp;since 2003</h2>
+            <h2 class="mr-29 rte">Sustainability as <strong>standard</strong>&nbsp;<img class="inline" src="{{ 'icon-recycling.svg' | asset_url }}" alt="Sustainability as standard" width="38" height="40" loading="lazy">&nbsp;since 2003</h2>
+            <h2 class="mr-29 rte">Sustainability as <strong>standard</strong>&nbsp;<img class="inline" src="{{ 'icon-recycling.svg' | asset_url }}" alt="Sustainability as standard" width="38" height="40" loading="lazy">&nbsp;since 2003</h2>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Scrolling Banner",
+  "settings": [
+    {
+      "type": "richtext", 
+      "id": "banner_text",
+      "label": "Banner text",
+      "info": "Insert any the banner text, if you wisdh to highlight some of it, then make it bold. "
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scrolling Banner"
+    }
+  ]
+}
+{% endschema %}

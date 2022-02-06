@@ -1,0 +1,105 @@
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container page-margin mb-9 lg:mb-18">
+
+    <div class="col-span-4 md:hidden mb-5">
+      <div class="glide glide-mobileProductGuidesMobile">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+
+            {% for block in section.blocks %}
+              <li class="glide__slide col-span-4 lg:col-span-3">
+                {% if block.settings.image %}
+                  {% if block.settings.link %}<a href="{{ block.settings.link }}" title="{{ block.settings.title }}">{% endif %}
+                    {% render 'image' with image_src: block.settings.image, classes: 'mb-4 md:mb-6' %}
+                  {% if block.settings.link %}</a>{% endif %}
+                {% endif %}
+                {% if block.settings.title != blank %}
+                  <h3 class="mb-4">{{ block.settings.title }}</h3>
+                {% else %}
+                  <div class="h3 mb-4">&nbsp;</div>
+                {% endif %}
+                <p>{{ block.settings.text }}</p>
+                {% if block.settings.link %}
+                  <a class="link mt-4" href="{{ block.settings.link }}" title="{{ block.settings.title }}">{{ block.settings.button_text }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden md:grid md:col-span-12">
+      <div class="grid-container">
+
+        {% for block in section.blocks %}
+          <div class="col-span-4">
+            {% if block.settings.image %}
+              {% if block.settings.link %}<a href="{{ block.settings.link }}" title="{{ block.settings.title }}">{% endif %}
+                {% render 'image' with image_src: block.settings.image, classes: 'mb-4 md:mb-6' %}
+              {% if block.settings.link %}</a>{% endif %}
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <h3 class="mb-4">{{ block.settings.title }}</h3>
+            {% else %}
+              <div class="h3 mb-4">&nbsp;</div>
+            {% endif %}
+            {% if block.settings.link %}
+              <p class="mb-4">{{ block.settings.text }}</p>
+              <a class="link" href="{{ block.settings.link }}" title="{{ block.settings.title }}">{{ block.settings.button_text }}</a>
+            {% else %}
+              <p>{{ block.settings.text }}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Guides - Products",
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Poduct Image",
+          "info": "1094px width - make sure these images are all the same height."
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Body text"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Button & image link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guides - Products"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,18 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-12">
+      {% if metaData.large_feature_subtitle[index] %}
+        <p>{{- metaData.large_feature_subtitle[index] -}}</p>
+      {% endif %}
+      {% if metaData.large_feature_title[index] %}
+        <h3 class="mb-4">{{- metaData.large_feature_title[index] -}}</h3>
+      {% endif %}
+      <div class="relative h-128 md:h-160 xl:h-202">
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+          <source src="{{ metaData.large_feature_video[index] }}">
+        </video> 
+        <a href="{{ metaData.url[index] }}" class="flex absolute top-1/2 transform -translate-y-2/4 left-0 items-center justify-center bg-sand z-10 h-14 lg:h-18 px-5 lg:px-10 w-max" data-glide-dir=">"><img src="{{ 'icon-play.svg' | asset_url }}" loading="lazy" height="20" width="30" alt="play button"></a>
+      </div>
+    </div>
+  </div>
+</div>

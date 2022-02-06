@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "pdp-form": {
+      "type": "pdp-images-and-form",
+      "settings": {
+      }
+    },
+    "pdp-description": {
+      "type": "pdp-description",
+      "settings": {
+        "delivery": "<p>Free UK Delivery, in 2-3 working days. <\/p><p>Free 90 day UK Returns.<\/p><p>EU duty calculated at checkout.<\/p><p>Free US delivery for orders over $205.<\/p>",
+        "specifications": ""
+      }
+    },
+    "1638901384218eb5e3": {
+      "type": "scrolling-banner",
+      "disabled": true,
+      "settings": {
+        "banner_text": "<p>Born for the sea. Built for adventure.<\/p>"
+      }
+    },
+    "pdp-guides": {
+      "type": "carousel-editorial-d",
+      "settings": {
+        "title": "Sustainability"
+      }
+    },
+    "16389012412a6853e2": {
+      "type": "large-single-feature",
+      "disabled": true,
+      "settings": {
+        "title": "Our go-to waterproofing",
+        "body": "The features that make this product so great",
+        "button_type": "one",
+        "button_text": "Find out more",
+        "button_url": "shopify:\/\/blogs\/broadcast\/wetsuits-from-wetsuits-an-update"
+      }
+    },
+    "pdp-reviews": {
+      "type": "pdp-reviews",
+      "settings": {
+      }
+    },
+    "complete-the-look": {
+      "type": "carousel-complete-the-look",
+      "settings": {
+        "heading": "Complete The Look"
+      }
+    },
+    "pdp-nosto": {
+      "type": "nosto-slot",
+      "settings": {
+        "nosto_id": "pdp-you-may-also-like"
+      }
+    },
+    "pdp-image-zoom": {
+      "type": "pdp-image-zoom",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "pdp-form",
+    "pdp-description",
+    "1638901384218eb5e3",
+    "pdp-guides",
+    "16389012412a6853e2",
+    "pdp-reviews",
+    "complete-the-look",
+    "pdp-nosto",
+    "pdp-image-zoom"
+  ]
+}

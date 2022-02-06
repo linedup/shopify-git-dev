@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Fluorocarbon-Free",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "We promised, we delivered. It’s the decisions that we make: we are committed to minimising the environmental impact of our product and business. Nothing harmful in the soil; nothing harmful in our jackets.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1639049548fe89cefb": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/FC-FREE-1.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/fc-free-1_eb40686d-20b3-4b1d-95d1-3a4fc7974648.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "27ac6b12-155c-4677-82d0-c0ab42ce0a63"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "16390492346014eb34": {
+      "type": "body-text",
+      "blocks": {
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Eradicating fluorocarbon finishes from our water repellent and waterproof fabrics was our fabric development mission for 8 years. We spent a number of years testing a large number of fluorocarbon-free finishes (FC-Free), to ensure the highest water repellent standards are achieved without compromising the environment.<\/p><p>For the majority of waterproof clothing, water repellence is achieved by treating fabrics with fluorocarbon-based Durable Water Repellents (DWRs), made up of C8 long chain chemicals (PFC DWR). However, these fluorocarbons slowly leach from the fabrics and gradually find their way into the water system. Over time, they bioaccumulate in the environment and enter the food chain, with the potential to cause health problems for both wildlife and people. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6d3b0749-6329-4cf2-8696-efd84797cdb5"
+      ],
+      "settings": {
+      }
+    },
+    "163966958613af5354": {
+      "type": "large-feature-b",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/fc-free-large-image.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/fc-free-mobile-hero.jpg"
+      }
+    },
+    "1639049743689f2e20": {
+      "type": "body-text",
+      "blocks": {
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468": {
+          "type": "body",
+          "settings": {
+            "body": "<p>After identifying some concerns within our own supply chain, we moved away from using these in 2010 and insisted on using a less harmful C6 DWR that was PFOA \/ FPOS free.<\/p><p>We announced our commitment as a business towards eliminating fluorocarbons from our range by the end of 2017. We believed it was attainable and we’re proud to have made it a reality.<\/p><p>Since 2018 we have only used fluorocarbon-free DWRs in all of our outerwear. We currently use two DWRs, one silicone based and an American DWR called Neoseed which contains botanical extracts to repel water without the need for fluorine - both of these DWRs break down naturally in the environment so we can create waterproof fabrics without compromising performance or the environment.<\/p><p>As a business we are by no means perfect, nor do we have all the answers, but in the face of an ever changing landscape, we always seek and commit to the best and most sustainable way of making our product, innovating where necessary.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "962f5cd8-44e1-4d40-b9b1-d3e6d30ec468"
+      ],
+      "settings": {
+      }
+    },
+    "1642774509c7ebcfd3": {
+      "type": "carousel-product",
+      "settings": {
+        "heading": "",
+        "products_collection": "waterproof-jackets"
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1639049548fe89cefb",
+    "16390492346014eb34",
+    "163966958613af5354",
+    "1639049743689f2e20",
+    "1642774509c7ebcfd3"
+  ]
+}

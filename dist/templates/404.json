@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "f7099eb4-99ee-4d77-92b1-f0655ef345e6": {
+          "type": "button",
+          "settings": {
+            "button_text": "Frequently Asked Questions",
+            "button_url": "shopify:\/\/pages\/faqs"
+          }
+        }
+      },
+      "block_order": [
+        "f7099eb4-99ee-4d77-92b1-f0655ef345e6"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/404-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/404-mobile.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>Sorry - the page has either moved or cannot be found<\/p>",
+        "anchor": ""
+      }
+    },
+    "1641489063dfb4b9e0": {
+      "type": "carousel-collection",
+      "blocks": {
+        "91602869-0004-4b2e-953d-2e7a837ebf5d": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "mens-new-arrivals"
+          }
+        },
+        "ee144fcf-2fd0-4a81-a073-d662c4150558": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "womens-new-arrivals"
+          }
+        },
+        "3f5855be-a840-4027-a8ea-5f61db4bde9a": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "mens-outerwear-jackets"
+          }
+        },
+        "0341ea08-749a-4238-aaef-bc4cd3c6dba0": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "womens-outerwear"
+          }
+        },
+        "50d88108-2e44-4285-8946-258746c64ab9": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "mens-knitwear"
+          }
+        },
+        "c7e4d8cb-b821-4263-8a7b-bd0984aded58": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "womens-knitwear"
+          }
+        },
+        "44e3d8dd-5421-491a-a2a3-78efc627ab06": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "changing-robes"
+          }
+        },
+        "6e251dad-1240-4e95-93d0-1731c535c072": {
+          "type": "collection",
+          "settings": {
+            "carousel_collection": "socks"
+          }
+        }
+      },
+      "block_order": [
+        "91602869-0004-4b2e-953d-2e7a837ebf5d",
+        "ee144fcf-2fd0-4a81-a073-d662c4150558",
+        "3f5855be-a840-4027-a8ea-5f61db4bde9a",
+        "0341ea08-749a-4238-aaef-bc4cd3c6dba0",
+        "50d88108-2e44-4285-8946-258746c64ab9",
+        "c7e4d8cb-b821-4263-8a7b-bd0984aded58",
+        "44e3d8dd-5421-491a-a2a3-78efc627ab06",
+        "6e251dad-1240-4e95-93d0-1731c535c072"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "164148906951c56bcc": {
+      "type": "double-medium-feature",
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "1641489063dfb4b9e0",
+    "164148906951c56bcc"
+  ]
+}

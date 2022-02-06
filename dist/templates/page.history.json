@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "164147218429ac6e1d": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-history-beach-tent-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-history-beach-tent-portrait.jpg",
+        "alt": "About the brand",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "About The Brand",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "Born over a decade ago from the needs of hardy British surfers, Finisterre designs functional and sustainable product for those that share a love of the sea.",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "16414721885f94b4fa": {
+      "type": "body-text",
+      "blocks": {
+        "d5c2421f-f25d-4bdb-af0c-5bf9782cfa41": {
+          "type": "body",
+          "settings": {
+            "body": "<p>It started in 2003 in a flat above a surf shop with an innovative fleece that was designed to keep out chill winds and warm up cold bodies. Since these early days, driven by those who have jumped on board, supported by our customers and suppliers, the brand and product has widened beyond these original beginnings. Yet from our cliff top workshop in St. Agnes, we stay true to our original design ethos of functionality and sustainability brought to life in an understated style and identity, always remaining committed to product, environment and people.<\/p><p>The name of one of the most rugged headlands that bravely bears the full brunt of the North Atlantic gales, and a former shipping forecast area, Finisterre literally means end of the earth or land’s end. The place where land ends has intrigued man for centuries, fostering both a real and a romantic relationship with the sea; a relationship that runs deep in our narrative.<\/p><p>Since day one we have taken a pioneering approach to making better and more sustainable product, challenging and innovating, seeking alternatives to what has gone before. We’re committed to making informed decisions about our impact on the environment and are constantly trying to push boundaries to make the best product we can. In our eyes this is gear that will be with you the longest; and the longer you have it, the more attached to it you become.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d5c2421f-f25d-4bdb-af0c-5bf9782cfa41"
+      ],
+      "settings": {
+      }
+    },
+    "1641472307ac4fb0fa": {
+      "type": "body-text",
+      "disabled": true,
+      "blocks": {
+        "5e7ee909-2c8c-429c-a3c7-15680d41345a": {
+          "type": "title",
+          "settings": {
+            "title": "The Founder"
+          }
+        }
+      },
+      "block_order": [
+        "5e7ee909-2c8c-429c-a3c7-15680d41345a"
+      ],
+      "settings": {
+      }
+    },
+    "1641472414ce32b48b": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/finisterre-history-founder-tom-kay-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/finisterre-history-founder-tom-kay.jpg",
+        "alt": "Tom Kay, Finisterre Founder",
+        "video_url": "",
+        "text": "<p>Tom Kay, Finisterre Founder<\/p>",
+        "anchor": ""
+      }
+    },
+    "1641472345431cdb1a": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p><em>\"Finisterre. Southwesterly 7 or gale 8, severe gale 9 later. Squally showers. Moderate, occasionally poor. Sea state rough increasing very rough…\"<\/em><\/p>",
+        "credit": ""
+      }
+    },
+    "164147252986538bff": {
+      "type": "body-text",
+      "blocks": {
+        "b8fb3096-6c2e-48d3-8eab-c95e2f3d277c": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Sat in the back of my parent’s car in the depths of winter with wind howling and rain lashing outside; this is one of my earliest memories. I would listen to the forecast and imagine tiny boats miles from land bravely making headway into mountainous seas. What would it be like for fishermen, sailors, captains and crews aboard these ships? Here was I, warm and safe, yet out there were seafarers in the grip of real storms. And here also was a distant, yet familiar voice offering a lifeline from land to sea – a forecast that might offer hope of relenting winds to come.<\/p><p>I’m proud that this love of the sea, passed down from my parents, runs through Finisterre, the brand I started in 2003; born from the need to make innovative product for hardy British surfers and the life we lead.<\/p><p>At the same time, I wanted to push innovation and product development in an industry that I felt was lacking. So I set about building a brand that would address this need, making innovative product built for purpose that would last. I wanted the brand to be committed to a better way of manufacturing, both in the fabrics we use and the manufacturers we choose to work with, seeking alternatives to what has gone before wherever possible. Then share this with our customers through an honest and open brand narrative.<\/p><p>So it began. With little business history or design experience I built an innovative fleece, telling my story through a three-page website from a flat above a surf shop. Waterproof and windproof, made in Devon, this product was designed to warm cold souls fresh from the sea.<\/p><p>Since these early days, and supported by those who have jumped on board, the brand and product has reached far and wide. Yet from our cliff top workshop, we stay true to our original design ethos of functionality and sustainability, remaining committed to product, environment and people.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b8fb3096-6c2e-48d3-8eab-c95e2f3d277c"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "164147218429ac6e1d",
+    "main-titles",
+    "16414721885f94b4fa",
+    "1641472307ac4fb0fa",
+    "1641472414ce32b48b",
+    "1641472345431cdb1a",
+    "164147252986538bff"
+  ]
+}

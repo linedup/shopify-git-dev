@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1640166964309e98de": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Ep 11. 2021 Round-Up",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "This week and to bridge the gap between this years roster and next years line up, we’ve wrapped up a little special for you of some of the best bits from our 2021 guests.",
+        "title_2": "",
+        "body_content_2": "<p>26.12.2021<\/p><p>35:34:00<\/p>",
+        "title_3": "",
+        "body_content_3": "<p><strong>Hosted by<\/strong> Lawrence Stafford<\/p><p>Sound Design by John Sampson a.k.a CJ MIRRA<\/p>"
+      }
+    },
+    "16401668335e084639": {
+      "type": "soundcloud",
+      "blocks": {
+        "3461ad20-d5fe-4674-b455-1706193dc3bc": {
+          "type": "podcast_block",
+          "settings": {
+            "soundcloud": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https:\/\/w.soundcloud.com\/player\/?url=https%3A\/\/api.soundcloud.com\/tracks\/1183636948&amp;color=%23262425&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"><\/iframe>",
+            "caption_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "3461ad20-d5fe-4674-b455-1706193dc3bc"
+      ],
+      "settings": {
+        "title": "Listen now"
+      }
+    },
+    "16401842243d03b57c": {
+      "type": "body-text",
+      "blocks": {
+        "46971ab9-e99f-4617-9044-2fb46801677b": {
+          "type": "title",
+          "settings": {
+            "title": "Its a bit of a hash up, remix if you will, so in way of introduction and in order of appearance heres who to listen for..."
+          }
+        },
+        "97a2dfa6-c3d1-4222-9ca0-2f54c734caad": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Our inaugural episode with Ambassador Easkey Britton…We dived in the deep end on all things blue mind and the human \/ nature connect.<\/p><p>One of the most captivating storytellers in, Pete Goss, MBE…His heroic solo circumnavigation in the 1996 Vendee Globe.<\/p><p>Director Pippa Ehrlich, the lady behind the lens of 2020’s Oscar Award Winning, My Octopus Teacher.<\/p><p>A conversation I’ve long been meaning to have with THE most stoked scientist out there, Charles Post on passionate conservation, science and surf.<\/p><p>Good friend of Finisterre Sam Bencheghib and his off the cuff ocean to ocean - NY to LA run across America to save our seas and the plight of plastic pollution.<\/p><p>Our first double whammy with Waves For Change Founders Tim Conibear and Ambassador Apish Testscha - discussion the building wave of momentum for surf therapy across South Africa and indeed the world.<\/p><p>An honest and frank discussion with the Gail Gallie of Project Everyone on COP26 and the climate conversation at large.<\/p><p>And last but not least, Melissa Reid, the now 3x ISA World Surfing Champion and her journey through sport as a partially sighted surfer and triathlete.<\/p><p>So here we go….<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "46971ab9-e99f-4617-9044-2fb46801677b",
+        "97a2dfa6-c3d1-4222-9ca0-2f54c734caad"
+      ],
+      "settings": {
+      }
+    },
+    "1641384955e416acf6": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/2021-round-up-podcast-landscape.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2021-round-up-podcast-portrait.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1640166964309e98de",
+    "16401668335e084639",
+    "16401842243d03b57c",
+    "1641384955e416acf6"
+  ]
+}

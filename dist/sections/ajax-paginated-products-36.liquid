@@ -1,0 +1,7 @@
+<div id="ajax-paginated-products">
+  {%- paginate collection.products by 36 -%}
+    {%- for product in collection.products -%}
+      {% render 'collection-regular-product', product: product %}
+    {%- endfor -%}
+  {%- endpaginate -%}
+</div>

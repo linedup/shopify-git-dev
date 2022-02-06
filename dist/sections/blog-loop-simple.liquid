@@ -1,0 +1,57 @@
+{% assign numElementsPerPage = 12 %}
+
+{% comment %} Check to see if a filter has been applied - so the layout can switch accordingly {% endcomment %}
+{% assign isFiltered = false %}
+{% if current_tags %}
+  {% assign isFiltered = true %}
+{% endif %}
+
+
+{%- paginate blog.articles by numElementsPerPage -%}
+
+  <div id="main-blog-grid" data-id="{{ section.id }}">
+
+    <div class="max-w-screen-2xl mx-auto">
+      <div data-ajax-paginated-articles-{{ section.id }} class="grid-container lg:gap-y-22 page-margin mb-9 lg:mb-18">
+
+        {% for article in blog.articles %}
+          {% render 'editorial-gallery-card' article: article %}
+        {% endfor %}
+
+      </div>
+    </div>
+
+    {% comment %} <div class="bg-debug">Paginate Next URL = {{ paginate.next.url }}{{ anchor }}</div> {% endcomment %}
+
+    {%- if paginate.pages > 1 -%}
+      <ajax-loader-btn-3 paginateNextUrl="{{ paginate.next.url }}" section-id="{{ section.id }}" paginateBy="{{ numElementsPerPage }}" total="{{ paginate.items }}">
+        <div class="max-w-screen-2xl mx-auto">
+          <div class="grid-container page-margin mt-9 lg:mt-18 mb-14 lg:mb-18">
+            <div class="col-span-4 md:col-span-12">
+              {% assign remainder = paginate.items | minus: numElementsPerPage %}
+              {% if remainder > numElementsPerPage %}
+                {% capture btnLabel %}View Next {{ numElementsPerPage }}/{{ remainder }}{% endcapture %}
+              {% else %}
+                {% capture btnLabel %}View Next {{ remainder }}/{{ remainder }}{% endcapture %}
+              {% endif %}
+              {% render 'btn-loader', btnLabel: btnLabel %}
+            </div>
+          </div>
+        </div>
+      </ajax-loader-btn-3>
+    {%- endif -%}
+
+  </div>
+
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "Blog - Simple loop",
+  "presets": [
+    {
+      "name": "Blog - Simple loop"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,10 @@
+<span id="cart-icon" class="flex items-center" data-id="{{ section.id }}">
+  <div class="relative">
+    <img src="{{ 'icon-basket.svg' | asset_url }}" width="27" height="35" loading="lazy" alt="Basket">
+    {% if cart.item_count < 10 %}
+      <span class="absolute number1">{{ cart.item_count }}</span>
+    {% else %}
+      <span class="absolute number2">{{ cart.item_count }}</span>
+    {%endif %}
+  </div>
+</span>

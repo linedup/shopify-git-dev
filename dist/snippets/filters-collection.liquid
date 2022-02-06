@@ -1,0 +1,234 @@
+{% assign metaData = collection.metafields.plp %}
+{% assign filtersToShow = metaData.filters %}
+
+{% comment %} Use this check for the mobile layout {% endcomment %}
+{% assign showFilters = false %}
+{% for filter in collection.filters %}
+  {% if filtersToShow contains filter.label %}
+    {% assign showFilters = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Desktop filters {% endcomment %}
+<collection-filters-form class="col-span-4 md:col-span-12">
+  <form id="CollectionFiltersForm">
+
+    <div class="flex lg:justify-between">
+      <div class="items-center hidden lg:flex justify-between w-full">
+        <div class="flex">
+        {%- for filter in collection.filters -%}
+          {%- if filtersToShow contains filter.label -%}
+            {% case filter.type %}
+
+              {% when 'list' %}
+
+                
+
+                <details class="js-filter h-full mr-6" data-index="{{ forloop.index }}">
+
+                  <summary class="flex items-center">
+                    <h3 data-filter-title class="self-start inline cursor-pointer">{{ filter.label | escape }}</h3>
+                    <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="11" alt="Filter by: {{ filter.label | escape }}">
+                  </summary>
+
+                  <div class="w-full bg-platinum absolute z-20 left-0">
+                    <div class="max-w-screen-2xl mx-auto mt-2 mb-20">
+                      <div class="grid-container gap-y-4 page-margin grid-cols-12 mt-10">
+
+                        {%- for value in filter.values -%}
+
+                          <div class="col-span-4">
+                            <div class="checkbox relative">
+                              <input type="checkbox"
+                                name="{{ value.param_name }}"
+                                class="hidden"
+                                value="{{ value.value }}"
+                                id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
+                                {% if value.active %}checked{% endif %}
+                                {% if value.count == 0 and value.active == false %}disabled{% endif %}> 
+                              <label for="Filter-{{ filter.label | escape }}-{{ forloop.index }}" class="ml-10 {% if value.count == 0 and value.active == false %}checkbox-disabled{% endif %}">{{ value.label | escape }} ({{ value.count }})</label>
+                            </div>
+                          </div>
+
+                        {%- endfor -%}
+
+                        <div class="col-span-4">
+                          <facet-remove>
+                            <a href="{{ filter.url_to_remove }}" class="link inline self-start">Clear filters</a>
+                          </facet-remove>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </details>
+
+              
+
+            {% endcase %}
+          {%- endif -%}
+        {%- endfor -%}
+
+      </div>
+
+        <noscript>
+          <button type="submit">{{ 'sections.collection_template.filter_button' | t }}</button>
+        </noscript>
+        <div class="flex">
+        <label for="sort-by-desktop" class="h3 block mr-2">Sort by: </label>
+        <div class="h3 select-dropdown-container">
+          {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+          <select name="sort_by" class="select-dropdown" id="sort-by-desktop">
+            {%- for option in collection.sort_options -%}
+              <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+            {%- endfor -%}
+          </select>
+        </div>
+      </div>
+
+      </div>
+    </div>
+      
+  </form>
+</collection-filters-form>
+
+
+{% comment %}
+Sticky filters
+
+<div class="max-w-screen-2xl mx-auto bg-white fixed_ top-0_ w-full hidden_ md:hidden_ lg:hidden">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-12">
+      <ul class="flex items-center py-5">
+        <li class="h-full mr-6">
+          <div class="flex items-center">
+            <p class="self-start inline cursor-pointer">Filter</p>
+            <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Filter collection">
+          </div>
+        </li>
+        <li class="h-full mr-6">
+          <div class="flex items-center">
+            <p class=" self-start inline cursor-pointer">Sort By</p>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endcomment %}
+
+
+{% comment %} Mobile fixed filter toggle {% endcomment %}
+<collection-filters-form class="col-span-4 md:col-span-12 lg:hidden">
+  <form id="CollectionFiltersForm2">
+    <ul class="flex items-center py-5">
+      {% if showFilters %}
+        <li class="h-full mr-6">
+          <div class="flex items-center">
+            <drawer-trigger data-drawer-id="collection-filter-drawer">
+              <button>Filters</button>
+            </drawer-trigger>
+            <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" loading="lazy" alt="Filter collection">
+          </div>
+        </li>
+      {% endif %}
+      <li class="h-full">
+        <div class="flex items-center">
+          <label for="sort-by-mobile" class="hidden md:block mr-2">Sort by: </label>
+          <label for="sort-by-mobile" class="md:hidden mr-2">Sort: </label>
+          <div class=" select-dropdown-container">
+            {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
+            {% comment %} To do: Ideally not use an inline style below {% endcomment %}
+            <select name="sort_by" class="select-dropdown" id="sort-by-mobile" style="margin-right:8px;">
+              {%- for option in collection.sort_options -%}
+                <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </form>
+</collection-filters-form>
+
+
+<mobile-menu-drawer id="collection-filter-drawer">
+
+  <div class="menu-drawer right mobile-nav-height fixed h-screen z-60 drawer-start-position-right drawer-width drawer-duration invisible overflow-y-scroll overflow-x-hidden bg-platinum mt-18-5 lg:mt-0">
+
+    <div class="mx-5 py-8">
+
+      <ul class="flex flex-shrink-0 relative justify-between items-center mb-4">
+        <li>
+          <p>Filters</p>
+        </li>
+        <li class="ml-8">
+          <button class="close-btn cursor-pointer">
+            <img src="{{ 'icon-close.svg' | asset_url }}" width="25" height="25" loading="lazy" alt="Close">
+          </button>
+        </li>
+      </ul>
+
+      <hr class="mt-12">
+    </div>
+
+    <collection-filters-form data-drawer-id="collection-filter-drawer">
+      <form id="CollectionFiltersFormMobile" class="mobile-facets">
+        <div class="mobile-facets__inner">
+
+          <div class="mobile-facets__main filter-border-bottom-loop">
+            {%- for filter in collection.filters -%}
+              {%- if filtersToShow contains filter.label -%}
+                {% case filter.type %}
+                {% when 'list' %}
+                  <div class="border-b border-richBlack page-margin lg:mx-5 pb-4 mb-8">
+                    <details class="js-filter" data-index="mobile-{{ forloop.index }}">
+
+                      <summary class="flex flex-shrink-0 relative justify-between items-center mb-4 focus:outline-none">
+                        <span class="self-start inline cursor-pointer">{{ filter.label | escape }}</span>
+                        <img class="ml-2 inline arrow" src="{{ 'dropdown.svg' | asset_url }}" width="20" height="20" alt="Filter by: {{ filter.label | escape }}">
+                      </summary>
+
+                      <div class="grid-container gap-y-3 grid-cols-12 mt-8 mb-4">
+
+                        {%- for value in filter.values -%}
+
+                          <div class="col-span-12">
+                            <div class="checkbox relative">
+                              <input type="checkbox"
+                                name="{{ value.param_name }}"
+                                class="hidden"
+                                value="{{ value.value }}"
+                                id="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}"
+                                {% if value.active %}checked{% endif %}
+                                {% if value.count == 0 and value.active == false %}disabled{% endif %}> 
+                              <label for="Filter-{{ filter.label | escape }}-mobile-{{ forloop.index }}" class="ml-10 {% if value.count == 0 and value.active == false %}checkbox-disabled{% endif %}">{{ value.label | escape }} ({{ value.count }})</label>
+                            </div>
+                          </div>
+
+                        {%- endfor -%}
+
+                      </div>
+
+                    </details>
+                  </div>
+                {% endcase %}
+              {%- endif -%}
+            {%- endfor -%}
+
+            <div class="page-margin lg:mx-5 pb-4 mb-8">
+              <a href="{{ collection.url }}" class="link">Clear Filters</a>
+            </div>
+
+          </div>
+          <div data-close-modal class="px-5 py-8 bg-sand w-full cursor-pointer text-left">Show products</div>
+
+        </div>
+      </form>
+    </collection-filters-form>
+
+  </div>
+
+</mobile-menu-drawer>

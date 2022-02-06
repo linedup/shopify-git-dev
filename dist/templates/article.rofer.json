@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Rofer",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1641304367798474c1": {
+      "type": "factory-statistics",
+      "blocks": {
+        "9be864ef-40ec-4f25-8ce1-714a0668c7cd": {
+          "type": "statistic",
+          "settings": {
+            "title": "Supplier Since",
+            "value": "2013"
+          }
+        },
+        "cbd68ed2-d07e-43c0-8cbe-5aa43a7b9ec0": {
+          "type": "statistic",
+          "settings": {
+            "title": "Factory Location",
+            "value": "Portugal"
+          }
+        },
+        "46309446-5343-4c82-ae48-3c8e1e1f4fe3": {
+          "type": "statistic",
+          "settings": {
+            "title": "Ownership",
+            "value": "Private"
+          }
+        },
+        "ae17f2d6-fce7-4a6b-a839-226c63aa5bd5": {
+          "type": "statistic",
+          "settings": {
+            "title": "Produces",
+            "value": "Wovens"
+          }
+        },
+        "9e05712e-a30f-4ed7-93d0-e3896320b6d0": {
+          "type": "statistic",
+          "settings": {
+            "title": "Last Audited",
+            "value": "SMETA V 6.1 12\/11\/20"
+          }
+        }
+      },
+      "block_order": [
+        "9be864ef-40ec-4f25-8ce1-714a0668c7cd",
+        "cbd68ed2-d07e-43c0-8cbe-5aa43a7b9ec0",
+        "46309446-5343-4c82-ae48-3c8e1e1f4fe3",
+        "ae17f2d6-fce7-4a6b-a839-226c63aa5bd5",
+        "9e05712e-a30f-4ed7-93d0-e3896320b6d0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1641304367798474c1"
+  ]
+}

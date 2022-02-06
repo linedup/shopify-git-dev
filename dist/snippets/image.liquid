@@ -1,0 +1,79 @@
+{% comment %} Need to handle Accentuate images separately {% endcomment %}
+{% unless image_src contains 'cdn.accentuate.io' %}
+
+  {% liquid
+    assign width = image_src.width
+    assign height = width | divided_by: image_src.aspect_ratio | round
+    assign alt = image_src.alt
+    if alt == blank and alt_tag != blank and alt_tag != ''
+      assign alt = alt_tag
+    endif
+  %}
+
+  {% assign widthBreak = '180,360,480,540,768,992,1100,1500,1780,2000,2400,2800,3200,3600' | split: ',' %}
+
+  <img
+    class="{{ classes }} lazyload"
+    src="{{ image_src | img_url: '100x' }}"
+    data-srcset="{% for width in widthBreak %}{% capture srcUrl %}{{ image_src | img_url: '1x1' }} {{ width }}w{% endcapture %}{% assign requestedSize = width | append: 'x' %}{{  srcUrl | replace: '1x1', requestedSize }}{% if forloop.last != true %},{% endif %}{% endfor %}"
+    alt="{{ alt_tag }}"
+    width="{{ width }}"
+    height="{{ height }}"
+    data-sizes="auto">
+
+  <noscript>
+    <img class="{{ classes }} lazyloaded" src="{{ imageSrc | img_url: '1440x' }}" alt="{% if imageSrc.alt %}{{ imageSrc.alt }}{% else %}{{ altTag }}{% endif %}">
+  </noscript>
+
+{% else %}
+
+  {% comment %} To do: Make the ACF images responsive and pull through the heights & widths {% endcomment %}
+  <img src="{{ image_src }}"
+    alt="{{ alt | escape }}"
+    loading="lazy"
+    class="{{ classes }}"
+  >
+
+{% endunless %}
+
+
+{% comment %} <div class="bg-debug">
+  src = {{ image_src }}<br>
+  width: {{ width }}<br>
+  height: {{ height }}
+</div> {% endcomment %}
+
+{% comment %} 
+Breakpoints:
+maxWidth: {
+  xs: '0',
+  sm: '480px',
+  md: '768px',
+  lg: '992px',
+  xl: '1440px',
+  2xl: '1800px'
+}
+
+// Approximate output of the above, with the exception of the src width being set to 100
+// If this is done via the Shopify tag it does not return any srcset values
+
+<img srcset="
+  {%- if imageSrc.width >= 480 -%}{{ imageSrc | img_url: '480x' }} 480w{%- endif -%}
+  {%- if imageSrc.width >= 768 -%},{{ imageSrc | img_url: '768x' }} 768w{%- endif -%}
+  {%- if imageSrc.width >= 992 -%},{{ imageSrc | img_url: '992x' }} 992w{%- endif -%}
+  {%- if imageSrc.width >= 1100 -%},{{ imageSrc | img_url: '1100x' }} 992w{%- endif -%}
+  {%- if imageSrc.width >= 1440 -%},{{ imageSrc | img_url: '1500x' }} 1440w{%- endif -%}
+  {%- if imageSrc.width >= 1780 -%},{{ imageSrc | img_url: '1780x' }} 1780w{%- endif -%}
+  {%- if imageSrc.width >= 2000 -%},{{ imageSrc | img_url: '2000x' }} 2000w{%- endif -%}
+  {%- if imageSrc.width >= 2400 -%},{{ imageSrc | img_url: '2400x' }} 2400w{%- endif -%}
+  {%- if imageSrc.width >= 2800 -%},{{ imageSrc | img_url: '2800x' }} 2800w{%- endif -%}
+  {%- if imageSrc.width >= 3200 -%},{{ imageSrc | img_url: '2800x' }} 3200w{%- endif -%}
+  {%- if imageSrc.width >= 3600 -%},{{ imageSrc | img_url: '3600x' }} 3600w{%- endif -%}"
+  src="{{ imageSrc | img_url: '100x' }}"
+  sizes="(min-width: 1440px) 33vw, (min-width: 992px) 50vw, 100vw"
+  alt="{{ alt | escape }}"
+  width="{{ width }}"
+  height="{{ height }}"
+  loading="lazy"
+  class="{{ classes }}"
+> {% endcomment %}

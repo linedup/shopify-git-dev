@@ -1,0 +1,140 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-6 lg:col-span-5 relative mb-8 md:mb-0">
+      <h3>{{ section.settings.main_text }}</h3>
+    </div>
+    <div class="col-span-4 md:col-span-6 lg:col-span-5 relative">
+
+      {% for block in section.blocks %}
+        {% if block.type == 'performance' %}
+
+         
+          <div class="mb-8">
+            <div class="flex justify-between mb-4">
+              <div class="flex flex-col justify-between">
+                {% if block.settings.performance_info != blank %}
+                  <p class="mb-2">{{ block.settings.performance_info }}</p>
+                {% endif %}
+                <h3>{{ block.settings.performance_title }}</h3>
+              </div>
+              <div class="flex self-center">
+                {% if block.settings.performance_indicator == 'waterproofing' %}
+                <img src="{{ 'icon-waterproofing.svg' | asset_url }}" width="52" height="52" loading="lazy" alt="Waterproofing">
+              {% elsif block.settings.performance_indicator == 'warmth' %}
+                <img src="{{ 'icon-warmth.svg' | asset_url }}" width="52" height="52" loading="lazy" alt="Warmth">
+              {% elsif block.settings.performance_indicator == 'breathability' %}
+                <img src="{{ 'icon-breathability.svg' | asset_url }}" width="52" height="52" loading="lazy" alt="Breathability">
+              {% elsif block.settings.performance_indicator == 'thickness' %}
+                <img src="{{ 'icon-thickness.svg' | asset_url }}" width="52" height="52" loading="lazy" alt="Thickness">
+              {% elsif block.settings.performance_indicator == 'flexibility' %}
+                <img src="{{ 'icon-flexibility.svg' | asset_url }}" width="52" height="52" loading="lazy" alt="Flexibility">
+              {% elsif block.settings.performance_indicator == 'water_temperature' %}
+                <img src="{{ 'icon-water-temperature.svg' | asset_url }}" width="52" height="52" loading="lazy" alt="Water Temperature">
+              {% elsif block.settings.performance_indicator == 'recycled' %}
+                <img src="{{ 'icon-recycled.svg' | asset_url }}" width="52" height="52" loading="lazy" alt="Recycled">
+              {% endif %}
+              </div>
+            </div>
+            {% if block.settings.link %}
+              <p class="mb-4">{{ block.settings.performance_copy }}</p>
+              <a class="link" href="{{ block.settings.link }}">{{ block.settings.link_text }}</a>
+            {% else %}
+              <p class="mb-4">{{ block.settings.performance_copy }}</p>
+            {% endif %}
+          </div>
+          <hr class="mb-8">
+
+        {% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Guides - Product Spec",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "main_text",
+      "label": "Main copy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "performance",
+      "name": "Performance",
+      "settings": [
+        {
+          "type": "select",
+          "id": "performance_indicator",
+          "label": "Performance Indicator",
+          "options": [
+            {
+              "value": "waterproofing",
+              "label": "Waterproofing"
+            },
+            {
+              "value": "warmth",
+              "label": "Warmth"
+            },
+            {
+              "value": "breathability",
+              "label": "Breathability"
+            },
+            {
+              "value": "thickness",
+              "label": "Thickness"
+            },
+            {
+              "value": "flexibility",
+              "label": "Flexibility"
+            },
+            {
+              "value": "water_temperature",
+              "label": "Water Temperature"
+            },
+            {
+              "value": "recycled",
+              "label": "Recycled"
+            }
+          ]
+        },
+        { 
+          "type": "text",
+          "id": "performance_title",
+          "label": "Performance title"
+        },
+        { 
+          "type": "text",
+          "id": "performance_info",
+          "label": "Performance information",
+          "info": "For example: For high pressure rain, For high impact heavy showers, or For light rain"
+        },
+        { 
+          "type": "textarea",
+          "id": "performance_copy",
+          "label": "Performance copy"
+        },
+        { 
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        { 
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guides - Product Spec"
+    }
+  ]
+}
+{% endschema %}

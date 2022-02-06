@@ -1,0 +1,294 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1640166964309e98de": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Ep 1. Easkey Britton - Becoming Blue",
+        "subtitle": "",
+        "title_1": "",
+        "body_content_1": "For Episode 1 of Hell Or High Water we welcomed Finisterre Ambassador, Easkey Britton to the show.",
+        "title_2": "",
+        "body_content_2": "<p>17.12.2020<\/p><p>59:40:00<\/p>",
+        "title_3": "",
+        "body_content_3": "<p><strong>Hosted by<\/strong> Lawrence Stafford<\/p><p>Sound Design by John Sampson a.k.a CJ MIRRA<\/p>"
+      }
+    },
+    "16401668335e084639": {
+      "type": "soundcloud",
+      "blocks": {
+        "3461ad20-d5fe-4674-b455-1706193dc3bc": {
+          "type": "podcast_block",
+          "settings": {
+            "soundcloud": "<iframe width=\"100%\" height=\"400\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https:\/\/w.soundcloud.com\/player\/?url=https%3A\/\/api.soundcloud.com\/tracks\/949315411&amp;color=%23262425&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true\"><\/iframe>",
+            "caption_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "3461ad20-d5fe-4674-b455-1706193dc3bc"
+      ],
+      "settings": {
+        "title": "Listen now"
+      }
+    },
+    "1640166969d4aa7c59": {
+      "type": "body-text",
+      "blocks": {
+        "a518fc2c-d6dc-4b24-acd4-b825c44d3b8d": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Irish surfing champion and pioneering big wave surfer, social scientist and artist; from Ireland to Iran, many here will be familiar with Easkey’s journey through surf. Exploring and promoting equality and inclusivity through surfing and the power of water, Easkey continues to amaze us here at Finisterre in her steadfast determination and her ability to carry several projects at once.<\/p><p>At risk of this fast becoming a 3-hour long episode, we chose to focus on what has been most recently occupying Easkey’s time with her work in academia and the subject of the Blue Spaces. From Blue Mind theories to Blue Care services and the importance of human connection to the ocean environment and nature in general – of course all the more relevant as we find ourselves in a global pandemic yearning for the outdoors and time spent in on or around the sea.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a518fc2c-d6dc-4b24-acd4-b825c44d3b8d"
+      ],
+      "settings": {
+      }
+    },
+    "1640167870a8079463": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "b63ee091-ba1c-4340-b63c-323865aa9398": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/easkey-britton-podcast-on-beach.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/easkey-britton-podcast-with-finisterre-wetuit.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "b63ee091-ba1c-4340-b63c-323865aa9398"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "164016838283d3a059": {
+      "type": "body-text",
+      "blocks": {
+        "38b8610f-4d84-4fbd-8d59-b6ed1d41aba6": {
+          "type": "title",
+          "settings": {
+            "title": "For years Easkey has spent a great portion of her time away from Ireland as her commitments take her far and wide."
+          }
+        },
+        "08eb3a8d-3b3c-4595-9027-26c6e22e3eab": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Speaking with her as she finds herself settled back in the motherland and near her namesake wave, it’s apparent that finding this time to reconnect to her roots and familiar surroundings has played a great part in realigning and re-energizing her efforts. As we find ourselves at a critical junction for the future of our planet, where our responsibility to connect and care for our natural world is coming down to the wire, Easkey stands out as a figure for change as she forges a unique path for herself with an rare ability to connect people from all walks of life the world over.<\/p><p>As ever it was inspiring to talk with Easkey and we thank her for taking the time out to go down one of the many rabbit holes that we could have explored.<\/p><p>I hope you enjoy the show, here’s our conversation with Finisterre Ambassador Easkey Britton on Becoming Blue.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "38b8610f-4d84-4fbd-8d59-b6ed1d41aba6",
+        "08eb3a8d-3b3c-4595-9027-26c6e22e3eab"
+      ],
+      "settings": {
+      }
+    },
+    "16401690943b9d867f": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "f806b966-3a5e-4a1d-b0c1-2aba538bb3bd": {
+          "type": "image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/easkey-britton-podcast-surfing.jpg",
+            "caption_1": "",
+            "image_2": "shopify:\/\/shop_images\/easkey-britton-podcast-at-the-wave.jpg",
+            "caption_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "f806b966-3a5e-4a1d-b0c1-2aba538bb3bd"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1640168791232a5c96": {
+      "type": "pull-quote",
+      "settings": {
+        "quote": "<p>Some would argue we first came out of the water and onto the land rather than the other way around, so it's very much in our DNA to be immersed in water.<\/p><p>The wisdom of water has always been there knowing its power to heal and that's existed across cultures. It's exciting that the conversation is moving more into the mainstream where we are recovering the importance of it.<\/p>",
+        "credit": ""
+      }
+    },
+    "16401691032cd94505": {
+      "type": "body-text",
+      "disabled": true,
+      "blocks": {
+        "ecf0a1f4-6fcb-460d-9138-3ec423c67267": {
+          "type": "title",
+          "settings": {
+            "title": "Show Notes"
+          }
+        },
+        "767484f9-8434-43ee-b008-5247c09d70d1": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Ocean and Human health – connecting with the natural and ocean environments.<\/p><p>Blue Health & Human HealthBlue Care Services<\/p><p><a href=\"https:\/\/www.liquidtherapy.ie\/\">Surf Therapy - Liquid Therapy, Ireland.<\/a><a href=\"https:\/\/houseofbeautifulbusiness.com\/the-great-wave-playbook\">The Great Wave<\/a><a href=\"https:\/\/www.waveproject.co.uk\/\">The Wave Project<\/a><\/p><p>University of Galway, Ireland.Surf Girl Magazine<\/p><p>Environmental Science - University of Ulster Coral Reef Ecosystems<\/p><p>PHD Environment and Society<\/p><p>The Wave, Bristol<\/p><p>The Blue Health ReportThe S.O.P.H.I.E Project<\/p><p>The NEAR Health ProjectSwimming & Outdoor Swimming \/ Wild Swimming<\/p><p>Environmental Protection Agency, Ireland.<\/p><p>Marine Biology<\/p><p>The Climate Crisis & Ocean RestorationInclusion and Diversity <\/p><p>The Finisterre Seasuit Project<\/p><p><a href=\"https:\/\/www.worldsurfleague.com\/posts\/442399\/brilliant-corners-papua-new-guinea-chapter-two\">The Pink nose Revolution, Papa New Guinea<\/a><\/p><p>Ocean Advocacy & Activism<\/p><p>Burnout - Rest, Recovery & Reflection<\/p><p>Season Shift & Nature Cycles<\/p><p><a href=\"https:\/\/redschool.net\/\">Red School - The Future of Feminine Spirituality and Leadership<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ecf0a1f4-6fcb-460d-9138-3ec423c67267",
+        "767484f9-8434-43ee-b008-5247c09d70d1"
+      ],
+      "settings": {
+      }
+    },
+    "1640169176448e544c": {
+      "type": "body-text",
+      "disabled": true,
+      "blocks": {
+        "523d3ffe-2215-492f-afd4-524633599861": {
+          "type": "title",
+          "settings": {
+            "title": "Further Reading"
+          }
+        },
+        "43d5fb18-955a-48ad-bab2-9150816886d7": {
+          "type": "body",
+          "settings": {
+            "body": "<p>- <a href=\"https:\/\/sophie2020.eu\/people\/easkey-britton\/\">The S.O.P.H.I.E Project<\/a><\/p><p>- <a href=\"http:\/\/www.epa.ie\/pubs\/reports\/research\/health\/JS%20-%20NEAR%20Toolkit%20FINAL%20V1.6%201Oct20.pdf\">NEAR Health Toolkit<\/a><\/p><p>- <a href=\"https:\/\/www.thewave.com\/blog\/blue-health-and-surfing-21st-century\/\">Into The Blue - Blue Health Report<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "523d3ffe-2215-492f-afd4-524633599861",
+        "43d5fb18-955a-48ad-bab2-9150816886d7"
+      ],
+      "settings": {
+      }
+    },
+    "1640169432cf161c10": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "007ccf6c-ffd5-4fe6-8055-159b76062fca": {
+          "type": "video_block",
+          "settings": {
+            "overline_1": "A Lunar Cycle",
+            "title_1": "",
+            "image_1": "shopify:\/\/shop_images\/easkey-britton-podcast-lunar-cycle.jpg",
+            "video_1": "https:\/\/player.vimeo.com\/external\/288338638.hd.mp4?s=dd760b7ec5a19c5199e72f543b035c164f715118&profile_id=175",
+            "overline_2": "Into The Sea | The Finisterre Seasuit Project",
+            "title_2": "",
+            "image_2": "shopify:\/\/shop_images\/easkey-britton-podcast-seasuit-project.jpg",
+            "video_2": "https:\/\/player.vimeo.com\/external\/395439211.hd.mp4?s=ffe1dcb27105fa5f8decc7453dd1c4ca52f7b4c9&profile_id=169"
+          }
+        }
+      },
+      "block_order": [
+        "007ccf6c-ffd5-4fe6-8055-159b76062fca"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1643294730b0d07515": {
+      "type": "accordion",
+      "blocks": {
+        "0f6b0f24-577c-468c-915d-c9be2d44fc9c": {
+          "type": "accordion",
+          "settings": {
+            "title": "Show Notes",
+            "reveal": "<p>Ocean and Human health – connecting with the natural and ocean environments.<\/p><p>Blue Health & Human HealthBlue Care Services<\/p><p><a href=\"https:\/\/www.liquidtherapy.ie\/\">Surf Therapy - Liquid Therapy, Ireland.<\/a><a href=\"https:\/\/houseofbeautifulbusiness.com\/the-great-wave-playbook\">The Great Wave<\/a><a href=\"https:\/\/www.waveproject.co.uk\/\">The Wave Project<\/a><\/p><p>University of Galway, Ireland.Surf Girl Magazine<\/p><p>Environmental Science - University of Ulster Coral Reef Ecosystems<\/p><p>PHD Environment and Society<\/p><p>The Wave, Bristol<\/p><p>The Blue Health ReportThe S.O.P.H.I.E Project<\/p><p>The NEAR Health ProjectSwimming & Outdoor Swimming \/ Wild Swimming<\/p><p>Environmental Protection Agency, Ireland.<\/p><p>Marine Biology<\/p><p>The Climate Crisis & Ocean RestorationInclusion and Diversity <\/p><p>The Finisterre Seasuit Project<\/p><p><a href=\"https:\/\/www.worldsurfleague.com\/posts\/442399\/brilliant-corners-papua-new-guinea-chapter-two\">The Pink nose Revolution, Papa New Guinea<\/a><\/p><p>Ocean Advocacy & Activism<\/p><p>Burnout - Rest, Recovery & Reflection<\/p><p>Season Shift & Nature Cycles<\/p><p><a href=\"https:\/\/redschool.net\/\">Red School - The Future of Feminine Spirituality and Leadership<\/a><\/p>"
+          }
+        },
+        "6d3104a7-f5e2-45ba-a28c-b191ae0d1507": {
+          "type": "accordion",
+          "settings": {
+            "title": "Further Reading",
+            "reveal": "<p>- <a href=\"https:\/\/sophie2020.eu\/people\/easkey-britton\/\">The S.O.P.H.I.E Project<\/a><\/p><p>- <a href=\"http:\/\/www.epa.ie\/pubs\/reports\/research\/health\/JS%20-%20NEAR%20Toolkit%20FINAL%20V1.6%201Oct20.pdf\">NEAR Health Toolkit<\/a><\/p><p>- <a href=\"https:\/\/www.thewave.com\/blog\/blue-health-and-surfing-21st-century\/\">Into The Blue - Blue Health Report<\/a><\/p>"
+          }
+        },
+        "a67f59ea-6942-4769-8697-a8cf93c19438": {
+          "type": "accordion",
+          "settings": {
+            "title": "Mentions",
+            "reveal": "<p>Wallace J Nicholls - 'Blue Mind'<\/p><p>Louise Searle - Surf Girl Mag<\/p><p>Elizabeth Rush - ‘Rising'<\/p><p>Simone Weil<\/p><p>Nick Hounsfield<\/p><p>Dr Ayana Elizabeth Johnson & Katherine Wilkinson - 'All We Can Save'.<\/p><p>Rachel Carson - ’The Sea Around Us’.<\/p><p>Robin Wall Kimmerer - ‘Braiding Sweetgrass’.<\/p><p>Sherri Mitchell<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0f6b0f24-577c-468c-915d-c9be2d44fc9c",
+        "6d3104a7-f5e2-45ba-a28c-b191ae0d1507",
+        "a67f59ea-6942-4769-8697-a8cf93c19438"
+      ],
+      "settings": {
+      }
+    },
+    "1640171237d9df934a": {
+      "type": "body-text",
+      "disabled": true,
+      "blocks": {
+        "cb76d749-09ce-4190-b44d-9cd72afa49ed": {
+          "type": "title",
+          "settings": {
+            "title": "Mentions"
+          }
+        },
+        "6a4945d2-1dfc-4ade-b8eb-96eba95eca91": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Wallace J Nicholls - 'Blue Mind'<\/p><p>Louise Searle - Surf Girl Mag<\/p><p>Elizabeth Rush - ‘Rising'<\/p><p>Simone Weil<\/p><p>Nick Hounsfield<\/p><p>Dr Ayana Elizabeth Johnson & Katherine Wilkinson - 'All We Can Save'.<\/p><p>Rachel Carson - ’The Sea Around Us’.<\/p><p>Robin Wall Kimmerer - ‘Braiding Sweetgrass’.<\/p><p>Sherri Mitchell<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "cb76d749-09ce-4190-b44d-9cd72afa49ed",
+        "6a4945d2-1dfc-4ade-b8eb-96eba95eca91"
+      ],
+      "settings": {
+      }
+    },
+    "1640171386726f14f1": {
+      "type": "body-text",
+      "blocks": {
+        "c92aeef8-2f75-47f1-9cc7-9869b2233852": {
+          "type": "title",
+          "settings": {
+            "title": "Connect"
+          }
+        },
+        "316ae60b-4900-42f3-a8a9-cf82c5bd5aa2": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Instagram: <a href=\"https:\/\/www.instagram.com\/easkeysurf\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/easkeysurf\/\">@easkeysurf<\/a><\/p><p>Twitter: <a href=\"https:\/\/twitter.com\/Easkeysurf\" target=\"_blank\" title=\"https:\/\/twitter.com\/Easkeysurf\">@Easkeysurf<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c92aeef8-2f75-47f1-9cc7-9869b2233852",
+        "316ae60b-4900-42f3-a8a9-cf82c5bd5aa2"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1640166964309e98de",
+    "16401668335e084639",
+    "1640166969d4aa7c59",
+    "1640167870a8079463",
+    "164016838283d3a059",
+    "16401690943b9d867f",
+    "1640168791232a5c96",
+    "16401691032cd94505",
+    "1640169176448e544c",
+    "1640169432cf161c10",
+    "1643294730b0d07515",
+    "1640171237d9df934a",
+    "1640171386726f14f1"
+  ]
+}

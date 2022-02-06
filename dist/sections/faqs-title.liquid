@@ -1,0 +1,42 @@
+
+<div class="grid-container">
+  <div class="col-span-4 md:col-span-12 hidden lg:grid">
+    <h2>{{ page.title }}</h2>
+  </div>
+  <div class="col-span-4 md:col-span-12 hidden lg:grid">
+    <ul class="flex">
+      {% for block in section.blocks %}
+          <li class="mr-6"><a href="#{{ block.settings.title | handleize}}" class="">{{ block.settings.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-span-4 md:col-span-12 hidden lg:grid">
+    <hr>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "FAQs title",
+  "settings": [
+  ],
+  "blocks": [
+     {
+       "name": "Section Title",
+       "type": "title",
+       "settings": [
+         {
+           "type": "text",
+           "id": "title",
+           "label": "FAQ section title"
+         }
+       ]
+     }
+   ],
+   "presets": [
+    {
+      "name": "FAQs title"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,226 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1632148245a360b54d": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Emily Penn",
+        "subtitle": "London, England",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1632148248e1ffc67a": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/ambassator-emily-penn-banner-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ambassator-emily-penn-banner-mobile.jpg",
+        "alt": "Emily Penn",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16321482820f5e2b38": {
+      "type": "body-text",
+      "blocks": {
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3": {
+          "type": "title",
+          "settings": {
+            "title": "An explorer, researcher and experienced sailor, Emily Penn lives her life between land and sea."
+          }
+        },
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8": {
+          "type": "body",
+          "settings": {
+            "body": "<p>As a speaker and activist her passion to protect the seas led her to form the all-female eXXpedition crew, a project studying the effects of microplastic pollution on our oceans. As the fight against plastic pollution and the long-term health of our oceans intensifies, Emily finds herself on the front lines of the conversation as one of the leading and respectable figures speaking out on the science and sound understanding. In a time of environmental crisis and a tipping point for our ocean playground, it gives us great strength and hope to have Emily on the team as she rights the ship for the future of our oceans.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3",
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8"
+      ],
+      "settings": {
+      }
+    },
+    "1632148299104d90bd": {
+      "type": "carousel-editorial-b",
+      "blocks": {
+        "cff52f57-d41b-49dc-ae80-a56c4ecb2ac3": {
+          "type": "custom",
+          "settings": {
+            "overline": "Instagram",
+            "title": "@missemilypenn",
+            "image": "shopify:\/\/shop_images\/ambassador-emily-instagram.jpg",
+            "link": "https:\/\/www.instagram.com\/missemilypenn\/"
+          }
+        },
+        "e6e750dc-662b-4262-b10b-09f9c19e87fc": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Founder of eXXpedition",
+            "image": "shopify:\/\/shop_images\/ambassador-emily-founder-of-exxedition.jpg",
+            "link": "https:\/\/exxpedition.com\/"
+          }
+        },
+        "23d1d28d-22ad-4682-b620-57027de57918": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Founder SHIFT",
+            "image": "shopify:\/\/shop_images\/ambassador-emily-founder-of-shift.jpg",
+            "link": "http:\/\/www.shift.how\/"
+          }
+        },
+        "6cff3953-e857-45e0-9414-745ec5d925a4": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Ambassador for Sky Ocean Rescue",
+            "image": "shopify:\/\/shop_images\/ambassador-emily-sky-ocean-rescue.jpg",
+            "link": "https:\/\/www.skyoceanrescue.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "cff52f57-d41b-49dc-ae80-a56c4ecb2ac3",
+        "e6e750dc-662b-4262-b10b-09f9c19e87fc",
+        "23d1d28d-22ad-4682-b620-57027de57918",
+        "6cff3953-e857-45e0-9414-745ec5d925a4"
+      ],
+      "settings": {
+        "title": "Links"
+      }
+    },
+    "163214841401c0fdd6": {
+      "type": "image-carousel",
+      "blocks": {
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-1.jpg"
+          }
+        },
+        "026d83ab-7d05-4b14-8173-fec812ee0364": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-2.jpg"
+          }
+        },
+        "1bdd1d3b-d8ee-4adb-a189-e2e2494dae40": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-3.jpg"
+          }
+        },
+        "ffa49560-9873-4c63-9199-1c78ebaa246d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-4.jpg"
+          }
+        },
+        "8f73d536-1e50-4a68-8e05-695fcc34ccf7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-5.jpg"
+          }
+        },
+        "6523c7f8-7ded-4297-867a-73f58aa119d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-6.jpg"
+          }
+        },
+        "7f59ce31-3e9c-433d-87ea-6652167b7c87": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-7.jpg"
+          }
+        },
+        "af654067-1dc7-4b84-9261-96dc4c61b594": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-8.jpg"
+          }
+        },
+        "f0f88bfc-ed62-46ec-b640-1cc2cf188112": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-9.jpg"
+          }
+        },
+        "ad0a313b-b8fd-4f5d-a2b2-ce74c0daef5d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-emily-penn-slider-10.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8",
+        "026d83ab-7d05-4b14-8173-fec812ee0364",
+        "1bdd1d3b-d8ee-4adb-a189-e2e2494dae40",
+        "ffa49560-9873-4c63-9199-1c78ebaa246d",
+        "8f73d536-1e50-4a68-8e05-695fcc34ccf7",
+        "6523c7f8-7ded-4297-867a-73f58aa119d7",
+        "7f59ce31-3e9c-433d-87ea-6652167b7c87",
+        "af654067-1dc7-4b84-9261-96dc4c61b594",
+        "f0f88bfc-ed62-46ec-b640-1cc2cf188112",
+        "ad0a313b-b8fd-4f5d-a2b2-ce74c0daef5d"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    },
+    "16321486164a1abdb3": {
+      "type": "carousel-editorial-b",
+      "blocks": {
+        "8fabb67e-e2d3-4300-9123-6f2c0019ee52": {
+          "type": "custom",
+          "settings": {
+            "overline": "Broadcast",
+            "title": "In Conversation With Emily Penn",
+            "image": "shopify:\/\/shop_images\/emily-featured-article-in-conversation-with-emily-penn.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/in-conversation-with-emily-penn-1"
+          }
+        },
+        "b49d8860-674d-4e74-ad3e-30d7f35bd42d": {
+          "type": "custom",
+          "settings": {
+            "overline": "Broadcast",
+            "title": "eXXpedition Round the World: Leg 1",
+            "image": "shopify:\/\/shop_images\/emily-featured-article-exxpedition-round-the-world.jpg",
+            "link": "shopify:\/\/blogs\/broadcast\/exxpedition-round-the-world-leg-1"
+          }
+        }
+      },
+      "block_order": [
+        "8fabb67e-e2d3-4300-9123-6f2c0019ee52",
+        "b49d8860-674d-4e74-ad3e-30d7f35bd42d"
+      ],
+      "settings": {
+        "title": "Related Stories"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1632148245a360b54d",
+    "1632148248e1ffc67a",
+    "16321482820f5e2b38",
+    "1632148299104d90bd",
+    "163214841401c0fdd6",
+    "16321486164a1abdb3"
+  ]
+}

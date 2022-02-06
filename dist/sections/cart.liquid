@@ -1,0 +1,107 @@
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-8">
+      <h1 class="mb-3 md:mb-7">Basket</h1>
+    </div>
+  </div>
+  <div class="grid-container page-margin mb-9 lg:mb-18">
+    <div class="col-span-4 md:col-span-12 mb-9 md:mb-0">
+      {% comment %} <div class="w-full">
+        <div class="bg-white mb-10 hidden">
+          <p class="py-6 px-10">Your basket is empty.</p>
+        </div>
+        <div class="bg-white mb-10">
+          <p class="py-6 px-10">Save &pound;10 when you buy any two T-Shirts.</p>
+        </div>
+      </div>
+      <div class="grid-container hidden">
+        <div class="col-span-4 md:col-span-6 lg:col-span-5">
+          <p class="mb-2">Collaboration</p>
+          <h3 class="mb-4"><a href="#" class="link">Palladium x Finisterre</a></h3>
+          <a href="#"><img src="{{ 'meganav-1.jpg' | asset_img_url: 'master' }}" height="612" width="1086" loading="lazy" alt="To do"></a>
+        </div>
+        <div class="col-span-4 md:col-span-6 lg:col-span-5 lg:col-start-7">
+          <p class="mb-2">Collaboration</p>
+          <h3 class="mb-4"><a href="#" class="link">NHM x Finisterre</a></h3>
+          <a href="#"><img src="{{ 'meganav-2.jpg' | asset_img_url: 'master' }}" height="612" width="1086" loading="lazy" alt="To do"></a>
+        </div>
+      </div> {% endcomment %}
+
+      <div class="grid-container">
+
+        <!-- Items in cart -->
+        <div class="col-span-4 md:col-span-12 lg:col-span-8">
+          <p id="basket-item-count">{{ cart.item_count }} {{ cart.item_count | pluralize: 'Item', 'Items' }}</p>
+          <div class="grid-container">
+            <div class="col-span-4 md:col-span-8">
+              <cart-items id="basket-cart-items" data-id="basket-cart-items">
+                {% render 'basket-cart-items' %}
+              </cart-items>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart summary -->
+        <div class="col-span-4 md:col-span-12 lg:col-span-4">
+          <div class="" data-cart-footer="">
+            <div class="grid grid-cols-12">
+              <div class="col-span-12 flex justify-between mb-4">
+                <p>Subtotal</p>
+                <p id="basket-sub-total">{{ cart.total_price | money }}</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-12 border-t-2 pt-4 border-richBlack mb-12">
+              <div class="col-span-12 flex justify-between mb-4">
+                <p>Discounts and Shipping applied at the checkout</p>
+              </div>
+              <div class="col-span-12 flex justify-between mb-4">
+                <a href="/checkout" class="bg-richBlack w-full button-left cursor-pointer text-white">Checkout</a>
+              </div>
+              {% comment %} <div class="col-span-12 flex justify-between">
+                <div class="bg-black w-full button-left cursor-pointer" value="Apple pay"><img src="{{ 'icon-apple-pay.svg' | asset_url }}" width="57" height="24" loading="lazy"></div>
+              </div> {% endcomment %}
+            </div>
+            <div class="grid grid-cols-12 gap-5 lg:gap-0">
+              <div class="col-span-12 md:col-span-6 lg:col-span-12 xl:flex justify-between pb-4 mb-4 lg:border-b-2 border-richBlack">
+                <p class="mb-4 xl:mb-0">We accept</p>
+                {%- unless shop.enabled_payment_types == empty -%}
+                  <div class="flex flex-row items-start">
+                    {%- for type in shop.enabled_payment_types -%}
+                      {{ type | payment_type_svg_tag: class: 'mr-1 xl:ml-2' }}
+                    {%- endfor -%}
+                  </div>
+                {%- endunless -%}
+              </div>
+              <div class="col-span-12 md:col-span-6 lg:col-span-12 mt-2">
+                <div data-localization-UK>{{ settings.shipping_localized_uk }}</div>
+                <div data-localization-EU class="hidden">{{ settings.shipping_localized_eu }}</div>
+                <div data-localization-USA class="hidden">{{ settings.shipping_localized_usa }}</div>
+                {% comment %} <div class="flex justify-between mb-2 w-full">
+                  <p>United Kingdom - Standard</p>
+                  <p>Free</p>
+                </div>
+                <div class="flex justify-between mb-2 w-full">
+                  <p>United Kingdom - Express</p>
+                  <p>&pound;10</p>
+                </div>
+                <div class="flex justify-between mb-2 w-full">
+                  <p>Europe</p>
+                  <p>+&pound;20</p>
+                </div>
+                <div class="flex justify-between mb-2 w-full">
+                  <p>United States</p>
+                  <p>&pound;15</p>
+                </div>
+                <div class="flex justify-between mb-2 w-full">
+                  <p>Rest of the world</p>
+                  <p>&pound;20</p>
+                </div> {% endcomment %}
+              </div>
+            </div>
+          </div> 
+        </div>
+
+      </div> 
+    </div>
+  </div>
+</div>

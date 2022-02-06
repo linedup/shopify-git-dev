@@ -1,0 +1,90 @@
+<div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-6 relative">
+      <img class="mb-4 md:mb-0" src="{{ section.settings.image | img_url: 'master' }}" width="1680" height="1260" loading="lazy">
+      <p class="md:hidden">{{ section.settings.coordinates }}</p>
+    </div>
+    <div class="col-span-4 md:col-span-6 relative">
+      <p class="absolute top-0 left-0 rotate-text hidden md:block">{{ section.settings.coordinates }}</p>
+      <div class="grid grid-cols-12 h-full gap-5 lg:gap-10 md:pl-8 xl:pl-0">
+
+        {% for block in section.blocks %}
+          {% if block.type == 'related_product' %}
+            {% assign product = block.settings.product %}
+            {% if product.available %} 
+              <div class="col-span-6 relative lg:place-self-end">
+                {% comment %} IMPORTANT: Note there is a price div in the code below line 37 - 40 which is outside of the product card {% endcomment %}         
+                {% render 'product-card-2' product: product, section_id: section.id, loop_index: forloop.index %}
+              </div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+  <div class="hidden lg:block">
+    <div class="grid-container page-margin mt-2">
+      <div class="col-span-4 md:col-span-6"></div>
+      <div class="col-span-4 md:col-span-6 relative">
+        <div class="grid grid-cols-12 h-full gap-5 lg:gap-10 md:pl-8 xl:pl-0">
+          {% for block in section.blocks %}
+            {% if block.type == 'related_product' %}
+              {% assign product = block.settings.product %}
+              {% if product.available %}
+                <div class="col-span-6 lg:col-span-6">
+                  <p class="mb-2 mt-2">{{- product.title | escape -}}</p>
+                  <div id="{{ section.id }}-{{ forloop.index  }}-medium-feature-price">
+                    {% render 'price', product: product %}
+                  </div>
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Medium Feature",
+  "max_blocks": 2,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "Image size - 1680w x 1260h"
+    },
+    { 
+      "type": "text",
+      "id": "coordinates",
+      "label": "Coordinates"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "related_product",
+      "name": "Related Product",
+      "settings": [
+        { 
+          "type": "product",
+          "id": "product",
+          "label": "Related product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Medium Feature"
+    }
+  ]
+}
+{% endschema %}

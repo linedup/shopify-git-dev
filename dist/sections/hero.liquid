@@ -1,0 +1,107 @@
+{% if section.settings.anchor != blank %}
+<div id="{{ section.settings.anchor }}" class="max-w-screen-2xl mx-auto">
+{% else %}
+<div class="max-w-screen-2xl mx-auto">
+{% endif %}
+
+  <div class="grid-container pb-14 lg:pb-18">
+    <div class="flex items-end md:items-center col-span-4 md:col-span-12 h-142 md:h-160 xl:h-202 relative">
+
+      {% if section.settings.video_url != blank %}
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+          <source src="{{ section.settings.video_url }}">
+        </video>
+      {% elsif section.settings.desktop_image != blank %}
+        {% render 'image' with image_src: section.settings.mobile_image, alt_tag: section.settings.alt, classes: 'absolute inset-0 w-full h-full object-cover lg:hidden' %}
+        {% render 'image' with image_src: section.settings.desktop_image, alt_tag: section.settings.alt, classes: 'absolute inset-0 w-full h-full object-cover hidden lg:block', option: 2 %}
+      {% endif %}
+
+      <div class="absolute grid grid-cols-12 page-margin bottom-10 lg:bottom-16 left-0">
+        <div class="col-span-12 md:col-span-9 lg:col-span-7">
+          {% if section.settings.text %}
+            {% comment %} Remove the <p> tags without adding additional <br> tags to the bottom {% endcomment %}
+            <h1 class="text-white rte">{{ section.settings.text | replace: '</p><p>', '<br><br>' | replace: '<p>', '' | replace: '</p>', '' }}</h1>
+          {% endif %}
+          {% if section.blocks %}
+            <div class="flex flex-row flex-wrap md:flex-nowrap mt-8">
+              {% for block in section.blocks %}
+                {% if block.type == 'button' %}
+                  <a class="bg-sand button min-w-40 md:min-w-50 lg:min-w-54  mb-4 lg:mb-0 mr-8" href="{{ block.settings.button_url }}">{{ block.settings.button_text }}</a>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image / Video"
+    },
+    { 
+      "type": "image_picker",
+      "id": "desktop_image",
+      "label": "Desktop hero image",
+      "info": "Image size - 3600w x 1612h"
+    },
+    { 
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile hero image",
+      "info": "Image size - 1534w x 1726h"
+    },
+    { 
+      "type": "text",
+      "id": "alt",
+      "label": "Image alt text"
+  },
+    { 
+        "type": "text",
+        "id": "video_url",
+        "label": "Hero video URL",
+        "info": "Distribution link from Vimeo. If a video URL is inserted it will overwrite the images, on mobile the video will be cropped from the center and fill the height of the image space."
+    },
+    { 
+      "type": "richtext",
+      "id": "text",
+      "label": "Hero text"
+    },
+    { 
+      "type": "text",
+      "id": "anchor",
+      "label": "Anchor id",
+      "info": "Anchor link for when being used by a menu with anchor links. These must be joined with dashes for example: anchor-1 or waterproofing-section"
+    }        
+  ],
+  "blocks": [
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        { 
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text"
+        },
+        { 
+          "type": "url",
+          "id": "button_url",
+          "label": "Button URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
+}
+{% endschema %}

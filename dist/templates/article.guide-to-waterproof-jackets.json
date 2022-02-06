@@ -1,0 +1,688 @@
+{
+  "sections": {
+    "16395772589736ed4b": {
+      "type": "hero",
+      "blocks": {
+        "889f4125-3cf3-4c6e-9b9b-48f95cd0db90": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Men's",
+            "button_url": "shopify:\/\/collections\/mens-outerwear-waterproof-jackets"
+          }
+        },
+        "7afbd15d-c398-42a2-a012-8611c44640fb": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Women's",
+            "button_url": "shopify:\/\/collections\/womens-outerwear-waterproof-jackets"
+          }
+        }
+      },
+      "block_order": [
+        "889f4125-3cf3-4c6e-9b9b-48f95cd0db90",
+        "7afbd15d-c398-42a2-a012-8611c44640fb"
+      ],
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/guide-to-waterproof-jackets-hero.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/guide-to-waterproof-jackets-hero-mobile.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>Guide To Waterproof Jackets<\/p>",
+        "anchor": ""
+      }
+    },
+    "1639577298371096fb": {
+      "type": "guide-main-titles",
+      "blocks": {
+        "7b4902c1-b5d6-4b2c-ba2d-ba47a8de4ad0": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Waterproof or Water Resistant",
+            "anchor_id": "link-1"
+          }
+        },
+        "1f5317a6-8b0b-447c-b1c7-6153dd6e7cc3": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "How To Choose A Waterproof Jacket",
+            "anchor_id": "link-2"
+          }
+        },
+        "edaaba29-b2c1-43a1-bb7c-c3a98d344c49": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Key Waterproof Jacket Features",
+            "anchor_id": "link-3"
+          }
+        },
+        "8304c18a-298c-4870-9f64-d4ec1095d7a4": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "How Should I Look After My Waterproof Jacket?",
+            "anchor_id": "link-4"
+          }
+        },
+        "cb21c3ca-81db-4806-a9fe-3a4ae46ffc4b": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Finding The Perfect Finisterre Waterproof Jacket For You",
+            "anchor_id": "link-5"
+          }
+        }
+      },
+      "block_order": [
+        "7b4902c1-b5d6-4b2c-ba2d-ba47a8de4ad0",
+        "1f5317a6-8b0b-447c-b1c7-6153dd6e7cc3",
+        "edaaba29-b2c1-43a1-bb7c-c3a98d344c49",
+        "8304c18a-298c-4870-9f64-d4ec1095d7a4",
+        "cb21c3ca-81db-4806-a9fe-3a4ae46ffc4b"
+      ],
+      "settings": {
+        "copy": "We know it can be tricky to find the best waterproof jacket. One that’s fit for purpose and built for the task at hand. Whether it’s for intermittent summer showers on a hike or keeping dry in torrential downpours while pitching up at the campsite, it is important that you’re prepared for wherever your adventures take you.\n\nWhatever the weather may throw at you, we’ve got you covered with our comprehensive guide to waterproof jackets."
+      }
+    },
+    "1639577390f00478b3": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/hero-5-waterproof-guide.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/hero-5-waterproof-guide-mobile.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>Waterproof or Water Resistant<\/p>",
+        "anchor": "link-1"
+      }
+    },
+    "1639577441d81ed670": {
+      "type": "guide-product-spec",
+      "blocks": {
+        "431a4a89-4332-4c50-a016-3dbe700fed03": {
+          "type": "performance",
+          "settings": {
+            "performance_indicator": "waterproofing",
+            "performance_title": "Waterproof",
+            "performance_info": "",
+            "performance_copy": "A true ‘waterproof’ jacket will feature multi-layered fabric with fully taped seams, keeping you protected when the heavens open",
+            "link": "shopify:\/\/collections\/waterproof-jackets",
+            "link_text": "Waterproof Jackets"
+          }
+        },
+        "c14f1ed0-0418-40a9-9dd2-6f22d5b5ebed": {
+          "type": "performance",
+          "settings": {
+            "performance_indicator": "waterproofing",
+            "performance_title": "Water Resistant",
+            "performance_info": "",
+            "performance_copy": "A ‘water resistant’ jacket will have a DWR coating to help water bead off the fabric in light showers – but if you wear it in a downpour, be prepared to get a little soggy!",
+            "link": "shopify:\/\/collections\/water-resistant-jackets",
+            "link_text": "Water Resistant Jackets"
+          }
+        }
+      },
+      "block_order": [
+        "431a4a89-4332-4c50-a016-3dbe700fed03",
+        "c14f1ed0-0418-40a9-9dd2-6f22d5b5ebed"
+      ],
+      "settings": {
+        "main_text": "What’s the difference and what do I need?\n\nAlthough both use DWR (Durable Water Repellent) finishes, water resistant and waterproof jackets are built differently and will have very different performance levels depending on weather conditions."
+      }
+    },
+    "1639577879f9c43476": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/hero-4-waterproof-guide.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/hero-4-waterproof-guide-mobile.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>How To Choose A Waterproof Jacket<\/p>",
+        "anchor": "link-2"
+      }
+    },
+    "16400176046e72b96b": {
+      "type": "guide-main-titles",
+      "blocks": {
+        "740b5145-2913-4d29-a5fa-836a01fcb892": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Construction and waterproofing layers",
+            "anchor_id": ""
+          }
+        },
+        "d8dd57a2-2e8d-472d-859a-b2d574855cb5": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Jacket waterproof ratings: What different ratings mean",
+            "anchor_id": ""
+          }
+        },
+        "1af959f7-a14f-4f3d-bbe5-0268c1e84de9": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Jacket breathability ratings: What different ratings mean",
+            "anchor_id": ""
+          }
+        },
+        "225a5d58-94a0-4ec5-838d-60a00f1a969a": {
+          "type": "text",
+          "settings": {
+            "anchor_text": "Weight and warmth of your waterproof jacket",
+            "anchor_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "740b5145-2913-4d29-a5fa-836a01fcb892",
+        "d8dd57a2-2e8d-472d-859a-b2d574855cb5",
+        "1af959f7-a14f-4f3d-bbe5-0268c1e84de9",
+        "225a5d58-94a0-4ec5-838d-60a00f1a969a"
+      ],
+      "settings": {
+        "copy": "When choosing your waterproof jacket, there are a number of key factors to weigh up depending on what you intend to use it for and your own personal preferences. Ultimately, you need to find your ideal balance and consider."
+      }
+    },
+    "1640017772bad05d74": {
+      "type": "body-text",
+      "blocks": {
+        "02affb97-80f6-4cb4-9271-873875917cc1": {
+          "type": "title",
+          "settings": {
+            "title": "1. Construction: How are waterproof jackets made?"
+          }
+        },
+        "8cfa2f71-c75b-480f-93b8-8db6aad56b29": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Waterproof jackets are usually made with plastic fabrics (polyester or nylon) for their long term durability and weather resistance. But by choosing a waterproof jacket made with recycled plastics, you can still keep dry whilst having less of an impact on the planet. These durable waterproof shells are made with multiple layers then finished off with taped seams and a DWR finish to make sure no water can get in.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "02affb97-80f6-4cb4-9271-873875917cc1",
+        "8cfa2f71-c75b-480f-93b8-8db6aad56b29"
+      ],
+      "settings": {
+      }
+    },
+    "1639577645599c354d": {
+      "type": "guide-products",
+      "blocks": {
+        "a10e5d36-08e1-42d5-93b5-03e30897e71a": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2-layer-waterproof-jackets.jpg",
+            "title": "2 Layer Waterproof Jackets",
+            "text": "Featuring a single outer layer with an attached membrane, a 2-layer waterproof jacket will offer light protection, for those low impact showers. A perfect no-nonsense waterproof for popping out to the shops or to see you through drizzly but mostly dry days.",
+            "button_text": "2 Layer Waterproof Jackets",
+            "link": ""
+          }
+        },
+        "c297bfed-e243-498a-a1e5-4ddfbe09641c": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.5-layer-waterproof-jacket-1024x600_09832d90-6a64-4de4-abe6-6eca2869aeb6.jpg",
+            "title": "2.5 Layer Waterproof Jackets",
+            "text": "Wondering how a half layer can protect you when the rain really starts to fall? Constructed with the same single layer and membrane as a 2L, 2.5L waterproof jackets are supported with a specialised coating across the outer fabric, creating a durable, lightweight piece of kit ideal for wetter weather.",
+            "button_text": "2.5 Layer Waterproof Jackets",
+            "link": ""
+          }
+        },
+        "631742f4-60bc-4313-a70a-35f8fae88b7f": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3-layer-waterproof-jacket-1024x600_e387d6f4-ebee-4939-88e7-dbe09e11d4bd.jpg",
+            "title": "3 Layer Waterproof Jackets",
+            "text": "For staying dry in the wettest weather a 3-layer waterproof jacket is a must, giving maximum protection for long periods of high-pressure rain. The pinnacle performer when it comes to waterproof jackets, this is the kind of waterproof shell you want in your bag when planning long stints in the wild.",
+            "button_text": "3 Layer Waterproof Jackets",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a10e5d36-08e1-42d5-93b5-03e30897e71a",
+        "c297bfed-e243-498a-a1e5-4ddfbe09641c",
+        "631742f4-60bc-4313-a70a-35f8fae88b7f"
+      ],
+      "settings": {
+      }
+    },
+    "16400928371de88ecc": {
+      "type": "body-text",
+      "blocks": {
+        "b5fecc91-3e8f-4e08-9a84-bcdbd1eb2e76": {
+          "type": "title",
+          "settings": {
+            "title": "2. Waterproof ratings: How can I tell if a jacket is really waterproof?"
+          }
+        },
+        "1e6b9cf0-285a-4919-a108-3b2a5c63fbb1": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Short of standing in the shower to test how waterproof your jacket is, the key thing to look out for is the Hydrostatic Head rating of your garment. Hydrostatic Head (or HH) is measured by how much water the material can withstand, before it starts to leak through. Usually measured in mm, it refers to how high a column of water would need to be before it pushes through the fabric (so 20k = 20m high!).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "b5fecc91-3e8f-4e08-9a84-bcdbd1eb2e76",
+        "1e6b9cf0-285a-4919-a108-3b2a5c63fbb1"
+      ],
+      "settings": {
+      }
+    },
+    "1640093091a0140bfd": {
+      "type": "guide-products",
+      "blocks": {
+        "350a1b65-d3be-4e42-8a8c-30d70e7427ce": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5k-hydrostatic-head.jpg",
+            "title": "5,000 (5k) Hydrostatic Head",
+            "text": "Usually regarded as the lowest threshold for a ‘waterproof’, 5000K HH will be sufficient in little to no rain, but probably won’t keep you dry in a heavy shower.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "8ca1a589-d86b-477d-b557-ea2c60d3a3d4": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10k-hydrostatic-head.jpg",
+            "title": "10,000 (10k) Hydrostatic Head",
+            "text": "For longer adventures a 10,000k HH is a great choice and will protect you in high impact, heavy showers, and downpour. It is that great all-rounder, go to waterproof jacket, effective in a range of conditions.",
+            "button_text": "10k HH Waterproof Jackets",
+            "link": ""
+          }
+        },
+        "d1301c5f-fc75-4b5b-8451-2c17b39a6455": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20k-hydrostatic-head.jpg",
+            "title": "20,000 (20k) Hydrostatic Head",
+            "text": "Able to withstand high pressure rain and the very worst weather conditions, this is the most technical waterproof you will own. A 20k waterproof jacket will boast fully waterproof taped seams and zips with a multi-layered fabric. Nothing will get past this.",
+            "button_text": "20k HH Waterproof Jackets",
+            "link": ""
+          }
+        },
+        "a789601d-935d-43bb-90a0-fe312ed09bb3": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dwr-waterproof-jacket.jpg",
+            "title": "DWR",
+            "text": "The term DWR simply means ‘Durable Water Repellent’; a thin liquid coating used on waterproof and water resistant jackets. For those seeking a more sustainable jacket, be on the lookout for Fluorocarbon Free (FC Free) finishes as an alternative to harsh chemical PFC coatings. FC Free DWRs break down naturally in the environment without leaving toxins in the water or soil.",
+            "button_text": "DWR Coated Waterproof Jackets",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "350a1b65-d3be-4e42-8a8c-30d70e7427ce",
+        "8ca1a589-d86b-477d-b557-ea2c60d3a3d4",
+        "d1301c5f-fc75-4b5b-8451-2c17b39a6455",
+        "a789601d-935d-43bb-90a0-fe312ed09bb3"
+      ],
+      "settings": {
+      }
+    },
+    "1640093369fcb1a52e": {
+      "type": "body-text",
+      "blocks": {
+        "9b197d8b-1c02-44f6-b30a-c748276913f6": {
+          "type": "title",
+          "settings": {
+            "title": "3. Breathability ratings: What they mean"
+          }
+        },
+        "d3f61fd7-4a67-434a-8f3a-550285455717": {
+          "type": "body",
+          "settings": {
+            "body": "<p>The breathability of your waterproof is measured in grams\/meter squared (gm²), describing how much moisture can pass through your jacket’s material as it wicks sweat away from the skin. As your body warms, it is important to have a waterproof jacket which will enable this heat and moisture to escape, keeping you dry but not sweaty.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9b197d8b-1c02-44f6-b30a-c748276913f6",
+        "d3f61fd7-4a67-434a-8f3a-550285455717"
+      ],
+      "settings": {
+      }
+    },
+    "16400934157a75cf07": {
+      "type": "guide-products",
+      "blocks": {
+        "7f62d25a-c9a1-42a3-8c8e-a6ce1a2ad2a6": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/50gm2-waterproof-jacket.jpg",
+            "title": "5,000 - 10,000gm²",
+            "text": "For light activity, a coat with 5,000-10,000gm² will be your go-to and a trusty companion. But be sure not to overdo it, as you may be feeling sweaty after the first mile or two.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "51be80c3-8e6b-4f18-a773-ca638f6fcbdb": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10-20gm2-waterproof-jackets.jpg",
+            "title": "10,000 - 20,000gm²",
+            "text": "A waterproof jacket offering anything between 10,000-20,000gm² breathability will provide good protection against most types of activity, whether you’re walk-ing uphill or dashing out for a morning run.",
+            "button_text": "Breathable Waterproof Jackets",
+            "link": ""
+          }
+        },
+        "e7cd4d31-3a3d-48d4-915d-b213ee7da2ca": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20gm2-waterproof-jacket.jpg",
+            "title": "20,000gm² +",
+            "text": "For those all-day hikers, marathon runners or speed seekers, a 20,000gm² jacket will keep you feeling comfortable and dry as you exert yourself. With an in-creased intensity of activity comes a lot more sweat, in which case you’ll need a coat with the highest breathability rating available.",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7f62d25a-c9a1-42a3-8c8e-a6ce1a2ad2a6",
+        "51be80c3-8e6b-4f18-a773-ca638f6fcbdb",
+        "e7cd4d31-3a3d-48d4-915d-b213ee7da2ca"
+      ],
+      "settings": {
+      }
+    },
+    "16400940317767dea8": {
+      "type": "body-text",
+      "blocks": {
+        "87bf01e3-21ac-4299-b3e8-f77acb121efa": {
+          "type": "title",
+          "settings": {
+            "title": "4. Weight and warmth of your waterproof jacket"
+          }
+        }
+      },
+      "block_order": [
+        "87bf01e3-21ac-4299-b3e8-f77acb121efa"
+      ],
+      "settings": {
+      }
+    },
+    "1640094090fb93904a": {
+      "type": "guide-products",
+      "blocks": {
+        "8d8ca612-5f10-4711-917c-cf9eddeb21ee": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insulation-waterproof-guide_e18cebdf-8817-44d3-bd49-c68b05e72311.jpg",
+            "title": "Insulation",
+            "text": "When a storm really gets going, a good waterproof needs to be warm as well. We always use our own recycled synthetic fill, which retains its warmth when wet and will have you feeling cosy and protected in colder climates, although might be a bit too warm if you’re really pushing yourself.",
+            "button_text": "Insulated Waterproof Jackets",
+            "link": ""
+          }
+        },
+        "090af4a4-acc4-4a11-9553-d0a2165eb255": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/windproof-waterproof-guide_a6de81f0-c995-4876-836f-fceb8758504c.jpg",
+            "title": "Windproof",
+            "text": "With plenty of windy weather in Britain, having a jacket that is windproof is a must. Durable plastic fabrics help keep the wind out as does the multiple layered construction of a waterproof, keeping you warm even in a gale.",
+            "button_text": "Windproof Waterproof Jackets",
+            "link": ""
+          }
+        },
+        "67cc039d-0929-44ac-9935-13ae0cda2546": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/layering-waterproof-guide.jpg",
+            "title": "Layering",
+            "text": "Choosing to team your waterproof shell with an insulated mid-layer and Merino baselayer can offer the versatility you need when switching between high intensity exercise and moments of rest, like climbing or hiking. It also means you can strip off or put on layers as you need them to maximise comfort and performance.",
+            "button_text": "Layering System",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8d8ca612-5f10-4711-917c-cf9eddeb21ee",
+        "090af4a4-acc4-4a11-9553-d0a2165eb255",
+        "67cc039d-0929-44ac-9935-13ae0cda2546"
+      ],
+      "settings": {
+      }
+    },
+    "1640094210e03d07b4": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/hero-3-waterproof-guide.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/hero-3-waterproof-guide-mobile.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>Key Waterproof Jacket Features<\/p>",
+        "anchor": "link-3"
+      }
+    },
+    "164009430488ecf907": {
+      "type": "guide-products",
+      "blocks": {
+        "48cb37f3-e9ee-408c-bb69-6241fa8449e4": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/adjustable-hood.jpg",
+            "title": "Adjustable Hood",
+            "text": "A high-quality waterproof will have several features, the hood being one of the most essential. Nothing should get in the way of you and your adventure, so an adjustable peaked hood will provide that extra level of protection and versatility, to help guard you through your journey and the rain.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "5c64e3a4-10fa-4dc1-8d87-5100964d33da": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/taped-seams.jpg",
+            "title": "Taped Seams",
+            "text": "Fully taped seams are crucial for staying dry in wet weather and making a jacket 100% waterproof. A layer of tape is heated and applied with pressure onto the seam to stop water penetrating through holes made when a waterproof jacket is stitched together.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "4741c089-05b9-4b35-9fd8-b630467e82dc": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/waterproof-zips.jpg",
+            "title": "Waterproof Zips",
+            "text": "It’s no use a jacket's fabric being waterproof if the zip isn’t. That’s why taped seams and waterproof zips are a must to make sure no water can get through the cracks. Storm guards are also useful as this added material can make a big difference in keeping you dry.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "5d00536b-c944-4587-87b1-8a28115edc37": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/adjustability.jpg",
+            "title": "Adjustability",
+            "text": "When the rain really starts coming down, it pays to batten down the hatches with adjustable cuffs, hems and hoods to fully seal yourself away from the elements. These adjustments will be different for everyone, so it pays to have a jacket which allows this personalisation.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "e76ee014-bdc0-4768-8a77-779df7de9c4b": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/packable.jpg",
+            "title": "Packable",
+            "text": "A waterproof jacket which packs away is ideal for changing weather and both our Nimbus and Rainbird jackets offer this handy feature. Simply folding the coat into the internal pocket means one less layer to wear when the showers stop and the sun comes out.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "cf065fe6-54e9-4b36-81f1-9c3e58e421af": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lightweight.jpg",
+            "title": "Lightweight",
+            "text": "Lightweight doesn’t necessarily mean flimsy. A good lightweight jacket will be just as durable as a heavy duty parka, but means there’s less weight to carry on your adventure. The durable recycled polyester fabrics used in our Finisterre Jackets are made to be as sturdy as they are sustainable.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "d081114b-69fc-4f8c-80bf-e61320c19cfa": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fit-and-cut.jpg",
+            "title": "Fit & Cut",
+            "text": "A waterproof used for activity will often be closer to your body and benefit from mechanical stretch to help you move freely. On the other hand, you might want room to layer beneath your waterproof, adding a jumper of insulated jacket for extra warmth. So checking the fit of your jacket is key.",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "48cb37f3-e9ee-408c-bb69-6241fa8449e4",
+        "5c64e3a4-10fa-4dc1-8d87-5100964d33da",
+        "4741c089-05b9-4b35-9fd8-b630467e82dc",
+        "5d00536b-c944-4587-87b1-8a28115edc37",
+        "e76ee014-bdc0-4768-8a77-779df7de9c4b",
+        "cf065fe6-54e9-4b36-81f1-9c3e58e421af",
+        "d081114b-69fc-4f8c-80bf-e61320c19cfa"
+      ],
+      "settings": {
+      }
+    },
+    "16408581526754193b": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/hero-2-waterproof-guide.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/hero-2-waterproof-guide-mobile.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>How Should I Look After My Waterproof Jacket?<\/p>",
+        "anchor": "link-4"
+      }
+    },
+    "1640858298752ee4a1": {
+      "type": "guide-products",
+      "blocks": {
+        "0620dcb6-daf8-47f5-ad79-2504b10c91d0": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "text": "When choosing your waterproof jacket, there are a number of key factors to weigh up depending on what you intend to use it for and your own personal preferences. Ultimately, you need to find your ideal balance and consider:",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "48ade5ac-871b-4bc3-8dce-376ce1b925cf": {
+          "type": "product",
+          "settings": {
+            "title": "How To Wash Waterproof Jackets",
+            "text": "You shouldn’t need to wash your waterproof jacket very often, but when you do it’s easier than you’d think! Saying that, always take note of the wash care label which will offer instructions specific for your garment.\n\nTo clean your jacket, wash on a gentle 30°C cycle. Do not use fabric softener or any bleach, as this may risk ruining the item. You may wish to use a waterproof specific detergent such as Nikwax Tech Wash.",
+            "button_text": "Nikwax Tech Wash",
+            "link": ""
+          }
+        },
+        "fa9d3d98-8bd8-4779-819f-cb47cfd50823": {
+          "type": "product",
+          "settings": {
+            "title": "Reproofing Your Waterproof",
+            "text": "As your jacket is put through its paces, the DWR finish will wear off over time, so it’s recommended to reproof your garments whenever needed. Simply pop your jacket into the wash on a gentle 30°C cycle with Nikwax Wash-In Reproof, followed by a short 20-minute tumble dry cycle to reactive the waterproof qualities.",
+            "button_text": "Nikwax TX.Direct Wash-In Reproof",
+            "link": ""
+          }
+        },
+        "d655bc8a-14af-4993-8bc0-b2d6e327d42e": {
+          "type": "product",
+          "settings": {
+            "title": "How To Dry Waterproof Jackets",
+            "text": "We know you’re always itching to get out and wear your jacket again, but drying it properly is important. Once it’s been through the wash do not wring your jacket out, instead dry away from direct sunlight and lay flat. Your coat will be ready and back out in-to the world in no time.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "7e9de1f6-5d53-4fd6-b1d6-1ad4e1727f26": {
+          "type": "product",
+          "settings": {
+            "title": "How To Repair Waterproof Jackets",
+            "text": "If your waterproof jacket needs a little TLC, but you’d rather leave it to the professionals, Finisterre’s Lived and Loved repair service will be able to breathe new life into any Finisterre jacket for you. Simply select the repair needed from the website and purchase this online.",
+            "button_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0620dcb6-daf8-47f5-ad79-2504b10c91d0",
+        "48ade5ac-871b-4bc3-8dce-376ce1b925cf",
+        "fa9d3d98-8bd8-4779-819f-cb47cfd50823",
+        "d655bc8a-14af-4993-8bc0-b2d6e327d42e",
+        "7e9de1f6-5d53-4fd6-b1d6-1ad4e1727f26"
+      ],
+      "settings": {
+      }
+    },
+    "164085831402509d21": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/hero-1-waterproof-guide_b3536395-0d6a-47de-949b-cc3a8729ef2b.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/hero-1-waterproof-guide-mobile_36e8048e-40d5-4a54-8d55-ace091c426fa.jpg",
+        "alt": "",
+        "video_url": "",
+        "text": "<p>Find The Best Finisterre Waterproof Jacket For You<\/p>",
+        "anchor": "link-5"
+      }
+    },
+    "16408583650adc9070": {
+      "type": "guide-products",
+      "blocks": {
+        "788dfdcb-d04d-4368-ae7a-87eaff46f42e": {
+          "type": "product",
+          "settings": {
+            "title": "",
+            "text": "Here at Finisterre, our men’s and women’s outerwear collections are built for a lifetime of adventures. Whether you need a high performance shell for intense activity or a reliable sturdy waterproof parka for walking the dogs in howling wind and rain, our sustainably made waterproof jackets offer the highest levels of protection from the elements, whilst having as little impact on the planet as possible.",
+            "button_text": "",
+            "link": ""
+          }
+        },
+        "fa5a1741-2b2b-467d-8135-f20959d3d211": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens-waterproof-guide.jpg",
+            "title": "Women's Waterproofs",
+            "text": "",
+            "button_text": "Shop Now",
+            "link": "shopify:\/\/collections\/womens-outerwear-waterproof-jackets"
+          }
+        },
+        "33607429-e5a5-4aff-a25d-33f3c1f05048": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20gm2-waterproof-jacket.jpg",
+            "title": "Men's Waterproofs",
+            "text": "",
+            "button_text": "Shop Now",
+            "link": "shopify:\/\/collections\/mens-outerwear-waterproof-jackets"
+          }
+        }
+      },
+      "block_order": [
+        "788dfdcb-d04d-4368-ae7a-87eaff46f42e",
+        "fa5a1741-2b2b-467d-8135-f20959d3d211",
+        "33607429-e5a5-4aff-a25d-33f3c1f05048"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "16395772589736ed4b",
+    "1639577298371096fb",
+    "1639577390f00478b3",
+    "1639577441d81ed670",
+    "1639577879f9c43476",
+    "16400176046e72b96b",
+    "1640017772bad05d74",
+    "1639577645599c354d",
+    "16400928371de88ecc",
+    "1640093091a0140bfd",
+    "1640093369fcb1a52e",
+    "16400934157a75cf07",
+    "16400940317767dea8",
+    "1640094090fb93904a",
+    "1640094210e03d07b4",
+    "164009430488ecf907",
+    "16408581526754193b",
+    "1640858298752ee4a1",
+    "164085831402509d21",
+    "16408583650adc9070"
+  ]
+}

@@ -1,0 +1,213 @@
+{% comment %} Handle core template redirects - unfortunately this can only be done via Javascript {% endcomment %}
+{% if template.name == 'list-collections' %}
+  <script>window.location.href = '/';</script>
+{% else %}
+
+
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {% comment %} Prevent search engine indexing if not on live account {% endcomment %}
+    {% unless shop.permanent_domain == 'finisterre.myshopify.com' %}
+    <meta name="robots" content="noindex">
+    {% endunless %}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ 'apple-touch-icon.png' | asset_url }}">
+    <link rel="shortcut icon" type="image/png" href="{{ 'favicon-32x32.png' | asset_url }}" sizes="32x32">
+    <link rel="shortcut icon" type="image/png" href="{{ 'favicon-16x16.png' | asset_url }}" sizes="16x16">
+    <link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | asset_url }}" color="#121212">
+
+    {% comment %} Google optimize - currently enabled {% endcomment %}
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-KBQ6F2K"></script>
+    {% render 'elevar-head' %}
+
+    <link rel="preload" href="{{ 'global.js' | asset_url }}" as="script">
+    <link rel="preload" href="{{ 'bundle.js' | asset_url }}" as="script">
+
+    <title>{{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}</title>
+
+    {% if page_description %}
+      <meta name="description" content="{{ page_description | escape }}">
+    {% endif %}
+
+    {% render 'meta-tags' %}
+
+    <style>
+      /* CSS variables for assets */
+      :root {
+        --dropdown-icon: url({{ 'dropdown.svg' | asset_url }});
+        --carousel-arrow: url({{ 'carousel-arrow.svg' | asset_url }});
+        --okendo-dots-background: url({{ 'okendo-dots-background.svg' | asset_url }});
+        --okendo-dots-foreground: url({{ 'okendo-dots-foreground.svg' | asset_url }});
+      }
+    </style>
+
+    <!-- Do not preload the tailwind.css file -->
+    <link rel="stylesheet" href="{{ 'tailwind.css' | asset_url }}">
+    <link rel="preload" href="{{ 'glide.core.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'glide.core.css' | asset_url }}"></noscript>
+    <link rel="preload" href="{{ 'glide.theme.finisterre.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'glide.theme.finisterre.css' | asset_url }}"></noscript>
+    <link rel="preload" href="{{ 'klevu-quick-style.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ 'klevu-quick-style.css' | asset_url }}"></noscript>
+
+    <style>
+      .glide-regular,.glide-pdp-mobile,.glide-peek,.glide-mobilePeek,.glide-mobileImageCarouselPeek { visibility: hidden; }
+      .glide-regular.visible,.glide-pdp-mobile.visible,.glide-peek.visible,.glide-mobilePeek.visible,.glide-mobileImageCarouselPeek.visible { visibility: visible; }
+    </style>
+
+    {% render 'klevu-head' %}
+    {% render 'shogun-head' %}
+    {% render 'exponea' %}
+
+    <!-- Header hook for Shopify plugins -->
+    {{ content_for_header }}
+
+  </head>
+
+  <body>
+
+    {% comment %} {% render 'linedup-utility-screen-width' %} {% endcomment %}
+
+    {% render 'drawer-cart' %}
+    {% render 'header' %}
+    {% render 'drawer-mobile-nav'%} 
+
+    <main id="MainContent" tabindex="-1" class="mt-18-5 md:mt-23 lg:mt-0 focus:outline-none"><!-- Allow for sticky header with top margin -->
+      
+      {% if page.handle == 'contact' 
+        or page.handle == 'faqs' 
+        or page.handle == 'shipping' 
+        or page.handle == 'lived-loved' 
+        or page.handle == 'returns-exchanges' %}
+
+        <div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18 mt-14">
+          <div class="grid-container page-margin gap-y-0">
+        
+            {% render 'customer-support-nav' %}
+        
+            <div class="col-span-4 md:col-span-12 lg:col-span-7 mt-6">
+              {{ content_for_layout }}
+            </div>
+
+          </div>
+        </div>
+
+      {% elsif page.handle == "size-guide" 
+        or page.handle == "how-to-measure"  %}
+      
+        <div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18 mt-14">
+          <div class="grid-container page-margin gap-y-0">
+            
+            {% render 'customer-support-nav' %}
+      
+            <div class="col-span-4 md:col-span-12 lg:col-span-7 mt-6">
+              <size-guide-page>
+                <div class="grid-container mb-8">
+                  <div class="col-span-4 md:col-span-12">
+                    <h2>Size Guide</h2>
+                  </div>
+                  <div class="col-span-4 md:col-span-12">
+                    <ul class="flex overflow-x-scroll hide-scrollbar">
+                      {% if page.handle == "size-guide"  %}
+                      <li class="mr-6 whitespace-nowrap">Size Guide</li>
+                      <li class="mr-6 whitespace-nowrap"><a href="/pages/how-to-measure" class="link">How to Measure</a></li>
+                      {% elsif page.handle == "how-to-measure"  %}
+                      <li class="mr-6 whitespace-nowrap"><a href="/pages/size-guide" class="link">Size Guide</a></li>
+                      <li class="mr-6 whitespace-nowrap">How to Measure</li>
+                      {% endif %}
+                    </ul>
+                  </div>
+                  <div class="col-span-4 md:col-span-12">
+                    <hr>
+                  </div>
+                </div>
+                <div class="col-span-4 md:col-span-12 flex flex-row mb-8 md:mb-12">
+                  <div data-btn-men class="button-size-guide-active">Men</div>
+                  <div data-btn-women class="button-size-guide-inactive">Women</div>
+                </div>
+                <div class="grid-container">
+                  <div class="col-span-4 md:col-span-12">
+                    {{ content_for_layout }}
+                  </div>
+                </div>
+              </size-guide-page>
+            </div>
+          </div>
+        </div>
+      
+      {% else  %}
+
+        {{ content_for_layout }}
+
+      {% endif %}
+      
+    </main>
+
+    {% render 'footer' %}
+
+    <ul hidden>
+      <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
+    </ul>
+
+    <div id="overlay" class="fixed top-18-5 lg:top-0 left-0 h-screen w-screen z-30 hidden grey-overlay"></div>
+    {% render 'modal', id: 'modal-1' %}
+
+    <script>
+      window.routes = {
+        cart_add_url: '{{ routes.cart_add_url }}',
+        cart_change_url: '{{ routes.cart_change_url }}',
+        cart_update_url: '{{ routes.cart_update_url }}'
+      };
+      window.cartStrings = {
+        error: `{{ 'sections.cart.cart_error' | t }}`,
+        quantityError: `{{ 'sections.cart.cart_quantity_error_html' | t }}`
+      }
+      window.variantStrings = {
+        select: 'Select a size',
+        addToCart: `{{ 'products.product.add_to_cart' | t }}`,
+        soldOut: `{{ 'products.product.sold_out' | t }}`,
+        unavailable: `{{ 'products.product.unavailable' | t }}`,
+      }
+      window.moneyFormat = {{ shop.money_format | json }};
+    </script>
+
+    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'bundle.js' | asset_url }}" defer="defer"></script>
+  
+    <!-- Fonts.com tracking script placed here, rather than in CSS -->
+    <script src="https://fast.fonts.net/t/1.css?apiType=css&projectid=eb1f791e-749f-4181-9f4f-9f9d2e5f7103" defer="defer"></script>
+
+    <!-- Nosto -->
+    {% comment %} Live Nosto ID {% endcomment %}
+    {% assign nosto_id = 10745128 %}
+    {% if shop.permanent_domain != 'finisterre.myshopify.com' %}
+      {% comment %} finisterre-v2 Nosto ID {% endcomment %}
+      {% assign nosto_id = 57994674342 %}
+    {% endif %}
+    <script>(function(){var name="nostojs";window[name]=window[name]||function(cb){(window[name].q=window[name].q||[]).push(cb);};})();</script>
+    <script src="//connect.nosto.com/include/shopify-{{ nosto_id }}" defer="defer"></script>
+    {% render 'nosto-tagging' %}
+
+    {% render 'back-in-stock-helper' %}
+    {% render 'gorgias-chat' %}
+    {% render 'ometria' %}
+    {% render 'elevar-body-end' %}
+
+     <!-- Include Quick Search & Search Results Landing Page Themes -->
+    <script src="https://js.klevu.com/theme/default/v2/quick-search.js"></script>
+    {% if template.name == 'search' %}<script src="https://js.klevu.com/theme/default/v2/search-results-page.js"></script>{% endif %}
+
+  </body>
+
+</html>
+
+
+{% comment %} End core template redirects {% endcomment %}
+{% endif %}

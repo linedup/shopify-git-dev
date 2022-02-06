@@ -1,0 +1,42 @@
+{% assign metaData = collection.metafields.footnote %}
+{% assign footnote_title = metaData.footnote_title %}
+{% assign footnote_excerpt = metaData.footnote_excerpt %}
+{% assign footnote_text = metaData.footnote_text %}
+
+{% if footnote_title != blank %}
+  <div class="max-w-screen-2xl mx-auto mb-14 lg:mb-18">
+    <div class="grid-container page-margin">
+      <div class="col-span-4 md:col-span-8 lg:col-span-4 mb-5">
+        <h3 class="mb-5 md:mb-7">{{ footnote_title }}</h3>
+
+        {% if footnote_excerpt != blank and footnote_text != blank %}
+
+        <reveal-content>
+          <div data-reveal class="reveal">
+            {{ footnote_excerpt }}
+            <span data-reveal-trigger data-hide-on-reveal="true" class="cursor-pointer link">Read more</span>
+            <div data-reveal-content class="hidden">{{ footnote_text }}</div>
+          </div>
+        </reveal-content>
+
+        {% elsif footnote_text != blank %}
+
+          {{ footnote_text }}
+
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Collection Footnote",
+  "presets": [
+    {
+      "name": "Collection Footnote"
+    }
+  ]
+}
+{% endschema %}

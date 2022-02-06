@@ -1,0 +1,286 @@
+<div class="max-w-screen-2xl mx-auto">
+  <div class="grid-container page-margin">
+    <div class="col-span-4 md:col-span-8">
+      <h2 class="mb-5 md:mb-7">{{ section.settings.title }}</h2>
+    </div>
+  </div>
+  <div class="grid-container md:gap-y-15 page-margin mb-9 lg:mb-18">
+
+
+      {% for block in section.blocks %}
+        {% if block.type == 'page' %}
+
+          {% if block.settings.page_title != blank %}
+            {% assign title = block.settings.page_title %}
+          {% else %}
+            {% assign title = block.settings.page.title %}
+          {% endif %}
+
+          {% assign subtitle = block.settings.page_subtitle %}
+          {% assign link = block.settings.page.url %}
+          {% assign image = block.settings.page_image %}
+          {% assign featured_image = page.metafields.page.featured_image %}
+          {% if block.settings.page_content != blank %}
+            {% assign content = block.settings.page_content %}
+          {% else %}
+            {% assign content = block.settings.page.content %}
+          {% endif %}
+          {% assign is_modal = block.settings.page_modal %}
+
+        {% elsif block.type == 'article' %}
+
+          {% if block.settings.article_title != blank %}
+            {% assign title = block.settings.article_title %}
+          {% else %}
+            {% assign title = block.settings.article.title %}
+          {% endif %}
+
+          {% assign subtitle = block.settings.article_subtitle %}
+          {% assign link = block.settings.article.url %}
+          {% if block.settings.article_image != blank %}
+            {% assign image = block.settings.article_image %}
+          {% else %}
+            {% assign image = block.settings.article.image %}
+          {% endif %}
+          {% comment %} Set the featured image to be the regular Shopify article featured image - seems overkill to also use a metafield {% endcomment %}
+          {% assign featured_image = block.settings.article.image %}
+          {% if block.settings.article_content != blank %}
+            {% assign content = block.settings.article_content %}
+          {% else %}
+            {% assign content = block.settings.article.content %}
+          {% endif %}
+          {% assign is_modal = block.settings.article_modal %}
+
+        {% elsif block.type == 'link' %}
+
+          {% assign title = block.settings.link_title %}
+          {% assign subtitle = block.settings.link_subtitle %}
+          {% assign link = block.settings.link.url %}
+          {% assign image = block.settings.link_image %}
+          {% comment %} Set the featured image to be same as the image in this instance {% endcomment %}
+          {% assign featured_image = block.settings.link_image %}
+          {% assign content = block.settings.link_content %}
+          {% assign is_modal = block.settings.link_modal %}
+
+        {% endif %}
+
+        {% if page.handle == 'stores' %}
+
+          <div class="col-span-4 mb-4 md:mb-0">
+            {% if subtitle != blank %}
+              <p class="mb-2">{{ subtitle }}</p>
+            {% endif %}
+            {% if title != blank %}
+              <h3 class="mb-4 pr-4 xl:pr-12"><a href="{{ link }}" title="{{ title }}" class="link">{{ title }}</a></h3>
+            {% endif %}
+
+            {% if image %}
+              <a href="{{ link }}" title="{{ title }}">
+                {% render 'image' with image_src: image, alt_tag: page.title, classes: 'mb-0 md:mb-4' %}
+              </a>
+            {% else %}
+              {% for image in featured_image %}
+                <a href="{{ link }}" title="{{ title }}">
+                {{ image }}
+                  {% render 'image' with image_src: image, alt_tag: page.title, classes: 'mb-0 md:mb-4' %}
+                </a>
+              {% endfor %}
+            {% endif %}
+
+            {% if content != blank %}
+              <h3 class="hidden md:block pr-4 xl:pr-12">{{ content }}</h3>
+            {% endif %}
+          </div>
+
+        {% else %}
+
+          <div class="col-span-4 mb-4 md:mb-0">
+            {% if is_modal %}
+            <modal-content-trigger data-modal-id="modal-1" data-content-url="{{ link }}">
+              <div data-trigger>
+
+              {% if subtitle != blank %}
+                <p class="mb-2">{{ subtitle }}</p>
+              {% endif %}
+              {% if title != blank %}
+                <h3 class="mb-4 broadcast-h3-min-height-ellipsis pr-4 xl:pr-12"><span class="link cursor-pointer">{{ title }}</span></h3>
+              {% endif %}
+
+                <div class="relative">
+                  <div data-show-video class="flex absolute top-1/2 transform -translate-y-2/4 left-0 items-center justify-center bg-sand z-5 h-14 lg:h-18 px-5 lg:px-10 w-max cursor-pointer"><img src="{{ 'icon-content.svg' | asset_url }}" loading="lazy" height="20" width="30" alt="Read more"></div>
+            
+            {% else %}
+
+              {% if subtitle != blank %}
+                <p class="mb-2">{{ subtitle }}</p>
+              {% endif %}
+              {% if title != blank %}
+                <h3 class="mb-4 broadcast-h3-min-height-ellipsis pr-4 xl:pr-12"><a href="{{ link }}" title="{{ title }}" class="link">{{ title }}</a></h3>
+              {% endif %}
+
+            {% endif %}
+
+            {% if image != blank %}
+              <a href="{{ link }}" title="{{ title }}">
+                {% render 'image' with image_src: image, alt_tag: page.title, classes: 'mb-0 md:mb-4' %}
+              </a>
+            {% else %}
+              {% for image in featured_image %}
+                <a href="{{ link }}" title="{{ title }}">
+                {{ image }}
+                  {% render 'image' with image_src: image, alt_tag: page.title, classes: 'mb-0 md:mb-4' %}
+                </a>
+              {% endfor %}
+            {% endif %}
+
+            {% if is_modal %}
+                </div>
+              </div> 
+            </modal-content-trigger>
+            {% endif %}
+
+            {% if content != blank %}
+              <h3 class="hidden md:block pr-4 xl:pr-12">{{ content }}</h3>
+            {% endif %}
+          </div>
+
+        {% endif %}
+
+      {% endfor %}
+
+  </div>
+  
+</div>
+
+{% schema %}
+{
+  "name": "Editorial Gallery",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Page",
+      "type": "page",
+      "settings": [
+        {
+          "type": "page",
+          "id": "page",
+          "label": "Page",
+          "info": "Select page to add to the section."
+        },
+        {
+          "type": "checkbox",
+          "id": "page_modal",
+          "label": "Open in a modal pop-up"
+        },
+        {
+          "type": "text",
+          "id": "page_subtitle",
+          "label": "Page subtitle"
+        },
+              {
+          "type": "text",
+          "id": "page_title",
+          "label": "Page title"
+        },
+        {
+          "type": "image_picker",
+          "id": "page_image",
+          "label": "Select image",
+          "info": "Select image for the carousel, this will overwrite the image from the custom fields on the page itself. Size - 1094w x 1232h"
+        },
+        {
+          "type": "textarea",
+          "id": "page_content",
+          "label": "Page content"
+        }
+      ]
+    },
+    {
+      "name": "Article",
+      "type": "article",
+      "settings": [
+        {
+          "type": "article",
+          "id": "article",
+          "label": "Article",
+          "info": "Select article to add to the section."
+        },
+        {
+          "type": "checkbox",
+          "id": "article_modal",
+          "label": "Open in a modal pop-up"
+        },
+        {
+          "type": "text",
+          "id": "article_subtitle",
+          "label": "Article subtitle"
+        },
+              {
+          "type": "text",
+          "id": "article_title",
+          "label": "Article title"
+        },
+        {
+          "type": "image_picker",
+          "id": "article_image",
+          "label": "Select image",
+          "info": "Select image for the carousel, this will overwrite the image from the custom fields on the page itself. Size - 1094w x 1232h"
+        },
+        {
+          "type": "textarea",
+          "id": "article_content",
+          "label": "Article content"
+        }
+      ]
+    },
+    {
+      "name": "Link",
+      "type": "link",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "The link (URL)"
+        },
+        {
+          "type": "checkbox",
+          "id": "link_modal",
+          "label": "Open in a modal pop-up"
+        },
+        {
+          "type": "text",
+          "id": "link_subtitle",
+          "label": "Link subtitle"
+        },
+              {
+          "type": "text",
+          "id": "link_title",
+          "label": "Link title"
+        },
+        {
+          "type": "image_picker",
+          "id": "link_image",
+          "label": "Select image",
+          "info": "Select image for the carousel. Size - 1094w x 1232h"
+        },
+        {
+          "type": "textarea",
+          "id": "link_content",
+          "label": "Link content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Editorial Gallery"
+    }
+  ]
+}
+{% endschema %}

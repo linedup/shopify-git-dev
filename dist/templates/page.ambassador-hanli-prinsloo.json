@@ -1,0 +1,192 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1632148245a360b54d": {
+      "type": "main-titles",
+      "settings": {
+        "main_title": "Hanli Prinsloo",
+        "subtitle": "Cape Town, South Africa",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1632148248e1ffc67a": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-banner-desktop.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-banner-mobile.jpg",
+        "alt": "Hanli Prinsloo",
+        "video_url": "",
+        "text": "",
+        "anchor": ""
+      }
+    },
+    "16321482820f5e2b38": {
+      "type": "body-text",
+      "blocks": {
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3": {
+          "type": "title",
+          "settings": {
+            "title": "Champion freediver, ocean activist and long-standing friend of Finisterre, you’d struggle to meet someone who’s clocked more time below the surface of the water than South African born, Hanli Prinsloo."
+          }
+        },
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8": {
+          "type": "body",
+          "settings": {
+            "body": "<p>Living a life aquatic breeds a deep respect for our oceans - committing your very being to the understanding and protection of such requires knowledge, experience, and calm perseverance – something diving to depths of 150m long ago instilled in within Hanli’s DNA. Founder of I AM WATER Foundation and I AM WATER Ocean Travel, Hanli now spends her time exploring and protecting our oceans for a diverse and abundant ecosystem for future generations. Reconnecting local communities with the ocean, sharing experience and inspiring action so we might better protect what we love.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "efe125d6-35b9-4d94-8077-ab15b72ef0c3",
+        "7a7232cc-7500-4d84-9bf6-e36123bae3f8"
+      ],
+      "settings": {
+      }
+    },
+    "1632148299104d90bd": {
+      "type": "carousel-editorial-b",
+      "blocks": {
+        "0aecc70b-a2c5-42db-90dd-efbc40c7ff15": {
+          "type": "custom",
+          "settings": {
+            "overline": "Instagram",
+            "title": "@hanliprinsloo",
+            "image": "shopify:\/\/shop_images\/ambassador-hanli-instagram.jpg",
+            "link": "https:\/\/www.instagram.com\/hanliprinsloo\/"
+          }
+        },
+        "6193e0ad-46af-4dd3-a310-a295ea041fa7": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Founder I AM WATER Foundation.",
+            "image": "shopify:\/\/shop_images\/ambassador-hanli-founder-i-am-water-foundation.jpg",
+            "link": "https:\/\/www.iamwaterfoundation.org\/"
+          }
+        },
+        "f2175f78-0911-478f-996b-a5ce58c882a4": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Founder Foundation & I AM WATER Ocean Travel.",
+            "image": "shopify:\/\/shop_images\/ambassador-hanli-i-am-water-ocean-travel.jpg",
+            "link": "https:\/\/iamwateroceantravel.com\/"
+          }
+        },
+        "0994d94b-35a0-4538-b70d-438922e16ac4": {
+          "type": "custom",
+          "settings": {
+            "overline": "Achievement",
+            "title": "Hanli is a Young Global Leader under the World Economic Forum and a Dangote Fellow.",
+            "image": "shopify:\/\/shop_images\/hanil-featured-article-take-a-breath.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0aecc70b-a2c5-42db-90dd-efbc40c7ff15",
+        "6193e0ad-46af-4dd3-a310-a295ea041fa7",
+        "f2175f78-0911-478f-996b-a5ce58c882a4",
+        "0994d94b-35a0-4538-b70d-438922e16ac4"
+      ],
+      "settings": {
+        "title": "Links"
+      }
+    },
+    "16321483895dc92388": {
+      "type": "double-medium-feature",
+      "blocks": {
+        "a32bc632-1454-4f4d-8f3a-75295ff48c0c": {
+          "type": "video_block",
+          "settings": {
+            "overline_1": "04:02:00",
+            "title_1": "Microplastics",
+            "image_1": "shopify:\/\/shop_images\/ambassador-hanli-microplastics.jpg",
+            "video_1": "https:\/\/player.vimeo.com\/external\/270691050.hd.mp4?s=fef6290b1aad64cc9a876a9b750beef454408056&profile_id=175",
+            "overline_2": "placeholder video",
+            "title_2": "Planet Ocean",
+            "image_2": "shopify:\/\/shop_images\/ambassador-hanli-planet-ocean.jpg",
+            "video_2": "https:\/\/player.vimeo.com\/external\/270691050.hd.mp4?s=fef6290b1aad64cc9a876a9b750beef454408056&profile_id=175"
+          }
+        }
+      },
+      "block_order": [
+        "a32bc632-1454-4f4d-8f3a-75295ff48c0c"
+      ],
+      "settings": {
+        "title": "Related Films"
+      }
+    },
+    "163214841401c0fdd6": {
+      "type": "image-carousel",
+      "blocks": {
+        "e525a0b2-289e-4c21-88c6-02cafa6519b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-slider-5.jpg"
+          }
+        },
+        "25814191-7949-4f78-a7d9-152ca733808a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-slider-3.jpg"
+          }
+        },
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-slider-1.jpg"
+          }
+        },
+        "026d83ab-7d05-4b14-8173-fec812ee0364": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-slider-2.jpg"
+          }
+        },
+        "60f14cf1-adf4-4d9d-8eb8-a28dc15eb23a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-slider-4.jpg"
+          }
+        },
+        "3a848cb5-21a5-46a9-a54e-8a1cbdd53b23": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ambassator-hanli-prinsloo-slider-6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "e525a0b2-289e-4c21-88c6-02cafa6519b7",
+        "25814191-7949-4f78-a7d9-152ca733808a",
+        "f7f4d6e9-5703-4819-a32d-26134e2977c8",
+        "026d83ab-7d05-4b14-8173-fec812ee0364",
+        "60f14cf1-adf4-4d9d-8eb8-a28dc15eb23a",
+        "3a848cb5-21a5-46a9-a54e-8a1cbdd53b23"
+      ],
+      "settings": {
+        "title": "",
+        "caption": ""
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "1632148245a360b54d",
+    "1632148248e1ffc67a",
+    "16321482820f5e2b38",
+    "1632148299104d90bd",
+    "16321483895dc92388",
+    "163214841401c0fdd6"
+  ]
+}

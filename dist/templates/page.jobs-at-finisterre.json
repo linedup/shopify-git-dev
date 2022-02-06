@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "main-titles": {
+      "type": "main-titles",
+      "disabled": true,
+      "settings": {
+        "main_title": "Jobs at Finisterre",
+        "subtitle": "Custom template",
+        "title_1": "",
+        "body_content_1": "",
+        "title_2": "",
+        "body_content_2": "",
+        "title_3": "",
+        "body_content_3": ""
+      }
+    },
+    "1640339790d461c233": {
+      "type": "hero",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/Careers-at-finisterre-large.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Careers-at-finisterre-small.jpg",
+        "alt": "Jobs at finisterre",
+        "video_url": "",
+        "text": "<p>Careers at Finisterre<\/p>",
+        "anchor": ""
+      }
+    },
+    "1640339794623302b6": {
+      "type": "body-text",
+      "blocks": {
+        "1cd45e2b-f6a4-4238-b18f-c136bb1803b4": {
+          "type": "body",
+          "settings": {
+            "body": "<p><em>Born over a decade ago from the needs of hardy British surfers, Finisterre designs functional and sustainable product for those that share a love of the sea. B Corp certified, a leader in its field and based in a cliff top location in St Agnes, Cornwall, Finisterre is a truly unique brand and career proposition.<\/em><\/p><p>We are looking for talented, motivated and experienced individuals to join our team. Please get in touch at hello@finisterre.com to find out about current vacancies.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1cd45e2b-f6a4-4238-b18f-c136bb1803b4"
+      ],
+      "settings": {
+      }
+    },
+    "164260517955f96fc4": {
+      "type": "accordion",
+      "blocks": {
+        "0f2c2e59-f897-4529-9e06-1434574227eb": {
+          "type": "title",
+          "settings": {
+            "title": "Retail Careers"
+          }
+        },
+        "45543207-5c4f-49ce-9b3c-3dfe64962a49": {
+          "type": "accordion",
+          "settings": {
+            "title": "Supervisor - Bristol",
+            "reveal": "<p>We are on the hunt for a Supervisor for our Bristol Store. As a Finisterre Supervisor, you will be a positive and influential role model to your retail team. You will support the management team in day to day running of the store, contributing to the growth of sales, and supporting to ensure our staff members are motivated, informed and ready to deliver an exceptional Finisterre experience. You will be a fundamental part of introducing Finisterre to your local area and building a community around your store both on and offline.<\/p><p>Working hours: Full Time - 40hrs<\/p><p>Click <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Bristol_Supervisor_Job_Description_Jan.pdf?v=1641920932\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Bristol_Supervisor_Job_Description_Jan.pdf?v=1641920932\">here<\/a> to read more.<\/p><p>Application closing date: <strong>February 7th 2022<\/strong><\/p><p> If you are interested, please send your CV and a covering letter to <strong>retailjobs@finisterre.com<\/strong><\/p>"
+          }
+        },
+        "82e18a8c-39c2-4352-8fc4-d4a9df653d06": {
+          "type": "accordion",
+          "settings": {
+            "title": "Assistant Manager - Bristol",
+            "reveal": "<p>Finisterre is strong in personality and rich in narrative. Driven by a passion for product, the environment and people, we aim to inspire a love of the sea. We are on the hunt for an Assistant Store Manager for our Bristol Store. As a Finisterre Assistant Store Manager you will be an ambassador for the brand, share your passion and knowledge of our product and deliver an honest and engaging customer service. You will be a role model to your store team and ensure all staff members are motivated, informed and ready to deliver an exceptional Finisterre experience to anyone who walks through the doors. You will be a fundamental part of introducing Finisterre to your local area and building a community around your store both on and off line. Working closely with our marketing team you will build relationships with like-minded people and support to deliver successful and engaging store events for the local community.<\/p><p>Working hours: Full Time<\/p><p>Click <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Bristol_Assistant_Manager_Ad_Jan_22.pdf?v=1642525885\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Bristol_Assistant_Manager_Ad_Jan_22.pdf?v=1642525885\">here<\/a> to read more.<\/p><p>Application closing date:  21st Feb 2022<\/p><p>If you are interested, please send your CV and a covering letter to <strong>retailjobs@finisterre.com<\/strong><\/p>"
+          }
+        },
+        "4d2fee7f-fde7-45de-bb5c-cae49807f5f5": {
+          "type": "accordion",
+          "settings": {
+            "title": "Supervisor - St Agnes",
+            "reveal": "<p>‘We are looking for a Supervisor to join our team at St Agnes. As a Finisterre Supervisor, you will be a positive and influential role model to your retail team. You will support the management team in day to day running of the store, contributing to the growth of sales, and supporting to ensure our staff members are motivated, informed and ready to deliver an exceptional Finisterre experience. You will be a fundamental part of introducing Finisterre to your local area and building a community around your store both on and offline.<\/p><p>Working hours: Full Time - 40hrs<\/p><p>Click <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Supervisor_Job_St_Agnes.pdf?v=1642525869\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Supervisor_Job_St_Agnes.pdf?v=1642525869\">here<\/a> to read more.<\/p><p>If you are interested, please send your CV and a covering letter to <a href=\"mailto:retailjobs@finisterre.com\">retailjobs@finisterre.com<\/a>’<\/p>"
+          }
+        },
+        "380c3c00-de7a-488e-89dd-7473e491f76f": {
+          "type": "accordion",
+          "settings": {
+            "title": "Retail Assistant – Hawksfield",
+            "reveal": "<p>Finisterre is strong in personality and rich in narrative. Driven by a passion for product, the environment and people, we aim to inspire a love of the sea. We are on the hunt for Seasonal Retail Assistants for our Bristol store. As a Retail Assistant, you will be an ambassador for the brand and share your passion and knowledge of our product. We are looking for a highly motivated individual who is ready to deliver an exceptional Finisterre experience to anyone who walks through the doors.<\/p><p>Working hours: Part Time \/ 10 Hours <\/p><p>Click <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Retail_Assistant_Ad_Final_21a0129d-e893-471d-a861-6fd06286fb29.pdf?v=1642603086\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Retail_Assistant_Ad_Final_21a0129d-e893-471d-a861-6fd06286fb29.pdf?v=1642603086\">here<\/a> to read more.<\/p><p>Application closing date: February 7th 2022<\/p><p>If you are interested, please send your CV and a covering letter to <a href=\"mailto:retailjobs@finisterre.com\">retailjobs@finisterre.com<\/a><\/p>"
+          }
+        },
+        "ed505986-1fe8-4e03-acc7-7df80be638d2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Keyholder - Brighton",
+            "reveal": "<p>Finisterre is strong in personality and rich in narrative. Driven by a passion for product, the environment and people, we aim to inspire a love of the sea. We are on the hunt for a Keyholder in our Brighton Store. As a Keyholder, you will be an ambassador for the brand and share your passion and knowledge of our product. We are looking for a highly motivated individual who is ready to deliver an exceptional Finisterre experience to anyone who walks through the doors.<\/p><p>Working hours: Part Time <\/p><p>Click<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Keyholder_JD_9d9db2cf-c600-4264-bef6-75434aa47ad5.pdf?v=1643187323\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Keyholder_JD_9d9db2cf-c600-4264-bef6-75434aa47ad5.pdf?v=1643187323\"> here<\/a> to read more.<\/p><p>Application closing date: <strong>February 20th 2022<\/strong><\/p><p>If you are interested, please send your CV and a covering letter to <a href=\"mailto:retailjobs@finisterre.com\" title=\"mailto:retailjobs@finisterre.com\"><strong>retailjobs@finisterre.com<\/strong><\/a><\/p>"
+          }
+        },
+        "74b48b3a-3ac0-4d74-9055-cb0b83aa1e94": {
+          "type": "accordion",
+          "settings": {
+            "title": "Assistant Manager - Bath",
+            "reveal": "<p>Finisterre is strong in personality and rich in narrative. Driven by a passion for product, the environment and people, we aim to inspire a love of the sea. We are on the hunt for an Assistant Store Manager for our Bath Store. As a Finisterre Assistant Store Manager you will be an ambassador for the brand, share your passion and knowledge of our product and deliver an honest and engaging customer service. You will be a role model to your store team and ensure all staff members are motivated, informed and ready to deliver an exceptional Finisterre experience to anyone who walks through the doors. You will be a fundamental part of introducing Finisterre to your local area and building a community around your store both on and off line. Working closely with our marketing team you will build relationships with like-minded people and support to deliver successful and engaging store events for the local community.<\/p><p>Working hours: 30-40 hours<\/p><p>Click <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Assistant_Manager_Ad_Final_-_Bath_ef5e39af-e37d-4b4c-9a5c-a8e56f5f10c5.pdf?v=1643187323\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Assistant_Manager_Ad_Final_-_Bath_ef5e39af-e37d-4b4c-9a5c-a8e56f5f10c5.pdf?v=1643187323\"><span style=\"text-decoration:underline\">here<\/span><\/a> to read more.<\/p><p>Application closing date:<strong> 28th February 2022<\/strong><\/p><p>If you are interested, please send your CV and a covering letter to: <a href=\"mailto:retailjobs@finisterre.com\">retailjobs@finisterre.com<\/a><strong> <\/strong><\/p>"
+          }
+        },
+        "1fd001b4-8971-4f00-8cbb-1a6984c482d0": {
+          "type": "title",
+          "settings": {
+            "title": "Technology Careers"
+          }
+        },
+        "7c839817-1eee-4e78-a6ff-b50fd49da07e": {
+          "type": "accordion",
+          "settings": {
+            "title": "Technology Manager",
+            "reveal": "<p>Finisterre is looking for an experienced Technology Manager to shape, implement and manage the technical stack across the business. The successful candidate will have extensive experience within a similar retail\/e-commerce business, managing technical projects on time and within budget, as well as a proven track record designing and delivering solutions, operating at all levels across the organisation. A highly organised person with excellent attention to detail and an analytical mind, the successful candidate will have passion, energy and excellent self-awareness, thriving on positive change and able to build and lead a team under pressure in growing business.<\/p><p><strong>Working Hours:<\/strong> Full time<\/p><p><strong>Please see Job description for more details:<\/strong> <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Job_Spec_-_Technology_Manager.pdf?v=1637834525\">here<\/a><\/p><p>If you are interested, please send your CV and a covering letter to: <a href=\"mailto:careers@finisterre.com\">careers@finisterre.com<\/a><\/p>"
+          }
+        },
+        "63f70f2d-3e3a-4e18-9158-689fa20730f5": {
+          "type": "title",
+          "settings": {
+            "title": "Merchandising Careers"
+          }
+        },
+        "5f985387-cd85-4d73-b6a1-855253e77f05": {
+          "type": "accordion",
+          "settings": {
+            "title": "Assistant Merchandiser",
+            "reveal": "<p>We are on the hunt for an Assistant Merchandiser to work with the Finisterre Merchandising team based at our office in Cornwall. We are looking for a commercial individual with a proven track record and experience within a relevant clothing retail business in a similar role. This is a fantastic opportunity for the right individual to come work for a dynamic, global B-corp certified business.<\/p><p>Working Hours: Full time<\/p><p>Location: St Agnes, Cornwall \/ Hybrid<\/p><p>Please see Job description for more details: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Assistant_Merch_Advert_Jan_2022.pdf?v=1642605733\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Assistant_Merch_Advert_Jan_2022.pdf?v=1642605733\">here<\/a><\/p><p>If you are interested, please send your CV and a covering letter to: <a href=\"mailto:careers@finisterre.com\" title=\"mailto:careers@finisterre.com\">careers@finisterre.com<\/a><\/p>"
+          }
+        },
+        "59975ddf-ccb0-4857-a434-6c8ceface8e7": {
+          "type": "title",
+          "settings": {
+            "title": "Marketing Careers"
+          }
+        },
+        "c4b79971-f40e-4e12-a0ed-f2337cbc6fea": {
+          "type": "accordion",
+          "settings": {
+            "title": "Retention Marketing Manager",
+            "reveal": "<p>Finisterre is looking to hire an experienced Retention Manager. As we significantly scale up our customer acquisition, retaining our customers becomes of increasing importance. Your mission will be to live and breathe the Finisterre customer and through insight driven retention campaigns continually drive customers to higher loyalty segments. <\/p><p>Working Hours: Full time<\/p><p>Location: St Agnes, Cornwall \/ Remote \/ Hybrid<\/p><p>Please see Job description for more details: <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Retention_Manager.pdf?v=1642606004\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1074\/5128\/files\/Retention_Manager.pdf?v=1642606004\">here<\/a><\/p><p>If you are interested, please send your CV and a covering letter to: <a href=\"mailto:careers@finisterre.com\">careers@finisterre.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0f2c2e59-f897-4529-9e06-1434574227eb",
+        "45543207-5c4f-49ce-9b3c-3dfe64962a49",
+        "82e18a8c-39c2-4352-8fc4-d4a9df653d06",
+        "4d2fee7f-fde7-45de-bb5c-cae49807f5f5",
+        "380c3c00-de7a-488e-89dd-7473e491f76f",
+        "ed505986-1fe8-4e03-acc7-7df80be638d2",
+        "74b48b3a-3ac0-4d74-9055-cb0b83aa1e94",
+        "1fd001b4-8971-4f00-8cbb-1a6984c482d0",
+        "7c839817-1eee-4e78-a6ff-b50fd49da07e",
+        "63f70f2d-3e3a-4e18-9158-689fa20730f5",
+        "5f985387-cd85-4d73-b6a1-855253e77f05",
+        "59975ddf-ccb0-4857-a434-6c8ceface8e7",
+        "c4b79971-f40e-4e12-a0ed-f2337cbc6fea"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main-titles",
+    "1640339790d461c233",
+    "1640339794623302b6",
+    "164260517955f96fc4"
+  ]
+}

@@ -1,9 +1,0 @@
-
-<div class="ellipsis-1-line mb-1">{{- cartItem.product.title | escape -}}</div>
-<div class="mb-1">{{ cartItem.final_price | money }}</div>
-
-{% unless cartItem.product.has_only_default_variant %}
-  {% for option in cartItem.options_with_values %}
-    <div class="mb-1">{{ option.name }}: {{ option.value }}</div>
-  {% endfor %}
-{% endunless %}

@@ -1,8 +1,0 @@
-<div class="col-span-6 md:col-span-3">
-  <a href="{{ cart_item.product.url }}" title="{{- cart_item.product.title | escape -}}">{% render 'image', image: cart_item.product.featured_image %}</a>
-</div>
-<div class="col-span-6  md:col-span-9">
-  {% render 'cart-item-details' cart_item: cart_item %}
-  {% render 'quantity-input' product: cart_item %}
-  <a class="mb-2 link">Remove</a>
-</div>

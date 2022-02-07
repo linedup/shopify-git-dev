@@ -1,9 +1,0 @@
-{% comment %} This is a span as it within a button {% endcomment %}
-<span class="relative block">
-  <img src="{{ 'icon-basket.svg' | asset_url }}" width="27" height="35" loading="lazy" alt="Basket">
-  {% if cart.item_count < 10 %}
-    <span class="absolute number1">{{ cart.item_count }}</span>
-  {% else %}
-    <span class="absolute number2">{{ cart.item_count }}</span>
-  {%endif %}
-</span>

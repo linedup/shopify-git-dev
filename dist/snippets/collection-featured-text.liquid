@@ -1,9 +1,0 @@
-{% comment %} Remove <p> tags from ACF editor. In this instance newline_to_br adds additional spacing above, so used 2 x <br> instead. {% endcomment %}
-{% assign featuredText = featuredText | replace: '<p>', '' | replace: '</p>', '<br><br>' %}
-
-<div class="col-span-4 mb-9 md:mb-0">
-  {% if featuredText != blank %}
-    <p class="mb-2">{%- if featuredTitle != blank -%}{{ featuredTitle }}{%- else -%}Featured{%- endif -%}</p>
-    <h3 class="pr-4 xl:pr-12 rte last-p-mb-0">{{ featuredText }}</h3>
-  {% endif %}
-</div>

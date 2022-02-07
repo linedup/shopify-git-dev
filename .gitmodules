@@ -1,0 +1,3 @@
+[submodule "dist"]
+	path = dist
+	url = https://jonathan-davies-linedup@github.com/linedup/shopify-dist-git-dev.git
